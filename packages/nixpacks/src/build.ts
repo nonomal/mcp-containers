@@ -151,7 +151,7 @@ export let nixpacksBuild = async (
     let buildScript = (
       await fs.readFile(path.join(buildDir, '.nixpacks', 'build.sh'), 'utf-8')
     ).replace('docker build', 'docker buildx build');
-    buildScript += ' --push';
+    buildScript += ' --push --provenance false';
 
     console.log(`Running: ${buildScript}`);
 
