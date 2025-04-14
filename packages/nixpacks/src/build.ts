@@ -5,6 +5,10 @@ import fs from 'fs-extra';
 import path from 'path';
 import { ensureNixDir } from './nixDir';
 
+export let getContainerName = (id: string) => {
+  return `ghcr.io/metorial/mcp-container--${id.replaceAll('/', '--')}`.toLowerCase();
+};
+
 export let nixpacksBuild = async (
   id: string,
   version: string,
@@ -19,6 +23,10 @@ export let nixpacksBuild = async (
     throw new Error('Cannot use out and ci together');
   }
 
+  if (opts.ci && !opts.platform) {
+    throw new Error('Cannot use out and ci together');
+  }
+
   console.log(`Building ${id} (${version})...`);
 
   let manifest = await readManifest(id);
@@ -28,18 +36,20 @@ export let nixpacksBuild = async (
     buildDir = path.join(buildDir, manifest.build.buildDir);
   }
 
-  let name = `ghcr.io/metorial/mcp-container--${id.replaceAll('/', '--')}`.toLowerCase();
+  let name = getContainerName(id);
 
   let labels = {
     source: manifest.repo.url,
     publisher: 'Metorial'
   };
 
-  let tags = [`${name}:${version}`, `${name}:latest`];
+  let tags = opts.ci
+    ? [`${name}:${version}-${opts.platform!.replace('linux/', '')}`]
+    : [`${name}:${version}`, `${name}:latest`];
 
   let cmd: string[] = ['nixpacks', 'build', '.'];
   cmd.push('--name', name);
-  if (opts.platform) cmd.push('--platform', opts.platform);
+  if (opts.platform && !opts.ci) cmd.push('--platform', opts.platform);
   if (opts.out) cmd.push('--out', opts.out);
   for (let tag of tags) cmd.push('--tag', tag);
   for (let [key, value] of Object.entries(labels)) {
@@ -127,11 +137,21 @@ export let nixpacksBuild = async (
   if (opts.ci) {
     await delay(100);
 
+    let buildxCreate = Bun.spawn({
+      cmd: ['docker', 'buildx', 'create', '--use'],
+      cwd: buildDir,
+      stdout: 'inherit',
+      stderr: 'inherit'
+    });
+    await buildxCreate.exited;
+    if (buildxCreate.exitCode !== 0) {
+      throw new Error(`Failed to create buildx instance`);
+    }
+
     let buildScript = (
       await fs.readFile(path.join(buildDir, '.nixpacks', 'build.sh'), 'utf-8')
     ).replace('docker build', 'docker buildx build');
-
-    buildScript += ' --load';
+    buildScript += ' --push --provenance false';
 
     console.log(`Running: ${buildScript}`);
 
@@ -148,7 +168,6 @@ export let nixpacksBuild = async (
     });
 
     await ciProc.exited;
-
     if (ciProc.exitCode !== 0) {
       throw new Error(`Failed to build ${id} (${version})`);
     }
@@ -180,7 +199,7 @@ export let nixpacksBuild = async (
   }
 
   // Publish the image
-  if (opts.publish) {
+  if (opts.publish && !opts.ci) {
     console.log(`Publishing ${id} (${version})...`);
 
     for (let tag of tags) {
