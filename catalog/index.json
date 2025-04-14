@@ -1,0 +1,92 @@
+[
+  {
+    "id": "brave-search",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "everything",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "fetch",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "filesystem",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "gdrive",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "git",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "github",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "gitlab",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "google-maps",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "memory",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "postgres",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "puppeteer",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "sentry",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "slack",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "id": "sqlite",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "repoUrl": "https://github.com/modelcontextprotocol/servers"
+  }
+]
