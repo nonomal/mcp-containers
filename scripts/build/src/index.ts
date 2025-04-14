@@ -79,6 +79,12 @@ prog
 
     await $`docker manifest push ${name}:${version}`;
 
+    await $`docker manifest create ${name}:latest \
+    --amend ${name}:${version}-amd64 \
+    --amend ${name}:${version}-arm64`;
+
+    await $`docker manifest push ${name}:latest`;
+
     process.exit(0);
   });
 

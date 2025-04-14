@@ -49,7 +49,7 @@ export let nixpacksBuild = async (
 
   let cmd: string[] = ['nixpacks', 'build', '.'];
   cmd.push('--name', name);
-  if (opts.platform) cmd.push('--platform', opts.platform);
+  if (opts.platform && !opts.ci) cmd.push('--platform', opts.platform);
   if (opts.out) cmd.push('--out', opts.out);
   for (let tag of tags) cmd.push('--tag', tag);
   for (let [key, value] of Object.entries(labels)) {
