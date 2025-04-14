@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server implementation for iOS Simulator control."
   },
   "manifestHash": "5e7e3b28178b199ee2ba1fd98ca06b8d",
-  "createdAt": "2025-04-14T09:40:34.233Z",
+  "createdAt": "2025-04-14T15:21:13.839Z",
   "builder": [
     {
       "type": "nixpacks",

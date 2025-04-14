@@ -57,7 +57,7 @@
     "description": "This Model Context Protocol (MCP) server provides a bridge between Claude and Google Tasks, allowing you to manage your task lists and tasks directly through Claude."
   },
   "manifestHash": "a017c8c9a6bf97ef64e58aaa792da9c8",
-  "createdAt": "2025-04-14T09:40:35.573Z",
+  "createdAt": "2025-04-14T15:21:14.639Z",
   "builder": [
     {
       "type": "nixpacks",

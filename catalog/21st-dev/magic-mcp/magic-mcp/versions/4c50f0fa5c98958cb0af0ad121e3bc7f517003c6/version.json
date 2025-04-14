@@ -1,26 +1,38 @@
 {
-  "serverId": "alexbakers/mcp-ipfs/mcp-ipfs",
-  "version": "09bfcc95aa281f11ba411522bae71d3c9ff90dd9",
+  "serverId": "21st-dev/magic-mcp/magic-mcp",
+  "version": "4c50f0fa5c98958cb0af0ad121e3bc7f517003c6",
   "manifest": {
-    "id": "mcp-ipfs",
-    "fullId": "alexbakers/mcp-ipfs/mcp-ipfs",
+    "id": "magic-mcp",
+    "fullId": "21st-dev/magic-mcp/magic-mcp",
     "repo": {
       "provider": "github.com",
-      "owner": "alexbakers",
-      "repo": "mcp-ipfs",
+      "owner": "21st-dev",
+      "repo": "magic-mcp",
       "branch": "main",
-      "url": "https://github.com/alexbakers/mcp-ipfs"
+      "url": "https://github.com/21st-dev/magic-mcp"
     },
     "config": {
-      "argumentsTemplate": null,
-      "configValues": []
+      "configValues": [
+        {
+          "title": "api-key",
+          "description": null,
+          "default": null,
+          "required": false,
+          "fields": [
+            {
+              "type": "cli",
+              "key": "--api-key"
+            }
+          ]
+        }
+      ]
     },
     "subdirectory": "/",
-    "title": "🪐 MCP IPFS Server (storacha.network) 🛰️",
-    "description": "A Node.js server implementing the [Model Context Protocol (MCP)](https://github.com/ModelContextProtocol/specification) for interacting with the [storacha.network](https://storacha.network/) platform via the `w3` command-line interface (`@web3-storage/w3cli`)."
+    "title": "21st.dev Magic AI Agent",
+    "description": "Magic Component Platform (MCP) is a powerful AI-driven tool that helps developers create beautiful, modern UI components instantly through natural language descriptions. It integrates seamlessly with popular IDEs and provides a streamlined workflow for UI development."
   },
-  "manifestHash": "dc8bda7ce33472b497b55d81c1297690",
-  "createdAt": "2025-04-14T15:21:14.897Z",
+  "manifestHash": "b7f87af1d04a9c9c9d539188e0959d28",
+  "createdAt": "2025-04-14T15:21:13.013Z",
   "builder": [
     {
       "type": "nixpacks",

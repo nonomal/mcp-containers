@@ -44,7 +44,7 @@
     "description": "A [Model Context Protocol](https://modelcontextprotocol.io/introduction) implementation for sending notifications via [Pushover.net](https://pushover.net)."
   },
   "manifestHash": "77a7c5dc0c302ffc9fe35ad72ded9e67",
-  "createdAt": "2025-04-14T09:40:35.528Z",
+  "createdAt": "2025-04-14T15:21:14.629Z",
   "builder": [
     {
       "type": "nixpacks",

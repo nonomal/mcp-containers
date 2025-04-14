@@ -33,7 +33,7 @@
     "description": "Interact with Sentry using the Model Context Protocol (MCP)."
   },
   "manifestHash": "c930bccf2fcf02265436da282cd00618",
-  "createdAt": "2025-04-14T09:40:37.161Z",
+  "createdAt": "2025-04-14T15:21:15.910Z",
   "builder": [
     {
       "type": "nixpacks",

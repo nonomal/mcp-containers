@@ -19,7 +19,7 @@
     "description": "## A Cross-Platform Interface for LLMs"
   },
   "manifestHash": "21faa2f8e050382101272826eb54e3e4",
-  "createdAt": "2025-04-14T09:40:32.931Z",
+  "createdAt": "2025-04-14T15:21:13.223Z",
   "builder": [
     {
       "type": "nixpacks",

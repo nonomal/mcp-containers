@@ -19,7 +19,7 @@
     "description": "A MCP server to search for accurate academic articles. More scholarly vendors will be added soon."
   },
   "manifestHash": "908e3eeb2ad1b136748f9b81066fa522",
-  "createdAt": "2025-04-14T09:40:33.506Z",
+  "createdAt": "2025-04-14T15:21:13.360Z",
   "builder": [
     {
       "type": "nixpacks",

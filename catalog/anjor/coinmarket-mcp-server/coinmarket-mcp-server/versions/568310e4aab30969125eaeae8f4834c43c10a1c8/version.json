@@ -32,7 +32,7 @@
     "description": "An MCP server that integrates with the Coinmarket API"
   },
   "manifestHash": "f7a4e8515f6259c581cf000775c190c8",
-  "createdAt": "2025-04-14T09:40:34.530Z",
+  "createdAt": "2025-04-14T15:21:14.031Z",
   "builder": [
     {
       "type": "nixpacks",

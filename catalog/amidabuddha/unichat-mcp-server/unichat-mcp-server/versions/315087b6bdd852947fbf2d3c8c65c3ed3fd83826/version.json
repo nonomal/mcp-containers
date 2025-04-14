@@ -44,7 +44,7 @@
     "description": "ASend requests to OpenAI, MistralAI, Anthropic, xAI, Google AI, DeepSeek, Alibaba, Inception using MCP protocol via tool or predefined prompts."
   },
   "manifestHash": "4e9b9e1c57f7fe852dea2c262058674f",
-  "createdAt": "2025-04-14T09:40:34.300Z",
+  "createdAt": "2025-04-14T15:21:13.898Z",
   "builder": [
     {
       "type": "nixpacks",
