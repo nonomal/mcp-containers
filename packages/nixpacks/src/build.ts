@@ -189,17 +189,27 @@ export let nixpacksBuild = async (
       console.log(`Publishing: ${tag}`);
       console.log(`Running: ${publishCmd.join(' ')}`);
 
-      let publishProc = Bun.spawn({
-        cmd: publishCmd,
-        cwd: buildDir,
-        stdout: 'inherit',
-        stderr: 'inherit'
-      });
+      let tryNumber = 0;
+      let maxRetries = 5;
 
-      await publishProc.exited;
+      try {
+        let publishProc = Bun.spawn({
+          cmd: publishCmd,
+          cwd: buildDir,
+          stdout: 'inherit',
+          stderr: 'inherit'
+        });
 
-      if (publishProc.exitCode !== 0) {
-        throw new Error(`Failed to publish ${id} (${version})`);
+        await publishProc.exited;
+
+        if (publishProc.exitCode !== 0) {
+          throw new Error(`Failed to publish ${id} (${version})`);
+        }
+      } catch (e) {
+        if (tryNumber >= maxRetries) throw e;
+
+        tryNumber++;
+        await delay(2000 * tryNumber);
       }
     }
 
