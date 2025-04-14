@@ -38,6 +38,7 @@ The container supports the following configuration options:
 
 
 #### Environment Variables
+
 - `GOOGLE_API_KEY`
 - `GOOGLE_SEARCH_ENGINE_ID`
 

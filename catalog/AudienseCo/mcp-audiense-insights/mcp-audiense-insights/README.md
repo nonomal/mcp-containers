@@ -38,6 +38,7 @@ The container supports the following configuration options:
 
 
 #### Environment Variables
+
 - `AUDIENSE_CLIENT_ID`
 - `AUDIENSE_CLIENT_SECRET`
 - `TWITTER_BEARER_TOKEN`

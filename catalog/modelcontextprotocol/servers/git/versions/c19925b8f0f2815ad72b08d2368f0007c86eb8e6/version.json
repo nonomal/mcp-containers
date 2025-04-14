@@ -32,7 +32,7 @@
     "description": "A Model Context Protocol (MCP) server for git repositories."
   },
   "manifestHash": "a0f8f3e245f8f6e43cd8e67a4040c7a7",
-  "createdAt": "2025-04-14T08:56:25.077Z",
+  "createdAt": "2025-04-14T09:40:37.258Z",
   "builder": [
     {
       "type": "nixpacks",

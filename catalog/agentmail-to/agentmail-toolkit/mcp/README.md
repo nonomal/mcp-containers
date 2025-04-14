@@ -42,6 +42,7 @@ The container supports the following configuration options:
 
 
 #### Environment Variables
+
 - `YOUR_AGENTMAIL_API_KEY`
 - `AGENT_MAIL_API_KEY`
 

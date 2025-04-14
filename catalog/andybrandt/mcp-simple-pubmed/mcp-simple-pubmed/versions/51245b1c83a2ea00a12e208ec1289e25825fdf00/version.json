@@ -45,7 +45,7 @@
     "description": "An MCP server that provides access to PubMed articles through the Entrez API."
   },
   "manifestHash": "3cf95c867774f3075bd1cc7669a9028a",
-  "createdAt": "2025-04-12T09:30:57.435Z",
+  "createdAt": "2025-04-14T09:40:34.423Z",
   "builder": [
     {
       "type": "nixpacks",

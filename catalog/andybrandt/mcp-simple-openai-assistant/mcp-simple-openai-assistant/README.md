@@ -38,6 +38,7 @@ The container supports the following configuration options:
 
 
 #### Environment Variables
+
 - `OPENAI_API_KEY`
 
 

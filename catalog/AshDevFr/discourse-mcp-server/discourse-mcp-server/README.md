@@ -38,6 +38,7 @@ The container supports the following configuration options:
 
 
 #### Environment Variables
+
 - `DISCOURSE_API_URL`
 - `DISCOURSE_API_KEY`
 - `DISCOURSE_API_USERNAME`

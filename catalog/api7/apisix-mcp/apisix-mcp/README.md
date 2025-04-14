@@ -38,6 +38,7 @@ The container supports the following configuration options:
 
 
 #### Environment Variables
+
 - `APISIX_SERVER_HOST`
 - `APISIX_SERVER_PORT`
 - `APISIX_ADMIN_API_PORT`

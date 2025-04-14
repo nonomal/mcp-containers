@@ -33,7 +33,7 @@
     "description": "This is a TypeScript-based MCP server that allows searching for New York Times articles from the last 30 days based on a keyword. It demonstrates core MCP concepts by providing:"
   },
   "manifestHash": "35623be3752ac8b5f464abc06654d297",
-  "createdAt": "2025-04-12T09:30:57.761Z",
+  "createdAt": "2025-04-14T09:40:34.725Z",
   "builder": [
     {
       "type": "nixpacks",

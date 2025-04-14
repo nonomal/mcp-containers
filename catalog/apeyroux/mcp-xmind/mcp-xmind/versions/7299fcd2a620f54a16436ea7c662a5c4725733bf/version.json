@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server for analyzing and querying XMind mind maps. This tool provides powerful capabilities for searching, extracting, and analyzing content from XMind files."
   },
   "manifestHash": "41122c788b52b403a644fdc6a9388032",
-  "createdAt": "2025-04-12T09:30:57.948Z",
+  "createdAt": "2025-04-14T09:40:34.582Z",
   "builder": [
     {
       "type": "nixpacks",

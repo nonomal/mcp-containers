@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol server that provides web search capabilities using Google Custom Search API and webpage content extraction functionality."
   },
   "manifestHash": "571c2f02bc9adfe1bc85eb2558f4627a",
-  "createdAt": "2025-04-12T09:30:52.979Z",
+  "createdAt": "2025-04-14T09:40:33.352Z",
   "builder": [
     {
       "type": "nixpacks",

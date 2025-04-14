@@ -38,6 +38,7 @@ The container supports the following configuration options:
 
 
 #### Environment Variables
+
 - `UNICHAT_MODEL`
 - `UNICHAT_API_KEY`
 

@@ -32,7 +32,7 @@
     "description": "Magic Component Platform (MCP) is a powerful AI-driven tool that helps developers create beautiful, modern UI components instantly through natural language descriptions. It integrates seamlessly with popular IDEs and provides a streamlined workflow for UI development."
   },
   "manifestHash": "b7f87af1d04a9c9c9d539188e0959d28",
-  "createdAt": "2025-04-11T16:56:08.296Z",
+  "createdAt": "2025-04-14T09:40:32.733Z",
   "builder": [
     {
       "type": "nixpacks",

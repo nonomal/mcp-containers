@@ -32,7 +32,7 @@
     "description": "A Model Context Protocol Server for Home Assistant. See [Model Context Protocol](https://modelcontextprotocol.io/)"
   },
   "manifestHash": "ee8d79820411b39782049d599230e6c5",
-  "createdAt": "2025-04-12T09:30:55.377Z",
+  "createdAt": "2025-04-14T09:40:34.169Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -1,5 +1,221 @@
 [
   {
+    "id": "job-searchoor",
+    "owner": "0xDAEF0F",
+    "repo": "job-searchoor",
+    "repoUrl": "https://github.com/0xDAEF0F/job-searchoor"
+  },
+  {
+    "id": "mcp-summarizer",
+    "owner": "0xshellming",
+    "repo": "mcp-summarizer",
+    "repoUrl": "https://github.com/0xshellming/mcp-summarizer"
+  },
+  {
+    "id": "magic-mcp",
+    "owner": "21st-dev",
+    "repo": "magic-mcp",
+    "repoUrl": "https://github.com/21st-dev/magic-mcp"
+  },
+  {
+    "id": "bilibili-mcp-js",
+    "owner": "34892002",
+    "repo": "bilibili-mcp-js",
+    "repoUrl": "https://github.com/34892002/bilibili-mcp-js"
+  },
+  {
+    "id": "mcp-server-deepseek-r-1",
+    "owner": "66julienmartin",
+    "repo": "MCP-server-Deepseek_R1",
+    "repoUrl": "https://github.com/66julienmartin/MCP-server-Deepseek_R1"
+  },
+  {
+    "id": "ai-agent-marketplace-index-mcp",
+    "owner": "AI-Agent-Hub",
+    "repo": "ai-agent-marketplace-index-mcp",
+    "repoUrl": "https://github.com/AI-Agent-Hub/ai-agent-marketplace-index-mcp"
+  },
+  {
+    "id": "chat-mcp",
+    "owner": "AI-QL",
+    "repo": "chat-mcp",
+    "repoUrl": "https://github.com/AI-QL/chat-mcp"
+  },
+  {
+    "id": "bitcoin-mcp",
+    "owner": "AbdelStark",
+    "repo": "bitcoin-mcp",
+    "repoUrl": "https://github.com/AbdelStark/bitcoin-mcp"
+  },
+  {
+    "id": "nostr-mcp",
+    "owner": "AbdelStark",
+    "repo": "nostr-mcp",
+    "repoUrl": "https://github.com/AbdelStark/nostr-mcp"
+  },
+  {
+    "id": "discourse-mcp-server",
+    "owner": "AshDevFr",
+    "repo": "discourse-mcp-server",
+    "repoUrl": "https://github.com/AshDevFr/discourse-mcp-server"
+  },
+  {
+    "id": "mcp-audiense-insights",
+    "owner": "AudienseCo",
+    "repo": "mcp-audiense-insights",
+    "repoUrl": "https://github.com/AudienseCo/mcp-audiense-insights"
+  },
+  {
+    "id": "todoist-mcp-server",
+    "owner": "abhiz123",
+    "repo": "todoist-mcp-server",
+    "repoUrl": "https://github.com/abhiz123/todoist-mcp-server"
+  },
+  {
+    "id": "mcp-servers-kagi",
+    "owner": "ac3xx",
+    "repo": "mcp-servers-kagi",
+    "repoUrl": "https://github.com/ac3xx/mcp-servers-kagi"
+  },
+  {
+    "id": "mcp-google-search",
+    "owner": "adenot",
+    "repo": "mcp-google-search",
+    "repoUrl": "https://github.com/adenot/mcp-google-search"
+  },
+  {
+    "id": "mcp-scholarly",
+    "owner": "adityak74",
+    "repo": "mcp-scholarly",
+    "repoUrl": "https://github.com/adityak74/mcp-scholarly"
+  },
+  {
+    "id": "file-scope-mcp",
+    "owner": "admica",
+    "repo": "FileScopeMCP",
+    "repoUrl": "https://github.com/admica/FileScopeMCP"
+  },
+  {
+    "id": "mcp",
+    "owner": "agentmail-to",
+    "repo": "agentmail-toolkit",
+    "repoUrl": "https://github.com/agentmail-to/agentmail-toolkit"
+  },
+  {
+    "id": "bicscan-mcp",
+    "owner": "ahnlabio",
+    "repo": "bicscan-mcp",
+    "repoUrl": "https://github.com/ahnlabio/bicscan-mcp"
+  },
+  {
+    "id": "bear-mcp-server",
+    "owner": "akseyh",
+    "repo": "bear-mcp-server",
+    "repoUrl": "https://github.com/akseyh/bear-mcp-server"
+  },
+  {
+    "id": "mcp-ipfs",
+    "owner": "alexbakers",
+    "repo": "mcp-ipfs",
+    "repoUrl": "https://github.com/alexbakers/mcp-ipfs"
+  },
+  {
+    "id": "mcp-server-home-assistant",
+    "owner": "allenporter",
+    "repo": "mcp-server-home-assistant",
+    "repoUrl": "https://github.com/allenporter/mcp-server-home-assistant"
+  },
+  {
+    "id": "simctl-mcp",
+    "owner": "ambar",
+    "repo": "simctl-mcp",
+    "repoUrl": "https://github.com/ambar/simctl-mcp"
+  },
+  {
+    "id": "unichat-mcp-server",
+    "owner": "amidabuddha",
+    "repo": "unichat-mcp-server",
+    "repoUrl": "https://github.com/amidabuddha/unichat-mcp-server"
+  },
+  {
+    "id": "mcp-installer",
+    "owner": "anaisbetts",
+    "repo": "mcp-installer",
+    "repoUrl": "https://github.com/anaisbetts/mcp-installer"
+  },
+  {
+    "id": "mcp-simple-openai-assistant",
+    "owner": "andybrandt",
+    "repo": "mcp-simple-openai-assistant",
+    "repoUrl": "https://github.com/andybrandt/mcp-simple-openai-assistant"
+  },
+  {
+    "id": "mcp-simple-pubmed",
+    "owner": "andybrandt",
+    "repo": "mcp-simple-pubmed",
+    "repoUrl": "https://github.com/andybrandt/mcp-simple-pubmed"
+  },
+  {
+    "id": "nyt",
+    "owner": "angheljf",
+    "repo": "nyt",
+    "repoUrl": "https://github.com/angheljf/nyt"
+  },
+  {
+    "id": "coinmarket-mcp-server",
+    "owner": "anjor",
+    "repo": "coinmarket-mcp-server",
+    "repoUrl": "https://github.com/anjor/coinmarket-mcp-server"
+  },
+  {
+    "id": "mcp-xmind",
+    "owner": "apeyroux",
+    "repo": "mcp-xmind",
+    "repoUrl": "https://github.com/apeyroux/mcp-xmind"
+  },
+  {
+    "id": "apisix-mcp",
+    "owner": "api7",
+    "repo": "apisix-mcp",
+    "repoUrl": "https://github.com/api7/apisix-mcp"
+  },
+  {
+    "id": "actors-mcp-server",
+    "owner": "apify",
+    "repo": "actors-mcp-server",
+    "repoUrl": "https://github.com/apify/actors-mcp-server"
+  },
+  {
+    "id": "mcp-server-rag-web-browser",
+    "owner": "apify",
+    "repo": "mcp-server-rag-web-browser",
+    "repoUrl": "https://github.com/apify/mcp-server-rag-web-browser"
+  },
+  {
+    "id": "apimatic-validator-mcp",
+    "owner": "apimatic",
+    "repo": "apimatic-validator-mcp",
+    "repoUrl": "https://github.com/apimatic/apimatic-validator-mcp"
+  },
+  {
+    "id": "piapi-mcp-server",
+    "owner": "apinetwork",
+    "repo": "piapi-mcp-server",
+    "repoUrl": "https://github.com/apinetwork/piapi-mcp-server"
+  },
+  {
+    "id": "mcp-googletasks",
+    "owner": "arpitbatra123",
+    "repo": "mcp-googletasks",
+    "repoUrl": "https://github.com/arpitbatra123/mcp-googletasks"
+  },
+  {
+    "id": "pushover-mcp",
+    "owner": "ashiknesin",
+    "repo": "pushover-mcp",
+    "repoUrl": "https://github.com/ashiknesin/pushover-mcp"
+  },
+  {
     "id": "brave-search",
     "owner": "modelcontextprotocol",
     "repo": "servers",

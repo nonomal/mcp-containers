@@ -20,7 +20,7 @@
     "description": "Bitcoin & Lightning Network MCP Server."
   },
   "manifestHash": "7de0a6e9c9f9e5753b3bb999789941aa",
-  "createdAt": "2025-04-13T09:41:34.337Z",
+  "createdAt": "2025-04-14T09:40:32.738Z",
   "builder": [
     {
       "type": "nixpacks",

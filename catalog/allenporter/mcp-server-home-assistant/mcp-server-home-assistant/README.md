@@ -38,6 +38,7 @@ The container supports the following configuration options:
 
 
 #### Environment Variables
+
 - `HOME_ASSISTANT_WEB_SOCKET_URL`
 
 
