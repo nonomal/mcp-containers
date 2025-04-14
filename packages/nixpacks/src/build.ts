@@ -127,11 +127,21 @@ export let nixpacksBuild = async (
   if (opts.ci) {
     await delay(100);
 
+    let buildxCreate = Bun.spawn({
+      cmd: ['docker', 'buildx', 'create', '--use'],
+      cwd: buildDir,
+      stdout: 'inherit',
+      stderr: 'inherit'
+    });
+    await buildxCreate.exited;
+    if (buildxCreate.exitCode !== 0) {
+      throw new Error(`Failed to create buildx instance`);
+    }
+
     let buildScript = (
       await fs.readFile(path.join(buildDir, '.nixpacks', 'build.sh'), 'utf-8')
     ).replace('docker build', 'docker buildx build');
-
-    buildScript += ' --load';
+    buildScript += ' --push';
 
     console.log(`Running: ${buildScript}`);
 
@@ -148,7 +158,6 @@ export let nixpacksBuild = async (
     });
 
     await ciProc.exited;
-
     if (ciProc.exitCode !== 0) {
       throw new Error(`Failed to build ${id} (${version})`);
     }
@@ -180,7 +189,7 @@ export let nixpacksBuild = async (
   }
 
   // Publish the image
-  if (opts.publish) {
+  if (opts.publish && !opts.ci) {
     console.log(`Publishing ${id} (${version})...`);
 
     for (let tag of tags) {

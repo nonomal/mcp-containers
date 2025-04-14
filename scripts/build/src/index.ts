@@ -16,7 +16,7 @@ prog
     async (
       serverId: string,
       version: string,
-      opts: { platform: string; publish: boolean }
+      opts: { platform?: string; publish?: boolean }
     ) => {
       if (!version) {
         let versionData = await getLatestServerVersion(serverId);
@@ -35,7 +35,7 @@ prog
 prog
   .command('prepare <serverId> [version]', undefined)
   .option('--out, -o', 'Output directory')
-  .action(async (serverId: string, version: string, opts: { out: string }) => {
+  .action(async (serverId: string, version: string, opts: { out?: string }) => {
     if (!version) {
       let versionData = await getLatestServerVersion(serverId);
       version = versionData.version;
@@ -60,8 +60,8 @@ prog
 
     await nixpacksBuild(serverId, version, {
       ci: true,
-      publish: true
-      // platform: 'linux/amd64,linux/arm64'
+      publish: true,
+      platform: 'linux/amd64,linux/arm64'
     });
 
     process.exit(0);
