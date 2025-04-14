@@ -33,7 +33,7 @@ jobs:
         run: bun i
 
       - name: Run Discover Versions
-        run: bun start ${{ github.event.inputs.force && '--force' || '' }}
+        run: bun start ${{ github.event.inputs.force == 'true' && '--force' || '' }}
         working-directory: 'scripts/check-versions'
 
       - name: Commit and Push Changes
