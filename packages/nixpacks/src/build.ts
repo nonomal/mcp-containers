@@ -5,6 +5,10 @@ import fs from 'fs-extra';
 import path from 'path';
 import { ensureNixDir } from './nixDir';
 
+export let getContainerName = (id: string) => {
+  return `ghcr.io/metorial/mcp-container--${id.replaceAll('/', '--')}`.toLowerCase();
+};
+
 export let nixpacksBuild = async (
   id: string,
   version: string,
@@ -19,6 +23,10 @@ export let nixpacksBuild = async (
     throw new Error('Cannot use out and ci together');
   }
 
+  if (opts.ci && !opts.platform) {
+    throw new Error('Cannot use out and ci together');
+  }
+
   console.log(`Building ${id} (${version})...`);
 
   let manifest = await readManifest(id);
@@ -28,14 +36,16 @@ export let nixpacksBuild = async (
     buildDir = path.join(buildDir, manifest.build.buildDir);
   }
 
-  let name = `ghcr.io/metorial/mcp-container--${id.replaceAll('/', '--')}`.toLowerCase();
+  let name = getContainerName(id);
 
   let labels = {
     source: manifest.repo.url,
     publisher: 'Metorial'
   };
 
-  let tags = [`${name}:${version}`, `${name}:latest`];
+  let tags = opts.ci
+    ? [`${name}:${version}-${opts.platform!.replace('linux/', '')}`]
+    : [`${name}:${version}`, `${name}:latest`];
 
   let cmd: string[] = ['nixpacks', 'build', '.'];
   cmd.push('--name', name);

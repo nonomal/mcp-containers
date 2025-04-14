@@ -1,5 +1,5 @@
 import { getAllServers, getLatestServerVersion } from '@metorial-mcp-containers/manifest';
-import { nixpacksBuild } from '@metorial-mcp-containers/nixpacks';
+import { getContainerName, nixpacksBuild } from '@metorial-mcp-containers/nixpacks';
 import { $ } from 'bun';
 import fs from 'fs-extra';
 import path from 'path';
@@ -33,7 +33,7 @@ prog
   );
 
 prog
-  .command('prepare <serverId> [version]', undefined)
+  .command('prepare <serverId> [version]')
   .option('--out, -o', 'Output directory')
   .action(async (serverId: string, version: string, opts: { out?: string }) => {
     if (!version) {
@@ -50,19 +50,34 @@ prog
     process.exit(0);
   });
 
-prog
-  .command('ci <serverId> [version]', undefined)
-  .action(async (serverId: string, version: string) => {
-    if (!version) {
-      let versionData = await getLatestServerVersion(serverId);
-      version = versionData.version;
-    }
+prog.command('get-latest-version <serverId>').action(async (serverId: string) => {
+  let versionData = await getLatestServerVersion(serverId);
+  console.log(versionData.version);
+});
 
+prog
+  .command('ci <serverId> <version>')
+  .option('--platform, -p', 'Platform to build for')
+  .action(async (serverId: string, version: string, opts: { platform?: string }) => {
     await nixpacksBuild(serverId, version, {
       ci: true,
       publish: true,
-      platform: 'linux/amd64,linux/arm64'
+      platform: opts.platform
     });
+
+    process.exit(0);
+  });
+
+prog
+  .command('ci-publish <serverId> <version>')
+  .action(async (serverId: string, version: string) => {
+    let name = getContainerName(serverId);
+
+    await $`docker manifest create ${name}:${version} \
+      --amend ${name}:${version}-amd64 \
+      --amend ${name}:${version}-arm64`;
+
+    await $`docker manifest push ${name}:${version}`;
 
     process.exit(0);
   });
