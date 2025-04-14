@@ -25,6 +25,9 @@ jobs:
       - name: Install Bun
         uses: oven-sh/setup-bun@v2
 
+      - name: Install Packages
+        run: bun i
+
       - name: Build Index
         working-directory: scripts/index
         run: bun start
