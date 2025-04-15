@@ -3,7 +3,7 @@ import {
   getLatestServerVersion,
   readManifest
 } from '@metorial-mcp-containers/manifest';
-import { nixpacksBuild } from '@metorial-mcp-containers/nixpacks';
+import { getContainerName, nixpacksBuild } from '@metorial-mcp-containers/nixpacks';
 import { $ } from 'bun';
 import fs from 'fs-extra';
 import path from 'path';
@@ -81,37 +81,38 @@ prog
   .command('ci-publish <serverId> <version>')
   .action(async (serverId: string, version: string) => {
     let serverData = await readManifest(serverId);
+    let name = getContainerName(serverId);
 
     if (
       !serverData.build?.platforms ||
       (serverData.build?.platforms.includes('linux/arm64') &&
         serverData.build?.platforms.includes('linux/amd64'))
     ) {
-      await $`docker manifest create ${serverData.fullId}:${version} \
-      --amend ${serverData.fullId}:${version}-amd64 \
-      --amend ${serverData.fullId}:${version}-arm64`;
-      await $`docker manifest push ${serverData.fullId}:${version}`;
+      await $`docker manifest create ${name}:${version} \
+      --amend ${name}:${version}-amd64 \
+      --amend ${name}:${version}-arm64`;
+      await $`docker manifest push ${name}:${version}`;
 
-      await $`docker manifest create ${serverData.fullId}:latest \
-    --amend ${serverData.fullId}:${version}-amd64 \
-    --amend ${serverData.fullId}:${version}-arm64`;
-      await $`docker manifest push ${serverData.fullId}:latest`;
+      await $`docker manifest create ${name}:latest \
+    --amend ${name}:${version}-amd64 \
+    --amend ${name}:${version}-arm64`;
+      await $`docker manifest push ${name}:latest`;
     } else if (serverData.build?.platforms.includes('linux/arm64')) {
-      await $`docker manifest create ${serverData.fullId}:${version} \
-      --amend ${serverData.fullId}:${version}-arm64`;
-      await $`docker manifest push ${serverData.fullId}:${version}`;
+      await $`docker manifest create ${name}:${version} \
+      --amend ${name}:${version}-arm64`;
+      await $`docker manifest push ${name}:${version}`;
 
-      await $`docker manifest create ${serverData.fullId}:latest \
-      --amend ${serverData.fullId}:${version}-arm64`;
-      await $`docker manifest push ${serverData.fullId}:latest`;
+      await $`docker manifest create ${name}:latest \
+      --amend ${name}:${version}-arm64`;
+      await $`docker manifest push ${name}:latest`;
     } else if (serverData.build?.platforms.includes('linux/amd64')) {
-      await $`docker manifest create ${serverData.fullId}:${version} \
-      --amend ${serverData.fullId}:${version}-amd64`;
-      await $`docker manifest push ${serverData.fullId}:${version}`;
+      await $`docker manifest create ${name}:${version} \
+      --amend ${name}:${version}-amd64`;
+      await $`docker manifest push ${name}:${version}`;
 
-      await $`docker manifest create ${serverData.fullId}:latest \
-      --amend ${serverData.fullId}:${version}-amd64`;
-      await $`docker manifest push ${serverData.fullId}:latest`;
+      await $`docker manifest create ${name}:latest \
+      --amend ${name}:${version}-amd64`;
+      await $`docker manifest push ${name}:latest`;
     }
 
     process.exit(0);
