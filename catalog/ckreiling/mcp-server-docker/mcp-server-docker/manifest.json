@@ -1,0 +1,18 @@
+{
+  "id": "mcp-server-docker",
+  "fullId": "ckreiling/mcp-server-docker/mcp-server-docker",
+  "repo": {
+    "provider": "github.com",
+    "owner": "ckreiling",
+    "repo": "mcp-server-docker",
+    "branch": "main",
+    "url": "https://github.com/ckreiling/mcp-server-docker"
+  },
+  "config": {
+    "argumentsTemplate": null,
+    "configValues": []
+  },
+  "subdirectory": "/",
+  "title": "🐋 Docker MCP server",
+  "description": "An MCP server for managing Docker with natural language!"
+}

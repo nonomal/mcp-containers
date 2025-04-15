@@ -1,0 +1,31 @@
+{
+  "id": "vibe-check-mcp-server",
+  "fullId": "PV-Bhat/vibe-check-mcp-server/vibe-check-mcp-server",
+  "repo": {
+    "provider": "github.com",
+    "owner": "PV-Bhat",
+    "repo": "vibe-check-mcp-server",
+    "branch": "main",
+    "url": "https://github.com/PV-Bhat/vibe-check-mcp-server"
+  },
+  "config": {
+    "argumentsTemplate": null,
+    "configValues": [
+      {
+        "title": "gemini-api-key",
+        "description": null,
+        "default": null,
+        "required": false,
+        "fields": [
+          {
+            "type": "environment",
+            "key": "GEMINI_API_KEY"
+          }
+        ]
+      }
+    ]
+  },
+  "subdirectory": "/",
+  "title": "🧠 Vibe Check MCP",
+  "description": "The definitive Vibe Coder's sanity check MCP server: Prevent cascading errors in AI workflows by implementing strategic pattern interrupts."
+}

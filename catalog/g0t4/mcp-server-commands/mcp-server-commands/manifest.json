@@ -1,0 +1,18 @@
+{
+  "id": "mcp-server-commands",
+  "fullId": "g0t4/mcp-server-commands/mcp-server-commands",
+  "repo": {
+    "provider": "github.com",
+    "owner": "g0t4",
+    "repo": "mcp-server-commands",
+    "branch": "master",
+    "url": "https://github.com/g0t4/mcp-server-commands"
+  },
+  "config": {
+    "argumentsTemplate": null,
+    "configValues": []
+  },
+  "subdirectory": "/",
+  "title": "# Tools",
+  "description": "Tools are for LLMs to request, i.e. Claude Desktop app. Claude Sonnet 3.5 intelligently uses both tools, I was pleasantly surprised."
+}
