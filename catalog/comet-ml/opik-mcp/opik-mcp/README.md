@@ -1,7 +1,7 @@
 
-# # 🚀 What is Opik MCP Server?
+# Opik MCP Server
 
-A containerized version of "# 🚀 What is Opik MCP Server?"
+A containerized version of "Opik MCP Server"
 
 > Repository: [comet-ml/opik-mcp](https://github.com/comet-ml/opik-mcp)
 

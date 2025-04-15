@@ -1,25 +1,50 @@
 {
-  "serverId": "aws-samples/sample-mcp-server-s3/sample-mcp-server-s-3",
-  "version": "ccba106ae3acda67146219f3c5fca84711ce630a",
+  "serverId": "pab1it0/adx-mcp-server/adx-mcp-server",
+  "version": "f37f2d47841df74203d2defb31834924f8058d7c",
   "manifest": {
-    "id": "sample-mcp-server-s-3",
-    "fullId": "aws-samples/sample-mcp-server-s3/sample-mcp-server-s-3",
+    "id": "adx-mcp-server",
+    "fullId": "pab1it0/adx-mcp-server/adx-mcp-server",
     "repo": {
       "provider": "github.com",
-      "owner": "aws-samples",
-      "repo": "sample-mcp-server-s3",
+      "owner": "pab1it0",
+      "repo": "adx-mcp-server",
       "branch": "main",
-      "url": "https://github.com/aws-samples/sample-mcp-server-s3"
+      "url": "https://github.com/pab1it0/adx-mcp-server"
     },
     "config": {
-      "configValues": []
+      "configValues": [
+        {
+          "title": "adx-cluster-url",
+          "description": null,
+          "default": null,
+          "required": false,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "ADX_CLUSTER_URL"
+            }
+          ]
+        },
+        {
+          "title": "adx-database",
+          "description": null,
+          "default": null,
+          "required": false,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "ADX_DATABASE"
+            }
+          ]
+        }
+      ]
     },
     "subdirectory": "/",
-    "title": "S3 Model Context Protocol Server",
-    "description": "An MCP server implementation for retrieving  data such as PDF's from S3."
+    "title": "Azure Data Explorer MCP Server",
+    "description": "A Model Context Protocol (MCP) server that enables AI assistants to query and analyze Azure Data Explorer databases through standardized interfaces."
   },
-  "manifestHash": "8366b51db797b5692aa6f8f1c6b6ab58",
-  "createdAt": "2025-04-15T08:55:57.024Z",
+  "manifestHash": "0dd97be89d368e51477e42cf88e1c110",
+  "createdAt": "2025-04-15T08:56:02.833Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -55,7 +80,7 @@
           },
           "setup": {
             "nixPkgs": [
-              "python312",
+              "python313",
               "gcc"
             ],
             "nixLibs": [
@@ -67,7 +92,7 @@
           }
         },
         "start": {
-          "cmd": "python -m s3-mcp-server"
+          "cmd": "python -m adx_mcp_server"
         }
       }
     }

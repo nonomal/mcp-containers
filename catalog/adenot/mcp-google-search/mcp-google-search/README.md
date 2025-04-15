@@ -1,7 +1,7 @@
 
-# mcp-google-server A MCP Server for Google Custom Search and Webpage Reading
+# Google Search MCP Server
 
-A containerized version of "mcp-google-server A MCP Server for Google Custom Search and Webpage Reading"
+A containerized version of "Google Search MCP Server"
 
 > Repository: [adenot/mcp-google-search](https://github.com/adenot/mcp-google-search)
 

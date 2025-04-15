@@ -1,7 +1,7 @@
 
-# Using watsonx.ai Flows Engine with Model Context Protocol (MCP)
+# Watsonx.ai Flows Engine
 
-A containerized version of "Using watsonx.ai Flows Engine with Model Context Protocol (MCP)"
+A containerized version of "Watsonx.ai Flows Engine"
 
 > Repository: [IBM/wxflows](https://github.com/IBM/wxflows)
 

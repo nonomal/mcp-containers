@@ -29,11 +29,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "Weather MCP Tool for Claude Desktop",
+    "title": "Weather MCP Tool",
     "description": "An MCP (Model Context Protocol) tool that provides real-time weather data, forecasts, and historical weather information using the OpenWeatherMap API, specifically designed for Claude Desktop."
   },
-  "manifestHash": "1c1925cd66c5c601dce42636e0baf12a",
-  "createdAt": "2025-04-15T07:16:16.782Z",
+  "manifestHash": "429f37ad72bbed9912fdb34bd87de7c7",
+  "createdAt": "2025-04-15T08:55:55.863Z",
   "builder": [
     {
       "type": "nixpacks",

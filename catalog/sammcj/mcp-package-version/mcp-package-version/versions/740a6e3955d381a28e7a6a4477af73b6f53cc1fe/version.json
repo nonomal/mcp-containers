@@ -42,10 +42,10 @@
     },
     "subdirectory": "/",
     "title": "Package Version MCP Server",
-    "description": "An MCP server that provides tools for checking latest stable package versions from multiple package registries:"
+    "description": "An MCP server that provides tools for checking latest stable package versions from multiple package registries."
   },
-  "manifestHash": "46ebfb21c63a3574a7a74a7ad2f074b1",
-  "createdAt": "2025-04-15T07:16:45.556Z",
+  "manifestHash": "018d994350afc5adc38996f4ceff49f9",
+  "createdAt": "2025-04-15T08:56:04.163Z",
   "builder": [
     {
       "type": "nixpacks",

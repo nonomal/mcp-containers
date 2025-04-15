@@ -1,7 +1,7 @@
 
-# # 🚀 mcp-wecombot-server
+# mcp-wecombot-server
 
-A containerized version of "# 🚀 mcp-wecombot-server"
+A containerized version of "mcp-wecombot-server"
 
 > Repository: [gotoolkits/mcp-wecombot-server](https://github.com/gotoolkits/mcp-wecombot-server)
 

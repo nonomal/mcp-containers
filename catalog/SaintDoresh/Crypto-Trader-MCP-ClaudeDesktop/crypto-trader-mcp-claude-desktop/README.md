@@ -1,7 +1,7 @@
 
-# Crypto Trader MCP Tool for Claude Desktop
+# Crypto Trader MCP Tool
 
-A containerized version of "Crypto Trader MCP Tool for Claude Desktop"
+A containerized version of "Crypto Trader MCP Tool"
 
 > Repository: [SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop](https://github.com/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop)
 

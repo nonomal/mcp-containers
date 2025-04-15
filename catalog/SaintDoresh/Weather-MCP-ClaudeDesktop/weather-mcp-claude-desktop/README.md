@@ -1,7 +1,7 @@
 
-# Weather MCP Tool for Claude Desktop
+# Weather MCP Tool
 
-A containerized version of "Weather MCP Tool for Claude Desktop"
+A containerized version of "Weather MCP Tool"
 
 > Repository: [SaintDoresh/Weather-MCP-ClaudeDesktop](https://github.com/SaintDoresh/Weather-MCP-ClaudeDesktop)
 

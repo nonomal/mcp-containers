@@ -1,7 +1,7 @@
 
-# 🚀 ⚡️ locust-mcp-server
+# locust-mcp-server
 
-A containerized version of "🚀 ⚡️ locust-mcp-server"
+A containerized version of "locust-mcp-server"
 
 > Repository: [QAInsights/locust-mcp-server](https://github.com/QAInsights/locust-mcp-server)
 

@@ -29,11 +29,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "# 🚀 mcp-wecombot-server",
+    "title": "mcp-wecombot-server",
     "description": "An MCP server application that sends various types of messages to the WeCom group robot."
   },
-  "manifestHash": "6a525fa8101b2ef43c0722df38849e05",
-  "createdAt": "2025-04-15T07:16:30.272Z",
+  "manifestHash": "f46f4395264c62354c3301ea5f616817",
+  "createdAt": "2025-04-15T08:55:59.769Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -1,7 +1,7 @@
 
-# MCP Server for MySQL based on NodeJS
+# MCP Server for MySQL
 
-A containerized version of "MCP Server for MySQL based on NodeJS"
+A containerized version of "MCP Server for MySQL"
 
 > Repository: [benborla/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql)
 

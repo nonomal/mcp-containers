@@ -16,11 +16,11 @@
       "configValues": []
     },
     "subdirectory": "/",
-    "title": "# What is Centralmind/Gateway",
+    "title": "CentralMind Gateway",
     "description": "Simple way to expose your database to AI-Agent via MCP or OpenAPI 3.1 protocols."
   },
-  "manifestHash": "7d922f2e8face90369ef4840834f4bdd",
-  "createdAt": "2025-04-15T07:16:30.682Z",
+  "manifestHash": "0ed3117a17eb38f5477ff7de12e90a68",
+  "createdAt": "2025-04-15T08:56:04.032Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -1,7 +1,7 @@
 
-# # 📖 Overview
+# Oxylabs MCP Server
 
-A containerized version of "# 📖 Overview"
+A containerized version of "Oxylabs MCP Server"
 
 > Repository: [oxylabs/oxylabs-mcp](https://github.com/oxylabs/oxylabs-mcp)
 

@@ -1,7 +1,7 @@
 
-# 🚀 ⚡️ k6-mcp-server
+# k6-mcp-server
 
-A containerized version of "🚀 ⚡️ k6-mcp-server"
+A containerized version of "k6-mcp-server"
 
 > Repository: [QAInsights/k6-mcp-server](https://github.com/QAInsights/k6-mcp-server)
 

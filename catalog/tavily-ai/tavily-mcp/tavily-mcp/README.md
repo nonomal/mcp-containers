@@ -1,7 +1,7 @@
 
-# Tavily MCP Server 🚀
+# Tavily MCP Server
 
-A containerized version of "Tavily MCP Server 🚀"
+A containerized version of "Tavily MCP Server"
 
 > Repository: [tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp)
 

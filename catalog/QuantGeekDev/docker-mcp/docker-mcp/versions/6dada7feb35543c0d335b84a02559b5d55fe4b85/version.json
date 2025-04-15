@@ -16,11 +16,11 @@
       "configValues": []
     },
     "subdirectory": "/",
-    "title": "🐳 docker-mcp",
+    "title": "Docker MCP",
     "description": "A powerful Model Context Protocol (MCP) server for Docker operations, enabling seamless container and compose stack management through Claude AI."
   },
-  "manifestHash": "6af2a7e92aa9e5a8a7157ce099c0cf50",
-  "createdAt": "2025-04-15T07:16:16.582Z",
+  "manifestHash": "bac01cbc775a98041cbce37ee2e8ec5e",
+  "createdAt": "2025-04-15T08:55:55.578Z",
   "builder": [
     {
       "type": "nixpacks",

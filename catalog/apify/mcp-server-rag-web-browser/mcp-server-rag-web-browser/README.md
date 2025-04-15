@@ -1,7 +1,7 @@
 
-# Model Context Protocol (MCP) Server for the RAG Web Browser Actor 🌐
+# RAG Web Browser Actor
 
-A containerized version of "Model Context Protocol (MCP) Server for the RAG Web Browser Actor 🌐"
+A containerized version of "RAG Web Browser Actor"
 
 > Repository: [apify/mcp-server-rag-web-browser](https://github.com/apify/mcp-server-rag-web-browser)
 

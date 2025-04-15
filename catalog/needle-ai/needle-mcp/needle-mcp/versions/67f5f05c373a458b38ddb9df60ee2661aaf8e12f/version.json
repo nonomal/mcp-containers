@@ -28,11 +28,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "Build Agents with Needle MCP Server",
+    "title": "Needle MCP Server",
     "description": "MCP (Model Context Protocol) server to manage documents and perform searches using [Needle](https://needle-ai.com) through Claude’s Desktop Application."
   },
-  "manifestHash": "f95b8f12a1fe834b34226f799a31978f",
-  "createdAt": "2025-04-15T07:16:41.521Z",
+  "manifestHash": "ce8ce1323d7096592c0ffd1fee559dd7",
+  "createdAt": "2025-04-15T08:56:02.503Z",
   "builder": [
     {
       "type": "nixpacks",

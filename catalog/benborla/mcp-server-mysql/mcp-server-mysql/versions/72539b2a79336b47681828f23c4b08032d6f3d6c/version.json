@@ -125,11 +125,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "MCP Server for MySQL based on NodeJS",
+    "title": "MCP Server for MySQL",
     "description": "A Model Context Protocol server that provides access to MySQL databases. This server enables LLMs to inspect database schemas and execute SQL queries."
   },
-  "manifestHash": "92e5c2b18b3f566c8a58520269a03447",
-  "createdAt": "2025-04-15T07:16:21.386Z",
+  "manifestHash": "50150fec6e3fc7ba2d258488bbce0b4d",
+  "createdAt": "2025-04-15T08:55:58.495Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -16,11 +16,11 @@
       "configValues": []
     },
     "subdirectory": "/",
-    "title": "Crypto Trader MCP Tool for Claude Desktop",
+    "title": "Crypto Trader MCP Tool",
     "description": "An MCP (Model Context Protocol) tool that provides cryptocurrency market data using the CoinGecko API, specifically designed for Claude Desktop."
   },
-  "manifestHash": "c762776ebf71b04e87ec5167d716aa03",
-  "createdAt": "2025-04-15T07:16:16.645Z",
+  "manifestHash": "798f6e5b6fab510edf46a17f9c46cd92",
+  "createdAt": "2025-04-15T08:55:55.747Z",
   "builder": [
     {
       "type": "nixpacks",

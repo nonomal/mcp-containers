@@ -1,7 +1,7 @@
 
-# 🐳 docker-mcp
+# Docker MCP
 
-A containerized version of "🐳 docker-mcp"
+A containerized version of "Docker MCP"
 
 > Repository: [QuantGeekDev/docker-mcp](https://github.com/QuantGeekDev/docker-mcp)
 

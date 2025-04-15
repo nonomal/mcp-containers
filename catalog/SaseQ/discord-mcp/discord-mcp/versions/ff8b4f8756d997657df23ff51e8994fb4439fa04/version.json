@@ -29,11 +29,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "# 📖 Description",
+    "title": "Discord MCP",
     "description": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server for the Discord API [(JDA)](https://jda.wiki/),"
   },
-  "manifestHash": "bafbee72cbc4d00ee9a628700f6b34c1",
-  "createdAt": "2025-04-15T07:16:16.934Z",
+  "manifestHash": "78ccf567ddd4f030f5bea04d457a5c18",
+  "createdAt": "2025-04-15T08:55:55.954Z",
   "builder": [
     {
       "type": "nixpacks",

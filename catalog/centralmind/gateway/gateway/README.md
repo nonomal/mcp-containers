@@ -1,7 +1,7 @@
 
-# # What is Centralmind/Gateway
+# CentralMind Gateway
 
-A containerized version of "# What is Centralmind/Gateway"
+A containerized version of "CentralMind Gateway"
 
 > Repository: [centralmind/gateway](https://github.com/centralmind/gateway)
 

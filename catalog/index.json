@@ -198,12 +198,6 @@
     "repoUrl": "https://github.com/GongRzhe/Quickchart-MCP-Server"
   },
   {
-    "id": "redis-mcp-server",
-    "owner": "GongRzhe",
-    "repo": "REDIS-MCP-Server",
-    "repoUrl": "https://github.com/GongRzhe/REDIS-MCP-Server"
-  },
-  {
     "id": "yuque-mcp-server",
     "owner": "HenryHaoson",
     "repo": "Yuque-MCP-Server",
@@ -298,12 +292,6 @@
     "owner": "OpenDataMCP",
     "repo": "OpenDataMCP",
     "repoUrl": "https://github.com/OpenDataMCP/OpenDataMCP"
-  },
-  {
-    "id": "vibe-check-mcp-server",
-    "owner": "PV-Bhat",
-    "repo": "vibe-check-mcp-server",
-    "repoUrl": "https://github.com/PV-Bhat/vibe-check-mcp-server"
   },
   {
     "id": "paddle-mcp-server",
@@ -804,22 +792,10 @@
     "repoUrl": "https://github.com/chigwell/telegram-mcp"
   },
   {
-    "id": "mcp-cli",
-    "owner": "chrishayuk",
-    "repo": "mcp-cli",
-    "repoUrl": "https://github.com/chrishayuk/mcp-cli"
-  },
-  {
     "id": "chroma-mcp",
     "owner": "chroma-core",
     "repo": "chroma-mcp",
     "repoUrl": "https://github.com/chroma-core/chroma-mcp"
-  },
-  {
-    "id": "mcp-server-docker",
-    "owner": "ckreiling",
-    "repo": "mcp-server-docker",
-    "repoUrl": "https://github.com/ckreiling/mcp-server-docker"
   },
   {
     "id": "mcp-server-cloudflare",
@@ -972,12 +948,6 @@
     "repoUrl": "https://github.com/erithwik/mcp-hn"
   },
   {
-    "id": "mcp-hfspace",
-    "owner": "evalstate",
-    "repo": "mcp-hfspace",
-    "repoUrl": "https://github.com/evalstate/mcp-hfspace"
-  },
-  {
     "id": "mcp-miro",
     "owner": "evalstate",
     "repo": "mcp-miro",
@@ -1000,12 +970,6 @@
     "owner": "exoticknight",
     "repo": "mcp-file-merger",
     "repoUrl": "https://github.com/exoticknight/mcp-file-merger"
-  },
-  {
-    "id": "codemcp",
-    "owner": "ezyang",
-    "repo": "codemcp",
-    "repoUrl": "https://github.com/ezyang/codemcp"
   },
   {
     "id": "mcp-mysql-server",
@@ -1068,12 +1032,6 @@
     "repoUrl": "https://github.com/furey/mongodb-lens"
   },
   {
-    "id": "mcp-server-commands",
-    "owner": "g0t4",
-    "repo": "mcp-server-commands",
-    "repoUrl": "https://github.com/g0t4/mcp-server-commands"
-  },
-  {
     "id": "firebase-mcp",
     "owner": "gannonh",
     "repo": "firebase-mcp",
@@ -1084,12 +1042,6 @@
     "owner": "genomoncology",
     "repo": "biomcp",
     "repoUrl": "https://github.com/genomoncology/biomcp"
-  },
-  {
-    "id": "nwc-mcp-server",
-    "owner": "getalby",
-    "repo": "nwc-mcp-server",
-    "repoUrl": "https://github.com/getalby/nwc-mcp-server"
   },
   {
     "id": "ashra-mcp",
@@ -1572,12 +1524,6 @@
     "repoUrl": "https://github.com/kw510/strava-mcp"
   },
   {
-    "id": "kicad-mcp",
-    "owner": "lamaalrajih",
-    "repo": "kicad-mcp",
-    "repoUrl": "https://github.com/lamaalrajih/kicad-mcp"
-  },
-  {
     "id": "mcp-server-multiverse",
     "owner": "lamemind",
     "repo": "mcp-server-multiverse",
@@ -1630,12 +1576,6 @@
     "owner": "lloydzhou",
     "repo": "bitable-mcp",
     "repoUrl": "https://github.com/lloydzhou/bitable-mcp"
-  },
-  {
-    "id": "hko-mcp",
-    "owner": "louiscklaw",
-    "repo": "hko-mcp",
-    "repoUrl": "https://github.com/louiscklaw/hko-mcp"
   },
   {
     "id": "mcp-server-kintone",
@@ -2470,12 +2410,6 @@
     "owner": "zhsama",
     "repo": "duckduckgo-mpc-server",
     "repoUrl": "https://github.com/zhsama/duckduckgo-mpc-server/"
-  },
-  {
-    "id": "mcp-manager",
-    "owner": "zueai",
-    "repo": "mcp-manager",
-    "repoUrl": "https://github.com/zueai/mcp-manager"
   },
   {
     "id": "mcp-server-amazon-bedrock",

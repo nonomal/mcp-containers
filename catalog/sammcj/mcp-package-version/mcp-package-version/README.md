@@ -7,7 +7,7 @@ A containerized version of "Package Version MCP Server"
 
 ## Description
 
-An MCP server that provides tools for checking latest stable package versions from multiple package registries:
+An MCP server that provides tools for checking latest stable package versions from multiple package registries.
 
 
 ## Usage

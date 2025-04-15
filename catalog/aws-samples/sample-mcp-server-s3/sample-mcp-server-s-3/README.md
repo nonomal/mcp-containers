@@ -1,7 +1,7 @@
 
-# Sample S3 Model Context Protocol Server
+# S3 Model Context Protocol Server
 
-A containerized version of "Sample S3 Model Context Protocol Server"
+A containerized version of "S3 Model Context Protocol Server"
 
 > Repository: [aws-samples/sample-mcp-server-s3](https://github.com/aws-samples/sample-mcp-server-s3)
 

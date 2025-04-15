@@ -1,7 +1,7 @@
 
-# # 📖 Description
+# Discord MCP
 
-A containerized version of "# 📖 Description"
+A containerized version of "Discord MCP"
 
 > Repository: [SaseQ/discord-mcp](https://github.com/SaseQ/discord-mcp)
 

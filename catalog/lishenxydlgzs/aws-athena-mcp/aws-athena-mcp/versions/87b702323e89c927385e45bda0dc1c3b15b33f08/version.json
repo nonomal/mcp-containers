@@ -53,11 +53,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "@lishenxydlgzs/aws-athena-mcp",
+    "title": "AWS Athena",
     "description": "A Model Context Protocol (MCP) server for running AWS Athena queries. This server enables AI assistants to execute SQL queries against your AWS Athena databases and retrieve results."
   },
-  "manifestHash": "ee71d974fb18ffa439260e1f2bba5d44",
-  "createdAt": "2025-04-15T07:16:39.270Z",
+  "manifestHash": "48e477189d56f45ad8e268d1057b8bde",
+  "createdAt": "2025-04-15T08:56:01.546Z",
   "builder": [
     {
       "type": "nixpacks",

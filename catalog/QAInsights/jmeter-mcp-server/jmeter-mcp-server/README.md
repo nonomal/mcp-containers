@@ -1,7 +1,7 @@
 
-# 🚀 JMeter MCP Server
+# JMeter MCP Server
 
-A containerized version of "🚀 JMeter MCP Server"
+A containerized version of "JMeter MCP Server"
 
 > Repository: [QAInsights/jmeter-mcp-server](https://github.com/QAInsights/jmeter-mcp-server)
 

@@ -76,11 +76,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "ADLS2 MCP Server 🚀",
+    "title": "ADLS2 MCP Server",
     "description": "A Model Context Protocol (MCP) server implementation for Azure Data Lake Storage Gen2. This service provides a standardized interface for interacting with ADLS2 storage, enabling file operations through MCP tools."
   },
-  "manifestHash": "0c65cbc663989e7c5824fee59651f420",
-  "createdAt": "2025-04-15T07:16:25.366Z",
+  "manifestHash": "dd3ccddc51a2ee7c6bc58fe7645f7af9",
+  "createdAt": "2025-04-15T08:55:58.781Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -1,25 +1,38 @@
 {
-  "serverId": "aws-samples/sample-mcp-server-s3/sample-mcp-server-s-3",
-  "version": "ccba106ae3acda67146219f3c5fca84711ce630a",
+  "serverId": "calvernaz/alphavantage/alphavantage",
+  "version": "e2c339fcdad2b142e2882750309fcb3955d3228f",
   "manifest": {
-    "id": "sample-mcp-server-s-3",
-    "fullId": "aws-samples/sample-mcp-server-s3/sample-mcp-server-s-3",
+    "id": "alphavantage",
+    "fullId": "calvernaz/alphavantage/alphavantage",
     "repo": {
       "provider": "github.com",
-      "owner": "aws-samples",
-      "repo": "sample-mcp-server-s3",
+      "owner": "calvernaz",
+      "repo": "alphavantage",
       "branch": "main",
-      "url": "https://github.com/aws-samples/sample-mcp-server-s3"
+      "url": "https://github.com/calvernaz/alphavantage"
     },
     "config": {
-      "configValues": []
+      "configValues": [
+        {
+          "title": "alphavantage-api-key",
+          "description": null,
+          "default": null,
+          "required": false,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "ALPHAVANTAGE_API_KEY"
+            }
+          ]
+        }
+      ]
     },
     "subdirectory": "/",
-    "title": "S3 Model Context Protocol Server",
-    "description": "An MCP server implementation for retrieving  data such as PDF's from S3."
+    "title": "Alphavantage MCP Server",
+    "description": "A MCP server for the stock market data API, Alphavantage API."
   },
-  "manifestHash": "8366b51db797b5692aa6f8f1c6b6ab58",
-  "createdAt": "2025-04-15T08:55:57.024Z",
+  "manifestHash": "c93940fa2a974e5fcb1015e5ed4e13bc",
+  "createdAt": "2025-04-15T08:55:57.535Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -67,7 +80,7 @@
           }
         },
         "start": {
-          "cmd": "python -m s3-mcp-server"
+          "cmd": "python -m alphavantage"
         }
       }
     }

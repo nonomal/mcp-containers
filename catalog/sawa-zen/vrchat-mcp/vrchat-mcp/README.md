@@ -1,7 +1,7 @@
 
-# # Overview
+# VRChat MCP Server
 
-A containerized version of "# Overview"
+A containerized version of "VRChat MCP Server"
 
 > Repository: [sawa-zen/vrchat-mcp](https://github.com/sawa-zen/vrchat-mcp)
 

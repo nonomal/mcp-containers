@@ -15,11 +15,11 @@
       "configValues": []
     },
     "subdirectory": "/",
-    "title": "🚀 JMeter MCP Server",
+    "title": "JMeter MCP Server",
     "description": "This is a Model Context Protocol (MCP) server that allows executing JMeter tests through MCP-compatible clients."
   },
-  "manifestHash": "33a0d697788d0e8b6d80a953e8cfd268",
-  "createdAt": "2025-04-15T07:16:16.181Z",
+  "manifestHash": "4faa4635739151b95b352c2ef3b36b24",
+  "createdAt": "2025-04-15T08:55:55.603Z",
   "builder": [
     {
       "type": "nixpacks",

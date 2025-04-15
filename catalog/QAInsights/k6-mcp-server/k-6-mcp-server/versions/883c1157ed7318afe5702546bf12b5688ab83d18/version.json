@@ -15,11 +15,11 @@
       "configValues": []
     },
     "subdirectory": "/",
-    "title": "🚀 ⚡️ k6-mcp-server",
+    "title": "k6-mcp-server",
     "description": "A Model Context Protocol (MCP) server implementation for running k6 load tests."
   },
-  "manifestHash": "60ad647c5a7602f36f0f4e4bd5fcc88f",
-  "createdAt": "2025-04-15T07:16:16.129Z",
+  "manifestHash": "afc717c04bf3df36012a79760cce2717",
+  "createdAt": "2025-04-15T08:55:55.492Z",
   "builder": [
     {
       "type": "nixpacks",

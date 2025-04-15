@@ -1,7 +1,7 @@
 
-# Overview
+# Eunomia MCP Server
 
-A containerized version of "Overview"
+A containerized version of "Eunomia MCP Server"
 
 > Repository: [whataboutyou-ai/eunomia-MCP-server](https://github.com/whataboutyou-ai/eunomia-MCP-server)
 

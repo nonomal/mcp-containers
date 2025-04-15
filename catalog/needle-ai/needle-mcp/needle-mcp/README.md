@@ -1,7 +1,7 @@
 
-# Build Agents with Needle MCP Server
+# Needle MCP Server
 
-A containerized version of "Build Agents with Needle MCP Server"
+A containerized version of "Needle MCP Server"
 
 > Repository: [needle-ai/needle-mcp](https://github.com/needle-ai/needle-mcp)
 

@@ -29,11 +29,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "🚀 GitLab MR MCP",
+    "title": "GitLab MR MCP",
     "description": "A Model Context Protocol (MCP) server for interacting with GitLab merge requests and issues."
   },
-  "manifestHash": "74f1528aa43f795cc329458727c72188",
-  "createdAt": "2025-04-15T07:16:37.593Z",
+  "manifestHash": "83692723afd1f9c7cd2fee3ec89a2990",
+  "createdAt": "2025-04-15T08:56:00.955Z",
   "builder": [
     {
       "type": "nixpacks",

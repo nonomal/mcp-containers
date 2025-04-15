@@ -1,7 +1,7 @@
 
-# @lishenxydlgzs/aws-athena-mcp
+# AWS Athena
 
-A containerized version of "@lishenxydlgzs/aws-athena-mcp"
+A containerized version of "AWS Athena"
 
 > Repository: [lishenxydlgzs/aws-athena-mcp](https://github.com/lishenxydlgzs/aws-athena-mcp)
 

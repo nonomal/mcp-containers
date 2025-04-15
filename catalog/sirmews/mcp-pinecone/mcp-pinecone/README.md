@@ -1,7 +1,7 @@
 
-# Pinecone Model Context Protocol Server for Claude Desktop.
+# Pinecone Model Context Protocol Server.
 
-A containerized version of "Pinecone Model Context Protocol Server for Claude Desktop."
+A containerized version of "Pinecone Model Context Protocol Server."
 
 > Repository: [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone)
 

@@ -29,11 +29,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "Tavily MCP Server 🚀",
+    "title": "Tavily MCP Server",
     "description": "An MCP server for Tavily search."
   },
-  "manifestHash": "4f67f1748e21a7856d27601a326403ca",
-  "createdAt": "2025-04-15T07:16:47.434Z",
+  "manifestHash": "ad100df35e9d3a965a7ff47979ef8cc8",
+  "createdAt": "2025-04-15T08:56:04.838Z",
   "builder": [
     {
       "type": "nixpacks",

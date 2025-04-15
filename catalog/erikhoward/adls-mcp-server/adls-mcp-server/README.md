@@ -1,7 +1,7 @@
 
-# ADLS2 MCP Server 🚀
+# ADLS2 MCP Server
 
-A containerized version of "ADLS2 MCP Server 🚀"
+A containerized version of "ADLS2 MCP Server"
 
 > Repository: [erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server)
 

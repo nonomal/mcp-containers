@@ -1,7 +1,7 @@
 
-# 🚀 GitLab MR MCP
+# GitLab MR MCP
 
-A containerized version of "🚀 GitLab MR MCP"
+A containerized version of "GitLab MR MCP"
 
 > Repository: [kopfrechner/gitlab-mr-mcp](https://github.com/kopfrechner/gitlab-mr-mcp)
 
