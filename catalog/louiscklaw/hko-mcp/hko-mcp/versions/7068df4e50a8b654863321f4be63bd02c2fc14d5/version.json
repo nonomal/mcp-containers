@@ -1,0 +1,80 @@
+{
+  "serverId": "louiscklaw/hko-mcp/hko-mcp",
+  "version": "7068df4e50a8b654863321f4be63bd02c2fc14d5",
+  "manifest": {
+    "id": "hko-mcp",
+    "fullId": "louiscklaw/hko-mcp/hko-mcp",
+    "repo": {
+      "provider": "github.com",
+      "owner": "louiscklaw",
+      "repo": "hko-mcp",
+      "branch": "master",
+      "url": "https://github.com/louiscklaw/hko-mcp"
+    },
+    "config": {
+      "argumentsTemplate": null,
+      "configValues": []
+    },
+    "subdirectory": "/",
+    "title": "hko_mcp",
+    "description": "Fetch data from Hong Kong Observatory with MCP."
+  },
+  "manifestHash": "e21dd95c2ce6864a97fd09e9672ae8a6",
+  "createdAt": "2025-04-15T07:16:39.780Z",
+  "builder": [
+    {
+      "type": "nixpacks",
+      "plan": {
+        "providers": [],
+        "buildImage": "ghcr.io/railwayapp/nixpacks:ubuntu-1742861060",
+        "variables": {
+          "CI": "true",
+          "NIXPACKS_METADATA": "node",
+          "NODE_ENV": "production",
+          "NPM_CONFIG_PRODUCTION": "false"
+        },
+        "phases": {
+          "build": {
+            "dependsOn": [
+              "install"
+            ],
+            "cmds": [
+              "pnpm run build"
+            ],
+            "cacheDirectories": [
+              "node_modules/.cache"
+            ]
+          },
+          "install": {
+            "dependsOn": [
+              "setup"
+            ],
+            "cmds": [
+              "npm install -g corepack@0.24.1 && corepack enable",
+              "pnpm i --frozen-lockfile"
+            ],
+            "cacheDirectories": [
+              "/root/.local/share/pnpm/store/v3"
+            ],
+            "paths": [
+              "/app/node_modules/.bin"
+            ]
+          },
+          "setup": {
+            "nixPkgs": [
+              "nodejs_22",
+              "pnpm-9_x"
+            ],
+            "nixOverlays": [
+              "https://github.com/railwayapp/nix-npm-overlay/archive/main.tar.gz"
+            ],
+            "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
+          }
+        },
+        "start": {
+          "cmd": "pnpm run start"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "serverId": "evalstate/mcp-hfspace/mcp-hfspace",
+  "version": "e8f1d086dabb1a207352ac57e9ce1471f38c9430",
+  "manifest": {
+    "id": "mcp-hfspace",
+    "fullId": "evalstate/mcp-hfspace/mcp-hfspace",
+    "repo": {
+      "provider": "github.com",
+      "owner": "evalstate",
+      "repo": "mcp-hfspace",
+      "branch": "main",
+      "url": "https://github.com/evalstate/mcp-hfspace"
+    },
+    "config": {
+      "argumentsTemplate": null,
+      "configValues": []
+    },
+    "subdirectory": "/",
+    "title": "mcp-hfspace MCP Server 🤗",
+    "description": "Read the introduction here [llmindset.co.uk/resources/mcp-hfspace/](https://llmindset.co.uk/resources/mcp-hfspace/)"
+  },
+  "manifestHash": "5c33b1a6a389295fbaba7350c8591187",
+  "createdAt": "2025-04-15T07:16:25.778Z",
+  "builder": [
+    {
+      "type": "nixpacks",
+      "plan": {
+        "providers": [],
+        "buildImage": "ghcr.io/railwayapp/nixpacks:ubuntu-1742861060",
+        "variables": {
+          "CI": "true",
+          "NIXPACKS_METADATA": "node",
+          "NODE_ENV": "production",
+          "NPM_CONFIG_PRODUCTION": "false"
+        },
+        "phases": {
+          "build": {
+            "dependsOn": [
+              "install"
+            ],
+            "cmds": [
+              "npm run build"
+            ],
+            "cacheDirectories": [
+              "node_modules/.cache"
+            ]
+          },
+          "install": {
+            "dependsOn": [
+              "setup"
+            ],
+            "cmds": [
+              "npm ci"
+            ],
+            "cacheDirectories": [
+              "/root/.npm"
+            ],
+            "paths": [
+              "/app/node_modules/.bin"
+            ]
+          },
+          "setup": {
+            "nixPkgs": [
+              "nodejs_22",
+              "npm-9_x"
+            ],
+            "nixOverlays": [
+              "https://github.com/railwayapp/nix-npm-overlay/archive/main.tar.gz"
+            ],
+            "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
+          }
+        }
+      }
+    }
+  ]
+}
