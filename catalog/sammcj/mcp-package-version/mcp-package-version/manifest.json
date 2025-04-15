@@ -39,5 +39,5 @@
   },
   "subdirectory": "/",
   "title": "Package Version MCP Server",
-  "description": "An MCP server that provides tools for checking latest stable package versions from multiple package registries:"
+  "description": "An MCP server that provides tools for checking latest stable package versions from multiple package registries."
 }

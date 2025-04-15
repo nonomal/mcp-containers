@@ -29,7 +29,7 @@
       ]
     },
     "subdirectory": "/",
-    "title": "octomind mcp server: let agents create and manage e2e tests",
+    "title": "Octomind mcp server",
     "description": "An MCP server for octomind tools, resources and prompts"
   },
   "manifestHash": "702c996dcb31f48fc6e603dbf7955a73",

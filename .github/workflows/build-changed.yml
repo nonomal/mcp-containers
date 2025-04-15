@@ -37,13 +37,13 @@ jobs:
 
       - name: Changed servers
         run: |
-          echo "Changed files: ${{ steps.changed-files.outputs.all_changed_and_modified_files }}"
+          echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
 
       - name: Set server list
         id: set-servers
         run: |
           bun -e "console.log((${{
-            steps.changed-files.outputs.all_changed_and_modified_files
+            steps.changed-files.outputs.all_changed_files
           }}).map(s => s.trim()).filter(Boolean).filter(s => s.startsWith('catalog/')).map(s => s.replace('catalog/', '')).join(',').trim())" > server-list.json
           echo "server-list.json contents:"
           cat server-list.json

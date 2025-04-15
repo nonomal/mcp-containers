@@ -52,7 +52,7 @@ Follow these steps to get your environment ready and contribute:
 To make sure everything builds correctly:
 
 ```bash
-bun run build <github-org>/<github-repo>/<server-id>
+bun build single <github-org>/<github-repo>/<server-id>
 ```
 
 This will run the build process, which includes containerization steps using Docker and Nixpacks, and ensure your new server builds without issues.

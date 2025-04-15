@@ -25,6 +25,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "Build Agents with Needle MCP Server",
+  "title": "Needle MCP Server",
   "description": "MCP (Model Context Protocol) server to manage documents and perform searches using [Needle](https://needle-ai.com) through Claude’s Desktop Application."
 }

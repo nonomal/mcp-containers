@@ -62,6 +62,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "# Overview",
+  "title": "VRChat MCP Server",
   "description": "The VRChat MCP server provides a way to access VRChat's API endpoints in a structured manner. It supports a wide range of functionalities, including user authentication, retrieving user and friend information, accessing avatar and world data, and more."
 }

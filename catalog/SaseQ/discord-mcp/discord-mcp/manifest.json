@@ -26,6 +26,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "# 📖 Description",
+  "title": "Discord MCP",
   "description": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server for the Discord API [(JDA)](https://jda.wiki/),"
 }

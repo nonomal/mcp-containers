@@ -43,7 +43,12 @@ export let manifestSchema = z.object({
       buildDir: z.string().optional().nullable(),
 
       nixPackages: z.array(z.string()).optional().nullable(),
-      aptPackages: z.array(z.string()).optional().nullable()
+      aptPackages: z.array(z.string()).optional().nullable(),
+
+      platforms: z
+        .array(z.union([z.literal('linux/arm64'), z.literal('linux/amd64')]))
+        .optional()
+        .nullable()
     })
     .optional()
     .nullable()

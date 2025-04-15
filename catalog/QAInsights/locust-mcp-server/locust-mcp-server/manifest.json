@@ -12,6 +12,6 @@
     "configValues": []
   },
   "subdirectory": "/",
-  "title": "🚀 ⚡️ locust-mcp-server",
+  "title": "locust-mcp-server",
   "description": "A Model Context Protocol (MCP) server implementation for running Locust load tests. This server enables seamless integration of Locust load testing capabilities with AI-powered development environments."
 }

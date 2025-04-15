@@ -37,6 +37,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "Pinecone Model Context Protocol Server for Claude Desktop.",
+  "title": "Pinecone Model Context Protocol Server.",
   "description": "Read and write to a Pinecone index."
 }

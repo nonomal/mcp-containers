@@ -13,6 +13,6 @@
     "configValues": []
   },
   "subdirectory": "/",
-  "title": "🐳 docker-mcp",
+  "title": "Docker MCP",
   "description": "A powerful Model Context Protocol (MCP) server for Docker operations, enabling seamless container and compose stack management through Claude AI."
 }

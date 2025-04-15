@@ -12,6 +12,6 @@
     "configValues": []
   },
   "subdirectory": "/",
-  "title": "🚀 JMeter MCP Server",
+  "title": "JMeter MCP Server",
   "description": "This is a Model Context Protocol (MCP) server that allows executing JMeter tests through MCP-compatible clients."
 }

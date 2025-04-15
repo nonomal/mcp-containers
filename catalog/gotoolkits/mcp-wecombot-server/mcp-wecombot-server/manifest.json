@@ -26,6 +26,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "# 🚀 mcp-wecombot-server",
+  "title": "mcp-wecombot-server",
   "description": "An MCP server application that sends various types of messages to the WeCom group robot."
 }

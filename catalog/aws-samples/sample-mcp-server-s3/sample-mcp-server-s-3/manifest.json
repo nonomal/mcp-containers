@@ -12,6 +12,6 @@
     "configValues": []
   },
   "subdirectory": "/",
-  "title": "Sample S3 Model Context Protocol Server",
+  "title": "S3 Model Context Protocol Server",
   "description": "An MCP server implementation for retrieving  data such as PDF's from S3."
 }
