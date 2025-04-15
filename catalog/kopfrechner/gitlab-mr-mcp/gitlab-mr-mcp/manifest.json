@@ -26,6 +26,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "🚀 GitLab MR MCP",
+  "title": "GitLab MR MCP",
   "description": "A Model Context Protocol (MCP) server for interacting with GitLab merge requests and issues."
 }

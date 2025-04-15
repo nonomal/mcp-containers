@@ -17,13 +17,14 @@ env:
   REGISTRY: ghcr.io
 
 jobs:
-  get-version:
-    name: Get Latest Version
+  init:
+    name: Initialize "${{ inputs.server }}"
 
     runs-on: ubuntu-latest
 
     outputs:
       version: ${{ steps.get-version.outputs.version }}
+      platforms: ${{ steps.get-platforms.outputs.platforms }}
 
     steps:
       - name: Checkout
@@ -43,10 +44,18 @@ jobs:
           echo "Version: $(cat version.txt)"
           echo "::set-output name=version::$(cat version.txt)"
 
+      - name: Get Build Platforms
+        working-directory: 'scripts/build'
+        id: get-platforms
+        run: |
+          bun start get-build-platforms ${{ inputs.server }} > platforms.txt
+          echo "platforms: $(cat platforms.txt)"
+          echo "::set-output name=platforms::$(cat platforms.txt)"
+
   build:
     name: Build Container "${{ inputs.server }}"
 
-    needs: get-version
+    needs: init
 
     strategy:
       matrix:
@@ -86,16 +95,25 @@ jobs:
       - name: Install packages
         run: bun i
 
+      - name: Get Platform Name
+        run: |
+          if [[ "${{ matrix.platform }}" == "ubuntu-24.04-arm" ]]; then
+            echo "platform=linux/arm64" >> $GITHUB_ENV
+          else
+            echo "platform=linux/amd64" >> $GITHUB_ENV
+          fi
+
       - name: Build MCP Server
-        run: bun start ci ${{ inputs.server }} ${{ needs.get-version.outputs.version }} --platform ${{ matrix.platform == 'ubuntu-24.04-arm' && 'linux/arm64' || 'linux/amd64' }}
+        run: bun start ci ${{ inputs.server }} ${{ needs.init.outputs.version }} --platform ${{ env.platform }}
         working-directory: 'scripts/build'
+        if: contains(needs.init.outputs.platforms, env.platform)
 
   publish:
     name: Publish Container "${{ inputs.server }}"
 
     needs:
       - build
-      - get-version
+      - init
 
     runs-on: ubuntu-latest
 
@@ -125,5 +143,5 @@ jobs:
         run: bun i
 
       - name: Publish MCP Server
-        run: bun start ci-publish ${{ inputs.server }} ${{ needs.get-version.outputs.version }}
+        run: bun start ci-publish ${{ inputs.server }} ${{ needs.init.outputs.version }}
         working-directory: 'scripts/build'

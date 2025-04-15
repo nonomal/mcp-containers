@@ -38,6 +38,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "mcp-google-server A MCP Server for Google Custom Search and Webpage Reading",
+  "title": "Google Search MCP Server",
   "description": "A Model Context Protocol server that provides web search capabilities using Google Custom Search API and webpage content extraction functionality."
 }

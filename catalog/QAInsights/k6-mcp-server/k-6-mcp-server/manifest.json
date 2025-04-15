@@ -12,6 +12,6 @@
     "configValues": []
   },
   "subdirectory": "/",
-  "title": "🚀 ⚡️ k6-mcp-server",
+  "title": "k6-mcp-server",
   "description": "A Model Context Protocol (MCP) server implementation for running k6 load tests."
 }

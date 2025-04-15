@@ -1,7 +1,25 @@
 import type { ServerManifest } from '@metorial-mcp-containers/manifest';
+import fs from 'fs-extra';
+import path from 'path';
 import { stripMarkdown } from './stripMarkdown';
 
+let getServerMarkdown = async (server: ServerManifest) => {
+  return `- <img src="https://github.com/${
+    server.repo.owner
+  }.png?size=120" width="16px" height="16px" /> [${await stripMarkdown(
+    server.title,
+    'no-formatting'
+  )}](catalog/${server.fullId}/README.md) - ${await stripMarkdown(
+    server.description ?? '',
+    'simple-formatting'
+  )}`;
+};
+
 export let generateRepoReadme = async (servers: ServerManifest[]) => {
+  let featured = new Set<string>(
+    await fs.readJSON(path.join(__dirname, '../../../../featured.json'), 'utf-8')
+  );
+
   return `
 <img src="./assets/repo-header.png" alt="MCP Containers" width="100%" />
 
@@ -32,23 +50,17 @@ If there's a specific server you'd like to see included, feel free to open an is
 To use the containers, simply pull the Docker image for the server you want to use. 
 We have provided a list of available servers below, along with their respective readme files.
 
-## Available Servers
+## Featured Servers
 
 ${(
   await Promise.all(
-    servers.map(async server => {
-      return `- <img src="https://github.com/${
-        server.repo.owner
-      }.png?size=120" width="16px" height="16px" /> [${await stripMarkdown(
-        server.title,
-        'no-formatting'
-      )}](catalog/${server.fullId}/README.md) - ${await stripMarkdown(
-        server.description ?? '',
-        'simple-formatting'
-      )}`;
-    })
+    servers.filter(s => featured.has(s.fullId)).map(async server => getServerMarkdown(server))
   )
 ).join('\n')}
+
+## Available Servers
+
+${(await Promise.all(servers.map(async server => getServerMarkdown(server)))).join('\n')}
 
 # License
 

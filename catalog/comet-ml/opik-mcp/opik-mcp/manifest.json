@@ -49,6 +49,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "# 🚀 What is Opik MCP Server?",
+  "title": "Opik MCP Server",
   "description": "Opik MCP Server is an open-source implementation of the Model Context Protocol for the Opik platform. It provides a unified interface for interacting with Opik's capabilities, supporting multiple transport mechanisms for flexible integration into various environments."
 }
