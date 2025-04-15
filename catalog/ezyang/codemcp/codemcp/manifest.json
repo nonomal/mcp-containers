@@ -1,0 +1,17 @@
+{
+  "id": "codemcp",
+  "fullId": "ezyang/codemcp/codemcp",
+  "repo": {
+    "provider": "github.com",
+    "owner": "ezyang",
+    "repo": "codemcp",
+    "branch": "main",
+    "url": "https://github.com/ezyang/codemcp"
+  },
+  "config": {
+    "configValues": []
+  },
+  "subdirectory": "/",
+  "title": "codemcp",
+  "description": "Make Claude Desktop a pair programming assistant by installing codemcp.  With"
+}
