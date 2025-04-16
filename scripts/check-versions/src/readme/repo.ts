@@ -6,10 +6,10 @@ import { stripMarkdown } from './stripMarkdown';
 let getServerMarkdown = async (server: ServerManifest) => {
   return `- <img src="https://github.com/${
     server.repo.owner
-  }.png?size=120" width="16px" height="16px" /> [${await stripMarkdown(
+  }.png?size=120" width="12px" height="12px" /> **[${await stripMarkdown(
     server.title,
     'no-formatting'
-  )}](catalog/${server.fullId}/README.md) - ${await stripMarkdown(
+  )}](catalog/${server.fullId}/README.md)** - ${await stripMarkdown(
     server.description ?? '',
     'simple-formatting'
   )}`;
@@ -25,7 +25,7 @@ export let generateRepoReadme = async (servers: ServerManifest[]) => {
 
 <h1 align="center">MCP Containers</h1>
 
-<p align="center">Containerized versions of hundreds of <a href="https://modelcontextprotocol.io/introduction">MCP servers</a> 📡 🧠</p>
+<p align="center">Containerized versions of hundreds of <a href="https://modelcontextprotocol.io">MCP servers</a> 📡 🧠</p>
 
 ## Features
 
