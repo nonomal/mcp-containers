@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kukapay--uniswap-trader-mcp--uniswap-trader-mcp"
+        "ghcr.io/metorial/mcp-container--kukapay--uniswap-trader-mcp--uniswap-trader-mcp",
+        "node index.js"
       ],
       "env": {
         "INFURA_KEY": "infura-key",

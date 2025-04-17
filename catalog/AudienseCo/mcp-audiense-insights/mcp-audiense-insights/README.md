@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--audienseco--mcp-audiense-insights--mcp-audiense-insights"
+        "ghcr.io/metorial/mcp-container--audienseco--mcp-audiense-insights--mcp-audiense-insights",
+        "node ./build/index.js"
       ],
       "env": {
         "AUDIENSE_CLIENT_ID": "audiense-client-id",

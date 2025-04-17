@@ -32,7 +32,7 @@
     "description": "**✨ Instantly understand and visualize your codebase structure & dependencies! ✨**"
   },
   "manifestHash": "203cf6674816675420a753ad05cae35c",
-  "createdAt": "2025-04-14T15:21:13.449Z",
+  "createdAt": "2025-04-17T11:10:43.214Z",
   "builder": [
     {
       "type": "nixpacks",

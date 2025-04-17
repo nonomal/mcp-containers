@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--smn2gnt--mcp-salesforce--mcp-salesforce"
+        "ghcr.io/metorial/mcp-container--smn2gnt--mcp-salesforce--mcp-salesforce",
+        "salesforce"
       ],
       "env": {
         "SALESFORCE_USERNAME": "salesforce-username",

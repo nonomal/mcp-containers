@@ -57,8 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--ashiknesin--pushover-mcp--pushover-mcp",
-        "--token token",
-        "--user user"
+        "pnpm run start --token token --user user"
       ],
       "env": {}
     }

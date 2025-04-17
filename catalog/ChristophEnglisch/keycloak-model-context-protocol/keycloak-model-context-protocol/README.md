@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--christophenglisch--keycloak-model-context-protocol--keycloak-model-context-protocol"
+        "ghcr.io/metorial/mcp-container--christophenglisch--keycloak-model-context-protocol--keycloak-model-context-protocol",
+        "node ./dist/index.js"
       ],
       "env": {
         "KEYCLOAK_URL": "keycloak-url",

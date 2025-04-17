@@ -57,7 +57,7 @@
     "description": "A Model Context Protocol (MCP) server that connects to Databricks API, allowing LLMs to run SQL queries, list jobs, and get job status."
   },
   "manifestHash": "3f532adb87901bf5e75fedd009cb55e0",
-  "createdAt": "2025-04-15T07:16:14.431Z",
+  "createdAt": "2025-04-17T11:11:00.951Z",
   "builder": [
     {
       "type": "nixpacks",

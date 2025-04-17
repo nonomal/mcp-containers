@@ -57,8 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--ergut--mcp-bigquery-server--mcp-bigquery-server",
-        "--project-id project-id",
-        "--location location"
+        "node dist/index.js --project-id project-id --location location"
       ],
       "env": {}
     }

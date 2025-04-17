@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for NASA APIs, providing a standardized interface for AI models to interact with NASA's vast array of data sources. This server implements the official Model Context Protocol specification."
   },
   "manifestHash": "b79c3ee949a32126bca0200e36718439",
-  "createdAt": "2025-04-15T07:16:16.121Z",
+  "createdAt": "2025-04-17T11:11:10.296Z",
   "builder": [
     {
       "type": "nixpacks",

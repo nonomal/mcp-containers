@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--dogukanakkaya--pulumi-mcp-server--pulumi-mcp-server"
+        "ghcr.io/metorial/mcp-container--dogukanakkaya--pulumi-mcp-server--pulumi-mcp-server",
+        "npm run start"
       ],
       "env": {
         "PULUMI_ACCESS_TOKEN": "plumi-access-token"

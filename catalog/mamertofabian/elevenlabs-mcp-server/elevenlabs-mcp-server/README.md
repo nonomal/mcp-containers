@@ -61,7 +61,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mamertofabian--elevenlabs-mcp-server--elevenlabs-mcp-server"
+        "ghcr.io/metorial/mcp-container--mamertofabian--elevenlabs-mcp-server--elevenlabs-mcp-server",
+        "elevenlabs-mcp-server"
       ],
       "env": {
         "ELEVENLABS_API_KEY": "elevenlabs-api-key",

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--tomekkorbak--oura-mcp-server--oura-mcp-server"
+        "ghcr.io/metorial/mcp-container--tomekkorbak--oura-mcp-server--oura-mcp-server",
+        "oura-mcp-server"
       ],
       "env": {
         "OURA_API_TOKEN": "oura-api-token"

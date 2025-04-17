@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--seekrays--mcp-monitor--mcp-m
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--seekrays--mcp-monitor--mcp-monitor"
+        "ghcr.io/metorial/mcp-container--seekrays--mcp-monitor--mcp-monitor",
+        "./out"
       ],
       "env": {}
     }

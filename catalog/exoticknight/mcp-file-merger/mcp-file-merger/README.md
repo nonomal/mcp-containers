@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--exoticknight--mcp-file-merger--mcp-file-merger",
-        "{{DIR}}"
+        "node dist/index.js {{DIR}}"
       ],
       "env": {}
     }

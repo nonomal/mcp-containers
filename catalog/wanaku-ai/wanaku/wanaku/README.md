@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--wanaku-ai--wanaku--wanaku
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--wanaku-ai--wanaku--wanaku"
+        "ghcr.io/metorial/mcp-container--wanaku-ai--wanaku--wanaku",
+        "java  $JAVA_OPTS -jar target/*jar"
       ],
       "env": {}
     }

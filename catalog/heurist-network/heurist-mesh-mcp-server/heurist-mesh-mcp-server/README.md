@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--heurist-network--heurist-mesh-mcp-server--heurist-mesh-mcp-server"
+        "ghcr.io/metorial/mcp-container--heurist-network--heurist-mesh-mcp-server--heurist-mesh-mcp-server",
+        "mesh-tool-server"
       ],
       "env": {
         "HEURIST_API_KEY": "heurist-api-key"

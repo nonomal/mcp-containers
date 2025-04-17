@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--ktanaka101--mcp-server-duckd
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ktanaka101--mcp-server-duckdb--mcp-server-duckdb"
+        "ghcr.io/metorial/mcp-container--ktanaka101--mcp-server-duckdb--mcp-server-duckdb",
+        "mcp-server-duckdb"
       ],
       "env": {}
     }

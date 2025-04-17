@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--apinetwork--piapi-mcp-server--piapi-mcp-server"
+        "ghcr.io/metorial/mcp-container--apinetwork--piapi-mcp-server--piapi-mcp-server",
+        "node dist/index.js"
       ],
       "env": {
         "PIAPI_API_KEY": "piapi-api-key"

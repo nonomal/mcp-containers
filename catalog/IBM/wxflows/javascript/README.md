@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ibm--wxflows--javascript"
+        "ghcr.io/metorial/mcp-container--ibm--wxflows--javascript",
+        "node ./build/index.js"
       ],
       "env": {
         "WXFLOWS_APIKEY": "wxflows-apikey",

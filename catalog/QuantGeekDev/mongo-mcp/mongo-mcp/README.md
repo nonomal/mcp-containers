@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--quantgeekdev--mongo-mcp--mongo-mcp",
-        "{{MONGODB_URI}}"
+        "node dist/index.js {{MONGODB_URI}}"
       ],
       "env": {}
     }

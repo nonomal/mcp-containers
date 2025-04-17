@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--andybrandt--mcp-simple-openai-assistant--mcp-simple-openai-assistant"
+        "ghcr.io/metorial/mcp-container--andybrandt--mcp-simple-openai-assistant--mcp-simple-openai-assistant",
+        "mcp-simple-openai-assistant"
       ],
       "env": {
         "OPENAI_API_KEY": "openai-api-key"

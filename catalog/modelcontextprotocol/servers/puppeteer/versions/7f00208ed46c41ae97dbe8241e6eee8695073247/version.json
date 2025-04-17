@@ -25,7 +25,7 @@
     }
   },
   "manifestHash": "df2604b2645036cc2b6d465cbc3b34b8",
-  "createdAt": "2025-04-16T17:13:13.901Z",
+  "createdAt": "2025-04-17T11:11:08.296Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -44,7 +44,7 @@
               "install"
             ],
             "cmds": [
-              "npm run build"
+              "cd ./src/puppeteer && npm run build"
             ],
             "cacheDirectories": [
               "node_modules/.cache"
@@ -87,6 +87,9 @@
               "libglu1"
             ]
           }
+        },
+        "start": {
+          "cmd": "cd ./src/puppeteer && node ./dist/index.js"
         }
       }
     }

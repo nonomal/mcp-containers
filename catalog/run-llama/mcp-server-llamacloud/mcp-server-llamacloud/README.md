@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--run-llama--mcp-server-llamacloud--mcp-server-llamacloud"
+        "ghcr.io/metorial/mcp-container--run-llama--mcp-server-llamacloud--mcp-server-llamacloud",
+        "node ./build/index.js"
       ],
       "env": {
         "LLAMA_CLOUD_PROJECT_NAME": "llama-cloud-project-name",

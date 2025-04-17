@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ac3xx--mcp-servers-kagi--mcp-servers-kagi"
+        "ghcr.io/metorial/mcp-container--ac3xx--mcp-servers-kagi--mcp-servers-kagi",
+        "node ./build/index.js"
       ],
       "env": {
         "KAGI_API_KEY": "kagi-api-key"

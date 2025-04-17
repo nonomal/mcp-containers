@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kagisearch--kagimcp--kagimcp"
+        "ghcr.io/metorial/mcp-container--kagisearch--kagimcp--kagimcp",
+        "kagimcp"
       ],
       "env": {
         "KAGI_API_KEY": "kagi-api-key",

@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--bazinga012--mcp_code_executor--mcp-code-executor"
+        "ghcr.io/metorial/mcp-container--bazinga012--mcp_code_executor--mcp-code-executor",
+        "node ./build/index.js"
       ],
       "env": {
         "CODE_STORAGE_DIR": "code-storage-dir",

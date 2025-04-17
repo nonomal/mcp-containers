@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that provides JSON-RPC functionality through [OpenRPC](https://open-rpc.org)."
   },
   "manifestHash": "b2286f4bf4d481765cc99c2ce227c9fe",
-  "createdAt": "2025-04-15T07:16:45.592Z",
+  "createdAt": "2025-04-17T11:11:13.664Z",
   "builder": [
     {
       "type": "nixpacks",

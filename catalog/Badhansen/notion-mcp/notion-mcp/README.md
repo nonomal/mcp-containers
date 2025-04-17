@@ -58,7 +58,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--badhansen--notion-mcp--notion-mcp"
+        "ghcr.io/metorial/mcp-container--badhansen--notion-mcp--notion-mcp",
+        "uv run main_adfin_mcp.py"
       ],
       "env": {
         "NOTION_TOKEN": "notion-token",

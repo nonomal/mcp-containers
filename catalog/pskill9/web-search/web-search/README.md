@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--pskill9--web-search--web-sea
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--pskill9--web-search--web-search"
+        "ghcr.io/metorial/mcp-container--pskill9--web-search--web-search",
+        "node ./build/index.js"
       ],
       "env": {}
     }

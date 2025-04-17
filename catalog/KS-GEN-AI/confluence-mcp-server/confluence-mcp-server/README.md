@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ks-gen-ai--confluence-mcp-server--confluence-mcp-server"
+        "ghcr.io/metorial/mcp-container--ks-gen-ai--confluence-mcp-server--confluence-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {
         "CONFLUENCE_URL": "confluence-url",

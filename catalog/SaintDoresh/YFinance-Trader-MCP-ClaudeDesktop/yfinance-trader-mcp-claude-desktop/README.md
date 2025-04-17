@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--saintdoresh--yfinance-trader
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--saintdoresh--yfinance-trader-mcp-claudedesktop--yfinance-trader-mcp-claude-desktop"
+        "ghcr.io/metorial/mcp-container--saintdoresh--yfinance-trader-mcp-claudedesktop--yfinance-trader-mcp-claude-desktop",
+        "python main.py"
       ],
       "env": {}
     }

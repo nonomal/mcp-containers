@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--bigsy--clojars-mcp-server--c
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--bigsy--clojars-mcp-server--clojars-mcp-server"
+        "ghcr.io/metorial/mcp-container--bigsy--clojars-mcp-server--clojars-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {}
     }

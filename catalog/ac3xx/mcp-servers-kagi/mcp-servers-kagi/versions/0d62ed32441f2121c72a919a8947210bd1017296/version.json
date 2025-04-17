@@ -33,7 +33,7 @@
     "description": "MCP server for Kagi API integration"
   },
   "manifestHash": "d6b9017c9139f5c6d6c772c33d478471",
-  "createdAt": "2025-04-14T15:21:13.341Z",
+  "createdAt": "2025-04-17T11:10:42.789Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

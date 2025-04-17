@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--bigcodegen--mcp-neovim-server--mcp-neovim-server"
+        "ghcr.io/metorial/mcp-container--bigcodegen--mcp-neovim-server--mcp-neovim-server",
+        "node build/index.js"
       ],
       "env": {
         "ALLOW_SHELL_COMMANDS": "allow-shell-commands",

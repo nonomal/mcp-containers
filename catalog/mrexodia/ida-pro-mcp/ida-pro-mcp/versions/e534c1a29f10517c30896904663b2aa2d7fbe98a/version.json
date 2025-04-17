@@ -19,7 +19,7 @@
     "description": "Simple [MCP Server](https://modelcontextprotocol.io/introduction) to allow vibe reversing in IDA Pro."
   },
   "manifestHash": "2df99876956e49ed84492a896c0147c3",
-  "createdAt": "2025-04-15T07:16:41.409Z",
+  "createdAt": "2025-04-17T11:11:08.723Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -67,7 +67,7 @@
           }
         },
         "start": {
-          "cmd": "python -m ida-pro-mcp"
+          "cmd": "ida-pro-mcp"
         }
       }
     }

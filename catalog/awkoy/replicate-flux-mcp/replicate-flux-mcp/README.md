@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--awkoy--replicate-flux-mcp--replicate-flux-mcp"
+        "ghcr.io/metorial/mcp-container--awkoy--replicate-flux-mcp--replicate-flux-mcp",
+        "node build/index.js"
       ],
       "env": {
         "REPLICATE_API_TOKEN": "replicate-api-token"

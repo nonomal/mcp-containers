@@ -61,7 +61,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--agentmail-to--agentmail-toolkit--mcp",
-        "--api-key your-agentmail-api-key"
+        "agentmail-mcp --api-key your-agentmail-api-key"
       ],
       "env": {
         "YOUR_AGENTMAIL_API_KEY": "your-agentmail-api-key",

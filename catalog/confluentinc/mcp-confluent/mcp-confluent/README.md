@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--confluentinc--mcp-confluent-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--confluentinc--mcp-confluent--mcp-confluent"
+        "ghcr.io/metorial/mcp-container--confluentinc--mcp-confluent--mcp-confluent",
+        "npm run start"
       ],
       "env": {}
     }

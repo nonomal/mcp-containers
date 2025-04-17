@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--bharathvaj-ganesan--whois-mc
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--bharathvaj-ganesan--whois-mcp--whois-mcp"
+        "ghcr.io/metorial/mcp-container--bharathvaj-ganesan--whois-mcp--whois-mcp",
+        "node dist/index.js"
       ],
       "env": {}
     }

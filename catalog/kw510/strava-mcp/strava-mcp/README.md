@@ -43,7 +43,7 @@ docker run -it --rm ghcr.io/metorial/mcp-container--kw510--strava-mcp--strava-mc
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--kw510--strava-mcp--strava-mcp",
-        "https://mcp-strava-oauth.<your-subdomain>.workers.dev/sse"
+        "yarn run start https://mcp-strava-oauth.<your-subdomain>.workers.dev/sse"
       ],
       "env": {}
     }

@@ -30,18 +30,6 @@
     "repoUrl": "https://github.com/66julienmartin/MCP-server-Deepseek_R1"
   },
   {
-    "id": "ai-agent-marketplace-index-mcp",
-    "owner": "AI-Agent-Hub",
-    "repo": "ai-agent-marketplace-index-mcp",
-    "repoUrl": "https://github.com/AI-Agent-Hub/ai-agent-marketplace-index-mcp"
-  },
-  {
-    "id": "chat-mcp",
-    "owner": "AI-QL",
-    "repo": "chat-mcp",
-    "repoUrl": "https://github.com/AI-QL/chat-mcp"
-  },
-  {
     "id": "bitcoin-mcp",
     "owner": "AbdelStark",
     "repo": "bitcoin-mcp",
@@ -52,456 +40,6 @@
     "owner": "AbdelStark",
     "repo": "nostr-mcp",
     "repoUrl": "https://github.com/AbdelStark/nostr-mcp"
-  },
-  {
-    "id": "discourse-mcp-server",
-    "owner": "AshDevFr",
-    "repo": "discourse-mcp-server",
-    "repoUrl": "https://github.com/AshDevFr/discourse-mcp-server"
-  },
-  {
-    "id": "mcp-audiense-insights",
-    "owner": "AudienseCo",
-    "repo": "mcp-audiense-insights",
-    "repoUrl": "https://github.com/AudienseCo/mcp-audiense-insights"
-  },
-  {
-    "id": "mcp-server-playwright",
-    "owner": "Automata-Labs-team",
-    "repo": "MCP-Server-Playwright",
-    "repoUrl": "https://github.com/Automata-Labs-team/MCP-Server-Playwright"
-  },
-  {
-    "id": "notion-mcp",
-    "owner": "Badhansen",
-    "repo": "notion-mcp",
-    "repoUrl": "https://github.com/Badhansen/notion-mcp"
-  },
-  {
-    "id": "onchain-mcp",
-    "owner": "Bankless",
-    "repo": "onchain-mcp",
-    "repoUrl": "https://github.com/Bankless/onchain-mcp/"
-  },
-  {
-    "id": "clojars-mcp-server",
-    "owner": "Bigsy",
-    "repo": "Clojars-MCP-Server",
-    "repoUrl": "https://github.com/Bigsy/Clojars-MCP-Server"
-  },
-  {
-    "id": "starwind-ui-mcp",
-    "owner": "Boston343",
-    "repo": "starwind-ui-mcp",
-    "repoUrl": "https://github.com/Boston343/starwind-ui-mcp"
-  },
-  {
-    "id": "mcp-maigret",
-    "owner": "BurtTheCoder",
-    "repo": "mcp-maigret",
-    "repoUrl": "https://github.com/BurtTheCoder/mcp-maigret"
-  },
-  {
-    "id": "mcp-shodan",
-    "owner": "BurtTheCoder",
-    "repo": "mcp-shodan",
-    "repoUrl": "https://github.com/BurtTheCoder/mcp-shodan"
-  },
-  {
-    "id": "mcp-virustotal",
-    "owner": "BurtTheCoder",
-    "repo": "mcp-virustotal",
-    "repoUrl": "https://github.com/BurtTheCoder/mcp-virustotal"
-  },
-  {
-    "id": "server-google-news",
-    "owner": "ChanMeng666",
-    "repo": "server-google-news",
-    "repoUrl": "https://github.com/ChanMeng666/server-google-news"
-  },
-  {
-    "id": "keycloak-model-context-protocol",
-    "owner": "ChristophEnglisch",
-    "repo": "keycloak-model-context-protocol",
-    "repoUrl": "https://github.com/ChristophEnglisch/keycloak-model-context-protocol"
-  },
-  {
-    "id": "mcp-server-circleci",
-    "owner": "CircleCI-Public",
-    "repo": "mcp-server-circleci",
-    "repoUrl": "https://github.com/CircleCI-Public/mcp-server-circleci"
-  },
-  {
-    "id": "deepseek-mcp-server",
-    "owner": "DMontgomery40",
-    "repo": "deepseek-mcp-server",
-    "repoUrl": "https://github.com/DMontgomery40/deepseek-mcp-server"
-  },
-  {
-    "id": "mcp-server-dumplingai",
-    "owner": "Dumpling-AI",
-    "repo": "mcp-server-dumplingai",
-    "repoUrl": "https://github.com/Dumpling-AI/mcp-server-dumplingai"
-  },
-  {
-    "id": "mcp",
-    "owner": "EduBase",
-    "repo": "MCP",
-    "repoUrl": "https://github.com/EduBase/MCP"
-  },
-  {
-    "id": "mcp-server-kubernetes",
-    "owner": "Flux159",
-    "repo": "mcp-server-kubernetes",
-    "repoUrl": "https://github.com/Flux159/mcp-server-kubernetes"
-  },
-  {
-    "id": "figma-context-mcp",
-    "owner": "GLips",
-    "repo": "Figma-Context-MCP",
-    "repoUrl": "https://github.com/GLips/Figma-Context-MCP"
-  },
-  {
-    "id": "datadog-mcp-server",
-    "owner": "GeLi2001",
-    "repo": "datadog-mcp-server",
-    "repoUrl": "https://github.com/GeLi2001/datadog-mcp-server"
-  },
-  {
-    "id": "shopify-mcp",
-    "owner": "GeLi2001",
-    "repo": "shopify-mcp",
-    "repoUrl": "https://github.com/GeLi2001/shopify-mcp"
-  },
-  {
-    "id": "tft-mcp-server",
-    "owner": "GeLi2001",
-    "repo": "tft-mcp-server",
-    "repoUrl": "https://github.com/GeLi2001/tft-mcp-server"
-  },
-  {
-    "id": "json-mcp-server",
-    "owner": "GongRzhe",
-    "repo": "JSON-MCP-Server",
-    "repoUrl": "https://github.com/GongRzhe/JSON-MCP-Server"
-  },
-  {
-    "id": "langflow-doc-qa-server",
-    "owner": "GongRzhe",
-    "repo": "Langflow-DOC-QA-SERVER",
-    "repoUrl": "https://github.com/GongRzhe/Langflow-DOC-QA-SERVER"
-  },
-  {
-    "id": "quickchart-mcp-server",
-    "owner": "GongRzhe",
-    "repo": "Quickchart-MCP-Server",
-    "repoUrl": "https://github.com/GongRzhe/Quickchart-MCP-Server"
-  },
-  {
-    "id": "yuque-mcp-server",
-    "owner": "HenryHaoson",
-    "repo": "Yuque-MCP-Server",
-    "repoUrl": "https://github.com/HenryHaoson/Yuque-MCP-Server"
-  },
-  {
-    "id": "qasphere-mcp",
-    "owner": "Hypersequent",
-    "repo": "qasphere-mcp",
-    "repoUrl": "https://github.com/Hypersequent/qasphere-mcp"
-  },
-  {
-    "id": "javascript",
-    "owner": "IBM",
-    "repo": "wxflows",
-    "repoUrl": "https://github.com/IBM/wxflows"
-  },
-  {
-    "id": "mcp-image-compression",
-    "owner": "InhiblabCore",
-    "repo": "mcp-image-compression",
-    "repoUrl": "https://github.com/InhiblabCore/mcp-image-compression"
-  },
-  {
-    "id": "mcp-jetbrains",
-    "owner": "JetBrains",
-    "repo": "mcp-jetbrains",
-    "repoUrl": "https://github.com/JetBrains/mcp-jetbrains"
-  },
-  {
-    "id": "mcp-proxy",
-    "owner": "JetBrains",
-    "repo": "mcpProxy",
-    "repoUrl": "https://github.com/JetBrains/mcpProxy"
-  },
-  {
-    "id": "mcp-databricks-server",
-    "owner": "JordiNeil",
-    "repo": "mcp-databricks-server",
-    "repoUrl": "https://github.com/JordiNeil/mcp-databricks-server"
-  },
-  {
-    "id": "app-store-connect-mcp-server",
-    "owner": "JoshuaRileyDev",
-    "repo": "app-store-connect-mcp-server",
-    "repoUrl": "https://github.com/JoshuaRileyDev/app-store-connect-mcp-server"
-  },
-  {
-    "id": "confluence-mcp-server",
-    "owner": "KS-GEN-AI",
-    "repo": "confluence-mcp-server",
-    "repoUrl": "https://github.com/KS-GEN-AI/confluence-mcp-server"
-  },
-  {
-    "id": "jira-mcp-server",
-    "owner": "KS-GEN-AI",
-    "repo": "jira-mcp-server",
-    "repoUrl": "https://github.com/KS-GEN-AI/jira-mcp-server"
-  },
-  {
-    "id": "mcp-konnect",
-    "owner": "Kong",
-    "repo": "mcp-konnect",
-    "repoUrl": "https://github.com/Kong/mcp-konnect"
-  },
-  {
-    "id": "mcp-server-nationalparks",
-    "owner": "KyrieTangSheng",
-    "repo": "mcp-server-nationalparks",
-    "repoUrl": "https://github.com/KyrieTangSheng/mcp-server-nationalparks"
-  },
-  {
-    "id": "mcp-server-tmdb",
-    "owner": "Laksh-star",
-    "repo": "mcp-server-tmdb",
-    "repoUrl": "https://github.com/Laksh-star/mcp-server-tmdb"
-  },
-  {
-    "id": "octagon-mcp-server",
-    "owner": "OctagonAI",
-    "repo": "octagon-mcp-server",
-    "repoUrl": "https://github.com/OctagonAI/octagon-mcp-server"
-  },
-  {
-    "id": "octomind-mcp",
-    "owner": "OctoMind-dev",
-    "repo": "octomind-mcp",
-    "repoUrl": "https://github.com/OctoMind-dev/octomind-mcp"
-  },
-  {
-    "id": "open-data-mcp",
-    "owner": "OpenDataMCP",
-    "repo": "OpenDataMCP",
-    "repoUrl": "https://github.com/OpenDataMCP/OpenDataMCP"
-  },
-  {
-    "id": "paddle-mcp-server",
-    "owner": "PaddleHQ",
-    "repo": "paddle-mcp-server",
-    "repoUrl": "https://github.com/PaddleHQ/paddle-mcp-server"
-  },
-  {
-    "id": "posthog-mcp",
-    "owner": "PostHog",
-    "repo": "posthog-mcp",
-    "repoUrl": "https://github.com/PostHog/posthog-mcp"
-  },
-  {
-    "id": "nasa-mcp-server",
-    "owner": "ProgramComputer",
-    "repo": "NASA-MCP-server",
-    "repoUrl": "https://github.com/ProgramComputer/NASA-MCP-server"
-  },
-  {
-    "id": "jmeter-mcp-server",
-    "owner": "QAInsights",
-    "repo": "jmeter-mcp-server",
-    "repoUrl": "https://github.com/QAInsights/jmeter-mcp-server"
-  },
-  {
-    "id": "k-6-mcp-server",
-    "owner": "QAInsights",
-    "repo": "k6-mcp-server",
-    "repoUrl": "https://github.com/QAInsights/k6-mcp-server"
-  },
-  {
-    "id": "locust-mcp-server",
-    "owner": "QAInsights",
-    "repo": "locust-mcp-server",
-    "repoUrl": "https://github.com/QAInsights/locust-mcp-server"
-  },
-  {
-    "id": "coincap-mcp",
-    "owner": "QuantGeekDev",
-    "repo": "coincap-mcp",
-    "repoUrl": "https://github.com/QuantGeekDev/coincap-mcp"
-  },
-  {
-    "id": "docker-mcp",
-    "owner": "QuantGeekDev",
-    "repo": "docker-mcp",
-    "repoUrl": "https://github.com/QuantGeekDev/docker-mcp"
-  },
-  {
-    "id": "mongo-mcp",
-    "owner": "QuantGeekDev",
-    "repo": "mongo-mcp",
-    "repoUrl": "https://github.com/QuantGeekDev/mongo-mcp"
-  },
-  {
-    "id": "mcp-openapi",
-    "owner": "ReAPI-com",
-    "repo": "mcp-openapi",
-    "repoUrl": "https://github.com/ReAPI-com/mcp-openapi"
-  },
-  {
-    "id": "rootly-mcp-server",
-    "owner": "Rootly-AI-Labs",
-    "repo": "Rootly-MCP-server",
-    "repoUrl": "https://github.com/Rootly-AI-Labs/Rootly-MCP-server"
-  },
-  {
-    "id": "mcp-claude-code",
-    "owner": "SDGLBL",
-    "repo": "mcp-claude-code",
-    "repoUrl": "https://github.com/SDGLBL/mcp-claude-code"
-  },
-  {
-    "id": "crypto-trader-mcp-claude-desktop",
-    "owner": "SaintDoresh",
-    "repo": "Crypto-Trader-MCP-ClaudeDesktop",
-    "repoUrl": "https://github.com/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop"
-  },
-  {
-    "id": "weather-mcp-claude-desktop",
-    "owner": "SaintDoresh",
-    "repo": "Weather-MCP-ClaudeDesktop",
-    "repoUrl": "https://github.com/SaintDoresh/Weather-MCP-ClaudeDesktop"
-  },
-  {
-    "id": "yfinance-trader-mcp-claude-desktop",
-    "owner": "SaintDoresh",
-    "repo": "YFinance-Trader-MCP-ClaudeDesktop",
-    "repoUrl": "https://github.com/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop"
-  },
-  {
-    "id": "discord-mcp",
-    "owner": "SaseQ",
-    "repo": "discord-mcp",
-    "repoUrl": "https://github.com/SaseQ/discord-mcp"
-  },
-  {
-    "id": "mcp-searxng",
-    "owner": "SecretiveShell",
-    "repo": "MCP-searxng",
-    "repoUrl": "https://github.com/SecretiveShell/MCP-searxng"
-  },
-  {
-    "id": "mcp-timeserver",
-    "owner": "SecretiveShell",
-    "repo": "MCP-timeserver",
-    "repoUrl": "https://github.com/SecretiveShell/MCP-timeserver"
-  },
-  {
-    "id": "mcp-wolfram-alpha",
-    "owner": "SecretiveShell",
-    "repo": "MCP-wolfram-alpha",
-    "repoUrl": "https://github.com/SecretiveShell/MCP-wolfram-alpha"
-  },
-  {
-    "id": "tiktok-mcp",
-    "owner": "Seym0n",
-    "repo": "tiktok-mcp",
-    "repoUrl": "https://github.com/Seym0n/tiktok-mcp"
-  },
-  {
-    "id": "opencti-mcp",
-    "owner": "Spathodea-Network",
-    "repo": "opencti-mcp",
-    "repoUrl": "https://github.com/Spathodea-Network/opencti-mcp"
-  },
-  {
-    "id": "mcp-server-starrocks",
-    "owner": "StarRocks",
-    "repo": "mcp-server-starrocks",
-    "repoUrl": "https://github.com/StarRocks/mcp-server-starrocks"
-  },
-  {
-    "id": "bsc-mcp",
-    "owner": "TermiX-official",
-    "repo": "bsc-mcp",
-    "repoUrl": "https://github.com/TermiX-official/bsc-mcp"
-  },
-  {
-    "id": "mcp-server-azure-devops",
-    "owner": "Tiberriver256",
-    "repo": "mcp-server-azure-devops",
-    "repoUrl": "https://github.com/Tiberriver256/mcp-server-azure-devops"
-  },
-  {
-    "id": "mcp-server-tavily",
-    "owner": "Tomatio13",
-    "repo": "mcp-server-tavily",
-    "repoUrl": "https://github.com/Tomatio13/mcp-server-tavily"
-  },
-  {
-    "id": "uns-mcp",
-    "owner": "Unstructured-IO",
-    "repo": "UNS-MCP",
-    "repoUrl": "https://github.com/Unstructured-IO/UNS-MCP"
-  },
-  {
-    "id": "didlogic-mcp",
-    "owner": "UserAd",
-    "repo": "didlogic_mcp",
-    "repoUrl": "https://github.com/UserAd/didlogic_mcp"
-  },
-  {
-    "id": "verodat-mcp-server",
-    "owner": "Verodat",
-    "repo": "verodat-mcp-server",
-    "repoUrl": "https://github.com/Verodat/verodat-mcp-server"
-  },
-  {
-    "id": "veyrax-mcp",
-    "owner": "VeyraX",
-    "repo": "veyrax-mcp",
-    "repoUrl": "https://github.com/VeyraX/veyrax-mcp"
-  },
-  {
-    "id": "mcp-azure-devops",
-    "owner": "Vortiago",
-    "repo": "mcp-azure-devops",
-    "repoUrl": "https://github.com/Vortiago/mcp-azure-devops"
-  },
-  {
-    "id": "xero-mcp-server",
-    "owner": "XeroAPI",
-    "repo": "xero-mcp-server",
-    "repoUrl": "https://github.com/XeroAPI/xero-mcp-server"
-  },
-  {
-    "id": "mcp-server-opendal",
-    "owner": "Xuanwo",
-    "repo": "mcp-server-opendal",
-    "repoUrl": "https://github.com/Xuanwo/mcp-server-opendal"
-  },
-  {
-    "id": "multi-ai-advisor-mcp",
-    "owner": "YuChenSSR",
-    "repo": "multi-ai-advisor-mcp",
-    "repoUrl": "https://github.com/YuChenSSR/multi-ai-advisor-mcp"
-  },
-  {
-    "id": "go-mcp-mysql",
-    "owner": "Zhwt",
-    "repo": "go-mcp-mysql",
-    "repoUrl": "https://github.com/Zhwt/go-mcp-mysql"
-  },
-  {
-    "id": "claude-post",
-    "owner": "ZilongXue",
-    "repo": "claude-post",
-    "repoUrl": "https://github.com/ZilongXue/claude-post"
   },
   {
     "id": "todoist-mcp-server",
@@ -544,6 +82,18 @@
     "owner": "ahnlabio",
     "repo": "bicscan-mcp",
     "repoUrl": "https://github.com/ahnlabio/bicscan-mcp"
+  },
+  {
+    "id": "ai-agent-marketplace-index-mcp",
+    "owner": "AI-Agent-Hub",
+    "repo": "ai-agent-marketplace-index-mcp",
+    "repoUrl": "https://github.com/AI-Agent-Hub/ai-agent-marketplace-index-mcp"
+  },
+  {
+    "id": "chat-mcp",
+    "owner": "AI-QL",
+    "repo": "chat-mcp",
+    "repoUrl": "https://github.com/AI-QL/chat-mcp"
   },
   {
     "id": "bear-mcp-server",
@@ -648,10 +198,28 @@
     "repoUrl": "https://github.com/arpitbatra123/mcp-googletasks"
   },
   {
+    "id": "discourse-mcp-server",
+    "owner": "AshDevFr",
+    "repo": "discourse-mcp-server",
+    "repoUrl": "https://github.com/AshDevFr/discourse-mcp-server"
+  },
+  {
     "id": "pushover-mcp",
     "owner": "ashiknesin",
     "repo": "pushover-mcp",
     "repoUrl": "https://github.com/ashiknesin/pushover-mcp"
+  },
+  {
+    "id": "mcp-audiense-insights",
+    "owner": "AudienseCo",
+    "repo": "mcp-audiense-insights",
+    "repoUrl": "https://github.com/AudienseCo/mcp-audiense-insights"
+  },
+  {
+    "id": "mcp-server-playwright",
+    "owner": "Automata-Labs-team",
+    "repo": "MCP-Server-Playwright",
+    "repoUrl": "https://github.com/Automata-Labs-team/MCP-Server-Playwright"
   },
   {
     "id": "mcp-link",
@@ -684,6 +252,12 @@
     "repoUrl": "https://github.com/axiomhq/mcp-server-axiom"
   },
   {
+    "id": "notion-mcp",
+    "owner": "Badhansen",
+    "repo": "notion-mcp",
+    "repoUrl": "https://github.com/Badhansen/notion-mcp"
+  },
+  {
     "id": "ai-search",
     "owner": "baidubce",
     "repo": "app-builder",
@@ -694,6 +268,12 @@
     "owner": "bankless",
     "repo": "onchain-mcp",
     "repoUrl": "https://github.com/bankless/onchain-mcp"
+  },
+  {
+    "id": "onchain-mcp",
+    "owner": "Bankless",
+    "repo": "onchain-mcp",
+    "repoUrl": "https://github.com/Bankless/onchain-mcp/"
   },
   {
     "id": "my-bear-mcp-server",
@@ -738,10 +318,22 @@
     "repoUrl": "https://github.com/bigcodegen/mcp-neovim-server"
   },
   {
+    "id": "clojars-mcp-server",
+    "owner": "Bigsy",
+    "repo": "Clojars-MCP-Server",
+    "repoUrl": "https://github.com/Bigsy/Clojars-MCP-Server"
+  },
+  {
     "id": "mcp-graphql",
     "owner": "blurrah",
     "repo": "mcp-graphql",
     "repoUrl": "https://github.com/blurrah/mcp-graphql"
+  },
+  {
+    "id": "starwind-ui-mcp",
+    "owner": "Boston343",
+    "repo": "starwind-ui-mcp",
+    "repoUrl": "https://github.com/Boston343/starwind-ui-mcp"
   },
   {
     "id": "mcp-server-ipinfo",
@@ -754,6 +346,24 @@
     "owner": "browserbase",
     "repo": "mcp-server-browserbase",
     "repoUrl": "https://github.com/browserbase/mcp-server-browserbase"
+  },
+  {
+    "id": "mcp-maigret",
+    "owner": "BurtTheCoder",
+    "repo": "mcp-maigret",
+    "repoUrl": "https://github.com/BurtTheCoder/mcp-maigret"
+  },
+  {
+    "id": "mcp-shodan",
+    "owner": "BurtTheCoder",
+    "repo": "mcp-shodan",
+    "repoUrl": "https://github.com/BurtTheCoder/mcp-shodan"
+  },
+  {
+    "id": "mcp-virustotal",
+    "owner": "BurtTheCoder",
+    "repo": "mcp-virustotal",
+    "repoUrl": "https://github.com/BurtTheCoder/mcp-virustotal"
   },
   {
     "id": "mcp-hubspot",
@@ -780,6 +390,12 @@
     "repoUrl": "https://github.com/centralmind/gateway"
   },
   {
+    "id": "server-google-news",
+    "owner": "ChanMeng666",
+    "repo": "server-google-news",
+    "repoUrl": "https://github.com/ChanMeng666/server-google-news"
+  },
+  {
     "id": "modelcontextprotocol",
     "owner": "chargebee",
     "repo": "agentkit",
@@ -792,10 +408,22 @@
     "repoUrl": "https://github.com/chigwell/telegram-mcp"
   },
   {
+    "id": "keycloak-model-context-protocol",
+    "owner": "ChristophEnglisch",
+    "repo": "keycloak-model-context-protocol",
+    "repoUrl": "https://github.com/ChristophEnglisch/keycloak-model-context-protocol"
+  },
+  {
     "id": "chroma-mcp",
     "owner": "chroma-core",
     "repo": "chroma-mcp",
     "repoUrl": "https://github.com/chroma-core/chroma-mcp"
+  },
+  {
+    "id": "mcp-server-circleci",
+    "owner": "CircleCI-Public",
+    "repo": "mcp-server-circleci",
+    "repoUrl": "https://github.com/CircleCI-Public/mcp-server-circleci"
   },
   {
     "id": "mcp-server-cloudflare",
@@ -894,6 +522,12 @@
     "repoUrl": "https://github.com/djalal/quran-mcp-server"
   },
   {
+    "id": "deepseek-mcp-server",
+    "owner": "DMontgomery40",
+    "repo": "deepseek-mcp-server",
+    "repoUrl": "https://github.com/DMontgomery40/deepseek-mcp-server"
+  },
+  {
     "id": "pulumi-mcp-server",
     "owner": "dogukanakkaya",
     "repo": "pulumi-mcp-server",
@@ -906,10 +540,22 @@
     "repoUrl": "https://github.com/domdomegg/airtable-mcp-server"
   },
   {
+    "id": "mcp-server-dumplingai",
+    "owner": "Dumpling-AI",
+    "repo": "mcp-server-dumplingai",
+    "repoUrl": "https://github.com/Dumpling-AI/mcp-server-dumplingai"
+  },
+  {
     "id": "mcp-server-siri-shortcuts",
     "owner": "dvcrn",
     "repo": "mcp-server-siri-shortcuts",
     "repoUrl": "https://github.com/dvcrn/mcp-server-siri-shortcuts"
+  },
+  {
+    "id": "mcp",
+    "owner": "EduBase",
+    "repo": "MCP",
+    "repoUrl": "https://github.com/EduBase/MCP"
   },
   {
     "id": "nocodb-mcp-server",
@@ -1026,6 +672,12 @@
     "repoUrl": "https://github.com/flowcore-io/mcp-flowcore-platform"
   },
   {
+    "id": "mcp-server-kubernetes",
+    "owner": "Flux159",
+    "repo": "mcp-server-kubernetes",
+    "repoUrl": "https://github.com/Flux159/mcp-server-kubernetes"
+  },
+  {
     "id": "mongodb-lens",
     "owner": "furey",
     "repo": "mongodb-lens",
@@ -1036,6 +688,24 @@
     "owner": "gannonh",
     "repo": "firebase-mcp",
     "repoUrl": "https://github.com/gannonh/firebase-mcp"
+  },
+  {
+    "id": "datadog-mcp-server",
+    "owner": "GeLi2001",
+    "repo": "datadog-mcp-server",
+    "repoUrl": "https://github.com/GeLi2001/datadog-mcp-server"
+  },
+  {
+    "id": "shopify-mcp",
+    "owner": "GeLi2001",
+    "repo": "shopify-mcp",
+    "repoUrl": "https://github.com/GeLi2001/shopify-mcp"
+  },
+  {
+    "id": "tft-mcp-server",
+    "owner": "GeLi2001",
+    "repo": "tft-mcp-server",
+    "repoUrl": "https://github.com/GeLi2001/tft-mcp-server"
   },
   {
     "id": "biomcp",
@@ -1062,6 +732,12 @@
     "repoUrl": "https://github.com/github/github-mcp-server"
   },
   {
+    "id": "figma-context-mcp",
+    "owner": "GLips",
+    "repo": "Figma-Context-MCP",
+    "repoUrl": "https://github.com/GLips/Figma-Context-MCP"
+  },
+  {
     "id": "model-context-protocol",
     "owner": "goat-sdk",
     "repo": "goat",
@@ -1072,6 +748,24 @@
     "owner": "gofireflyio",
     "repo": "firefly-mcp",
     "repoUrl": "https://github.com/gofireflyio/firefly-mcp"
+  },
+  {
+    "id": "json-mcp-server",
+    "owner": "GongRzhe",
+    "repo": "JSON-MCP-Server",
+    "repoUrl": "https://github.com/GongRzhe/JSON-MCP-Server"
+  },
+  {
+    "id": "langflow-doc-qa-server",
+    "owner": "GongRzhe",
+    "repo": "Langflow-DOC-QA-SERVER",
+    "repoUrl": "https://github.com/GongRzhe/Langflow-DOC-QA-SERVER"
+  },
+  {
+    "id": "quickchart-mcp-server",
+    "owner": "GongRzhe",
+    "repo": "Quickchart-MCP-Server",
+    "repoUrl": "https://github.com/GongRzhe/Quickchart-MCP-Server"
   },
   {
     "id": "gotohuman-mcp-server",
@@ -1126,6 +820,12 @@
     "owner": "haris-musa",
     "repo": "excel-mcp-server",
     "repoUrl": "https://github.com/haris-musa/excel-mcp-server"
+  },
+  {
+    "id": "yuque-mcp-server",
+    "owner": "HenryHaoson",
+    "repo": "Yuque-MCP-Server",
+    "repoUrl": "https://github.com/HenryHaoson/Yuque-MCP-Server"
   },
   {
     "id": "heroku-mcp-server",
@@ -1206,10 +906,22 @@
     "repoUrl": "https://github.com/hyperbrowserai/mcp"
   },
   {
+    "id": "qasphere-mcp",
+    "owner": "Hypersequent",
+    "repo": "qasphere-mcp",
+    "repoUrl": "https://github.com/Hypersequent/qasphere-mcp"
+  },
+  {
     "id": "mcp-server-iaptic",
     "owner": "iaptic",
     "repo": "mcp-server-iaptic",
     "repoUrl": "https://github.com/iaptic/mcp-server-iaptic"
+  },
+  {
+    "id": "javascript",
+    "owner": "IBM",
+    "repo": "wxflows",
+    "repoUrl": "https://github.com/IBM/wxflows"
   },
   {
     "id": "influxdb-mcp-server",
@@ -1228,6 +940,12 @@
     "owner": "ihor-sokoliuk",
     "repo": "mcp-searxng",
     "repoUrl": "https://github.com/ihor-sokoliuk/mcp-searxng"
+  },
+  {
+    "id": "mcp-image-compression",
+    "owner": "InhiblabCore",
+    "repo": "mcp-image-compression",
+    "repoUrl": "https://github.com/InhiblabCore/mcp-image-compression"
   },
   {
     "id": "mcp-server",
@@ -1314,6 +1032,18 @@
     "repoUrl": "https://github.com/jerhadf/linear-mcp-server"
   },
   {
+    "id": "mcp-jetbrains",
+    "owner": "JetBrains",
+    "repo": "mcp-jetbrains",
+    "repoUrl": "https://github.com/JetBrains/mcp-jetbrains"
+  },
+  {
+    "id": "mcp-proxy",
+    "owner": "JetBrains",
+    "repo": "mcpProxy",
+    "repoUrl": "https://github.com/JetBrains/mcpProxy"
+  },
+  {
     "id": "jupyter-notebook-mcp",
     "owner": "jjsantos01",
     "repo": "jupyter-notebook-mcp",
@@ -1336,6 +1066,18 @@
     "owner": "johnneerdael",
     "repo": "netskope-mcp",
     "repoUrl": "https://github.com/johnneerdael/netskope-mcp"
+  },
+  {
+    "id": "mcp-databricks-server",
+    "owner": "JordiNeil",
+    "repo": "mcp-databricks-server",
+    "repoUrl": "https://github.com/JordiNeil/mcp-databricks-server"
+  },
+  {
+    "id": "app-store-connect-mcp-server",
+    "owner": "JoshuaRileyDev",
+    "repo": "app-store-connect-mcp-server",
+    "repoUrl": "https://github.com/JoshuaRileyDev/app-store-connect-mcp-server"
   },
   {
     "id": "supabase",
@@ -1440,6 +1182,12 @@
     "repoUrl": "https://github.com/ko1ynnky/github-actions-mcp-server"
   },
   {
+    "id": "mcp-konnect",
+    "owner": "Kong",
+    "repo": "mcp-konnect",
+    "repoUrl": "https://github.com/Kong/mcp-konnect"
+  },
+  {
     "id": "gitlab-mr-mcp",
     "owner": "kopfrechner",
     "repo": "gitlab-mr-mcp",
@@ -1450,6 +1198,18 @@
     "owner": "kpsunil97",
     "repo": "devrev-mcp-server",
     "repoUrl": "https://github.com/kpsunil97/devrev-mcp-server"
+  },
+  {
+    "id": "confluence-mcp-server",
+    "owner": "KS-GEN-AI",
+    "repo": "confluence-mcp-server",
+    "repoUrl": "https://github.com/KS-GEN-AI/confluence-mcp-server"
+  },
+  {
+    "id": "jira-mcp-server",
+    "owner": "KS-GEN-AI",
+    "repo": "jira-mcp-server",
+    "repoUrl": "https://github.com/KS-GEN-AI/jira-mcp-server"
   },
   {
     "id": "mcp-tavily",
@@ -1522,6 +1282,18 @@
     "owner": "kw510",
     "repo": "strava-mcp",
     "repoUrl": "https://github.com/kw510/strava-mcp"
+  },
+  {
+    "id": "mcp-server-nationalparks",
+    "owner": "KyrieTangSheng",
+    "repo": "mcp-server-nationalparks",
+    "repoUrl": "https://github.com/KyrieTangSheng/mcp-server-nationalparks"
+  },
+  {
+    "id": "mcp-server-tmdb",
+    "owner": "Laksh-star",
+    "repo": "mcp-server-tmdb",
+    "repoUrl": "https://github.com/Laksh-star/mcp-server-tmdb"
   },
   {
     "id": "mcp-server-multiverse",
@@ -1830,6 +1602,18 @@
     "repoUrl": "https://github.com/oceanbase/mcp-oceanbase"
   },
   {
+    "id": "octagon-mcp-server",
+    "owner": "OctagonAI",
+    "repo": "octagon-mcp-server",
+    "repoUrl": "https://github.com/OctagonAI/octagon-mcp-server"
+  },
+  {
+    "id": "octomind-mcp",
+    "owner": "OctoMind-dev",
+    "repo": "octomind-mcp",
+    "repoUrl": "https://github.com/OctoMind-dev/octomind-mcp"
+  },
+  {
     "id": "mcp-server-unitycatalog",
     "owner": "ognis1205",
     "repo": "mcp-server-unitycatalog",
@@ -1840,6 +1624,12 @@
     "owner": "openbnb-org",
     "repo": "mcp-server-airbnb",
     "repoUrl": "https://github.com/openbnb-org/mcp-server-airbnb"
+  },
+  {
+    "id": "open-data-mcp",
+    "owner": "OpenDataMCP",
+    "repo": "OpenDataMCP",
+    "repoUrl": "https://github.com/OpenDataMCP/OpenDataMCP"
   },
   {
     "id": "mcp-gitee",
@@ -1884,6 +1674,18 @@
     "repoUrl": "https://github.com/pab1it0/tripadvisor-mcp"
   },
   {
+    "id": "paddle-mcp-server",
+    "owner": "PaddleHQ",
+    "repo": "paddle-mcp-server",
+    "repoUrl": "https://github.com/PaddleHQ/paddle-mcp-server"
+  },
+  {
+    "id": "posthog-mcp",
+    "owner": "PostHog",
+    "repo": "posthog-mcp",
+    "repoUrl": "https://github.com/PostHog/posthog-mcp"
+  },
+  {
     "id": "chroma",
     "owner": "privetin",
     "repo": "chroma",
@@ -1894,6 +1696,12 @@
     "owner": "privetin",
     "repo": "dataset-viewer",
     "repoUrl": "https://github.com/privetin/dataset-viewer"
+  },
+  {
+    "id": "nasa-mcp-server",
+    "owner": "ProgramComputer",
+    "repo": "NASA-MCP-server",
+    "repoUrl": "https://github.com/ProgramComputer/NASA-MCP-server"
   },
   {
     "id": "hn-server",
@@ -1926,6 +1734,24 @@
     "repoUrl": "https://github.com/pyroprompts/any-chat-completions-mcp"
   },
   {
+    "id": "jmeter-mcp-server",
+    "owner": "QAInsights",
+    "repo": "jmeter-mcp-server",
+    "repoUrl": "https://github.com/QAInsights/jmeter-mcp-server"
+  },
+  {
+    "id": "k-6-mcp-server",
+    "owner": "QAInsights",
+    "repo": "k6-mcp-server",
+    "repoUrl": "https://github.com/QAInsights/k6-mcp-server"
+  },
+  {
+    "id": "locust-mcp-server",
+    "owner": "QAInsights",
+    "repo": "locust-mcp-server",
+    "repoUrl": "https://github.com/QAInsights/locust-mcp-server"
+  },
+  {
     "id": "mcp-server-qdrant",
     "owner": "qdrant",
     "repo": "mcp-server-qdrant",
@@ -1936,6 +1762,24 @@
     "owner": "qianniuspace",
     "repo": "mcp-security-audit",
     "repoUrl": "https://github.com/qianniuspace/mcp-security-audit"
+  },
+  {
+    "id": "coincap-mcp",
+    "owner": "QuantGeekDev",
+    "repo": "coincap-mcp",
+    "repoUrl": "https://github.com/QuantGeekDev/coincap-mcp"
+  },
+  {
+    "id": "docker-mcp",
+    "owner": "QuantGeekDev",
+    "repo": "docker-mcp",
+    "repoUrl": "https://github.com/QuantGeekDev/docker-mcp"
+  },
+  {
+    "id": "mongo-mcp",
+    "owner": "QuantGeekDev",
+    "repo": "mongo-mcp",
+    "repoUrl": "https://github.com/QuantGeekDev/mongo-mcp"
   },
   {
     "id": "firstcycling-mcp",
@@ -2010,6 +1854,12 @@
     "repoUrl": "https://github.com/reading-plus-ai/mcp-server-deep-research"
   },
   {
+    "id": "mcp-openapi",
+    "owner": "ReAPI-com",
+    "repo": "mcp-openapi",
+    "repoUrl": "https://github.com/ReAPI-com/mcp-openapi"
+  },
+  {
     "id": "mcp-server-aws",
     "owner": "rishikavikondala",
     "repo": "mcp-server-aws",
@@ -2020,6 +1870,12 @@
     "owner": "roadwy",
     "repo": "cve-search_mcp",
     "repoUrl": "https://github.com/roadwy/cve-search_mcp"
+  },
+  {
+    "id": "rootly-mcp-server",
+    "owner": "Rootly-AI-Labs",
+    "repo": "Rootly-MCP-server",
+    "repoUrl": "https://github.com/Rootly-AI-Labs/Rootly-MCP-server"
   },
   {
     "id": "mcp-server-asana",
@@ -2046,6 +1902,24 @@
     "repoUrl": "https://github.com/runekaagaard/mcp-alchemy"
   },
   {
+    "id": "crypto-trader-mcp-claude-desktop",
+    "owner": "SaintDoresh",
+    "repo": "Crypto-Trader-MCP-ClaudeDesktop",
+    "repoUrl": "https://github.com/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop"
+  },
+  {
+    "id": "weather-mcp-claude-desktop",
+    "owner": "SaintDoresh",
+    "repo": "Weather-MCP-ClaudeDesktop",
+    "repoUrl": "https://github.com/SaintDoresh/Weather-MCP-ClaudeDesktop"
+  },
+  {
+    "id": "yfinance-trader-mcp-claude-desktop",
+    "owner": "SaintDoresh",
+    "repo": "YFinance-Trader-MCP-ClaudeDesktop",
+    "repoUrl": "https://github.com/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop"
+  },
+  {
     "id": "mcp-server-monday",
     "owner": "sakce",
     "repo": "mcp-server-monday",
@@ -2062,6 +1936,12 @@
     "owner": "sapientpants",
     "repo": "sonarqube-mcp-server",
     "repoUrl": "https://github.com/sapientpants/sonarqube-mcp-server"
+  },
+  {
+    "id": "discord-mcp",
+    "owner": "SaseQ",
+    "repo": "discord-mcp",
+    "repoUrl": "https://github.com/SaseQ/discord-mcp"
   },
   {
     "id": "vrchat-mcp",
@@ -2082,6 +1962,30 @@
     "repoUrl": "https://github.com/screenshotone/mcp"
   },
   {
+    "id": "mcp-claude-code",
+    "owner": "SDGLBL",
+    "repo": "mcp-claude-code",
+    "repoUrl": "https://github.com/SDGLBL/mcp-claude-code"
+  },
+  {
+    "id": "mcp-searxng",
+    "owner": "SecretiveShell",
+    "repo": "MCP-searxng",
+    "repoUrl": "https://github.com/SecretiveShell/MCP-searxng"
+  },
+  {
+    "id": "mcp-timeserver",
+    "owner": "SecretiveShell",
+    "repo": "MCP-timeserver",
+    "repoUrl": "https://github.com/SecretiveShell/MCP-timeserver"
+  },
+  {
+    "id": "mcp-wolfram-alpha",
+    "owner": "SecretiveShell",
+    "repo": "MCP-wolfram-alpha",
+    "repoUrl": "https://github.com/SecretiveShell/MCP-wolfram-alpha"
+  },
+  {
     "id": "mcp-monitor",
     "owner": "seekrays",
     "repo": "mcp-monitor",
@@ -2092,6 +1996,12 @@
     "owner": "semgrep",
     "repo": "mcp",
     "repoUrl": "https://github.com/semgrep/mcp"
+  },
+  {
+    "id": "tiktok-mcp",
+    "owner": "Seym0n",
+    "repo": "tiktok-mcp",
+    "repoUrl": "https://github.com/Seym0n/tiktok-mcp"
   },
   {
     "id": "openrpc-mpc-server",
@@ -2134,6 +2044,18 @@
     "owner": "sooperset",
     "repo": "mcp-atlassian",
     "repoUrl": "https://github.com/sooperset/mcp-atlassian"
+  },
+  {
+    "id": "opencti-mcp",
+    "owner": "Spathodea-Network",
+    "repo": "opencti-mcp",
+    "repoUrl": "https://github.com/Spathodea-Network/opencti-mcp"
+  },
+  {
+    "id": "mcp-server-starrocks",
+    "owner": "StarRocks",
+    "repo": "mcp-server-starrocks",
+    "repoUrl": "https://github.com/StarRocks/mcp-server-starrocks"
   },
   {
     "id": "modelcontextprotocol",
@@ -2208,6 +2130,12 @@
     "repoUrl": "https://github.com/teddyzxcv/ntfy-mcp"
   },
   {
+    "id": "bsc-mcp",
+    "owner": "TermiX-official",
+    "repo": "bsc-mcp",
+    "repoUrl": "https://github.com/TermiX-official/bsc-mcp"
+  },
+  {
     "id": "mcp-create",
     "owner": "tesla0225",
     "repo": "mcp-create",
@@ -2232,6 +2160,12 @@
     "repoUrl": "https://github.com/thunderboltsid/mcp-nutanix"
   },
   {
+    "id": "mcp-server-azure-devops",
+    "owner": "Tiberriver256",
+    "repo": "mcp-server-azure-devops",
+    "repoUrl": "https://github.com/Tiberriver256/mcp-server-azure-devops"
+  },
+  {
     "id": "mcp-tinybird",
     "owner": "tinybirdco",
     "repo": "mcp-tinybird",
@@ -2242,6 +2176,12 @@
     "owner": "tinyfish-io",
     "repo": "agentql-mcp",
     "repoUrl": "https://github.com/tinyfish-io/agentql-mcp"
+  },
+  {
+    "id": "mcp-server-tavily",
+    "owner": "Tomatio13",
+    "repo": "mcp-server-tavily",
+    "repoUrl": "https://github.com/Tomatio13/mcp-server-tavily"
   },
   {
     "id": "oura-mcp-server",
@@ -2266,6 +2206,18 @@
     "owner": "tumf",
     "repo": "mcp-text-editor",
     "repoUrl": "https://github.com/tumf/mcp-text-editor"
+  },
+  {
+    "id": "uns-mcp",
+    "owner": "Unstructured-IO",
+    "repo": "UNS-MCP",
+    "repoUrl": "https://github.com/Unstructured-IO/UNS-MCP"
+  },
+  {
+    "id": "didlogic-mcp",
+    "owner": "UserAd",
+    "repo": "didlogic_mcp",
+    "repoUrl": "https://github.com/UserAd/didlogic_mcp"
   },
   {
     "id": "discordmcp",
@@ -2298,10 +2250,28 @@
     "repoUrl": "https://github.com/vectorize-io/vectorize-mcp-server/"
   },
   {
+    "id": "verodat-mcp-server",
+    "owner": "Verodat",
+    "repo": "verodat-mcp-server",
+    "repoUrl": "https://github.com/Verodat/verodat-mcp-server"
+  },
+  {
+    "id": "veyrax-mcp",
+    "owner": "VeyraX",
+    "repo": "veyrax-mcp",
+    "repoUrl": "https://github.com/VeyraX/veyrax-mcp"
+  },
+  {
     "id": "mcp-pandoc",
     "owner": "vivekVells",
     "repo": "mcp-pandoc",
     "repoUrl": "https://github.com/vivekVells/mcp-pandoc"
+  },
+  {
+    "id": "mcp-azure-devops",
+    "owner": "Vortiago",
+    "repo": "mcp-azure-devops",
+    "repoUrl": "https://github.com/Vortiago/mcp-azure-devops"
   },
   {
     "id": "mcp-server-firecrawl",
@@ -2334,22 +2304,28 @@
     "repoUrl": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
   },
   {
+    "id": "xero-mcp-server",
+    "owner": "XeroAPI",
+    "repo": "xero-mcp-server",
+    "repoUrl": "https://github.com/XeroAPI/xero-mcp-server"
+  },
+  {
     "id": "mcp-google-sheets",
     "owner": "xing5",
     "repo": "mcp-google-sheets",
     "repoUrl": "https://github.com/xing5/mcp-google-sheets"
   },
   {
+    "id": "mcp-server-opendal",
+    "owner": "Xuanwo",
+    "repo": "mcp-server-opendal",
+    "repoUrl": "https://github.com/Xuanwo/mcp-server-opendal"
+  },
+  {
     "id": "mcp-rquest",
     "owner": "xxxbrian",
     "repo": "mcp-rquest",
     "repoUrl": "https://github.com/xxxbrian/mcp-rquest"
-  },
-  {
-    "id": "mcp-typescribe",
-    "owner": "yWorks",
-    "repo": "mcp-typescribe",
-    "repoUrl": "https://github.com/yWorks/mcp-typescribe"
   },
   {
     "id": "mcp-server-apache-airflow",
@@ -2376,6 +2352,12 @@
     "repoUrl": "https://github.com/yuanoOo/oceanbase_mcp_server"
   },
   {
+    "id": "multi-ai-advisor-mcp",
+    "owner": "YuChenSSR",
+    "repo": "multi-ai-advisor-mcp",
+    "repoUrl": "https://github.com/YuChenSSR/multi-ai-advisor-mcp"
+  },
+  {
     "id": "anilist-mcp",
     "owner": "yuna0x0",
     "repo": "anilist-mcp",
@@ -2386,6 +2368,12 @@
     "owner": "yuna0x0",
     "repo": "hackmd-mcp",
     "repoUrl": "https://github.com/yuna0x0/hackmd-mcp"
+  },
+  {
+    "id": "mcp-typescribe",
+    "owner": "yWorks",
+    "repo": "mcp-typescribe",
+    "repoUrl": "https://github.com/yWorks/mcp-typescribe"
   },
   {
     "id": "gtasks-mcp",
@@ -2410,6 +2398,18 @@
     "owner": "zhsama",
     "repo": "duckduckgo-mpc-server",
     "repoUrl": "https://github.com/zhsama/duckduckgo-mpc-server/"
+  },
+  {
+    "id": "go-mcp-mysql",
+    "owner": "Zhwt",
+    "repo": "go-mcp-mysql",
+    "repoUrl": "https://github.com/Zhwt/go-mcp-mysql"
+  },
+  {
+    "id": "claude-post",
+    "owner": "ZilongXue",
+    "repo": "claude-post",
+    "repoUrl": "https://github.com/ZilongXue/claude-post"
   },
   {
     "id": "mcp-server-amazon-bedrock",

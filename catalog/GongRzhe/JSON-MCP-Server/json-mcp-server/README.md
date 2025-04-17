@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--gongrzhe--json-mcp-server--j
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--gongrzhe--json-mcp-server--json-mcp-server"
+        "ghcr.io/metorial/mcp-container--gongrzhe--json-mcp-server--json-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {}
     }

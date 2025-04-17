@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--brave-search"
+        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--brave-search",
+        "cd ./src/brave-search && node ./dist/index.js"
       ],
       "env": {
         "BRAVE_API_KEY": "brave-api-key"

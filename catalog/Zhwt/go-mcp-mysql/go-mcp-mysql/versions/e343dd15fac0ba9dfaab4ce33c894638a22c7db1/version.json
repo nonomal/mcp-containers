@@ -105,7 +105,7 @@
     "description": "Zero burden, ready-to-use Model Context Protocol (MCP) server for interacting with MySQL and automation."
   },
   "manifestHash": "ef6f1f53a6d591a56b5eff265c9dd45b",
-  "createdAt": "2025-04-15T07:16:18.360Z",
+  "createdAt": "2025-04-17T11:11:18.064Z",
   "builder": [
     {
       "type": "nixpacks",

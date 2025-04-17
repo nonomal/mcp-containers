@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--gotohuman--gotohuman-mcp-server--gotohuman-mcp-server"
+        "ghcr.io/metorial/mcp-container--gotohuman--gotohuman-mcp-server--gotohuman-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {
         "GOTOHUMAN_API_KEY": "gotohuman-api-key"

@@ -33,7 +33,7 @@
     "description": "MCP for Replicate Flux Model - A powerful tool for generating customized images and SVG assets that match specific coding vibes and aesthetic styles. Streamline your visual asset creation process with AI-powered design generation tailored for developers."
   },
   "manifestHash": "b37d8b7e3e42d48153b5863ae82f3583",
-  "createdAt": "2025-04-15T07:16:19.334Z",
+  "createdAt": "2025-04-17T11:10:44.961Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node build/index.js"
         }
       }
     }

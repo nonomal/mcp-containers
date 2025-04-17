@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--pab1it0--tripadvisor-mcp--tripadvisor-mcp"
+        "ghcr.io/metorial/mcp-container--pab1it0--tripadvisor-mcp--tripadvisor-mcp",
+        "tripadvisor-mcp"
       ],
       "env": {
         "TRIPADVISOR_API_KEY": "tripadvisor-api-key"

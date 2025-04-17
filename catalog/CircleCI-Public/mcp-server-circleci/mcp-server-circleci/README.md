@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--circleci-public--mcp-server-circleci--mcp-server-circleci"
+        "ghcr.io/metorial/mcp-container--circleci-public--mcp-server-circleci--mcp-server-circleci",
+        "node ./dist/index.js"
       ],
       "env": {
         "CIRCLECI_TOKEN": "circleci-token",

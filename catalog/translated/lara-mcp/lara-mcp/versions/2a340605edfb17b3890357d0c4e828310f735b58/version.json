@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol (MCP) Server for [Lara Translate](https://laratranslate.com/translate) API, enabling powerful translation capabilities with support for language detection and context-aware translations."
   },
   "manifestHash": "ab393883a7afb88077791735dc2dcec1",
-  "createdAt": "2025-04-15T07:16:47.646Z",
+  "createdAt": "2025-04-17T11:11:16.061Z",
   "builder": [
     {
       "type": "nixpacks",

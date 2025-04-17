@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kaliaboi--mcp-zotero--mcp-zotero"
+        "ghcr.io/metorial/mcp-container--kaliaboi--mcp-zotero--mcp-zotero",
+        "npm run start"
       ],
       "env": {
         "ZOTERO_API_KEY": "zotero-api-key",

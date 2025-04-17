@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--apify--mcp-server-rag-web-browser--mcp-server-rag-web-browser"
+        "ghcr.io/metorial/mcp-container--apify--mcp-server-rag-web-browser--mcp-server-rag-web-browser",
+        "npm run start"
       ],
       "env": {
         "APIFY_TOKEN": "apify-token"

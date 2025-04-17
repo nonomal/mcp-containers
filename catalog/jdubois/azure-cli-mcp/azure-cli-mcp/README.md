@@ -65,12 +65,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--jdubois--azure-cli-mcp--azure-cli-mcp",
-        "--name name",
-        "--role role",
-        "--scopes scopes",
-        "--json-auth json-auth",
-        "--repo repo",
-        "--pattern pattern"
+        "java -Dserver.port=$PORT $JAVA_OPTS -jar target/*jar --name name --role role --scopes scopes --json-auth json-auth --repo repo --pattern pattern"
       ],
       "env": {
         "AZURE_CREDENTIALS": "azure-credentials"

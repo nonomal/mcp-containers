@@ -61,8 +61,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--flowcore-io--mcp-flowcore-platform--mcp-flowcore-platform",
-        "--username username",
-        "--pat pat"
+        "node ./dist/index.js --username username --pat pat"
       ],
       "env": {
         "USERNAME": "username"

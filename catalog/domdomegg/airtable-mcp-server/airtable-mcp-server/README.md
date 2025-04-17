@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--domdomegg--airtable-mcp-server--airtable-mcp-server"
+        "ghcr.io/metorial/mcp-container--domdomegg--airtable-mcp-server--airtable-mcp-server",
+        "npm run start"
       ],
       "env": {
         "AIRTABLE_API_KEY": "airtable-api-key"

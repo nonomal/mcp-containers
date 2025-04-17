@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--gotoolkits--mcp-difyworkflow-server--mcp-difyworkflow-server"
+        "ghcr.io/metorial/mcp-container--gotoolkits--mcp-difyworkflow-server--mcp-difyworkflow-server",
+        "./out"
       ],
       "env": {
         "DIFY_WORKFLOW_NAME": "dify-workflow-name",

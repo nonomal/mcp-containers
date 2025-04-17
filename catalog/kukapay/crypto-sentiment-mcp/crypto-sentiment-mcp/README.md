@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kukapay--crypto-sentiment-mcp--crypto-sentiment-mcp"
+        "ghcr.io/metorial/mcp-container--kukapay--crypto-sentiment-mcp--crypto-sentiment-mcp",
+        "python main.py"
       ],
       "env": {
         "SANTIMENT_API_KEY": "santiment-api-key"

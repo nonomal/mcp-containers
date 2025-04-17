@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--mektigboy--server-hyperliqui
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mektigboy--server-hyperliquid--server-hyperliquid"
+        "ghcr.io/metorial/mcp-container--mektigboy--server-hyperliquid--server-hyperliquid",
+        "node dist/index.js"
       ],
       "env": {}
     }

@@ -20,7 +20,7 @@
     "description": "A Node.js server implementing the [Model Context Protocol (MCP)](https://github.com/ModelContextProtocol/specification) for interacting with the [storacha.network](https://storacha.network/) platform via the `w3` command-line interface (`@web3-storage/w3cli`)."
   },
   "manifestHash": "dc8bda7ce33472b497b55d81c1297690",
-  "createdAt": "2025-04-14T15:21:14.897Z",
+  "createdAt": "2025-04-17T11:10:44.329Z",
   "builder": [
     {
       "type": "nixpacks",

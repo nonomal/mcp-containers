@@ -32,7 +32,7 @@
     "description": "A MCP server for the stock market data API, Alphavantage API."
   },
   "manifestHash": "c93940fa2a974e5fcb1015e5ed4e13bc",
-  "createdAt": "2025-04-16T09:16:14.986Z",
+  "createdAt": "2025-04-17T11:10:46.926Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -80,7 +80,7 @@
           }
         },
         "start": {
-          "cmd": "python -m alphavantage"
+          "cmd": "alphavantage"
         }
       }
     }

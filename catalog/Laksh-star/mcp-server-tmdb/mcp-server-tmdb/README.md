@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--laksh-star--mcp-server-tmdb--mcp-server-tmdb"
+        "ghcr.io/metorial/mcp-container--laksh-star--mcp-server-tmdb--mcp-server-tmdb",
+        "node dist/index.js"
       ],
       "env": {
         "TMDB_API_KEY": "tmdb-api-key"

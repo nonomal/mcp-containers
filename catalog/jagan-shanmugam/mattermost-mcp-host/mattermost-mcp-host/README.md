@@ -75,8 +75,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--jagan-shanmugam--mattermost-mcp-host--mattermost-mcp-host",
-        "--dev dev",
-        "--all-extras all-extras"
+        "mattermost-mcp-host --dev dev --all-extras all-extras"
       ],
       "env": {
         "MATTERMOST_URL": "mattermost-url",

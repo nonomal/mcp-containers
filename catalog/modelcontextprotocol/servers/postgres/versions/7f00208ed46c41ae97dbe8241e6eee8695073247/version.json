@@ -38,7 +38,7 @@
     }
   },
   "manifestHash": "e3ea1d805ae62005d2639aac61b789e6",
-  "createdAt": "2025-04-16T17:13:13.589Z",
+  "createdAt": "2025-04-17T11:11:08.242Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -57,7 +57,7 @@
               "install"
             ],
             "cmds": [
-              "npm run build"
+              "cd ./src/postgres && npm run build"
             ],
             "cacheDirectories": [
               "node_modules/.cache"
@@ -87,6 +87,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "cd ./src/postgres && node ./dist/index.js"
         }
       }
     }

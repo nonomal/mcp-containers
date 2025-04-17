@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--wenhuwang--mcp-k8s-eye--mcp-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--wenhuwang--mcp-k8s-eye--mcp-k-8-s-eye"
+        "ghcr.io/metorial/mcp-container--wenhuwang--mcp-k8s-eye--mcp-k-8-s-eye",
+        "./out"
       ],
       "env": {}
     }

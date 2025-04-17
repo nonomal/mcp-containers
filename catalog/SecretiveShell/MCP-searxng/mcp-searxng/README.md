@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--secretiveshell--mcp-searxng--mcp-searxng"
+        "ghcr.io/metorial/mcp-container--secretiveshell--mcp-searxng--mcp-searxng",
+        "mcp-searxng"
       ],
       "env": {
         "SEARXNG_URL": "searxng-url"

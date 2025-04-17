@@ -56,7 +56,7 @@
     "description": "Unity Catalog AI Model Context Protocol Server"
   },
   "manifestHash": "d4b2927178fcbd717cb49d67add1492f",
-  "createdAt": "2025-04-15T07:16:42.536Z",
+  "createdAt": "2025-04-17T11:11:10.179Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -104,7 +104,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-server-unitycatalog"
+          "cmd": "mcp-server-unitycatalog"
         }
       }
     }

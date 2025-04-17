@@ -58,7 +58,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--pyroprompts--any-chat-completions-mcp--any-chat-completions-mcp"
+        "ghcr.io/metorial/mcp-container--pyroprompts--any-chat-completions-mcp--any-chat-completions-mcp",
+        "node ./build/index.js"
       ],
       "env": {
         "AI_CHAT_KEY": "ai-chat-key",

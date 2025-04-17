@@ -57,8 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--geli2001--shopify-mcp--shopify-mcp",
-        "--accessToken access-token",
-        "--domain domain"
+        "npm run start --accessToken access-token --domain domain"
       ],
       "env": {}
     }

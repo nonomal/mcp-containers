@@ -19,7 +19,7 @@
     "description": "A Model Context Protocol (MCP) server implementation for running Locust load tests. This server enables seamless integration of Locust load testing capabilities with AI-powered development environments."
   },
   "manifestHash": "396469f0eff1364b5ae2d7bbfd31c76d",
-  "createdAt": "2025-04-15T08:55:55.587Z",
+  "createdAt": "2025-04-17T11:11:10.634Z",
   "builder": [
     {
       "type": "nixpacks",

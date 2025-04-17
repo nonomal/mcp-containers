@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--felores--cloudinary-mcp-server--cloudinary-mcp-server"
+        "ghcr.io/metorial/mcp-container--felores--cloudinary-mcp-server--cloudinary-mcp-server",
+        "npm run start"
       ],
       "env": {
         "CLOUDINARY_CLOUD_NAME": "cloudinary-cloud-name",

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--its-dart--dart-mcp-server--dart-mcp-server"
+        "ghcr.io/metorial/mcp-container--its-dart--dart-mcp-server--dart-mcp-server",
+        "node dist/index.js"
       ],
       "env": {
         "DART_TOKEN": "dart-token"

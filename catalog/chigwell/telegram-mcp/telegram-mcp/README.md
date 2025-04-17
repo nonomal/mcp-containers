@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--chigwell--telegram-mcp--telegram-mcp"
+        "ghcr.io/metorial/mcp-container--chigwell--telegram-mcp--telegram-mcp",
+        "python main.py"
       ],
       "env": {
         "TELEGRAM_API_ID": "telegram-api-id",

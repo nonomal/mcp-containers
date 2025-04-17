@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--zxkane--mcp-server-amazon-bedrock--mcp-server-amazon-bedrock"
+        "ghcr.io/metorial/mcp-container--zxkane--mcp-server-amazon-bedrock--mcp-server-amazon-bedrock",
+        "node ./build/index.js"
       ],
       "env": {
         "AWS_PROFILE": "aws-profile"

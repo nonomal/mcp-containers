@@ -43,7 +43,7 @@ docker run -it --rm ghcr.io/metorial/mcp-container--hyperb1iss--droidmind--droid
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--hyperb1iss--droidmind--droidmind",
-        "--transport stdio"
+        "droidmind --transport stdio"
       ],
       "env": {}
     }

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--buryhuang--mcp-hubspot--mcp-hubspot"
+        "ghcr.io/metorial/mcp-container--buryhuang--mcp-hubspot--mcp-hubspot",
+        "mcp-server-hubspot"
       ],
       "env": {
         "HUBSPOT_ACCESS_TOKEN": "hubspot-access-token"

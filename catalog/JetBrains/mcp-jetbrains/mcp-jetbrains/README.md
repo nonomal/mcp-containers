@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--jetbrains--mcp-jetbrains--mc
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jetbrains--mcp-jetbrains--mcp-jetbrains"
+        "ghcr.io/metorial/mcp-container--jetbrains--mcp-jetbrains--mcp-jetbrains",
+        "node dist/src/index.js"
       ],
       "env": {}
     }

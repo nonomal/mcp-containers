@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--langfuse--mcp-server-langfuse--mcp-server-langfuse"
+        "ghcr.io/metorial/mcp-container--langfuse--mcp-server-langfuse--mcp-server-langfuse",
+        "node ./build/index.js"
       ],
       "env": {
         "LANGFUSE_PUBLIC_KEY": "langfuse-public-key",

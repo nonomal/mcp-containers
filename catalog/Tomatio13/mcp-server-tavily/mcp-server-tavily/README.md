@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--tomatio13--mcp-server-tavily--mcp-server-tavily"
+        "ghcr.io/metorial/mcp-container--tomatio13--mcp-server-tavily--mcp-server-tavily",
+        "tavily-search"
       ],
       "env": {
         "TAVILY_API_KEY": "tavily-api-key"

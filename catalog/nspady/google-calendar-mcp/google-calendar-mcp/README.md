@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--nspady--google-calendar-mcp-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--nspady--google-calendar-mcp--google-calendar-mcp"
+        "ghcr.io/metorial/mcp-container--nspady--google-calendar-mcp--google-calendar-mcp",
+        "npm run start"
       ],
       "env": {}
     }

@@ -57,7 +57,7 @@
     "description": "Model Context Protocol (MCP) Server for Graphlit Platform"
   },
   "manifestHash": "2a4286ccee3c24add5b1440e0839a2e7",
-  "createdAt": "2025-04-17T06:20:47.250Z",
+  "createdAt": "2025-04-17T11:10:54.908Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -107,6 +107,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node build/index.js"
         }
       }
     }

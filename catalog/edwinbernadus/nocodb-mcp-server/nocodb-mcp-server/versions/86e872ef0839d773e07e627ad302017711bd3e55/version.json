@@ -57,7 +57,7 @@
     "description": "The Nocodb MCP Server enables seamless interaction with a Nocodb database using the Model Context Protocol (MCP). It facilitates CRUD (Create, Read, Update, Delete) operations on Nocodb tables."
   },
   "manifestHash": "4185e308636f6d874c381faafa982669",
-  "createdAt": "2025-04-15T07:16:24.486Z",
+  "createdAt": "2025-04-17T11:10:49.773Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -106,6 +106,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/start.js"
         }
       }
     }

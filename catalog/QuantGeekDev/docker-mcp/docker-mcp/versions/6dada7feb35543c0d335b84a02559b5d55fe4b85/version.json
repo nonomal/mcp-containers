@@ -20,7 +20,7 @@
     "description": "A powerful Model Context Protocol (MCP) server for Docker operations, enabling seamless container and compose stack management through Claude AI."
   },
   "manifestHash": "bac01cbc775a98041cbce37ee2e8ec5e",
-  "createdAt": "2025-04-15T08:55:55.578Z",
+  "createdAt": "2025-04-17T11:11:10.825Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m docker-mcp"
+          "cmd": "docker-mcp"
         }
       }
     }

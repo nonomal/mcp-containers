@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--oxylabs--oxylabs-mcp--oxylabs-mcp"
+        "ghcr.io/metorial/mcp-container--oxylabs--oxylabs-mcp--oxylabs-mcp",
+        "oxylabs-mcp"
       ],
       "env": {
         "OXYLABS_USERNAME": "oxylabs-username",

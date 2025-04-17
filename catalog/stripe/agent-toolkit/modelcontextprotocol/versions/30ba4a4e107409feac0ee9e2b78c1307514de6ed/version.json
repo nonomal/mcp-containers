@@ -48,7 +48,7 @@
     }
   },
   "manifestHash": "c2ee352b5064ba90bb3e1d52f60c3444",
-  "createdAt": "2025-04-15T07:16:46.374Z",
+  "createdAt": "2025-04-17T11:11:14.471Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -78,8 +78,7 @@
               "setup"
             ],
             "cmds": [
-              "npm install -g corepack@0.24.1 && corepack enable",
-              "pnpm i --frozen-lockfile"
+              "pnpm i --frozen-lockfile && pnpm i typescript"
             ],
             "cacheDirectories": [
               "/root/.local/share/pnpm/store/v3"
@@ -98,6 +97,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

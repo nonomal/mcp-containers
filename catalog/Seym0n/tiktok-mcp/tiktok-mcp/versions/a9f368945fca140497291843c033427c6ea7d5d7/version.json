@@ -33,7 +33,7 @@
     "description": "The TikTok MCP integrates TikTok access into Claude AI and other apps via TikNeuron. This TikTok MCP allows you to"
   },
   "manifestHash": "beaa3657aaab546ff6f133dff7bad26b",
-  "createdAt": "2025-04-15T07:16:17.287Z",
+  "createdAt": "2025-04-17T11:11:13.664Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node build/index.js"
         }
       }
     }

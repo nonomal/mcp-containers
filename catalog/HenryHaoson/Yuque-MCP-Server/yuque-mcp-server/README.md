@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--henryhaoson--yuque-mcp-server--yuque-mcp-server"
+        "ghcr.io/metorial/mcp-container--henryhaoson--yuque-mcp-server--yuque-mcp-server",
+        "npm run start"
       ],
       "env": {
         "YUQUE_API_TOKEN": "yuque-api-token",

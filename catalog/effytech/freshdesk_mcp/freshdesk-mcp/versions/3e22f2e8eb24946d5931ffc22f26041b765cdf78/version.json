@@ -45,7 +45,7 @@
     "description": "An MCP server implementation that integrates with Freshdesk, enabling AI models to interact with Freshdesk modules and perform various support operations."
   },
   "manifestHash": "41f1836a09660eb450df0986777d8349",
-  "createdAt": "2025-04-15T17:08:14.645Z",
+  "createdAt": "2025-04-17T11:10:50.026Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -93,7 +93,7 @@
           }
         },
         "start": {
-          "cmd": "python -m freshdesk-mcp"
+          "cmd": "freshdesk-mcp"
         }
       }
     }

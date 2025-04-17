@@ -58,7 +58,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ravenwits--mcp-server-arangodb--mcp-server-arangodb"
+        "ghcr.io/metorial/mcp-container--ravenwits--mcp-server-arangodb--mcp-server-arangodb",
+        "npm run start"
       ],
       "env": {
         "ARANGO_URL": "arango-url",

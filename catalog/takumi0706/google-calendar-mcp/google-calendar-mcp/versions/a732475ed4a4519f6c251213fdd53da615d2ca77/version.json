@@ -57,7 +57,7 @@
     "description": "Google Calendar MCP server for Claude Desktop integration"
   },
   "manifestHash": "c83fcb073eaa8662c65a76888cfae42e",
-  "createdAt": "2025-04-17T04:17:46.667Z",
+  "createdAt": "2025-04-17T11:11:15.063Z",
   "builder": [
     {
       "type": "nixpacks",

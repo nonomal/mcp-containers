@@ -59,7 +59,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--starrocks--mcp-server-starrocks--mcp-server-starrocks",
-        "--with mcp-server-starrocks mcp-server-starrocks"
+        "mcp-server-starrocks --with mcp-server-starrocks mcp-server-starrocks"
       ],
       "env": {
         "STARROCKS_HOST": "starrocks-host",

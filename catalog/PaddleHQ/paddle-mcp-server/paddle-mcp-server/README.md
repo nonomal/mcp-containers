@@ -57,8 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--paddlehq--paddle-mcp-server--paddle-mcp-server",
-        "--api-key Paddle API Key",
-        "--environment Paddle Environment"
+        "node ./build/index.js --api-key Paddle API Key --environment Paddle Environment"
       ],
       "env": {}
     }

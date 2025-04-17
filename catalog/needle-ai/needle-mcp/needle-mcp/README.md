@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--needle-ai--needle-mcp--needle-mcp"
+        "ghcr.io/metorial/mcp-container--needle-ai--needle-mcp--needle-mcp",
+        "needle-mcp"
       ],
       "env": {
         "NEEDLE_API_KEY": "needle-api-key"

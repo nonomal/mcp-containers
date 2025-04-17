@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--dvcrn--mcp-server-siri-short
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--dvcrn--mcp-server-siri-shortcuts--mcp-server-siri-shortcuts"
+        "ghcr.io/metorial/mcp-container--dvcrn--mcp-server-siri-shortcuts--mcp-server-siri-shortcuts",
+        "npm run start"
       ],
       "env": {}
     }

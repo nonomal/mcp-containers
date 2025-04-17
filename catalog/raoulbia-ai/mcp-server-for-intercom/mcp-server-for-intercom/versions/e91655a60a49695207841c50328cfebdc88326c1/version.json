@@ -33,7 +33,7 @@
     "description": "An MCP-compliant server for retrieving customer support tickets from Intercom. This tool enables AI assistants like Claude Desktop and Cline to access and analyze your Intercom support tickets."
   },
   "manifestHash": "26387997cb67a230e823062aab23b80d",
-  "createdAt": "2025-04-15T07:16:44.209Z",
+  "createdAt": "2025-04-17T11:11:11.507Z",
   "builder": [
     {
       "type": "nixpacks",

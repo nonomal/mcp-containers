@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mem0ai--mem0-mcp--mem-0-mcp"
+        "ghcr.io/metorial/mcp-container--mem0ai--mem0-mcp--mem-0-mcp",
+        "python main.py"
       ],
       "env": {
         "MEM0_API_KEY": "mem-0-api-key"

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--tinyfish-io--agentql-mcp--agentql-mcp"
+        "ghcr.io/metorial/mcp-container--tinyfish-io--agentql-mcp--agentql-mcp",
+        "node ./dist/index.js"
       ],
       "env": {
         "AGENTQL_API_KEY": "agentql-api-key"

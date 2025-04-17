@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--joshuarileydev--supabase--supabase"
+        "ghcr.io/metorial/mcp-container--joshuarileydev--supabase--supabase",
+        "node dist/index.js"
       ],
       "env": {
         "SUPABASE_API_KEY": "supabase-api-key"

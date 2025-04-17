@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--johnneerdael--netskope-mcp--netskope-mcp"
+        "ghcr.io/metorial/mcp-container--johnneerdael--netskope-mcp--netskope-mcp",
+        "npm run start"
       ],
       "env": {
         "NETSKOPE_BASE_URL": "netskope-base-url",

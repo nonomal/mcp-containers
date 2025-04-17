@@ -20,7 +20,7 @@
     "description": "A Python bridge for interacting with the macOS Messages app using MCP (Multiple Context Protocol)."
   },
   "manifestHash": "744d872573f4b46433b3ef905b52037c",
-  "createdAt": "2025-04-15T07:16:21.199Z",
+  "createdAt": "2025-04-17T11:10:46.942Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python main.py"
+          "cmd": "mac-messages-mcp"
         }
       }
     }

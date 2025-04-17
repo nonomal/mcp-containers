@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--flux159--mcp-server-kubernet
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--flux159--mcp-server-kubernetes--mcp-server-kubernetes"
+        "ghcr.io/metorial/mcp-container--flux159--mcp-server-kubernetes--mcp-server-kubernetes",
+        "bun run start"
       ],
       "env": {}
     }

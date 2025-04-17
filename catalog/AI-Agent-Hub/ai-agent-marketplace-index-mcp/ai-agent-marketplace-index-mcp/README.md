@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--ai-agent-hub--ai-agent-marke
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ai-agent-hub--ai-agent-marketplace-index-mcp--ai-agent-marketplace-index-mcp"
+        "ghcr.io/metorial/mcp-container--ai-agent-hub--ai-agent-marketplace-index-mcp--ai-agent-marketplace-index-mcp",
+        "python main.py"
       ],
       "env": {}
     }

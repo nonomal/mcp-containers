@@ -20,7 +20,7 @@
     "description": "Control your Android devices with AI using Model Context Protocol"
   },
   "manifestHash": "0bca3efbfa8b191ba3fa36c7d81427c2",
-  "createdAt": "2025-04-15T07:16:32.072Z",
+  "createdAt": "2025-04-17T11:10:57.474Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m droidmind"
+          "cmd": "droidmind"
         }
       }
     }

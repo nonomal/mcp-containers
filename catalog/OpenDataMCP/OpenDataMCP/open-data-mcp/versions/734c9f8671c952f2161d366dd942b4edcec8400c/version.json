@@ -20,7 +20,7 @@
     "description": "Connect any Open Data to any LLM with Model Context Protocol."
   },
   "manifestHash": "8ec0bae9b8c7abb39fd956ebf55bcd71",
-  "createdAt": "2025-04-15T07:16:15.829Z",
+  "createdAt": "2025-04-17T11:11:09.462Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m odmcp"
+          "cmd": "odmcp"
         }
       }
     }

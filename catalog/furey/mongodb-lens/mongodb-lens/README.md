@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--furey--mongodb-lens--mongodb-lens"
+        "ghcr.io/metorial/mcp-container--furey--mongodb-lens--mongodb-lens",
+        "npm run start"
       ],
       "env": {
         "CONFIG_MONGO_URI": "mongo-uri",

@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--lenwood--cfbd-mcp-server--cfbd-mcp-server",
-        "cfbd-mcp-server"
+        "cfbd-mcp-server cfbd-mcp-server"
       ],
       "env": {
         "CFB_API_KEY": "cfb-api-key"

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--66julienmartin--mcp-server-deepseek_r1--mcp-server-deepseek-r-1"
+        "ghcr.io/metorial/mcp-container--66julienmartin--mcp-server-deepseek_r1--mcp-server-deepseek-r-1",
+        "npm run start"
       ],
       "env": {
         "DEEPSEEK_API_KEY": "deepseek-api-key"

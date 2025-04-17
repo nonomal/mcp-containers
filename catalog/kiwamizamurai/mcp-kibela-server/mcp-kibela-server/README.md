@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kiwamizamurai--mcp-kibela-server--mcp-kibela-server"
+        "ghcr.io/metorial/mcp-container--kiwamizamurai--mcp-kibela-server--mcp-kibela-server",
+        "npm run start"
       ],
       "env": {
         "KIBELA_TEAM": "kibela-team",

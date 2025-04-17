@@ -45,7 +45,7 @@
     "description": "This MCP server provides access to Lark Bitable through the Model Context Protocol. It allows users to interact with Bitable tables using predefined tools."
   },
   "manifestHash": "fd9b6ee24208f509d25e14bab9817c6b",
-  "createdAt": "2025-04-15T07:16:39.322Z",
+  "createdAt": "2025-04-17T11:11:05.565Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -93,7 +93,7 @@
           }
         },
         "start": {
-          "cmd": "python -m bitable-mcp"
+          "cmd": "bitable-mcp"
         }
       }
     }

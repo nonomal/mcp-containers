@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--abhiz123--todoist-mcp-server--todoist-mcp-server"
+        "ghcr.io/metorial/mcp-container--abhiz123--todoist-mcp-server--todoist-mcp-server",
+        "node dist/index.js"
       ],
       "env": {
         "TODOIST_API_TOKEN": "todoist-api-token"

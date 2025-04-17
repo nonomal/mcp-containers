@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server for interacting with Nutanix Prism Central APIs through Large Language Models (LLMs)."
   },
   "manifestHash": "21db0aad0cd9890ad342fb43e4a2045e",
-  "createdAt": "2025-04-16T01:07:16.736Z",
+  "createdAt": "2025-04-17T11:11:15.560Z",
   "builder": [
     {
       "type": "nixpacks",

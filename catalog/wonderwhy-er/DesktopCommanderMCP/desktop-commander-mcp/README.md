@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--wonderwhy-er--desktopcommand
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--wonderwhy-er--desktopcommandermcp--desktop-commander-mcp"
+        "ghcr.io/metorial/mcp-container--wonderwhy-er--desktopcommandermcp--desktop-commander-mcp",
+        "npm run start"
       ],
       "env": {}
     }

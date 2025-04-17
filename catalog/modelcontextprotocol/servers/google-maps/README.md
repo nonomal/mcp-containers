@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--google-maps"
+        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--google-maps",
+        "cd ./src/google-maps && node ./dist/index.js"
       ],
       "env": {
         "GOOGLE_MAPS_API_KEY": "google-maps-api-key"

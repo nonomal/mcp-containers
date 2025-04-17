@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--gongrzhe--langflow-doc-qa-server--langflow-doc-qa-server"
+        "ghcr.io/metorial/mcp-container--gongrzhe--langflow-doc-qa-server--langflow-doc-qa-server",
+        "node ./build/index.js"
       ],
       "env": {
         "API_ENDPOINT": "api-endpoint"

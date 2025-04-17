@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--slack"
+        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--slack",
+        "cd ./src/slack && node ./dist/index.js"
       ],
       "env": {
         "SLACK_BOT_TOKEN": "slack-bot-token",

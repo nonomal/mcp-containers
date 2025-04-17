@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol (MCP) server for Kagi search & other tools."
   },
   "manifestHash": "8c1b240c86b0d78b828df2afe0f48f1b",
-  "createdAt": "2025-04-15T07:16:35.659Z",
+  "createdAt": "2025-04-17T11:11:01.599Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -93,7 +93,7 @@
           }
         },
         "start": {
-          "cmd": "python -m kagimcp"
+          "cmd": "kagimcp"
         }
       }
     }

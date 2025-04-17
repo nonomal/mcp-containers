@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--saintdoresh--weather-mcp-claudedesktop--weather-mcp-claude-desktop"
+        "ghcr.io/metorial/mcp-container--saintdoresh--weather-mcp-claudedesktop--weather-mcp-claude-desktop",
+        "python main.py"
       ],
       "env": {
         "OPENWEATHER_API_KEY": "openweather-api-key"

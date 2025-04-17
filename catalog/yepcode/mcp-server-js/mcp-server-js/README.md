@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--yepcode--mcp-server-js--mcp-server-js"
+        "ghcr.io/metorial/mcp-container--yepcode--mcp-server-js--mcp-server-js",
+        "npm run start"
       ],
       "env": {
         "YEPCODE_API_TOKEN": "yepcode-api-token"

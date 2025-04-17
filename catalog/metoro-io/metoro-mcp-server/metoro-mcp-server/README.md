@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--metoro-io--metoro-mcp-server--metoro-mcp-server"
+        "ghcr.io/metorial/mcp-container--metoro-io--metoro-mcp-server--metoro-mcp-server",
+        "./out"
       ],
       "env": {
         "METORO_AUTH_TOKEN": "metoro-auth-token",

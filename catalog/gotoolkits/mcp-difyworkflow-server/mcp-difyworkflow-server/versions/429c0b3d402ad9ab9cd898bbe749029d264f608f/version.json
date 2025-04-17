@@ -45,7 +45,7 @@
     "description": "mcp-difyworkflow-server is an mcp server Tools application that implements the query and invocation of Dify workflows, supporting the on-demand operation of multiple custom Dify workflows."
   },
   "manifestHash": "b15759d3b91f122eba149d14fc0ec884",
-  "createdAt": "2025-04-15T07:16:29.504Z",
+  "createdAt": "2025-04-17T11:10:54.425Z",
   "builder": [
     {
       "type": "nixpacks",

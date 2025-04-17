@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--pskill9--website-downloader-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--pskill9--website-downloader--website-downloader"
+        "ghcr.io/metorial/mcp-container--pskill9--website-downloader--website-downloader",
+        "node ./build/index.js"
       ],
       "env": {}
     }

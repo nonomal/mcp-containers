@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ramp-public--ramp-mcp--ramp-mcp"
+        "ghcr.io/metorial/mcp-container--ramp-public--ramp-mcp--ramp-mcp",
+        "ramp-mcp"
       ],
       "env": {
         "RAMP_CLIENT_ID": "ramp-client-id",

@@ -59,7 +59,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--api7--apisix-mcp--apisix-mcp"
+        "ghcr.io/metorial/mcp-container--api7--apisix-mcp--apisix-mcp",
+        "pnpm run start"
       ],
       "env": {
         "APISIX_SERVER_HOST": "apisix-server-host",

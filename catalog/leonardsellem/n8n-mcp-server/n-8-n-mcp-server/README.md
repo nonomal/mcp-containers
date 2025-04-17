@@ -58,7 +58,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--leonardsellem--n8n-mcp-server--n-8-n-mcp-server"
+        "ghcr.io/metorial/mcp-container--leonardsellem--n8n-mcp-server--n-8-n-mcp-server",
+        "npm run start"
       ],
       "env": {
         "N8N_API_URL": "n-8-n-api-url",

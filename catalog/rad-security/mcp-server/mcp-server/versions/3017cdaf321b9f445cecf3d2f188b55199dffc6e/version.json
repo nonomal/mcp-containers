@@ -57,7 +57,7 @@
     "description": "A Model Context Protocol (MCP) server for RAD Security, providing AI-powered security insights for Kubernetes and cloud environments."
   },
   "manifestHash": "8aeb20bdf028f1296de3ffd81574bb40",
-  "createdAt": "2025-04-15T07:16:43.797Z",
+  "createdAt": "2025-04-17T11:11:11.601Z",
   "builder": [
     {
       "type": "nixpacks",

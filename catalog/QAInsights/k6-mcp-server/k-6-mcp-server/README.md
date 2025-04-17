@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--qainsights--k6-mcp-server--k
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--qainsights--k6-mcp-server--k-6-mcp-server"
+        "ghcr.io/metorial/mcp-container--qainsights--k6-mcp-server--k-6-mcp-server",
+        "python main.py"
       ],
       "env": {}
     }

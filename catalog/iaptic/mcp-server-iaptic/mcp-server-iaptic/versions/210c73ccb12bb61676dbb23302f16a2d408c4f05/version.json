@@ -44,7 +44,7 @@
     "description": "A Model Context Protocol server for interacting with the [Iaptic API](https://www.iaptic.com). This server allows Claude or other AIs to interact with your Iaptic data to answer questions about your customers, purchases, transactions, and statistics."
   },
   "manifestHash": "48f37f6a1c10eafdd9e4f53d4be0b9a1",
-  "createdAt": "2025-04-15T07:16:32.313Z",
+  "createdAt": "2025-04-17T11:10:57.503Z",
   "builder": [
     {
       "type": "nixpacks",

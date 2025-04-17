@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--jae-jae--fetcher-mcp--fetche
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jae-jae--fetcher-mcp--fetcher-mcp"
+        "ghcr.io/metorial/mcp-container--jae-jae--fetcher-mcp--fetcher-mcp",
+        "node build/index.js"
       ],
       "env": {}
     }

@@ -58,7 +58,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--f4ww4z--mcp-mysql-server--mcp-mysql-server"
+        "ghcr.io/metorial/mcp-container--f4ww4z--mcp-mysql-server--mcp-mysql-server",
+        "node ./build/index.js"
       ],
       "env": {
         "MYSQL_HOST": "mysql-host",

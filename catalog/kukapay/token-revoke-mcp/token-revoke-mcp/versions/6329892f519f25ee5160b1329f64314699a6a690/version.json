@@ -45,7 +45,7 @@
     "description": "An MCP server for checking and revoking ERC-20 token allowances, enhancing security and control."
   },
   "manifestHash": "78aea4b0a04c2466cbd9a1f54e313c40",
-  "createdAt": "2025-04-15T07:16:38.364Z",
+  "createdAt": "2025-04-17T11:11:04.621Z",
   "builder": [
     {
       "type": "nixpacks",

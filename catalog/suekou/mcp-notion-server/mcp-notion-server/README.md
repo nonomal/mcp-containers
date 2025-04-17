@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--suekou--mcp-notion-server--mcp-notion-server"
+        "ghcr.io/metorial/mcp-container--suekou--mcp-notion-server--mcp-notion-server",
+        "node build/index.js"
       ],
       "env": {
         "NOTION_API_TOKEN": "notion-api-token"

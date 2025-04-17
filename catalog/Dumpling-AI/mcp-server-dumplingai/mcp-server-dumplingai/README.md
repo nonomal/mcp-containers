@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--dumpling-ai--mcp-server-dumplingai--mcp-server-dumplingai"
+        "ghcr.io/metorial/mcp-container--dumpling-ai--mcp-server-dumplingai--mcp-server-dumplingai",
+        "node ./build/index.js"
       ],
       "env": {
         "DUMPLING_API_KEY": "dumpling-api-key"

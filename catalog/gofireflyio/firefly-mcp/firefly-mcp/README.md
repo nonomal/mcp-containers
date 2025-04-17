@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--gofireflyio--firefly-mcp--firefly-mcp"
+        "ghcr.io/metorial/mcp-container--gofireflyio--firefly-mcp--firefly-mcp",
+        "npm run start"
       ],
       "env": {
         "FIREFLY_ACCESS_KEY": "firefly-access-key",

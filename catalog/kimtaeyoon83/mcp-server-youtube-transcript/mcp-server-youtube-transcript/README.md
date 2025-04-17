@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--kimtaeyoon83--mcp-server-you
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kimtaeyoon83--mcp-server-youtube-transcript--mcp-server-youtube-transcript"
+        "ghcr.io/metorial/mcp-container--kimtaeyoon83--mcp-server-youtube-transcript--mcp-server-youtube-transcript",
+        "node dist/index.js"
       ],
       "env": {}
     }

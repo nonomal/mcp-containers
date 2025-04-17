@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--deepfates--mcp-replicate--mcp-replicate"
+        "ghcr.io/metorial/mcp-container--deepfates--mcp-replicate--mcp-replicate",
+        "npm run start"
       ],
       "env": {
         "REPLICATE_API_TOKEN": "replicate-api-token"

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--felores--airtable-mcp--airtable-mcp"
+        "ghcr.io/metorial/mcp-container--felores--airtable-mcp--airtable-mcp",
+        "node build/index.js"
       ],
       "env": {
         "AIRTABLE_API_KEY": "airtable-api-key"

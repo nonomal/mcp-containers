@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--secretiveshell--mcp-timeserv
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--secretiveshell--mcp-timeserver--mcp-timeserver"
+        "ghcr.io/metorial/mcp-container--secretiveshell--mcp-timeserver--mcp-timeserver",
+        "mcp-timeserver"
       ],
       "env": {}
     }

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--inhiblabcore--mcp-image-compression--mcp-image-compression"
+        "ghcr.io/metorial/mcp-container--inhiblabcore--mcp-image-compression--mcp-image-compression",
+        "pnpm run start"
       ],
       "env": {
         "IMAGE_COMPRESSION_DOWNLOAD_DIR": "image-compression-download-dir"

@@ -56,7 +56,7 @@
     "description": "MCP Server for the Qlik Cloud API, enabling Claude to interact with Qlik applications and extract data from visualizations."
   },
   "manifestHash": "81ee314c4f48e382a2947ed00c316c81",
-  "createdAt": "2025-04-15T07:16:35.525Z",
+  "createdAt": "2025-04-17T11:11:01.409Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--oschina--mcp-gitee--mcp-gitee"
+        "ghcr.io/metorial/mcp-container--oschina--mcp-gitee--mcp-gitee",
+        "./out"
       ],
       "env": {
         "GITEE_API_BASE": "gitee-api-base",

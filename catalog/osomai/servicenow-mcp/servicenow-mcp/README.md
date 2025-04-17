@@ -58,7 +58,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--osomai--servicenow-mcp--servicenow-mcp"
+        "ghcr.io/metorial/mcp-container--osomai--servicenow-mcp--servicenow-mcp",
+        "servicenow-mcp"
       ],
       "env": {
         "SERVICENOW_INSTANCE_URL": "servicenow-instance-url",

@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--gitlab"
+        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--gitlab",
+        "cd ./src/gitlab && node ./dist/index.js"
       ],
       "env": {
         "GITLAB_PERSONAL_ACCESS_TOKEN": "gitlab-personal-access-token",

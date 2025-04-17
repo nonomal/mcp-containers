@@ -20,7 +20,7 @@
     "description": "This is a [Model Context Protocol (MCP) server](https://github.com/modelcontextprotocol) that enables scalable mobile automation through a platform-agnostic interface, eliminating the need for distinct iOS or Android knowledge."
   },
   "manifestHash": "28a830de6db889e21459756f64656b82",
-  "createdAt": "2025-04-16T20:16:22.740Z",
+  "createdAt": "2025-04-17T11:11:06.701Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -72,6 +72,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node lib/index.js"
         }
       }
     }

@@ -66,11 +66,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--co-browser--browser-use-mcp-server--browser-use-mcp-server",
-        "--no-shell no-shell",
-        "--port port",
-        "--proxy-port port",
-        "--stdio stdio",
-        "--vnc vnc"
+        "browser-use-mcp-server --no-shell no-shell --port port --proxy-port port --stdio stdio --vnc vnc"
       ],
       "env": {
         "OPENAI_API_KEY": "openai-api-key",

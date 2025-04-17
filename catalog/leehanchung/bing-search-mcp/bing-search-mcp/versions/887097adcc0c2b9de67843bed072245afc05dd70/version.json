@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for Microsoft Bing Search API integration, allowing AI assistants to perform web, news, and image searches."
   },
   "manifestHash": "a6f084d9845f5168729a841cd1a1bb04",
-  "createdAt": "2025-04-15T07:16:39.050Z",
+  "createdAt": "2025-04-17T11:11:05.234Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -81,7 +81,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp_server_bing"
+          "cmd": "mcp-server-bing"
         }
       }
     }

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--mcpdotdirect--evm-mcp-server
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mcpdotdirect--evm-mcp-server--evm-mcp-server"
+        "ghcr.io/metorial/mcp-container--mcpdotdirect--evm-mcp-server--evm-mcp-server",
+        "bun run start"
       ],
       "env": {}
     }

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--githejie--mcp-server-calcula
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--githejie--mcp-server-calculator--mcp-server-calculator"
+        "ghcr.io/metorial/mcp-container--githejie--mcp-server-calculator--mcp-server-calculator",
+        "mcp-server-calculator"
       ],
       "env": {}
     }

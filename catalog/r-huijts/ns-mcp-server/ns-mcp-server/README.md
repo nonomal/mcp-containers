@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--r-huijts--ns-mcp-server--ns-mcp-server"
+        "ghcr.io/metorial/mcp-container--r-huijts--ns-mcp-server--ns-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {
         "NS_API_KEY": "ns-api-key"

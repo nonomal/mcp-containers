@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--veyrax--veyrax-mcp--veyrax-mcp"
+        "ghcr.io/metorial/mcp-container--veyrax--veyrax-mcp--veyrax-mcp",
+        "npm run start"
       ],
       "env": {
         "VEYRAX_API_KEY": "VeyraX API Key"

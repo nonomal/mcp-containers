@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--getrupt--ashra-mcp--ashra-mc
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--getrupt--ashra-mcp--ashra-mcp"
+        "ghcr.io/metorial/mcp-container--getrupt--ashra-mcp--ashra-mcp",
+        "node ./build/index.js"
       ],
       "env": {}
     }

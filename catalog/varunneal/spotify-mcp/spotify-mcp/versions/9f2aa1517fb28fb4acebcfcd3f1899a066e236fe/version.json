@@ -57,7 +57,7 @@
     "description": "MCP project to connect Claude with Spotify. Built on top of [spotipy-dev's API](https://github.com/spotipy-dev/spotipy/tree/2.24.0)."
   },
   "manifestHash": "7c6d8371418cf58d30841bffa72b4a9f",
-  "createdAt": "2025-04-15T07:16:48.261Z",
+  "createdAt": "2025-04-17T11:11:16.660Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -105,7 +105,7 @@
           }
         },
         "start": {
-          "cmd": "python -m spotify-mcp"
+          "cmd": "spotify-mcp"
         }
       }
     }

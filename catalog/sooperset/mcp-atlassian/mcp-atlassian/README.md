@@ -61,12 +61,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--sooperset--mcp-atlassian--mcp-atlassian",
-        "--confluence-url confluence-url",
-        "--confluence-username confluence-username",
-        "--confluence-token confluence-token",
-        "--jira-url jira-url",
-        "--jira-username jira-username",
-        "--jira-token jira-token"
+        "mcp-atlassian --confluence-url confluence-url --confluence-username confluence-username --confluence-token confluence-token --jira-url jira-url --jira-username jira-username --jira-token jira-token"
       ],
       "env": {}
     }

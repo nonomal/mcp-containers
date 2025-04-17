@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--the0807--geeknews-mcp-server
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--the0807--geeknews-mcp-server--geek-news-mcp-server"
+        "ghcr.io/metorial/mcp-container--the0807--geeknews-mcp-server--geek-news-mcp-server",
+        "python main.py"
       ],
       "env": {}
     }

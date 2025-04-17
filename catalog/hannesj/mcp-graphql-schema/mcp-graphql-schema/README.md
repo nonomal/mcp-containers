@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--hannesj--mcp-graphql-schema-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hannesj--mcp-graphql-schema--mcp-graphql-schema"
+        "ghcr.io/metorial/mcp-container--hannesj--mcp-graphql-schema--mcp-graphql-schema",
+        "npm run start"
       ],
       "env": {}
     }

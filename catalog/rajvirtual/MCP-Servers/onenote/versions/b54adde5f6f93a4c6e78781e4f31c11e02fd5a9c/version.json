@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server that provides AI assistants with access to Microsoft OneNote. This server enables AI models to read from and write to OneNote notebooks, sections, and pages."
   },
   "manifestHash": "62b3fa4c8a470f9fd86a3b4b5fb97e91",
-  "createdAt": "2025-04-15T07:16:45.393Z",
+  "createdAt": "2025-04-17T11:11:13.073Z",
   "builder": [
     {
       "type": "nixpacks",

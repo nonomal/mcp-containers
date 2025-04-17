@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--bankless--onchain-mcp--onchain-mcp"
+        "ghcr.io/metorial/mcp-container--bankless--onchain-mcp--onchain-mcp",
+        "node dist/index.js"
       ],
       "env": {
         "BANKLESS_API_TOKEN": "bankless-api-token"

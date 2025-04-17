@@ -63,8 +63,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--nwiizo--tfmcp--tfmcp",
-        "--dir terraform-dir",
-        "--path path"
+        "./bin/tfmcp --dir terraform-dir --path path"
       ],
       "env": {
         "TERRAFORM_DIR": "terraform-dir",

@@ -57,7 +57,7 @@
     "description": "A Model Context Protocol (MCP) server implementation that provides Elasticsearch and OpenSearch interaction."
   },
   "manifestHash": "95c1cbf81fbbc0bf83e3d79ac428a511",
-  "createdAt": "2025-04-15T07:16:23.031Z",
+  "createdAt": "2025-04-17T11:10:48.376Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -105,7 +105,7 @@
           }
         },
         "start": {
-          "cmd": "python -m elasticsearch-mcp-server"
+          "cmd": "elasticsearch-mcp-server"
         }
       }
     }

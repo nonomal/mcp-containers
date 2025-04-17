@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--saintdoresh--crypto-trader-m
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--saintdoresh--crypto-trader-mcp-claudedesktop--crypto-trader-mcp-claude-desktop"
+        "ghcr.io/metorial/mcp-container--saintdoresh--crypto-trader-mcp-claudedesktop--crypto-trader-mcp-claude-desktop",
+        "python main.py"
       ],
       "env": {}
     }

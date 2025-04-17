@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--awwaiid--mcp-server-taskwarr
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--awwaiid--mcp-server-taskwarrior--mcp-server-taskwarrior"
+        "ghcr.io/metorial/mcp-container--awwaiid--mcp-server-taskwarrior--mcp-server-taskwarrior",
+        "node dist/index.js"
       ],
       "env": {}
     }

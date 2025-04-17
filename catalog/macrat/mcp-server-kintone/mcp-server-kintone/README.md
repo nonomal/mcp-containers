@@ -60,7 +60,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--macrat--mcp-server-kintone--mcp-server-kintone"
+        "ghcr.io/metorial/mcp-container--macrat--mcp-server-kintone--mcp-server-kintone",
+        "./out"
       ],
       "env": {
         "KINTONE_BASE_URL": "kintone-base-url",

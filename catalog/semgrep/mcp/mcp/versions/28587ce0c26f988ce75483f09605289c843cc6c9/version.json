@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for using [Semgrep](https://semgrep.dev) to scan code for security vulnerabilities. Secure your [vibe coding](https://semgrep.dev/blog/2025/giving-appsec-a-seat-at-the-vibe-coding-table/)! 😅"
   },
   "manifestHash": "3b1faeed1fbbb998061c5168b255ec1a",
-  "createdAt": "2025-04-15T07:16:45.637Z",
+  "createdAt": "2025-04-17T11:11:13.689Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -81,7 +81,7 @@
           }
         },
         "start": {
-          "cmd": "python -m semgrep-mcp"
+          "cmd": "semgrep-mcp"
         }
       }
     }

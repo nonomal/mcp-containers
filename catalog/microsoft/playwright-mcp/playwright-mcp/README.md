@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--microsoft--playwright-mcp--p
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--microsoft--playwright-mcp--playwright-mcp"
+        "ghcr.io/metorial/mcp-container--microsoft--playwright-mcp--playwright-mcp",
+        "node cli.js"
       ],
       "env": {}
     }

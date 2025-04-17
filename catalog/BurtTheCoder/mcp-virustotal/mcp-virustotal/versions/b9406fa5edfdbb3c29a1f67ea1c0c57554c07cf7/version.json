@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for querying the [VirusTotal API](https://www.virustotal.com/). This server provides comprehensive security analysis tools with automatic relationship data fetching. It integrates seamlessly with MCP-compatible applications like [Claude Desktop](https://claude.ai)."
   },
   "manifestHash": "d94615704a7e74ed3f3e7e5040f2b357",
-  "createdAt": "2025-04-15T07:16:12.739Z",
+  "createdAt": "2025-04-17T11:10:46.656Z",
   "builder": [
     {
       "type": "nixpacks",

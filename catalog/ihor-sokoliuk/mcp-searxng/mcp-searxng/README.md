@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ihor-sokoliuk--mcp-searxng--mcp-searxng"
+        "ghcr.io/metorial/mcp-container--ihor-sokoliuk--mcp-searxng--mcp-searxng",
+        "node dist/index.js"
       ],
       "env": {
         "SEARXNG_URL": "searxng-url"

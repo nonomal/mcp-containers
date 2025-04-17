@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--privetin--dataset-viewer--da
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--privetin--dataset-viewer--dataset-viewer"
+        "ghcr.io/metorial/mcp-container--privetin--dataset-viewer--dataset-viewer",
+        "dataset-viewer"
       ],
       "env": {}
     }

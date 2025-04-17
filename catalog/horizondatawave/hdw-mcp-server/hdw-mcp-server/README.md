@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--horizondatawave--hdw-mcp-server--hdw-mcp-server"
+        "ghcr.io/metorial/mcp-container--horizondatawave--hdw-mcp-server--hdw-mcp-server",
+        "node build/index.js"
       ],
       "env": {
         "HDW_ACCESS_TOKEN": "hdw-access-token",

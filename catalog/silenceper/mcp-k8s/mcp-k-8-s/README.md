@@ -59,10 +59,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--silenceper--mcp-k8s--mcp-k-8-s",
-        "--kubeconfig kubeconfig",
-        "--enable-create enable-create",
-        "--enable-update enable-update",
-        "--enable-delete enable-delete"
+        "./out --kubeconfig kubeconfig --enable-create enable-create --enable-update enable-update --enable-delete enable-delete"
       ],
       "env": {}
     }

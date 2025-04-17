@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--userad--didlogic_mcp--didlogic-mcp"
+        "ghcr.io/metorial/mcp-container--userad--didlogic_mcp--didlogic-mcp",
+        "didlogic_mcp"
       ],
       "env": {
         "DIDLOGIC_API_KEY": "didlogic-api-key"

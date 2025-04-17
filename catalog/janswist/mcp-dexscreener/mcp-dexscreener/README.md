@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--janswist--mcp-dexscreener--m
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--janswist--mcp-dexscreener--mcp-dexscreener"
+        "ghcr.io/metorial/mcp-container--janswist--mcp-dexscreener--mcp-dexscreener",
+        "npm run start"
       ],
       "env": {}
     }

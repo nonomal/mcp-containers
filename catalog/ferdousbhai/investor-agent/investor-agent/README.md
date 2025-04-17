@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--ferdousbhai--investor-agent-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ferdousbhai--investor-agent--investor-agent"
+        "ghcr.io/metorial/mcp-container--ferdousbhai--investor-agent--investor-agent",
+        "investor-agent"
       ],
       "env": {}
     }

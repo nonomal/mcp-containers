@@ -20,7 +20,7 @@
     "description": "This MCP server provides access to Siri shortcuts functionality via the Model Context Protocol (MCP). It allows listing, opening, and running shortcuts from the macOS Shortcuts app."
   },
   "manifestHash": "26f140bb38babf86d87bfc660c7ab573",
-  "createdAt": "2025-04-15T07:16:24.533Z",
+  "createdAt": "2025-04-17T11:10:49.605Z",
   "builder": [
     {
       "type": "nixpacks",

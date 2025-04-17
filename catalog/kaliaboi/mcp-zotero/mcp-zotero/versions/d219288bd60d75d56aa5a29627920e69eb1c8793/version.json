@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol server for Zotero integration that allows Claude to interact with your Zotero library."
   },
   "manifestHash": "983f8f07b8401b1245ed77c43c1301fa",
-  "createdAt": "2025-04-15T07:16:35.895Z",
+  "createdAt": "2025-04-17T11:11:01.892Z",
   "builder": [
     {
       "type": "nixpacks",

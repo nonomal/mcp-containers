@@ -33,7 +33,7 @@
     "description": "A [MCP(Model Context Protocol)](https://www.anthropic.com/news/model-context-protocol) server that accesses to [Holaspirit API](https://www.holaspirit.com/)."
   },
   "manifestHash": "2c58ba3dffadf090dd4b168c0a478319",
-  "createdAt": "2025-04-15T07:16:46.585Z",
+  "createdAt": "2025-04-17T11:11:14.676Z",
   "builder": [
     {
       "type": "nixpacks",

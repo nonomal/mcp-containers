@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--elie222--inbox-zero--mcp-server"
+        "ghcr.io/metorial/mcp-container--elie222--inbox-zero--mcp-server",
+        "npm run start"
       ],
       "env": {
         "API_KEY": "api-key"

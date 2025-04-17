@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--takashiishida--arxiv-latex-m
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--takashiishida--arxiv-latex-mcp--arxiv-latex-mcp"
+        "ghcr.io/metorial/mcp-container--takashiishida--arxiv-latex-mcp--arxiv-latex-mcp",
+        "python -m arxiv-latex-mcp"
       ],
       "env": {}
     }

@@ -45,7 +45,7 @@
     "description": "This MCP server integrates with your Google Drive and Google Sheets, to enable creating and modifying spreadsheets."
   },
   "manifestHash": "31a792f204f6b2a138006b31d7ad1241",
-  "createdAt": "2025-04-15T07:16:48.505Z",
+  "createdAt": "2025-04-17T11:11:17.157Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -93,7 +93,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-google-sheets"
+          "cmd": "mcp-google-sheets"
         }
       }
     }

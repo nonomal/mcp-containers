@@ -32,7 +32,7 @@
     "description": "A Model Context Protocol (MCP) server that provides programmatic access to the Supabase Management API. This server allows AI models and other clients to manage Supabase projects and organizations through a standardized interface."
   },
   "manifestHash": "e7537531e2277b74e07e81f042787e25",
-  "createdAt": "2025-04-15T07:16:36.752Z",
+  "createdAt": "2025-04-17T11:11:03.439Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -81,6 +81,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--ai-ql--chat-mcp--chat-mcp
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ai-ql--chat-mcp--chat-mcp"
+        "ghcr.io/metorial/mcp-container--ai-ql--chat-mcp--chat-mcp",
+        "npm run start"
       ],
       "env": {}
     }

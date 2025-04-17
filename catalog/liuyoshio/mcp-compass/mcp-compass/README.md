@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--liuyoshio--mcp-compass--mcp-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--liuyoshio--mcp-compass--mcp-compass"
+        "ghcr.io/metorial/mcp-container--liuyoshio--mcp-compass--mcp-compass",
+        "node ./build/index.js"
       ],
       "env": {}
     }

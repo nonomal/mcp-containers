@@ -25,7 +25,7 @@
     }
   },
   "manifestHash": "b51380d2cf4a3e5d4d7404e63c3c8c77",
-  "createdAt": "2025-04-16T17:13:13.127Z",
+  "createdAt": "2025-04-17T11:11:07.757Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -44,7 +44,7 @@
               "install"
             ],
             "cmds": [
-              "npm run build"
+              "cd ./src/everything && npm run build"
             ],
             "cacheDirectories": [
               "node_modules/.cache"
@@ -76,7 +76,7 @@
           }
         },
         "start": {
-          "cmd": "npm run start"
+          "cmd": "cd ./src/everything && node ./dist/index.js"
         }
       }
     }

@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kapilduraphe--okta-mcp-server--okta-mcp-server"
+        "ghcr.io/metorial/mcp-container--kapilduraphe--okta-mcp-server--okta-mcp-server",
+        "node dist/index.js"
       ],
       "env": {
         "OKTA_ORG_URL": "okta-org-url",

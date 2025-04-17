@@ -33,7 +33,7 @@
     "description": "Implementation of an MCP server for the [RAG Web Browser Actor](https://apify.com/apify/rag-web-browser)."
   },
   "manifestHash": "2d6a84aa5709f0077723ae22f5dae540",
-  "createdAt": "2025-04-15T08:55:56.911Z",
+  "createdAt": "2025-04-17T11:10:44.422Z",
   "builder": [
     {
       "type": "nixpacks",

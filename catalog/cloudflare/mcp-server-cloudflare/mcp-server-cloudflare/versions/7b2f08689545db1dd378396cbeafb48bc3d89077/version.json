@@ -33,7 +33,7 @@
     "description": "Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an installer as well as an MCP Server for [Cloudflare's API](https://api.cloudflare.com)."
   },
   "manifestHash": "b69c0323dd08ce8abd1ffc28be103926",
-  "createdAt": "2025-04-16T16:18:27.291Z",
+  "createdAt": "2025-04-17T11:10:48.242Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -83,6 +83,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

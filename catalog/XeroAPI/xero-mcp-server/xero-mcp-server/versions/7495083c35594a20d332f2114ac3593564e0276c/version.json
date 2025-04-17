@@ -45,7 +45,7 @@
     "description": "This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features."
   },
   "manifestHash": "844158e364a74e5b28ec7cfd12aa6ded",
-  "createdAt": "2025-04-17T05:14:44.359Z",
+  "createdAt": "2025-04-17T11:11:17.374Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -94,6 +94,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./dist/index.js"
         }
       }
     }

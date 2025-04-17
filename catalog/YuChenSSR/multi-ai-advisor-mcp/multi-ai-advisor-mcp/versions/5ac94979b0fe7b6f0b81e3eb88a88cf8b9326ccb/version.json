@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that queries multiple Ollama models and combines their responses, providing diverse AI perspectives on a single question."
   },
   "manifestHash": "9d493c750de3b7f76c8be0efba4cc40a",
-  "createdAt": "2025-04-15T07:16:18.927Z",
+  "createdAt": "2025-04-17T11:11:18.197Z",
   "builder": [
     {
       "type": "nixpacks",

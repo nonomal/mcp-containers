@@ -19,7 +19,7 @@
     "description": "An MCP server for Chess.com's Published Data API."
   },
   "manifestHash": "c6b5318aa352de8a6ac1280ed958e2b5",
-  "createdAt": "2025-04-15T07:16:42.873Z",
+  "createdAt": "2025-04-17T11:11:10.143Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -67,7 +67,7 @@
           }
         },
         "start": {
-          "cmd": "python -m chess_mcp"
+          "cmd": "chess-mcp"
         }
       }
     }

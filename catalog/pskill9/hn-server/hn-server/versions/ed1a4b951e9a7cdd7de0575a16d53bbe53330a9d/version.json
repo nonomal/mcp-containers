@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that provides tools for fetching stories from Hacker News. This server parses the HTML content from news.ycombinator.com and provides structured data for different types of stories (top, new, ask, show, jobs)."
   },
   "manifestHash": "e901b324109e9116eab1df97661df48e",
-  "createdAt": "2025-04-15T07:16:42.951Z",
+  "createdAt": "2025-04-17T11:11:10.343Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,6 +69,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

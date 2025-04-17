@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--allenporter--mcp-server-home-assistant--mcp-server-home-assistant"
+        "ghcr.io/metorial/mcp-container--allenporter--mcp-server-home-assistant--mcp-server-home-assistant",
+        "mcp-server-home-assistant"
       ],
       "env": {
         "HOME_ASSISTANT_WEB_SOCKET_URL": "home-assistant-web-socket-url"

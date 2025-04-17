@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--syucream--holaspirit-mcp-server--holaspirit-mcp-server"
+        "ghcr.io/metorial/mcp-container--syucream--holaspirit-mcp-server--holaspirit-mcp-server",
+        "npm run start"
       ],
       "env": {
         "HOLASPIRIT_API_TOKEN": "holaspirit-api-token"

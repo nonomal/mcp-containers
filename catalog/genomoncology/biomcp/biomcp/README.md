@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--genomoncology--biomcp--biomc
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--genomoncology--biomcp--biomcp"
+        "ghcr.io/metorial/mcp-container--genomoncology--biomcp--biomcp",
+        "biomcp"
       ],
       "env": {}
     }

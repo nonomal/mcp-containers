@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--ambar--simctl-mcp--simctl-mc
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ambar--simctl-mcp--simctl-mcp"
+        "ghcr.io/metorial/mcp-container--ambar--simctl-mcp--simctl-mcp",
+        "pnpm run start"
       ],
       "env": {}
     }

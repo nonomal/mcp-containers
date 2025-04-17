@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--aws-samples--sample-mcp-serv
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--aws-samples--sample-mcp-server-s3--sample-mcp-server-s-3"
+        "ghcr.io/metorial/mcp-container--aws-samples--sample-mcp-server-s3--sample-mcp-server-s-3",
+        "s3-mcp-server"
       ],
       "env": {}
     }

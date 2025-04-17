@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--modelcontextprotocol--server
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--gdrive"
+        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--gdrive",
+        "cd ./src/gdrive && node ./dist/index.js"
       ],
       "env": {}
     }

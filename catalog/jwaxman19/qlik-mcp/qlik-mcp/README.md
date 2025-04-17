@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jwaxman19--qlik-mcp--qlik-mcp"
+        "ghcr.io/metorial/mcp-container--jwaxman19--qlik-mcp--qlik-mcp",
+        "deno run --allow-all src/index.ts"
       ],
       "env": {
         "QLIK_API_KEY": "qlik-api-key",

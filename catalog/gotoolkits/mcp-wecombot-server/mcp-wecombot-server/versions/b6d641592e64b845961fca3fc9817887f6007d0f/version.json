@@ -33,7 +33,7 @@
     "description": "An MCP server application that sends various types of messages to the WeCom group robot."
   },
   "manifestHash": "f46f4395264c62354c3301ea5f616817",
-  "createdAt": "2025-04-15T08:55:59.769Z",
+  "createdAt": "2025-04-17T11:10:55.387Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--calvernaz--alphavantage--alphavantage"
+        "ghcr.io/metorial/mcp-container--calvernaz--alphavantage--alphavantage",
+        "alphavantage"
       ],
       "env": {
         "ALPHAVANTAGE_API_KEY": "alphavantage-api-key"

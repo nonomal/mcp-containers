@@ -57,7 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--tinybirdco--mcp-tinybird--mcp-tinybird",
-        "stdio"
+        "mcp-tinybird stdio"
       ],
       "env": {
         "TB_API_URL": "tb-api-url",

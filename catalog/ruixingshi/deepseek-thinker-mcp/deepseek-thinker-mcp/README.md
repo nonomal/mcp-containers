@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ruixingshi--deepseek-thinker-mcp--deepseek-thinker-mcp"
+        "ghcr.io/metorial/mcp-container--ruixingshi--deepseek-thinker-mcp--deepseek-thinker-mcp",
+        "node ./build/index.js"
       ],
       "env": {
         "API_KEY": "api-key",

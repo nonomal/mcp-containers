@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server that lets you seamlessly use OpenAI's models right from Claude."
   },
   "manifestHash": "4f0273ad1d0795e1612c56ce65be53e8",
-  "createdAt": "2025-04-15T07:16:41.406Z",
+  "createdAt": "2025-04-17T11:11:08.778Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

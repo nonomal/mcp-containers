@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--zhsama--duckduckgo-mpc-serve
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--zhsama--duckduckgo-mpc-server--duckduckgo-mpc-server"
+        "ghcr.io/metorial/mcp-container--zhsama--duckduckgo-mpc-server--duckduckgo-mpc-server",
+        "node ./build/index.js"
       ],
       "env": {}
     }

@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hannesrudolph--mcp-ragdocs--mcp-ragdocs"
+        "ghcr.io/metorial/mcp-container--hannesrudolph--mcp-ragdocs--mcp-ragdocs",
+        "npm run start"
       ],
       "env": {
         "OPENAI_API_KEY": "openai-api-key",

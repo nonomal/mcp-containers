@@ -57,8 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--fastnai--mcp-fastn--mcp-fastn",
-        "--api_key api-key",
-        "--space_id workspace-id"
+        "fastn --api_key api-key --space_id workspace-id"
       ],
       "env": {}
     }

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--yuna0x0--hackmd-mcp--hackmd-mcp"
+        "ghcr.io/metorial/mcp-container--yuna0x0--hackmd-mcp--hackmd-mcp",
+        "bun run start"
       ],
       "env": {
         "HACKMD_API_TOKEN": "hackmd-api-token"

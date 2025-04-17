@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--narumiruna--yfinance-mcp--yf
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--narumiruna--yfinance-mcp--yfinance-mcp"
+        "ghcr.io/metorial/mcp-container--narumiruna--yfinance-mcp--yfinance-mcp",
+        "yfmcp"
       ],
       "env": {}
     }

@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--da-okazaki--mcp-neo4j-server--mcp-neo-4-j-server"
+        "ghcr.io/metorial/mcp-container--da-okazaki--mcp-neo4j-server--mcp-neo-4-j-server",
+        "node ./build/index.js"
       ],
       "env": {
         "NEO4J_URI": "neo-4-j-uri",

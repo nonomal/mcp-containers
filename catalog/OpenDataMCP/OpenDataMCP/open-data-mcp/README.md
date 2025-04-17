@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--opendatamcp--opendatamcp--op
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--opendatamcp--opendatamcp--open-data-mcp"
+        "ghcr.io/metorial/mcp-container--opendatamcp--opendatamcp--open-data-mcp",
+        "odmcp"
       ],
       "env": {}
     }

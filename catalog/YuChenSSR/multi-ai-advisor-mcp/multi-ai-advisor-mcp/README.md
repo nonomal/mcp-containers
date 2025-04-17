@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--yuchenssr--multi-ai-advisor-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--yuchenssr--multi-ai-advisor-mcp--multi-ai-advisor-mcp"
+        "ghcr.io/metorial/mcp-container--yuchenssr--multi-ai-advisor-mcp--multi-ai-advisor-mcp",
+        "npm run start"
       ],
       "env": {}
     }

@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for the DeepSeek API, allowing seamless integration of DeepSeek's powerful language models with MCP-compatible applications like Claude Desktop."
   },
   "manifestHash": "ca73be8aaed8648000ac99f06a51950a",
-  "createdAt": "2025-04-15T07:16:13.230Z",
+  "createdAt": "2025-04-17T11:10:49.349Z",
   "builder": [
     {
       "type": "nixpacks",

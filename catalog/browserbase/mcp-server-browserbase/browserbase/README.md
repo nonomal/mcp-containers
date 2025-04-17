@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--browserbase--mcp-server-brow
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase--browserbase"
+        "ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase--browserbase",
+        "node dist/index.js"
       ],
       "env": {}
     }

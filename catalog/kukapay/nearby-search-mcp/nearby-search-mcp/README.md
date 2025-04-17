@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kukapay--nearby-search-mcp--nearby-search-mcp"
+        "ghcr.io/metorial/mcp-container--kukapay--nearby-search-mcp--nearby-search-mcp",
+        "python main.py"
       ],
       "env": {
         "GOOGLE_API_KEY": "google-api-key"

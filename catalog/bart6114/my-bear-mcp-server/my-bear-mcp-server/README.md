@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--bart6114--my-bear-mcp-server
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--bart6114--my-bear-mcp-server--my-bear-mcp-server"
+        "ghcr.io/metorial/mcp-container--bart6114--my-bear-mcp-server--my-bear-mcp-server",
+        "npm run start"
       ],
       "env": {}
     }

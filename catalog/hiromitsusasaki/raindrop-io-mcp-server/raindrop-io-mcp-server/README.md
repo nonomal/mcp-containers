@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hiromitsusasaki--raindrop-io-mcp-server--raindrop-io-mcp-server"
+        "ghcr.io/metorial/mcp-container--hiromitsusasaki--raindrop-io-mcp-server--raindrop-io-mcp-server",
+        "npm run start"
       ],
       "env": {
         "RAINDROP_TOKEN": "raindrop-token"

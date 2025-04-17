@@ -20,7 +20,7 @@
     "description": "A coincap mcp server to access crypto data from coincap API."
   },
   "manifestHash": "50b9ee272cafd118b2dfaaeb263abcef",
-  "createdAt": "2025-04-15T07:16:16.284Z",
+  "createdAt": "2025-04-17T11:11:10.885Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,6 +69,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node build/index.js"
         }
       }
     }

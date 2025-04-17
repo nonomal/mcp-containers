@@ -33,7 +33,7 @@
     "description": "Model Context Protocol (MCP) server that provides access to Azure Resource Graph queries. It allows you to retrieve information about Azure resources across your subscriptions using Resource Graph queries."
   },
   "manifestHash": "2bc7c4825bd114a00dc24e499fc74d04",
-  "createdAt": "2025-04-15T07:16:30.460Z",
+  "createdAt": "2025-04-17T11:10:55.307Z",
   "builder": [
     {
       "type": "nixpacks",

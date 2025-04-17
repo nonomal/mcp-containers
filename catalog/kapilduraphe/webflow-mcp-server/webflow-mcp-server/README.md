@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kapilduraphe--webflow-mcp-server--webflow-mcp-server"
+        "ghcr.io/metorial/mcp-container--kapilduraphe--webflow-mcp-server--webflow-mcp-server",
+        "node dist/index.js"
       ],
       "env": {
         "WEBFLOW_API_TOKEN": "webflow-api-token"

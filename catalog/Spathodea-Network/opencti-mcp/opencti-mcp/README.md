@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--spathodea-network--opencti-mcp--opencti-mcp"
+        "ghcr.io/metorial/mcp-container--spathodea-network--opencti-mcp--opencti-mcp",
+        "node ./build/index.js"
       ],
       "env": {
         "OPENCTI_URL": "opencti-url"

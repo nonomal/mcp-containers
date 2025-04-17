@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--34892002--bilibili-mcp-js--b
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--34892002--bilibili-mcp-js--bilibili-mcp-js"
+        "ghcr.io/metorial/mcp-container--34892002--bilibili-mcp-js--bilibili-mcp-js",
+        "bun run start"
       ],
       "env": {}
     }

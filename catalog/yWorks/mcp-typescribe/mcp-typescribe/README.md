@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--yworks--mcp-typescribe--mcp-typescribe",
-        "INFO_PATH"
+        "npm run start INFO_PATH"
       ],
       "env": {}
     }

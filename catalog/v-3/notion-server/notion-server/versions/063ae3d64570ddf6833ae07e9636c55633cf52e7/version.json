@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server that provides seamless integration with Notion. This server enables Language Models to interact with your Notion workspace through standardized tools for searching, reading, creating, and updating pages and databases."
   },
   "manifestHash": "9b8e28fc40c0b5ee75abf6f9dfe1acd4",
-  "createdAt": "2025-04-15T07:16:48.639Z",
+  "createdAt": "2025-04-17T11:11:16.954Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

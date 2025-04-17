@@ -63,7 +63,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--benborla--mcp-server-mysql--mcp-server-mysql"
+        "ghcr.io/metorial/mcp-container--benborla--mcp-server-mysql--mcp-server-mysql",
+        "pnpm run start"
       ],
       "env": {
         "MYSQL_HOST": "mysql-host",

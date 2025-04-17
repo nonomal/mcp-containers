@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--xxxbrian--mcp-rquest--mcp-rq
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--xxxbrian--mcp-rquest--mcp-rquest"
+        "ghcr.io/metorial/mcp-container--xxxbrian--mcp-rquest--mcp-rquest",
+        "mcp-rquest"
       ],
       "env": {}
     }

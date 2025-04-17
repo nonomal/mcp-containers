@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kukapay--thegraph-mcp--thegraph-mcp"
+        "ghcr.io/metorial/mcp-container--kukapay--thegraph-mcp--thegraph-mcp",
+        "python main.py"
       ],
       "env": {
         "THEGRAPH_API_KEY": "thegraph-api-key"

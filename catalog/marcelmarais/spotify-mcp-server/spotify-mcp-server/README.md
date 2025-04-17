@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--marcelmarais--spotify-mcp-se
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--marcelmarais--spotify-mcp-server--spotify-mcp-server"
+        "ghcr.io/metorial/mcp-container--marcelmarais--spotify-mcp-server--spotify-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {}
     }

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--magarcia--mcp-server-giphy--mcp-server-giphy"
+        "ghcr.io/metorial/mcp-container--magarcia--mcp-server-giphy--mcp-server-giphy",
+        "npm run start"
       ],
       "env": {
         "GIPHY_API_KEY": "giphy-api-key"

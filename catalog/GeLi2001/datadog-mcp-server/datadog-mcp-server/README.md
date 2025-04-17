@@ -58,8 +58,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--geli2001--datadog-mcp-server--datadog-mcp-server",
-        "--apiKey --apiKey",
-        "--site --site"
+        "npm run start --apiKey --apiKey --site --site"
       ],
       "env": {}
     }

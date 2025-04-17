@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kenjihikmatullah--productboard-mcp--productboard-mcp"
+        "ghcr.io/metorial/mcp-container--kenjihikmatullah--productboard-mcp--productboard-mcp",
+        "node ./build/index.js"
       ],
       "env": {
         "PRODUCTBOARD_ACCESS_TOKEN": "productboard-access-token"

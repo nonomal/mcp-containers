@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--automata-labs-team--mcp-serv
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--automata-labs-team--mcp-server-playwright--mcp-server-playwright"
+        "ghcr.io/metorial/mcp-container--automata-labs-team--mcp-server-playwright--mcp-server-playwright",
+        "node dist/index.js"
       ],
       "env": {}
     }

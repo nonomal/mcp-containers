@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--vortiago--mcp-azure-devops--mcp-azure-devops"
+        "ghcr.io/metorial/mcp-container--vortiago--mcp-azure-devops--mcp-azure-devops",
+        "mcp-azure-devops"
       ],
       "env": {
         "AZURE_DEVOPS_PAT": "azure-devops-pat",

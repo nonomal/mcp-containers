@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--edubase--mcp--mcp"
+        "ghcr.io/metorial/mcp-container--edubase--mcp--mcp",
+        "node dist/index.js"
       ],
       "env": {
         "EDUBASE_API_URL": "edubase-api-url",

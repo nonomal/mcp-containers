@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--mobile-next--mobile-mcp--mob
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mobile-next--mobile-mcp--mobile-mcp"
+        "ghcr.io/metorial/mcp-container--mobile-next--mobile-mcp--mobile-mcp",
+        "node lib/index.js"
       ],
       "env": {}
     }

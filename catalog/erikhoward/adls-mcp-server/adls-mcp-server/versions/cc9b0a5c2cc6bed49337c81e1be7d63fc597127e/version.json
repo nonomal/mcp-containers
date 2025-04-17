@@ -80,7 +80,7 @@
     "description": "A Model Context Protocol (MCP) server implementation for Azure Data Lake Storage Gen2. This service provides a standardized interface for interacting with ADLS2 storage, enabling file operations through MCP tools."
   },
   "manifestHash": "dd3ccddc51a2ee7c6bc58fe7645f7af9",
-  "createdAt": "2025-04-15T08:55:58.781Z",
+  "createdAt": "2025-04-17T11:10:50.367Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -128,7 +128,7 @@
           }
         },
         "start": {
-          "cmd": "python -m adls2-mcp-server"
+          "cmd": "adls2-mcp-server"
         }
       }
     }

@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kong--mcp-konnect--mcp-konnect"
+        "ghcr.io/metorial/mcp-container--kong--mcp-konnect--mcp-konnect",
+        "npm run start"
       ],
       "env": {
         "KONNECT_ACCESS_TOKEN": "konnect-access-token",

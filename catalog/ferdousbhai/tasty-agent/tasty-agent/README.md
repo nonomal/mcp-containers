@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--ferdousbhai--tasty-agent--ta
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ferdousbhai--tasty-agent--tasty-agent"
+        "ghcr.io/metorial/mcp-container--ferdousbhai--tasty-agent--tasty-agent",
+        "tasty-agent"
       ],
       "env": {}
     }

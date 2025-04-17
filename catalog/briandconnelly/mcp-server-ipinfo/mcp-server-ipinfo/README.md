@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--briandconnelly--mcp-server-ipinfo--mcp-server-ipinfo"
+        "ghcr.io/metorial/mcp-container--briandconnelly--mcp-server-ipinfo--mcp-server-ipinfo",
+        "mcp-server-ipinfo"
       ],
       "env": {
         "IPINFO_API_TOKEN": "ipinfo-api-token"

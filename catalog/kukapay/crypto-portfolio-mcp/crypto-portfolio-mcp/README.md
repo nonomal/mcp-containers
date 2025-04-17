@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--kukapay--crypto-portfolio-mc
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kukapay--crypto-portfolio-mcp--crypto-portfolio-mcp"
+        "ghcr.io/metorial/mcp-container--kukapay--crypto-portfolio-mcp--crypto-portfolio-mcp",
+        "python main.py"
       ],
       "env": {}
     }

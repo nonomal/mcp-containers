@@ -62,13 +62,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--zhwt--go-mcp-mysql--go-mcp-mysql",
-        "--host host",
-        "--user user",
-        "--pass pass",
-        "--port port",
-        "--db db",
-        "--dsn dsn",
-        "--read-only read-only"
+        "./out --host host --user user --pass pass --port port --db db --dsn dsn --read-only read-only"
       ],
       "env": {}
     }

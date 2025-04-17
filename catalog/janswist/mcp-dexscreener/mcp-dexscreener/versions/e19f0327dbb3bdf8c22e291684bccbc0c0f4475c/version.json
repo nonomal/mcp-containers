@@ -20,7 +20,7 @@
     "description": "Basic MCP server for Dexscreener API based on their documentation (as of April 4th 2025): https://docs.dexscreener.com/api/reference"
   },
   "manifestHash": "76985cfa28d82f29080bd199dc12abef",
-  "createdAt": "2025-04-15T07:16:33.820Z",
+  "createdAt": "2025-04-17T11:10:59.524Z",
   "builder": [
     {
       "type": "nixpacks",

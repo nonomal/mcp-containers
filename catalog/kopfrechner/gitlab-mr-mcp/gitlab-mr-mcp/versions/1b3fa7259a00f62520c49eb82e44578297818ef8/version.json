@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for interacting with GitLab merge requests and issues."
   },
   "manifestHash": "83692723afd1f9c7cd2fee3ec89a2990",
-  "createdAt": "2025-04-16T08:20:17.102Z",
+  "createdAt": "2025-04-17T11:11:03.717Z",
   "builder": [
     {
       "type": "nixpacks",

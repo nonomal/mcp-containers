@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--apeyroux--mcp-xmind--mcp-xmi
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--apeyroux--mcp-xmind--mcp-xmind"
+        "ghcr.io/metorial/mcp-container--apeyroux--mcp-xmind--mcp-xmind",
+        "node dist/index.js"
       ],
       "env": {}
     }

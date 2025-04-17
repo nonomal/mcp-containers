@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--r-huijts--firstcycling-mcp--
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--r-huijts--firstcycling-mcp--firstcycling-mcp"
+        "ghcr.io/metorial/mcp-container--r-huijts--firstcycling-mcp--firstcycling-mcp",
+        "python -m firstcycling"
       ],
       "env": {}
     }

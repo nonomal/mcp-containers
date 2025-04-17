@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--modelcontextprotocol--server
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--puppeteer"
+        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--puppeteer",
+        "cd ./src/puppeteer && node ./dist/index.js"
       ],
       "env": {}
     }

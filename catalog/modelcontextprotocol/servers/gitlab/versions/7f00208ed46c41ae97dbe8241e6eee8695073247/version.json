@@ -50,7 +50,7 @@
     }
   },
   "manifestHash": "57dbd72ab989c6a8638ac3fb7dff2773",
-  "createdAt": "2025-04-16T17:13:13.675Z",
+  "createdAt": "2025-04-17T11:11:08.209Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,7 +69,7 @@
               "install"
             ],
             "cmds": [
-              "npm run build"
+              "cd ./src/gitlab && npm run build"
             ],
             "cacheDirectories": [
               "node_modules/.cache"
@@ -99,6 +99,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "cd ./src/gitlab && node ./dist/index.js"
         }
       }
     }

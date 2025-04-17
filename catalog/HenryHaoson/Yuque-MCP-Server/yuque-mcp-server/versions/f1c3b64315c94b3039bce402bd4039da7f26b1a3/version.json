@@ -45,7 +45,7 @@
     "description": "一个用于与语雀 API 集成的 Model-Context-Protocol (MCP) 服务器。此实现受 [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) 的启发，并使用 [语雀开放 API](https://app.swaggerhub.com/apis-docs/Jeff-Tian/yuque-open_api/2.0.1)。"
   },
   "manifestHash": "1bea495d08bb8b4b4f4c4c54ea0d2569",
-  "createdAt": "2025-04-15T07:16:14.152Z",
+  "createdAt": "2025-04-17T11:10:55.635Z",
   "builder": [
     {
       "type": "nixpacks",

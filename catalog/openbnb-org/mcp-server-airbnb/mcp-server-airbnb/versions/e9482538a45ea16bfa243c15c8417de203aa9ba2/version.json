@@ -20,7 +20,7 @@
     "description": "MCP Server for searching Airbnb and get listing details."
   },
   "manifestHash": "e2d3f74e966185c604890a2dabc6d399",
-  "createdAt": "2025-04-15T07:16:42.038Z",
+  "createdAt": "2025-04-17T11:11:09.298Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,6 +69,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

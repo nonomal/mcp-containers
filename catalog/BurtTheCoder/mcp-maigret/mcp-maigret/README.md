@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--burtthecoder--mcp-maigret--mcp-maigret"
+        "ghcr.io/metorial/mcp-container--burtthecoder--mcp-maigret--mcp-maigret",
+        "node build/index.js"
       ],
       "env": {
         "MAIGRET_REPORTS_DIR": "maigret-reports-dir"

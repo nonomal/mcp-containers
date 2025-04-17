@@ -19,7 +19,7 @@
     "description": "A Model Context Protocol (MCP) server implementation for DuckDB, providing database interaction capabilities through MCP tools."
   },
   "manifestHash": "db0f2d4bf8af1de17592281f259c840b",
-  "createdAt": "2025-04-15T07:16:37.820Z",
+  "createdAt": "2025-04-17T11:11:04.137Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -67,7 +67,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-server-duckdb"
+          "cmd": "mcp-server-duckdb"
         }
       }
     }

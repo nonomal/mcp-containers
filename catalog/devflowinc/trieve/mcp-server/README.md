@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--devflowinc--trieve--mcp-server"
+        "ghcr.io/metorial/mcp-container--devflowinc--trieve--mcp-server",
+        "node build/index.js"
       ],
       "env": {
         "TRIEVE_API_KEY": "trieve-api-key",

@@ -20,7 +20,7 @@
     "description": "AI-powered code quality analysis using MCP to help AI assistants review code more effectively. Analyze git changes for complexity, security issues, and more through structured prompts."
   },
   "manifestHash": "60cac96a2716728e904dfb00e8d83187",
-  "createdAt": "2025-04-15T07:16:32.185Z",
+  "createdAt": "2025-04-17T11:10:57.503Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m lucidity-mcp"
+          "cmd": "lucidity-mcp"
         }
       }
     }

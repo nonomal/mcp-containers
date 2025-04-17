@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--joshuayoes--ios-simulator-mc
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--joshuayoes--ios-simulator-mcp--ios-simulator-mcp"
+        "ghcr.io/metorial/mcp-container--joshuayoes--ios-simulator-mcp--ios-simulator-mcp",
+        "npm run start"
       ],
       "env": {}
     }

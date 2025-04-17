@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jagan-shanmugam--climatiq-mcp-server--climatiq-mcp-server"
+        "ghcr.io/metorial/mcp-container--jagan-shanmugam--climatiq-mcp-server--climatiq-mcp-server",
+        "climatiq-mcp-server"
       ],
       "env": {
         "CLIMATIQ_API_KEY": "climatiq-api-key"

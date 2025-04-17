@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--tumf--mcp-shell-server--mcp-shell-server"
+        "ghcr.io/metorial/mcp-container--tumf--mcp-shell-server--mcp-shell-server",
+        "mcp-shell-server"
       ],
       "env": {
         "ALLOW_COMMANDS": "allow-commands"

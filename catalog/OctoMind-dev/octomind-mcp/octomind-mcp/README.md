@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--octomind-dev--octomind-mcp--octomind-mcp"
+        "ghcr.io/metorial/mcp-container--octomind-dev--octomind-mcp--octomind-mcp",
+        "node ./dist/index.js"
       ],
       "env": {
         "APIKEY": "apikey"

@@ -19,7 +19,7 @@
     "description": "An MCP server that enables [Claude Desktop](https://claude.ai/download) to directly access and process arXiv papers by fetching the LaTeX source. It uses [arxiv-to-prompt](https://github.com/takashiishida/arxiv-to-prompt) under the hood to handle downloading and processing the LaTeX."
   },
   "manifestHash": "17f3a6b0e2e766d8195a21be200f9e99",
-  "createdAt": "2025-04-15T07:16:46.762Z",
+  "createdAt": "2025-04-17T11:11:14.799Z",
   "builder": [
     {
       "type": "nixpacks",

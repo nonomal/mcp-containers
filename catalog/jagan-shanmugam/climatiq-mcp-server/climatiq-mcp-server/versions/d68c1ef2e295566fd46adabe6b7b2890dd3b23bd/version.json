@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for accessing the Climatiq API to calculate carbon emissions. This allows AI assistants to perform real-time carbon calculations and provide climate impact insights."
   },
   "manifestHash": "f8ad5b68f737afbcd6edc0b2c9bcc3ff",
-  "createdAt": "2025-04-15T07:16:33.451Z",
+  "createdAt": "2025-04-17T11:10:59.462Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -81,7 +81,7 @@
           }
         },
         "start": {
-          "cmd": "python -m climatiq-mcp-server"
+          "cmd": "climatiq-mcp-server"
         }
       }
     }

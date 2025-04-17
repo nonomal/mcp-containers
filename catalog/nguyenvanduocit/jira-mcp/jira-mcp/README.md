@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--nguyenvanduocit--jira-mcp--jira-mcp"
+        "ghcr.io/metorial/mcp-container--nguyenvanduocit--jira-mcp--jira-mcp",
+        "./out"
       ],
       "env": {
         "ATLASSIAN_HOST": "atlassian-host",

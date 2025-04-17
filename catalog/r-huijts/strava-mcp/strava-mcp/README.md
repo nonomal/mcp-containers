@@ -58,7 +58,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--r-huijts--strava-mcp--strava-mcp"
+        "ghcr.io/metorial/mcp-container--r-huijts--strava-mcp--strava-mcp",
+        "npm run start"
       ],
       "env": {
         "STRAVA_CLIENT_ID": "STRAVA_CLIENT_ID",

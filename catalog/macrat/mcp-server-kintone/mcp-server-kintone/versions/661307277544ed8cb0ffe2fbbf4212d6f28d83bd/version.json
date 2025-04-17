@@ -93,7 +93,7 @@
     "description": "This server allows you to explore and manipulate kintone data using AI tools such as [Claude Desktop](https://claude.ai/download)!"
   },
   "manifestHash": "dc9c3947e916097a5c6b3c11c0d2d973",
-  "createdAt": "2025-04-15T07:16:39.673Z",
+  "createdAt": "2025-04-17T11:11:05.458Z",
   "builder": [
     {
       "type": "nixpacks",

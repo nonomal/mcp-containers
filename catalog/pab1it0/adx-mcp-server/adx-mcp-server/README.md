@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--pab1it0--adx-mcp-server--adx-mcp-server"
+        "ghcr.io/metorial/mcp-container--pab1it0--adx-mcp-server--adx-mcp-server",
+        "adx-mcp-server"
       ],
       "env": {
         "ADX_CLUSTER_URL": "adx-cluster-url",

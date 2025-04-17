@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--basicmachines-co--basic-memo
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--basicmachines-co--basic-memory--basic-memory"
+        "ghcr.io/metorial/mcp-container--basicmachines-co--basic-memory--basic-memory",
+        "basic-memory"
       ],
       "env": {}
     }

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--automation-ai-labs--mcp-link
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--automation-ai-labs--mcp-link--mcp-link"
+        "ghcr.io/metorial/mcp-container--automation-ai-labs--mcp-link--mcp-link",
+        "./out"
       ],
       "env": {}
     }

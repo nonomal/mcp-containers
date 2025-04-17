@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that provides line-oriented text file editing capabilities through a standardized API. Optimized for LLM tools with efficient partial file access to minimize token usage."
   },
   "manifestHash": "b930f1e5d92dfc93822b1fce6b655fb2",
-  "createdAt": "2025-04-15T07:16:47.925Z",
+  "createdAt": "2025-04-17T11:11:16.122Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-text-editor"
+          "cmd": "mcp-text-editor"
         }
       }
     }

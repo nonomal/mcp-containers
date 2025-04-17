@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--mrexodia--ida-pro-mcp--ida-p
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mrexodia--ida-pro-mcp--ida-pro-mcp"
+        "ghcr.io/metorial/mcp-container--mrexodia--ida-pro-mcp--ida-pro-mcp",
+        "ida-pro-mcp"
       ],
       "env": {}
     }

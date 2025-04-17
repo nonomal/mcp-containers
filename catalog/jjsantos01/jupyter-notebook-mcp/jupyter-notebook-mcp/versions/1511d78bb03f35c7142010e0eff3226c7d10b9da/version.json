@@ -19,7 +19,7 @@
     "description": "JupyterMCP connects [Jupyter Notebook](https://jupyter.org/) to [Claude AI](https://claude.ai/chat) through the Model Context Protocol (MCP), allowing Claude to directly interact with and control Jupyter Notebooks. This integration enables AI-assisted code execution, data analysis, visualization, and more."
   },
   "manifestHash": "dd065274aef14a5de40999ff8e954185",
-  "createdAt": "2025-04-15T07:16:34.359Z",
+  "createdAt": "2025-04-17T11:11:00.666Z",
   "builder": [
     {
       "type": "nixpacks",

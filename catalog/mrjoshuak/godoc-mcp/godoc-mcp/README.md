@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--mrjoshuak--godoc-mcp--godoc-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mrjoshuak--godoc-mcp--godoc-mcp"
+        "ghcr.io/metorial/mcp-container--mrjoshuak--godoc-mcp--godoc-mcp",
+        "./out"
       ],
       "env": {}
     }

@@ -20,7 +20,7 @@
     "description": "A lightweight Model Context Protocol (MCP) server that enables AI assistants like Cursor & Claude to control Spotify playback and manage playlists."
   },
   "manifestHash": "ac8473ed83c51f1abc6697c4f40935fe",
-  "createdAt": "2025-04-15T07:16:39.875Z",
+  "createdAt": "2025-04-17T11:11:05.897Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,6 +69,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

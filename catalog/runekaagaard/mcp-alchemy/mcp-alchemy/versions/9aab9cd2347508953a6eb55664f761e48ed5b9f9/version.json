@@ -32,7 +32,7 @@
     "description": "An MCP server that gives the LLM access to and knowledge about relational databases like SQLite, Postgresql, MySQL & MariaDB, Oracle, and MS-SQL."
   },
   "manifestHash": "de3366ed8dcc4f759537a836bac9216e",
-  "createdAt": "2025-04-16T12:29:09.797Z",
+  "createdAt": "2025-04-17T11:11:12.629Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -78,6 +78,9 @@
             "nixOverlays": [],
             "nixpkgsArchive": "bc8f8d1be58e8c8383e683a06e1e1e57893fff87"
           }
+        },
+        "start": {
+          "cmd": "mcp-alchemy"
         }
       }
     }

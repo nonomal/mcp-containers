@@ -33,7 +33,7 @@
     "description": "An MCP server that provides access to Postman."
   },
   "manifestHash": "cdee7130866df6b1c7b207563043b68c",
-  "createdAt": "2025-04-15T07:16:23.522Z",
+  "createdAt": "2025-04-17T11:10:48.970Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

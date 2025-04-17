@@ -57,7 +57,7 @@
     "description": "A Model Context Protocol (MCP) server that provides agentic tools for interacting with the Trieve API. This server enables AI agents to search and interact with Trieve datasets through a standardized interface."
   },
   "manifestHash": "af4914b5ef6289d7bf522e6103468b6d",
-  "createdAt": "2025-04-17T04:17:43.084Z",
+  "createdAt": "2025-04-17T11:10:59.965Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -106,6 +106,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node build/index.js"
         }
       }
     }

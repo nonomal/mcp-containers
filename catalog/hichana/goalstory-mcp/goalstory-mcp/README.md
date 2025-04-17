@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--hichana--goalstory-mcp--goal
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hichana--goalstory-mcp--goalstory-mcp"
+        "ghcr.io/metorial/mcp-container--hichana--goalstory-mcp--goalstory-mcp",
+        "node dist/index.js"
       ],
       "env": {}
     }

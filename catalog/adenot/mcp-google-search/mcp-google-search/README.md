@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--adenot--mcp-google-search--mcp-google-search"
+        "ghcr.io/metorial/mcp-container--adenot--mcp-google-search--mcp-google-search",
+        "node ./build/index.js"
       ],
       "env": {
         "GOOGLE_API_KEY": "google-api-key",

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--apify--actors-mcp-server--actors-mcp-server"
+        "ghcr.io/metorial/mcp-container--apify--actors-mcp-server--actors-mcp-server",
+        "npm run start"
       ],
       "env": {
         "APIFY_TOKEN": "apify-token"

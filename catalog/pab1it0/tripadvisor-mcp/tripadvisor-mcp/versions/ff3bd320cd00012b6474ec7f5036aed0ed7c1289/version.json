@@ -32,7 +32,7 @@
     "description": "An MCP server for Tripadvisor Content API."
   },
   "manifestHash": "fc834b7942382faa5210946f4d488a2e",
-  "createdAt": "2025-04-15T07:16:42.678Z",
+  "createdAt": "2025-04-17T11:11:09.852Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -80,7 +80,7 @@
           }
         },
         "start": {
-          "cmd": "python -m tripadvisor_mcp"
+          "cmd": "tripadvisor-mcp"
         }
       }
     }

@@ -20,7 +20,7 @@
     "description": "An MCP (Model Context Protocol) tool that provides stock market data and trading capabilities using the yfinance library, specifically adapted for Claude Desktop."
   },
   "manifestHash": "16ec7f69f3a680ca57fe2da0d1f304ec",
-  "createdAt": "2025-04-15T07:16:16.879Z",
+  "createdAt": "2025-04-17T11:11:12.536Z",
   "builder": [
     {
       "type": "nixpacks",

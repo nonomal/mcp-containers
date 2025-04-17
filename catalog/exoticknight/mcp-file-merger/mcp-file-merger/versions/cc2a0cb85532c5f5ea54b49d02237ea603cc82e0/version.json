@@ -33,7 +33,7 @@
     "description": "Simple utility to combine multiple files into one. Fast, secure, and easy to use."
   },
   "manifestHash": "f77ea5e3fb01e4f53abd78afa16cb999",
-  "createdAt": "2025-04-15T07:16:26.080Z",
+  "createdAt": "2025-04-17T11:10:50.812Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

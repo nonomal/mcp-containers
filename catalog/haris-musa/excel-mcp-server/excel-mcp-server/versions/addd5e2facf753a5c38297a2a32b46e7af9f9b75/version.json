@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol (MCP) server that lets you manipulate Excel files without needing Microsoft Excel installed. Create, read, and modify Excel workbooks with your AI agent."
   },
   "manifestHash": "dd067e82da44b9bb234df11e7cb314da",
-  "createdAt": "2025-04-15T07:16:30.473Z",
+  "createdAt": "2025-04-17T11:10:55.560Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -93,7 +93,7 @@
           }
         },
         "start": {
-          "cmd": "python -m excel-mcp-server"
+          "cmd": "excel-mcp-server"
         }
       }
     }

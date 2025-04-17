@@ -80,16 +80,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--chroma-core--chroma-mcp--chroma-mcp",
-        "--client-type chroma-client-type",
-        "--data-dir chroma-data-dir",
-        "--tenant chroma-tenant",
-        "--database chroma-database",
-        "--api-key chroma-api-key",
-        "--host chroma-host",
-        "--port chroma-port",
-        "--custom-auth-credentials chroma-custom-auth-credentials",
-        "--ssl chroma-ssl",
-        "--dotenv-path chroma-dotenv-path"
+        "chroma-mcp --client-type chroma-client-type --data-dir chroma-data-dir --tenant chroma-tenant --database chroma-database --api-key chroma-api-key --host chroma-host --port chroma-port --custom-auth-credentials chroma-custom-auth-credentials --ssl chroma-ssl --dotenv-path chroma-dotenv-path"
       ],
       "env": {
         "CHROMA_CLIENT_TYPE": "chroma-client-type",

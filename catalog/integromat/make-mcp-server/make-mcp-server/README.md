@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--integromat--make-mcp-server--make-mcp-server"
+        "ghcr.io/metorial/mcp-container--integromat--make-mcp-server--make-mcp-server",
+        "node build/index.js"
       ],
       "env": {
         "MAKE_API_KEY": "make-api-key",

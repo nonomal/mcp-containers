@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--hungryrobot1--mcp-pif--mcp-p
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hungryrobot1--mcp-pif--mcp-pif"
+        "ghcr.io/metorial/mcp-container--hungryrobot1--mcp-pif--mcp-pif",
+        "npm run start"
       ],
       "env": {}
     }

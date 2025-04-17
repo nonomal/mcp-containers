@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--octagonai--octagon-mcp-server--octagon-mcp-server"
+        "ghcr.io/metorial/mcp-container--octagonai--octagon-mcp-server--octagon-mcp-server",
+        "npm run start"
       ],
       "env": {
         "OCTAGON_API_KEY": "octagon-api-key"

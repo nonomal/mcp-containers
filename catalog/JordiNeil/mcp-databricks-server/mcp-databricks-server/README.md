@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jordineil--mcp-databricks-server--mcp-databricks-server"
+        "ghcr.io/metorial/mcp-container--jordineil--mcp-databricks-server--mcp-databricks-server",
+        "python main.py"
       ],
       "env": {
         "DATABRICKS_HOST": "databricks-host",

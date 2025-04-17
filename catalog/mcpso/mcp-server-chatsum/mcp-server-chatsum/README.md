@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mcpso--mcp-server-chatsum--mcp-server-chatsum"
+        "ghcr.io/metorial/mcp-container--mcpso--mcp-server-chatsum--mcp-server-chatsum",
+        "node ./build/index.js"
       ],
       "env": {
         "CHAT_DB_PATH": "chat-db-path"

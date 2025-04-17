@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--v-3--discordmcp--discordmcp"
+        "ghcr.io/metorial/mcp-container--v-3--discordmcp--discordmcp",
+        "npm run start"
       ],
       "env": {
         "DISCORD_TOKEN": "discord-token"

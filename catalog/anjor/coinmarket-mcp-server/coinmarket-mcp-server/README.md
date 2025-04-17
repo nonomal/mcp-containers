@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--anjor--coinmarket-mcp-server--coinmarket-mcp-server"
+        "ghcr.io/metorial/mcp-container--anjor--coinmarket-mcp-server--coinmarket-mcp-server",
+        "coinmarket-service"
       ],
       "env": {
         "COINMARKET_API_KEY": "coinmarket-api-key"

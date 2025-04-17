@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--graphlit--graphlit-mcp-server--graphlit-mcp-server"
+        "ghcr.io/metorial/mcp-container--graphlit--graphlit-mcp-server--graphlit-mcp-server",
+        "node build/index.js"
       ],
       "env": {
         "GRAPHLIT_ORGANIZATION_ID": "graphlit-organization-id",

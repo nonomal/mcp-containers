@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--makenotion--notion-mcp-server--notion-mcp-server"
+        "ghcr.io/metorial/mcp-container--makenotion--notion-mcp-server--notion-mcp-server",
+        "node bin/cli.mjs"
       ],
       "env": {
         "OPENAPI_MCP_HEADERS": "openapi-mcp-headers"

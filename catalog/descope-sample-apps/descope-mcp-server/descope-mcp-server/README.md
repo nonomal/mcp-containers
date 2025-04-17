@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--descope-sample-apps--descope-mcp-server--descope-mcp-server"
+        "ghcr.io/metorial/mcp-container--descope-sample-apps--descope-mcp-server--descope-mcp-server",
+        "npm run start"
       ],
       "env": {
         "DESCOPE_PROJECT_ID": "descope-project-id",

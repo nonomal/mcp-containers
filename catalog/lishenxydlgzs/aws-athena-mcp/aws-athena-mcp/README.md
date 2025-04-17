@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--lishenxydlgzs--aws-athena-mcp--aws-athena-mcp"
+        "ghcr.io/metorial/mcp-container--lishenxydlgzs--aws-athena-mcp--aws-athena-mcp",
+        "npm run start"
       ],
       "env": {
         "AWS_ACCESS_KEY_ID": "AWS_ACCESS_KEY_ID",

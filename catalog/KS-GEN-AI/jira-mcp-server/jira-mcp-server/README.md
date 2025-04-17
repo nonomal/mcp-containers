@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ks-gen-ai--jira-mcp-server--jira-mcp-server"
+        "ghcr.io/metorial/mcp-container--ks-gen-ai--jira-mcp-server--jira-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {
         "JIRA_URL": "jira-url",

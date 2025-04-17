@@ -45,7 +45,7 @@
     "description": "The MCP Code Executor is an MCP server that allows LLMs to execute Python code within a specified Conda environment. This enables LLMs to run code with access to libraries and dependencies defined in the Conda environment."
   },
   "manifestHash": "273ec7dfe5a56523cb978ab51e3ec48a",
-  "createdAt": "2025-04-15T07:16:19.951Z",
+  "createdAt": "2025-04-17T11:10:45.473Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -94,6 +94,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

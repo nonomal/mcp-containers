@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ko1ynnky--github-actions-mcp-server--github-actions-mcp-server"
+        "ghcr.io/metorial/mcp-container--ko1ynnky--github-actions-mcp-server--github-actions-mcp-server",
+        "npm run start"
       ],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "github-personal-access-token"

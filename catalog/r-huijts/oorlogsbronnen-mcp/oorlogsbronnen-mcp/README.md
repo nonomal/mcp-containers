@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--r-huijts--oorlogsbronnen-mcp
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--r-huijts--oorlogsbronnen-mcp--oorlogsbronnen-mcp"
+        "ghcr.io/metorial/mcp-container--r-huijts--oorlogsbronnen-mcp--oorlogsbronnen-mcp",
+        "npm run start"
       ],
       "env": {}
     }

@@ -58,7 +58,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--abdelstark--nostr-mcp--nostr-mcp"
+        "ghcr.io/metorial/mcp-container--abdelstark--nostr-mcp--nostr-mcp",
+        "npm run start"
       ],
       "env": {
         "LOG_LEVEL": "log-level",

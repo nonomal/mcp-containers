@@ -19,7 +19,7 @@
     "description": "An MCP server for interacting with the [Hugging Face Dataset Viewer API](https://huggingface.co/docs/dataset-viewer), providing capabilities to browse and analyze datasets hosted on the Hugging Face Hub."
   },
   "manifestHash": "7ef310ef3b5837020079f610b4447fb6",
-  "createdAt": "2025-04-15T07:16:42.797Z",
+  "createdAt": "2025-04-17T11:11:10.136Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -67,7 +67,7 @@
           }
         },
         "start": {
-          "cmd": "python -m dataset-viewer"
+          "cmd": "dataset-viewer"
         }
       }
     }

@@ -45,7 +45,7 @@
     "description": "MCP server to interact with Quran.com corpus via the official [REST API v4](https://api-docs.quran.com/docs/content_apis_versioned/4.0.0/content-apis)."
   },
   "manifestHash": "a125497cacaefa12e65baef4a956d70c",
-  "createdAt": "2025-04-15T07:16:24.174Z",
+  "createdAt": "2025-04-17T11:10:49.141Z",
   "builder": [
     {
       "type": "nixpacks",

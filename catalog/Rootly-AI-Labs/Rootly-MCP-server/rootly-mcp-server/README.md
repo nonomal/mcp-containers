@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--rootly-ai-labs--rootly-mcp-server--rootly-mcp-server"
+        "ghcr.io/metorial/mcp-container--rootly-ai-labs--rootly-mcp-server--rootly-mcp-server",
+        "rootly-mcp-server"
       ],
       "env": {
         "ROOTLY_API_TOKEN": "rootly-api-token"

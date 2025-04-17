@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--xing5--mcp-google-sheets--mcp-google-sheets"
+        "ghcr.io/metorial/mcp-container--xing5--mcp-google-sheets--mcp-google-sheets",
+        "mcp-google-sheets"
       ],
       "env": {
         "SERVICE_ACCOUNT_PATH": "service-account-path",

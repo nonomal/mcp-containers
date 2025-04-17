@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--exa-labs--exa-mcp-server--exa-mcp-server"
+        "ghcr.io/metorial/mcp-container--exa-labs--exa-mcp-server--exa-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {
         "EXA_API_KEY": "exa-api-key"

@@ -20,7 +20,7 @@
     "description": "An MCP server for tracking and managing cryptocurrency portfolio allocations, enabling AI agents to query and optimize portfolio strategies in real time."
   },
   "manifestHash": "73914ca5a29560c2e60117d2fa1c8132",
-  "createdAt": "2025-04-15T07:16:38.073Z",
+  "createdAt": "2025-04-17T11:11:04.299Z",
   "builder": [
     {
       "type": "nixpacks",

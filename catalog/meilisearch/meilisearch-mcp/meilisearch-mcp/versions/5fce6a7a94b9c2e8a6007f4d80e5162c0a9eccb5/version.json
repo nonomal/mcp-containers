@@ -52,7 +52,7 @@
     }
   },
   "manifestHash": "ed504219d16596b84885335486feed76",
-  "createdAt": "2025-04-15T07:16:40.316Z",
+  "createdAt": "2025-04-17T11:11:06.207Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -77,7 +77,7 @@
               "setup"
             ],
             "cmds": [
-              "python -m venv --copies /opt/venv && . /opt/venv/bin/activate && pip install uv==$NIXPACKS_UV_VERSION && uv sync --no-dev --frozen"
+              "uv venv && uv pip install -e ."
             ],
             "cacheDirectories": [
               "/root/.cache/uv"
@@ -88,6 +88,7 @@
           },
           "setup": {
             "nixPkgs": [
+              "uv",
               "python3",
               "gcc"
             ],
@@ -96,11 +97,12 @@
               "stdenv.cc.cc.lib"
             ],
             "nixOverlays": [],
-            "nixpkgsArchive": "bc8f8d1be58e8c8383e683a06e1e1e57893fff87"
+            "nixpkgsArchive": "bc8f8d1be58e8c8383e683a06e1e1e57893fff87",
+            "aptPkgs": []
           }
         },
         "start": {
-          "cmd": "python -m meilisearch-mcp"
+          "cmd": "python -m src.meilisearch_mcp"
         }
       }
     }

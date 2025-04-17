@@ -57,7 +57,7 @@
     "description": "An MCP server implementation that provides tools for retrieving and processing documentation through vector search, enabling AI assistants to augment their responses with relevant documentation context."
   },
   "manifestHash": "0a050d40c523898f8d4954e134c4181a",
-  "createdAt": "2025-04-15T07:16:37.646Z",
+  "createdAt": "2025-04-17T11:11:03.735Z",
   "builder": [
     {
       "type": "nixpacks",

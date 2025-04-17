@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--reading-plus-ai--mcp-server-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--reading-plus-ai--mcp-server-data-exploration--mcp-server-data-exploration"
+        "ghcr.io/metorial/mcp-container--reading-plus-ai--mcp-server-data-exploration--mcp-server-data-exploration",
+        "mcp-server-ds"
       ],
       "env": {}
     }

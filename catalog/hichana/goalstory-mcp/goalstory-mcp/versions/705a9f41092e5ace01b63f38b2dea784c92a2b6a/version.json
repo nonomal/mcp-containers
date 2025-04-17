@@ -20,7 +20,7 @@
     "description": "Goal Story isn’t a goal tracker—it’s a brand new way to manage your aspirations. We call it “Goal Storying.” Instead of juggling endless lists, Goal Story guides you to focus on one goal at a time, forging a deeply personal narrative that keeps you motivated and on track. Powered by conversational AI, Goal Story provides constructive insights and creative storytelling tailored to your unique motivations, helping you see your goal through to completion with a sense of momentum and fun."
   },
   "manifestHash": "72cdc22d51ed1d26c941aef1bf032d71",
-  "createdAt": "2025-04-15T07:16:31.045Z",
+  "createdAt": "2025-04-17T11:10:56.117Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,6 +69,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

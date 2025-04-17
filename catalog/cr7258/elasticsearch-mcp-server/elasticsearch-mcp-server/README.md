@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--cr7258--elasticsearch-mcp-server--elasticsearch-mcp-server"
+        "ghcr.io/metorial/mcp-container--cr7258--elasticsearch-mcp-server--elasticsearch-mcp-server",
+        "elasticsearch-mcp-server"
       ],
       "env": {
         "ELASTICSEARCH_HOSTS": "elasticsearch-hosts",

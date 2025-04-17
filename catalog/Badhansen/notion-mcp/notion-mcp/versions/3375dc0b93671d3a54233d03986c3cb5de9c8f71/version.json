@@ -72,7 +72,7 @@
     }
   },
   "manifestHash": "f8a87e2342d3a0e808d37c8ec9ac9ca5",
-  "createdAt": "2025-04-15T07:16:13.208Z",
+  "createdAt": "2025-04-17T11:10:45.565Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -120,7 +120,7 @@
           }
         },
         "start": {
-          "cmd": "python -m notion-mcp"
+          "cmd": "uv run main_adfin_mcp.py"
         }
       }
     }

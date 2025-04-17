@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--ferrislucas--iterm-mcp--iter
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ferrislucas--iterm-mcp--iterm-mcp"
+        "ghcr.io/metorial/mcp-container--ferrislucas--iterm-mcp--iterm-mcp",
+        "node ./build/index.js"
       ],
       "env": {}
     }

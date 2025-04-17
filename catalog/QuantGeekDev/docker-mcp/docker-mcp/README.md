@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--quantgeekdev--docker-mcp--do
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--quantgeekdev--docker-mcp--docker-mcp"
+        "ghcr.io/metorial/mcp-container--quantgeekdev--docker-mcp--docker-mcp",
+        "docker-mcp"
       ],
       "env": {}
     }

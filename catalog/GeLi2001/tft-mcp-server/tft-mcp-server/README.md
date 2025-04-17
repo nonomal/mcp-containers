@@ -58,9 +58,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--geli2001--tft-mcp-server--tft-mcp-server",
-        "--apiKey riot-api-key",
-        "--gameName game-name",
-        "--tagLine tag-line"
+        "npm run start --apiKey riot-api-key --gameName game-name --tagLine tag-line"
       ],
       "env": {}
     }

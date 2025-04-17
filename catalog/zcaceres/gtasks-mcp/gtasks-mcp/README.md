@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--zcaceres--gtasks-mcp--gtasks-mcp"
+        "ghcr.io/metorial/mcp-container--zcaceres--gtasks-mcp--gtasks-mcp",
+        "npm run start"
       ],
       "env": {
         "GCP_OAUTH_KEYS": "gcp-oauth-keys"

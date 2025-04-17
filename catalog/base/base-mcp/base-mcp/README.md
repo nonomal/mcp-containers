@@ -62,7 +62,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--base--base-mcp--base-mcp"
+        "ghcr.io/metorial/mcp-container--base--base-mcp--base-mcp",
+        "yarn run start"
       ],
       "env": {
         "COINBASE_API_KEY_NAME": "coinbase-api-key-name",

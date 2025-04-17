@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--john-zhang-dev--xero-mcp--xero-mcp"
+        "ghcr.io/metorial/mcp-container--john-zhang-dev--xero-mcp--xero-mcp",
+        "node ./build/index.js"
       ],
       "env": {
         "XERO_CLIENT_ID": "xero-client-id",

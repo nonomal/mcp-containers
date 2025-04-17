@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--sunsetcoder--flightradar24-mcp-server--flightradar-24-mcp-server"
+        "ghcr.io/metorial/mcp-container--sunsetcoder--flightradar24-mcp-server--flightradar-24-mcp-server",
+        "npm run start"
       ],
       "env": {
         "FR24_API_KEY": "fr-24-api-key",

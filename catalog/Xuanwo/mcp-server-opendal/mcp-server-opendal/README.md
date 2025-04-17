@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--xuanwo--mcp-server-opendal--
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--xuanwo--mcp-server-opendal--mcp-server-opendal"
+        "ghcr.io/metorial/mcp-container--xuanwo--mcp-server-opendal--mcp-server-opendal",
+        "mcp-server-opendal"
       ],
       "env": {}
     }

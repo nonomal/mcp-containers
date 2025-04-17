@@ -57,7 +57,7 @@
     "description": "A [Model Context Protocol](https://modelcontextprotocol.io/) server implementation for [Last9](https://last9.io/mcp/) that enables AI agents to seamlessly bring real-time production context — logs, metrics, and traces — into your local environment to auto-fix code faster."
   },
   "manifestHash": "97eada335c82d48e080561de04b10eb5",
-  "createdAt": "2025-04-15T07:16:39.177Z",
+  "createdAt": "2025-04-17T11:11:05.668Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -101,7 +101,7 @@
           }
         },
         "start": {
-          "cmd": "./out",
+          "cmd": "node ./bin/cli.js",
           "runImage": "ubuntu:jammy"
         }
       }

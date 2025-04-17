@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--modelcontextprotocol--server
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--everything"
+        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--everything",
+        "cd ./src/everything && node ./dist/index.js"
       ],
       "env": {}
     }

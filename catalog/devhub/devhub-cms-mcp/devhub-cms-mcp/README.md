@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--devhub--devhub-cms-mcp--devhub-cms-mcp"
+        "ghcr.io/metorial/mcp-container--devhub--devhub-cms-mcp--devhub-cms-mcp",
+        "devhub-cms-mcp"
       ],
       "env": {
         "DEVHUB_API_KEY": "devhub-api-key",

@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server implementation that provides access to various storage services via [Apache OpenDAL™](https://opendal.apache.org/)."
   },
   "manifestHash": "db8b2feceae7152b77d5cb3b0825b84c",
-  "createdAt": "2025-04-15T07:16:18.067Z",
+  "createdAt": "2025-04-17T11:11:17.350Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-server-opendal"
+          "cmd": "mcp-server-opendal"
         }
       }
     }

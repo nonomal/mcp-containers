@@ -33,7 +33,7 @@
     "description": "A [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) server that provides access to the Oura API. It allows language models to query sleep, readiness, and resilience data from Oura API."
   },
   "manifestHash": "1f4724a4098a5612147165df54523494",
-  "createdAt": "2025-04-15T07:16:47.487Z",
+  "createdAt": "2025-04-17T11:11:15.894Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -81,7 +81,7 @@
           }
         },
         "start": {
-          "cmd": "python -m oura-mcp-server"
+          "cmd": "oura-mcp-server"
         }
       }
     }

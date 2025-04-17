@@ -20,7 +20,7 @@
     "description": "Baidu AI Search component combines Baidu's search capabilities with large language model technology to provide intelligent responses with real-time web information references, supporting various industry application scenarios. It offers rich standardized capabilities such as:"
   },
   "manifestHash": "aaeb1424bc9c62f2b57b76442236153f",
-  "createdAt": "2025-04-15T07:16:22.516Z",
+  "createdAt": "2025-04-17T11:10:47.959Z",
   "builder": [
     {
       "type": "nixpacks",

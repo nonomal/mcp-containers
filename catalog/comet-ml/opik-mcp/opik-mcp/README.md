@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--comet-ml--opik-mcp--opik-mcp"
+        "ghcr.io/metorial/mcp-container--comet-ml--opik-mcp--opik-mcp",
+        "npm run start"
       ],
       "env": {
         "OPIK_API_BASE_URL": "opik-api-base-url",

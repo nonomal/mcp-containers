@@ -20,7 +20,7 @@
     "description": "MCP Server for whois lookups."
   },
   "manifestHash": "251e350bbda0ae07bf57d75e405ad062",
-  "createdAt": "2025-04-15T07:16:20.680Z",
+  "createdAt": "2025-04-17T11:10:46.008Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,6 +69,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

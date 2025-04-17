@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--rajvirtual--mcp-servers--onenote"
+        "ghcr.io/metorial/mcp-container--rajvirtual--mcp-servers--onenote",
+        "npm run start"
       ],
       "env": {
         "CLIENT_ID": "client-id"

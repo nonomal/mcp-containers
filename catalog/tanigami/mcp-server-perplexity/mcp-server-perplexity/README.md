@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--tanigami--mcp-server-perplexity--mcp-server-perplexity"
+        "ghcr.io/metorial/mcp-container--tanigami--mcp-server-perplexity--mcp-server-perplexity",
+        "mcp-server-perplexity"
       ],
       "env": {
         "PERPLEXITY_API_KEY": "perplexity-api-key"

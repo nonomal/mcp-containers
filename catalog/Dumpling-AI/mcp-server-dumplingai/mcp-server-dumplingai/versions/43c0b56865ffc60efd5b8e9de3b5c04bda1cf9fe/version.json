@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server implementation that integrates with Dumpling AI for data scraping, content processing, knowledge management, AI agents, and code execution capabilities."
   },
   "manifestHash": "3ce87baaf29473eae9a60f9e6ced3e3c",
-  "createdAt": "2025-04-15T07:16:13.799Z",
+  "createdAt": "2025-04-17T11:10:50.478Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

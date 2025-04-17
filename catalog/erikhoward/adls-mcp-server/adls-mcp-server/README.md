@@ -59,7 +59,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--erikhoward--adls-mcp-server--adls-mcp-server"
+        "ghcr.io/metorial/mcp-container--erikhoward--adls-mcp-server--adls-mcp-server",
+        "adls2-mcp-server"
       ],
       "env": {
         "LOG_LEVEL": "log-level",

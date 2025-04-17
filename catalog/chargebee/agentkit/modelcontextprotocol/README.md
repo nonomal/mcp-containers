@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--chargebee--agentkit--modelco
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--chargebee--agentkit--modelcontextprotocol"
+        "ghcr.io/metorial/mcp-container--chargebee--agentkit--modelcontextprotocol",
+        "node dist/index.js"
       ],
       "env": {}
     }

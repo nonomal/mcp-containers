@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--idosal--git-mcp--git-mcp
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--idosal--git-mcp--git-mcp"
+        "ghcr.io/metorial/mcp-container--idosal--git-mcp--git-mcp",
+        "exec caddy run --config /assets/Caddyfile --adapter caddyfile 2>&1"
       ],
       "env": {}
     }

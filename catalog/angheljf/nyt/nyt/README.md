@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--angheljf--nyt--nyt"
+        "ghcr.io/metorial/mcp-container--angheljf--nyt--nyt",
+        "node ./build/index.js"
       ],
       "env": {
         "NYTIMES_API_KEY": "nytimes-api-key"

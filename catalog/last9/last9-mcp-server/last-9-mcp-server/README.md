@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--last9--last9-mcp-server--last-9-mcp-server"
+        "ghcr.io/metorial/mcp-container--last9--last9-mcp-server--last-9-mcp-server",
+        "node ./bin/cli.js"
       ],
       "env": {
         "LAST9_AUTH_TOKEN": "last-9-auth-token",

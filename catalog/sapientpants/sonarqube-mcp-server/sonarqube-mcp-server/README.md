@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--sapientpants--sonarqube-mcp-server--sonarqube-mcp-server"
+        "ghcr.io/metorial/mcp-container--sapientpants--sonarqube-mcp-server--sonarqube-mcp-server",
+        "pnpm run start"
       ],
       "env": {
         "SONARQUBE_URL": "sonarqube-url",

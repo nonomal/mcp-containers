@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--chanmeng666--server-google-news--server-google-news"
+        "ghcr.io/metorial/mcp-container--chanmeng666--server-google-news--server-google-news",
+        "npm run start"
       ],
       "env": {
         "SERP_API_KEY": "serp-api-key"

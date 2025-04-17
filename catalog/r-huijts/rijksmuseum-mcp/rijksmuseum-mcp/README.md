@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--r-huijts--rijksmuseum-mcp--rijksmuseum-mcp"
+        "ghcr.io/metorial/mcp-container--r-huijts--rijksmuseum-mcp--rijksmuseum-mcp",
+        "npm run start"
       ],
       "env": {
         "RIJKSMUSEUM_API_KEY": "rijksmuseum-api-key"

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jamsocket--forevervm--mcp-server"
+        "ghcr.io/metorial/mcp-container--jamsocket--forevervm--mcp-server",
+        "npm run start"
       ],
       "env": {
         "FOREVERVM_TOKEN": "forevervm-token"

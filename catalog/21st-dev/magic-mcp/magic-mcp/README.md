@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--21st-dev--magic-mcp--magic-mcp",
-        "--api-key api-key"
+        "npm run start --api-key api-key"
       ],
       "env": {}
     }

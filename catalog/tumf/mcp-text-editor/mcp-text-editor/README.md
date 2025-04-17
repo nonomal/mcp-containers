@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--tumf--mcp-text-editor--mcp-t
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--tumf--mcp-text-editor--mcp-text-editor"
+        "ghcr.io/metorial/mcp-container--tumf--mcp-text-editor--mcp-text-editor",
+        "mcp-text-editor"
       ],
       "env": {}
     }

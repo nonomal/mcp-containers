@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--takumi0706--google-calendar-mcp--google-calendar-mcp"
+        "ghcr.io/metorial/mcp-container--takumi0706--google-calendar-mcp--google-calendar-mcp",
+        "npm run start"
       ],
       "env": {
         "GOOGLE_CLIENT_ID": "google-client-id",

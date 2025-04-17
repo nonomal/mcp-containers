@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--apimatic--apimatic-validator-mcp--apimatic-validator-mcp"
+        "ghcr.io/metorial/mcp-container--apimatic--apimatic-validator-mcp--apimatic-validator-mcp",
+        "npm run start"
       ],
       "env": {
         "APIMATIC_API_KEY": "apimatic-api-key"

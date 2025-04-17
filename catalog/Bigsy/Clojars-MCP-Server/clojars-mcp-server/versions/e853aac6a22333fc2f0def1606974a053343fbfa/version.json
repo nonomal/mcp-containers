@@ -20,7 +20,7 @@
     "description": "A [Model Context Protocol (MCP)](https://github.com/ModelContext/protocol) server that provides tools for fetching dependency information from [Clojars](https://clojars.org/), the Clojure community's artifact repository for Cline, Roo Code, Cody, Claude Desktop etc."
   },
   "manifestHash": "c090432eeb04ae729e0c09ad14027750",
-  "createdAt": "2025-04-15T07:16:12.622Z",
+  "createdAt": "2025-04-17T11:10:45.564Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,6 +69,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

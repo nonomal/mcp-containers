@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--oceanbase--mcp-oceanbase--mcp-oceanbase"
+        "ghcr.io/metorial/mcp-container--oceanbase--mcp-oceanbase--mcp-oceanbase",
+        "oceanbase_mcp_server"
       ],
       "env": {
         "AK": "AK",

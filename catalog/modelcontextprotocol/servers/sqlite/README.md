@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--sqlite",
-        "mcp-server-sqlite --db-path {{DB_PATH}}"
+        "mcp-server-sqlite mcp-server-sqlite --db-path {{DB_PATH}}"
       ],
       "env": {}
     }

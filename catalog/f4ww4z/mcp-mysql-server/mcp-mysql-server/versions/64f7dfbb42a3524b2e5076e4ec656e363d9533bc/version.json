@@ -69,7 +69,7 @@
     "description": "A Model Context Protocol server that provides MySQL database operations. This server enables AI models to interact with MySQL databases through a standardized interface."
   },
   "manifestHash": "b222a5559d0d2322936c80c41e9dfcd7",
-  "createdAt": "2025-04-15T07:16:26.522Z",
+  "createdAt": "2025-04-17T11:10:51.068Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -118,6 +118,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

@@ -57,8 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--iaptic--mcp-server-iaptic--mcp-server-iaptic",
-        "--api-key api-key",
-        "--app-name app-name"
+        "npm run start --api-key api-key --app-name app-name"
       ],
       "env": {}
     }

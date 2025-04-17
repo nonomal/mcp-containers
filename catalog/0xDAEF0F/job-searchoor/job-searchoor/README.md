@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--0xdaef0f--job-searchoor--job
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--0xdaef0f--job-searchoor--job-searchoor"
+        "ghcr.io/metorial/mcp-container--0xdaef0f--job-searchoor--job-searchoor",
+        "bun run start"
       ],
       "env": {}
     }

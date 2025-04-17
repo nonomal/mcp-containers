@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--pydantic--logfire-mcp--logfire-mcp",
-        "--read-token=YOUR-TOKEN"
+        "logfire-mcp --read-token=YOUR-TOKEN"
       ],
       "env": {}
     }

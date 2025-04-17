@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--jagan-shanmugam--open-street
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jagan-shanmugam--open-streetmap-mcp--open-streetmap-mcp"
+        "ghcr.io/metorial/mcp-container--jagan-shanmugam--open-streetmap-mcp--open-streetmap-mcp",
+        "osm-mcp-server"
       ],
       "env": {}
     }

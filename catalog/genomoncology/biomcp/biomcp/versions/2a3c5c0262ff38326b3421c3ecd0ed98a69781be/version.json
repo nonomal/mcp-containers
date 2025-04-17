@@ -19,7 +19,7 @@
     "description": "BioMCP is an open source (MIT License) toolkit for biomedical research AI"
   },
   "manifestHash": "3b7ee24252f21db226c00476030ee0da",
-  "createdAt": "2025-04-15T17:08:15.499Z",
+  "createdAt": "2025-04-17T11:10:53.659Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -67,7 +67,7 @@
           }
         },
         "start": {
-          "cmd": "python -m biomcp-python"
+          "cmd": "biomcp"
         }
       }
     }

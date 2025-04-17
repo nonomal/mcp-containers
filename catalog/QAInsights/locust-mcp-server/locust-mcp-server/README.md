@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--qainsights--locust-mcp-serve
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--qainsights--locust-mcp-server--locust-mcp-server"
+        "ghcr.io/metorial/mcp-container--qainsights--locust-mcp-server--locust-mcp-server",
+        "python main.py"
       ],
       "env": {}
     }

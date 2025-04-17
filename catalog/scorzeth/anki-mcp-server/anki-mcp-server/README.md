@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--scorzeth--anki-mcp-server--a
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--scorzeth--anki-mcp-server--anki-mcp-server"
+        "ghcr.io/metorial/mcp-container--scorzeth--anki-mcp-server--anki-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {}
     }

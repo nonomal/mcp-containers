@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--yanmxa--multicluster-mcp-server--multicluster-mcp-server"
+        "ghcr.io/metorial/mcp-container--yanmxa--multicluster-mcp-server--multicluster-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {
         "KUBECONFIG": "kubeconfig"

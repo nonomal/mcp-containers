@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--unstructured-io--uns-mcp--uns-mcp"
+        "ghcr.io/metorial/mcp-container--unstructured-io--uns-mcp--uns-mcp",
+        "uns_mcp"
       ],
       "env": {
         "UNSTRUCTURED_API_KEY": "unstructured-api-key"

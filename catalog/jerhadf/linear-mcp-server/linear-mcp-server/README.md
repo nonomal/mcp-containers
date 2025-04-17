@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jerhadf--linear-mcp-server--linear-mcp-server"
+        "ghcr.io/metorial/mcp-container--jerhadf--linear-mcp-server--linear-mcp-server",
+        "node build/index.js"
       ],
       "env": {
         "LINEAR_API_KEY": "linear-api-key"

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--hungthai1401--bruno-mcp--bru
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hungthai1401--bruno-mcp--bruno-mcp"
+        "ghcr.io/metorial/mcp-container--hungthai1401--bruno-mcp--bruno-mcp",
+        "node ./build/index.js"
       ],
       "env": {}
     }

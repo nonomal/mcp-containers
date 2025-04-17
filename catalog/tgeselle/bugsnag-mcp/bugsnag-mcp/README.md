@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--tgeselle--bugsnag-mcp--bugsnag-mcp"
+        "ghcr.io/metorial/mcp-container--tgeselle--bugsnag-mcp--bugsnag-mcp",
+        "node ./build/index.js"
       ],
       "env": {
         "BUGSNAG_API_KEY": "bugsnag-api-key"

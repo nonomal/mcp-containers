@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kyrietangsheng--mcp-server-nationalparks--mcp-server-nationalparks"
+        "ghcr.io/metorial/mcp-container--kyrietangsheng--mcp-server-nationalparks--mcp-server-nationalparks",
+        "node ./build/index.js"
       ],
       "env": {
         "NPS_API_KEY": "nps-api-key"

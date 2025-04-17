@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--heroku--heroku-mcp-server--heroku-mcp-server"
+        "ghcr.io/metorial/mcp-container--heroku--heroku-mcp-server--heroku-mcp-server",
+        "npm run start"
       ],
       "env": {
         "HEROKU_API_KEY": "heroku-api-key"

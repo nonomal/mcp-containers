@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--translated--lara-mcp--lara-mcp"
+        "ghcr.io/metorial/mcp-container--translated--lara-mcp--lara-mcp",
+        "pnpm run start"
       ],
       "env": {
         "LARA_ACCESS_KEY_ID": "lara-access-key-id",

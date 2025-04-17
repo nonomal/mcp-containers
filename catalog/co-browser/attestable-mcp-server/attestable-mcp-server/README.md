@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--co-browser--attestable-mcp-s
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--co-browser--attestable-mcp-server--attestable-mcp-server"
+        "ghcr.io/metorial/mcp-container--co-browser--attestable-mcp-server--attestable-mcp-server",
+        "attestable-mcp-server"
       ],
       "env": {}
     }

@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--magnetai--mcp-free-usdc-transfer--mcp-free-usdc-transfer"
+        "ghcr.io/metorial/mcp-container--magnetai--mcp-free-usdc-transfer--mcp-free-usdc-transfer",
+        "node dist/index.js"
       ],
       "env": {
         "COINBASE_CDP_API_KEY_NAME": "coinbase-cdp-api-key-name",

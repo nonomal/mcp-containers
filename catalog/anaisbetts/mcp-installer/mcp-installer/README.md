@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--anaisbetts--mcp-installer--m
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--anaisbetts--mcp-installer--mcp-installer"
+        "ghcr.io/metorial/mcp-container--anaisbetts--mcp-installer--mcp-installer",
+        "node ./lib/index.mjs"
       ],
       "env": {}
     }

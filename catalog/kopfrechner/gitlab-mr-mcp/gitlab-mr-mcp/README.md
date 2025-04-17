@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kopfrechner--gitlab-mr-mcp--gitlab-mr-mcp"
+        "ghcr.io/metorial/mcp-container--kopfrechner--gitlab-mr-mcp--gitlab-mr-mcp",
+        "npm run start"
       ],
       "env": {
         "MR_MCP_GITLAB_TOKEN": "GitLab Token"

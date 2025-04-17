@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--idoru--influxdb-mcp-server--influxdb-mcp-server"
+        "ghcr.io/metorial/mcp-container--idoru--influxdb-mcp-server--influxdb-mcp-server",
+        "npm run start"
       ],
       "env": {
         "INFLUXDB_TOKEN": "influxdb-token",

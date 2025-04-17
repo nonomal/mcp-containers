@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hypersequent--qasphere-mcp--qasphere-mcp"
+        "ghcr.io/metorial/mcp-container--hypersequent--qasphere-mcp--qasphere-mcp",
+        "node ./dist/index.js"
       ],
       "env": {
         "QASPHERE_TENANT_URL": "qasphere-tenant-url",

@@ -33,7 +33,7 @@
     "description": "OpenCTI MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with OpenCTI (Open Cyber Threat Intelligence) platform."
   },
   "manifestHash": "0bc7f90233e58331330c34e5e8b6ae5a",
-  "createdAt": "2025-04-15T07:16:17.377Z",
+  "createdAt": "2025-04-17T11:11:14.284Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

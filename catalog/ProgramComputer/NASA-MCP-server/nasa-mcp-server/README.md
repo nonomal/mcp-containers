@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--programcomputer--nasa-mcp-server--nasa-mcp-server"
+        "ghcr.io/metorial/mcp-container--programcomputer--nasa-mcp-server--nasa-mcp-server",
+        "npm run start"
       ],
       "env": {
         "NASA_API_KEY": "nasa-api-key"

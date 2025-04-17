@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ivo-toby--contentful-mcp--contentful-mcp"
+        "ghcr.io/metorial/mcp-container--ivo-toby--contentful-mcp--contentful-mcp",
+        "node ./bin/mcp-server.js"
       ],
       "env": {
         "CONTENTFUL_MANAGEMENT_ACCESS_TOKEN": "contentful-management-access-token"

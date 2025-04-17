@@ -45,7 +45,7 @@
     "description": "An MCP server to interact with a Tinybird Workspace from any MCP client."
   },
   "manifestHash": "a7dc71b9e6284bc127be1f457fbdb941",
-  "createdAt": "2025-04-15T07:16:47.664Z",
+  "createdAt": "2025-04-17T11:11:15.908Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -93,7 +93,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-tinybird"
+          "cmd": "mcp-tinybird"
         }
       }
     }

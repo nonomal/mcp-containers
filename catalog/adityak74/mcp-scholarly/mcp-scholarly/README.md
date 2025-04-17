@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--adityak74--mcp-scholarly--mc
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--adityak74--mcp-scholarly--mcp-scholarly"
+        "ghcr.io/metorial/mcp-container--adityak74--mcp-scholarly--mcp-scholarly",
+        "mcp-scholarly"
       ],
       "env": {}
     }

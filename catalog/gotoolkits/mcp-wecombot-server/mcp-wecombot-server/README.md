@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--gotoolkits--mcp-wecombot-server--mcp-wecombot-server"
+        "ghcr.io/metorial/mcp-container--gotoolkits--mcp-wecombot-server--mcp-wecombot-server",
+        "./out"
       ],
       "env": {
         "WECOM_BOT_WEBHOOK_KEY": "wecom-bot-webhook-key"

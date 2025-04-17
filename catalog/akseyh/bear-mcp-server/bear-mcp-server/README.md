@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--akseyh--bear-mcp-server--bea
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--akseyh--bear-mcp-server--bear-mcp-server"
+        "ghcr.io/metorial/mcp-container--akseyh--bear-mcp-server--bear-mcp-server",
+        "npm run start"
       ],
       "env": {}
     }

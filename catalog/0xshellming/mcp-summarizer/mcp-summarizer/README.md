@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--0xshellming--mcp-summarizer-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--0xshellming--mcp-summarizer--mcp-summarizer"
+        "ghcr.io/metorial/mcp-container--0xshellming--mcp-summarizer--mcp-summarizer",
+        "pnpm run start"
       ],
       "env": {}
     }

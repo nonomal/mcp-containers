@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--blurrah--mcp-graphql--mcp-graphql"
+        "ghcr.io/metorial/mcp-container--blurrah--mcp-graphql--mcp-graphql",
+        "bun run start"
       ],
       "env": {
         "ENDPOINT": "endpoint"

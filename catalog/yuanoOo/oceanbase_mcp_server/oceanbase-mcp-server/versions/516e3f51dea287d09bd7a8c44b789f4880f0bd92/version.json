@@ -80,7 +80,7 @@
     "description": "A Model Context Protocol (MCP) server that enables secure interaction with OceanBase databases."
   },
   "manifestHash": "433f33bcf69c70a5b7b4e3e77ac14157",
-  "createdAt": "2025-04-15T07:16:49.040Z",
+  "createdAt": "2025-04-17T11:11:17.572Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -126,7 +126,7 @@
           }
         },
         "start": {
-          "cmd": "python -m oceanbase_mcp_server"
+          "cmd": "oceanbase_mcp_server"
         }
       }
     }

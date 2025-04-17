@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that provides AI-powered access to the Oorlogsbronnen (War Sources) database. This server enables natural language interactions with historical World War II archives from the Netherlands."
   },
   "manifestHash": "72fb7beeca34d57eea517f29d61462cb",
-  "createdAt": "2025-04-15T07:16:43.643Z",
+  "createdAt": "2025-04-17T11:11:11.231Z",
   "builder": [
     {
       "type": "nixpacks",

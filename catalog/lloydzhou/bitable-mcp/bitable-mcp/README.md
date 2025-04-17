@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--lloydzhou--bitable-mcp--bitable-mcp"
+        "ghcr.io/metorial/mcp-container--lloydzhou--bitable-mcp--bitable-mcp",
+        "bitable-mcp"
       ],
       "env": {
         "PERSONAL_BASE_TOKEN": "personal-base-token",

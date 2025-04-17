@@ -59,7 +59,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--yuanooo--oceanbase_mcp_server--oceanbase-mcp-server"
+        "ghcr.io/metorial/mcp-container--yuanooo--oceanbase_mcp_server--oceanbase-mcp-server",
+        "oceanbase_mcp_server"
       ],
       "env": {
         "OB_HOST": "ob-host",

@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--syucream--lightdash-mcp-server--lightdash-mcp-server"
+        "ghcr.io/metorial/mcp-container--syucream--lightdash-mcp-server--lightdash-mcp-server",
+        "npm run start"
       ],
       "env": {
         "LIGHTDASH_API_KEY": "lightdash-api-key",

@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for [maigret](https://github.com/soxoj/maigret), a powerful OSINT tool that collects user account information from various public sources. This server provides tools for searching usernames across social networks and analyzing URLs. It is designed to integrate seamlessly with MCP-compatible applications like [Claude Desktop](https://claude.ai)."
   },
   "manifestHash": "2f5490d9b465de2c87379fc000cbaacc",
-  "createdAt": "2025-04-15T07:16:12.773Z",
+  "createdAt": "2025-04-17T11:10:46.384Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node build/index.js"
         }
       }
     }

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--centralmind--gateway--gatewa
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--centralmind--gateway--gateway"
+        "ghcr.io/metorial/mcp-container--centralmind--gateway--gateway",
+        "./out"
       ],
       "env": {}
     }

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--kukapay--crypto-feargreed-mc
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kukapay--crypto-feargreed-mcp--crypto-feargreed-mcp"
+        "ghcr.io/metorial/mcp-container--kukapay--crypto-feargreed-mcp--crypto-feargreed-mcp",
+        "python main.py"
       ],
       "env": {}
     }

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--burtthecoder--mcp-shodan--mcp-shodan"
+        "ghcr.io/metorial/mcp-container--burtthecoder--mcp-shodan--mcp-shodan",
+        "node build/index.js"
       ],
       "env": {
         "SHODAN_API_KEY": "shodan-api-key"

@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ashdevfr--discourse-mcp-server--discourse-mcp-server"
+        "ghcr.io/metorial/mcp-container--ashdevfr--discourse-mcp-server--discourse-mcp-server",
+        "node ./build/index.js"
       ],
       "env": {
         "DISCOURSE_API_URL": "discourse-api-url",

@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--glips--figma-context-mcp--figma-context-mcp",
-        "--figma-api-key={{FIGMA_API_KEY}}} --stdio"
+        "pnpm run start --figma-api-key={{FIGMA_API_KEY}}} --stdio"
       ],
       "env": {
         "FIGMA_API_KEY": "figma-api-key"

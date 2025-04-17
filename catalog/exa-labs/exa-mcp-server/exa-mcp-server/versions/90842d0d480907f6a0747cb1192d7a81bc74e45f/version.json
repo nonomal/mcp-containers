@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and controlled way."
   },
   "manifestHash": "2e7ed085d7e8850a9d8f5fa562bc0946",
-  "createdAt": "2025-04-15T07:16:25.850Z",
+  "createdAt": "2025-04-17T11:10:50.650Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

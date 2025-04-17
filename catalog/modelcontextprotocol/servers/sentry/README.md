@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--sentry",
-        "--auth-token {{SENTRY_TOKEN}}"
+        "mcp-server-sentry --auth-token {{SENTRY_TOKEN}}"
       ],
       "env": {}
     }

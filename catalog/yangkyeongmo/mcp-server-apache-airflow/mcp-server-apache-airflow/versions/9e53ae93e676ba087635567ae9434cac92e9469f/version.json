@@ -57,7 +57,7 @@
     "description": "A Model Context Protocol (MCP) server implementation for Apache Airflow, enabling seamless integration with MCP clients. This project provides a standardized way to interact with Apache Airflow through the Model Context Protocol."
   },
   "manifestHash": "6ef55dc67481bd6341e28174f707418a",
-  "createdAt": "2025-04-15T07:16:49.011Z",
+  "createdAt": "2025-04-17T11:11:17.538Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -105,7 +105,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-server-apache-airflow"
+          "cmd": "mcp-server-apache-airflow"
         }
       }
     }

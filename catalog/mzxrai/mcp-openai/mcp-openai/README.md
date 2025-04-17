@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mzxrai--mcp-openai--mcp-openai"
+        "ghcr.io/metorial/mcp-container--mzxrai--mcp-openai--mcp-openai",
+        "node dist/index.js"
       ],
       "env": {
         "OPENAI_API_KEY": "openai-api-key"

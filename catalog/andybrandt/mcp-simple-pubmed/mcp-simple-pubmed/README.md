@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--andybrandt--mcp-simple-pubmed--mcp-simple-pubmed"
+        "ghcr.io/metorial/mcp-container--andybrandt--mcp-simple-pubmed--mcp-simple-pubmed",
+        "mcp-simple-pubmed"
       ],
       "env": {
         "PUBMED_EMAIL": "pubmed-email",

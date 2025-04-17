@@ -50,7 +50,7 @@
     }
   },
   "manifestHash": "67ce4fc8bd2784e0705eeb2c3bd91a9d",
-  "createdAt": "2025-04-16T17:13:14.149Z",
+  "createdAt": "2025-04-17T11:11:08.434Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,7 +69,7 @@
               "install"
             ],
             "cmds": [
-              "npm run build"
+              "cd ./src/slack && npm run build"
             ],
             "cacheDirectories": [
               "node_modules/.cache"
@@ -99,6 +99,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "cd ./src/slack && node ./dist/index.js"
         }
       }
     }

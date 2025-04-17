@@ -20,7 +20,7 @@
     "description": "An MCP server that helps AI assistants access text content from websites that implement bot detection, bridging the gap between what you can see in your browser and what the AI can access."
   },
   "manifestHash": "ea1f3223bcc993a415aa6690b6e55fc7",
-  "createdAt": "2025-04-15T07:16:23.294Z",
+  "createdAt": "2025-04-17T11:10:48.429Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m scrapling-fetch-mcp"
+          "cmd": "scrapling-fetch-mcp"
         }
       }
     }

@@ -57,8 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--ddukbg--github-enterprise-mcp--github-enterprise-mcp",
-        "--token token",
-        "--github-enterprise-url github-enterprise-url"
+        "npm run start --token token --github-enterprise-url github-enterprise-url"
       ],
       "env": {}
     }

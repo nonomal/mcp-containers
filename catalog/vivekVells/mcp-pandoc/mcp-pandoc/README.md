@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--vivekvells--mcp-pandoc--mcp-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--vivekvells--mcp-pandoc--mcp-pandoc"
+        "ghcr.io/metorial/mcp-container--vivekvells--mcp-pandoc--mcp-pandoc",
+        "mcp-pandoc"
       ],
       "env": {}
     }

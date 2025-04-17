@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol server that provides read and write access to Airtable databases. This server enables LLMs to inspect database schemas, then read and write records."
   },
   "manifestHash": "dfa35d4e2114252fcc9334ed3035c8e6",
-  "createdAt": "2025-04-15T07:16:24.469Z",
+  "createdAt": "2025-04-17T11:10:49.501Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -33,7 +33,7 @@
     "description": "This is a simple [Model Context Protocol](https://modelcontextprotocol.io) server that uses the [ipinfo.io](https://ipinfo.io) API to get detailed information about an IP address."
   },
   "manifestHash": "8d74a66e04e15bd72f401cc252fec0eb",
-  "createdAt": "2025-04-15T07:16:20.258Z",
+  "createdAt": "2025-04-17T11:10:46.127Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -81,7 +81,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-server-ipinfo"
+          "cmd": "mcp-server-ipinfo"
         }
       }
     }

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--erithwik--mcp-hn--mcp-hn
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--erithwik--mcp-hn--mcp-hn"
+        "ghcr.io/metorial/mcp-container--erithwik--mcp-hn--mcp-hn",
+        "mcp-hn"
       ],
       "env": {}
     }

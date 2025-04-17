@@ -60,11 +60,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--kenliao94--mcp-server-rabbitmq--mcp-server-rabbitmq",
-        "--rabbitmq-host rabbitmq-host",
-        "--port port",
-        "--username username",
-        "--password password",
-        "--use-tls use-tls"
+        "mcp-server-rabbitmq --rabbitmq-host rabbitmq-host --port port --username username --password password --use-tls use-tls"
       ],
       "env": {}
     }

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--modelcontextprotocol--server
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--fetch"
+        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--fetch",
+        "mcp-server-fetch"
       ],
       "env": {}
     }

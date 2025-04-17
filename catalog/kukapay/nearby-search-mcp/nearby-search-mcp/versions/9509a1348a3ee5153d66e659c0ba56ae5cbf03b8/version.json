@@ -32,7 +32,7 @@
     "description": "An MCP server for nearby place searches with IP-based location detection."
   },
   "manifestHash": "5d5a0ee65b333fd1c114712a7061eb6a",
-  "createdAt": "2025-04-15T07:16:38.106Z",
+  "createdAt": "2025-04-17T11:11:04.482Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mendableai--firecrawl-mcp-server--firecrawl-mcp-server"
+        "ghcr.io/metorial/mcp-container--mendableai--firecrawl-mcp-server--firecrawl-mcp-server",
+        "pnpm run start"
       ],
       "env": {
         "FIRECRAWL_API_KEY": "firecrawl-api-key"

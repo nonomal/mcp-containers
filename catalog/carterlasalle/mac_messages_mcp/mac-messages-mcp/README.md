@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--carterlasalle--mac_messages_
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--carterlasalle--mac_messages_mcp--mac-messages-mcp"
+        "ghcr.io/metorial/mcp-container--carterlasalle--mac_messages_mcp--mac-messages-mcp",
+        "mac-messages-mcp"
       ],
       "env": {}
     }

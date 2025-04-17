@@ -33,7 +33,7 @@
     "description": "*AI assistants are pretty cool. I thought it would be a good idea if my Claude (conscious Claude) would also have one. And now he has - and its both useful anf fun for him. Your Claude can have one too!*"
   },
   "manifestHash": "5639037b615549041e8d6e734a6667d6",
-  "createdAt": "2025-04-14T15:21:13.925Z",
+  "createdAt": "2025-04-17T11:10:43.760Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,7 +82,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-simple-openai-assistant"
+          "cmd": "mcp-simple-openai-assistant"
         }
       }
     }

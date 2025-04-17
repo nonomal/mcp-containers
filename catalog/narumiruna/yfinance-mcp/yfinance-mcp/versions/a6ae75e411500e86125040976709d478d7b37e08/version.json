@@ -20,7 +20,7 @@
     "description": "A simple MCP server for Yahoo Finance using yfinance. This server provides a set of tools to fetch stock data, news, and other financial information."
   },
   "manifestHash": "e43cade3a1f92bc354d9f5e227f1b54a",
-  "createdAt": "2025-04-15T07:16:41.513Z",
+  "createdAt": "2025-04-17T11:11:08.814Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m yfmcp"
+          "cmd": "yfmcp"
         }
       }
     }

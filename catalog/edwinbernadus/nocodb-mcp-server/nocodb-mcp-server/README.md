@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--edwinbernadus--nocodb-mcp-server--nocodb-mcp-server"
+        "ghcr.io/metorial/mcp-container--edwinbernadus--nocodb-mcp-server--nocodb-mcp-server",
+        "node dist/start.js"
       ],
       "env": {
         "NOCODB_URL": "nocodb-url",

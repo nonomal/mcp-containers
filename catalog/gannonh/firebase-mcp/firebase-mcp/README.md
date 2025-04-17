@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--gannonh--firebase-mcp--firebase-mcp"
+        "ghcr.io/metorial/mcp-container--gannonh--firebase-mcp--firebase-mcp",
+        "npm run start"
       ],
       "env": {
         "SERVICE_ACCOUNT_KEY_PATH": "service-account-key-path",

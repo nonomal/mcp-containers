@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol (MCP) server that enables LLMs to interact with [Plane.so](https://plane.so), allowing them to manage projects and issues through Plane's API. Using this server, LLMs like Claude can directly interact with your project management workflows while maintaining user control and security."
   },
   "manifestHash": "c8f0cc9439230f66fcbce7816c642db8",
-  "createdAt": "2025-04-15T07:16:36.323Z",
+  "createdAt": "2025-04-17T11:11:02.230Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -94,6 +94,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

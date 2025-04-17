@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--posthog--posthog-mcp--posthog-mcp"
+        "ghcr.io/metorial/mcp-container--posthog--posthog-mcp--posthog-mcp",
+        "posthog-mcp"
       ],
       "env": {
         "PERSONAL_API_KEY": "personal-api-key"

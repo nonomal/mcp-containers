@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--qianniuspace--mcp-security-a
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--qianniuspace--mcp-security-audit--mcp-security-audit"
+        "ghcr.io/metorial/mcp-container--qianniuspace--mcp-security-audit--mcp-security-audit",
+        "node ./build/index.js"
       ],
       "env": {}
     }

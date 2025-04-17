@@ -57,7 +57,7 @@
     "description": "A Model Context Protocol (MCP) server implementation that integrates with [Vectorize](https://vectorize.io/) for advanced Vector retrieval and text extraction."
   },
   "manifestHash": "00a17f091b59ee783b9de0648d57d8a5",
-  "createdAt": "2025-04-15T07:16:48.133Z",
+  "createdAt": "2025-04-17T11:11:16.501Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -106,6 +106,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

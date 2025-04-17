@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kukapay--token-revoke-mcp--token-revoke-mcp"
+        "ghcr.io/metorial/mcp-container--kukapay--token-revoke-mcp--token-revoke-mcp",
+        "node index.js"
       ],
       "env": {
         "MORALIS_API_KEY": "moralis-api-key",

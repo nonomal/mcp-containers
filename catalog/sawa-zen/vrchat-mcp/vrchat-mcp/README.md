@@ -58,7 +58,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--sawa-zen--vrchat-mcp--vrchat-mcp"
+        "ghcr.io/metorial/mcp-container--sawa-zen--vrchat-mcp--vrchat-mcp",
+        "npm run start"
       ],
       "env": {
         "VRCHAT_USERNAME": "vrchat-username",

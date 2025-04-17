@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--openbnb-org--mcp-server-airb
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--openbnb-org--mcp-server-airbnb--mcp-server-airbnb"
+        "ghcr.io/metorial/mcp-container--openbnb-org--mcp-server-airbnb--mcp-server-airbnb",
+        "node dist/index.js"
       ],
       "env": {}
     }

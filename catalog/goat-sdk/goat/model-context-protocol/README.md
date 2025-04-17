@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--goat-sdk--goat--model-context-protocol"
+        "ghcr.io/metorial/mcp-container--goat-sdk--goat--model-context-protocol",
+        "node ./build/evm.js"
       ],
       "env": {
         "WALLET_PRIVATE_KEY": "wallet-private-key",

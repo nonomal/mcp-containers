@@ -56,7 +56,7 @@
     "description": "A Model Context Protocol server for retrieving and analyzing data or running tasks for Ramp using Developer API. In order to get around token and input size limitations, this server implements a simple ETL pipeline + ephemeral sqlite database in memory for analysis by an LLM."
   },
   "manifestHash": "afc7490396c5e7cc428df8b76e39aff9",
-  "createdAt": "2025-04-15T07:16:44.135Z",
+  "createdAt": "2025-04-17T11:11:11.457Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -104,7 +104,7 @@
           }
         },
         "start": {
-          "cmd": "python -m ramp-mcp"
+          "cmd": "ramp-mcp"
         }
       }
     }

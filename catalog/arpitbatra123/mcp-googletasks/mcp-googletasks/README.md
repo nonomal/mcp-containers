@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--arpitbatra123--mcp-googletasks--mcp-googletasks"
+        "ghcr.io/metorial/mcp-container--arpitbatra123--mcp-googletasks--mcp-googletasks",
+        "node build/index.js"
       ],
       "env": {
         "GOOGLE_CLIENT_ID": "google-client-id",

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--boston343--starwind-ui-mcp--
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--boston343--starwind-ui-mcp--starwind-ui-mcp"
+        "ghcr.io/metorial/mcp-container--boston343--starwind-ui-mcp--starwind-ui-mcp",
+        "pnpm run start"
       ],
       "env": {}
     }

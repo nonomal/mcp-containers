@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol (MCP) server for managing Netskope Network Private Access (NPA) infrastructure through Large Language Models (LLMs)."
   },
   "manifestHash": "d196fdf47f074cfe325d810d011ea90e",
-  "createdAt": "2025-04-15T07:16:34.925Z",
+  "createdAt": "2025-04-17T11:11:00.817Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--raoulbia-ai--mcp-server-for-intercom--mcp-server-for-intercom"
+        "ghcr.io/metorial/mcp-container--raoulbia-ai--mcp-server-for-intercom--mcp-server-for-intercom",
+        "npm run start"
       ],
       "env": {
         "INTERCOM_ACCESS_TOKEN": "intercom-access-token"

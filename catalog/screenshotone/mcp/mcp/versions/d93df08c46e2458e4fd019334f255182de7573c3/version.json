@@ -33,7 +33,7 @@
     "description": "A simple implementation of an MCP server for the ScreenshotOne API"
   },
   "manifestHash": "197e320681876b89dacf64264edacf29",
-  "createdAt": "2025-04-15T07:16:45.283Z",
+  "createdAt": "2025-04-17T11:11:13.100Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--delorenj--mcp-server-ticketmaster--mcp-server-ticketmaster"
+        "ghcr.io/metorial/mcp-container--delorenj--mcp-server-ticketmaster--mcp-server-ticketmaster",
+        "node ./build/index.js"
       ],
       "env": {
         "TICKETMASTER_API_KEY": "ticketmaster-api-key"

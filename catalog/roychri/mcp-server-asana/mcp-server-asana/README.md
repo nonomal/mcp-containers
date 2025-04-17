@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--roychri--mcp-server-asana--mcp-server-asana"
+        "ghcr.io/metorial/mcp-container--roychri--mcp-server-asana--mcp-server-asana",
+        "npm run start"
       ],
       "env": {
         "ASANA_ACCESS_TOKEN": "asana-access-token"

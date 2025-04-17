@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hardik-id--azure-resource-graph-mcp-server--azure-resource-graph-mcp-server"
+        "ghcr.io/metorial/mcp-container--hardik-id--azure-resource-graph-mcp-server--azure-resource-graph-mcp-server",
+        "npm run start"
       ],
       "env": {
         "SUBSCRIPTION_ID": "subscription-id"

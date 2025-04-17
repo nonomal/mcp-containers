@@ -45,7 +45,7 @@
     "description": "The leading agentic finance toolkit for AI agents"
   },
   "manifestHash": "8f2788561e4b15893f1823c57f68d1b8",
-  "createdAt": "2025-04-16T15:15:52.767Z",
+  "createdAt": "2025-04-17T11:10:56.602Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -94,6 +94,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/evm.js"
         }
       }
     }

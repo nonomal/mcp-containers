@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--runekaagaard--mcp-alchemy--mcp-alchemy"
+        "ghcr.io/metorial/mcp-container--runekaagaard--mcp-alchemy--mcp-alchemy",
+        "mcp-alchemy"
       ],
       "env": {
         "DB_URL": "db-url"

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--cyberchitta--scrapling-fetch
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--cyberchitta--scrapling-fetch-mcp--scrapling-fetch-mcp"
+        "ghcr.io/metorial/mcp-container--cyberchitta--scrapling-fetch-mcp--scrapling-fetch-mcp",
+        "scrapling-fetch-mcp"
       ],
       "env": {}
     }

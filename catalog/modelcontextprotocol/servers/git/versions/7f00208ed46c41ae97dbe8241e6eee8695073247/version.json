@@ -32,7 +32,7 @@
     "description": "A Model Context Protocol (MCP) server for git repositories."
   },
   "manifestHash": "a0f8f3e245f8f6e43cd8e67a4040c7a7",
-  "createdAt": "2025-04-16T17:13:13.575Z",
+  "createdAt": "2025-04-17T11:11:08.278Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -80,7 +80,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-server-git"
+          "cmd": "mcp-server-git"
         }
       }
     }

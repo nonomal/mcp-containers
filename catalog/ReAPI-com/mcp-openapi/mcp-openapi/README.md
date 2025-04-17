@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--reapi-com--mcp-openapi--mcp-openapi",
-        "--dir dir"
+        "node ./dist/cli.mjs --dir dir"
       ],
       "env": {}
     }

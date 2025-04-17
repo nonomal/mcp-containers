@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--hyperb1iss--lucidity-mcp--lu
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hyperb1iss--lucidity-mcp--lucidity-mcp"
+        "ghcr.io/metorial/mcp-container--hyperb1iss--lucidity-mcp--lucidity-mcp",
+        "lucidity-mcp"
       ],
       "env": {}
     }

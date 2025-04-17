@@ -58,7 +58,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--v-3--google-calendar--google-calendar"
+        "ghcr.io/metorial/mcp-container--v-3--google-calendar--google-calendar",
+        "node index.js"
       ],
       "env": {
         "GOOGLE_CLIENT_ID": "google-client-id",

@@ -32,7 +32,7 @@
     "description": "An MCP server that delivers cryptocurrency sentiment analysis to AI agents, leveraging Santiment's aggregated social media and news data to track market mood and detect emerging trends."
   },
   "manifestHash": "069128bde8ffc754380aaf802d5bad47",
-  "createdAt": "2025-04-15T07:16:38.004Z",
+  "createdAt": "2025-04-17T11:11:04.268Z",
   "builder": [
     {
       "type": "nixpacks",

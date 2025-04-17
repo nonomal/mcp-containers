@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--thunderboltsid--mcp-nutanix-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--thunderboltsid--mcp-nutanix--mcp-nutanix"
+        "ghcr.io/metorial/mcp-container--thunderboltsid--mcp-nutanix--mcp-nutanix",
+        "./out"
       ],
       "env": {}
     }

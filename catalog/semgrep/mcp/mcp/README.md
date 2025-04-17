@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--semgrep--mcp--mcp"
+        "ghcr.io/metorial/mcp-container--semgrep--mcp--mcp",
+        "semgrep-mcp"
       ],
       "env": {
         "SEMGREP_APP_TOKEN": "semgrep-app-token"

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--shanejonas--openrpc-mpc-serv
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--shanejonas--openrpc-mpc-server--openrpc-mpc-server"
+        "ghcr.io/metorial/mcp-container--shanejonas--openrpc-mpc-server--openrpc-mpc-server",
+        "npm run start"
       ],
       "env": {}
     }

@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kpsunil97--devrev-mcp-server--devrev-mcp-server"
+        "ghcr.io/metorial/mcp-container--kpsunil97--devrev-mcp-server--devrev-mcp-server",
+        "devrev-mcp"
       ],
       "env": {
         "DEVREV_API_KEY": "devrev-api-key"

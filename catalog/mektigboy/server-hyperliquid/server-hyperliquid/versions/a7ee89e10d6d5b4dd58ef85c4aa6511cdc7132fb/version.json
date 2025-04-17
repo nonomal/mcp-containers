@@ -20,7 +20,7 @@
     "description": "An MCP server implementation that integrates the Hyperliquid SDK."
   },
   "manifestHash": "97a53918bdda7203a74910e63622cecc",
-  "createdAt": "2025-04-15T07:16:40.282Z",
+  "createdAt": "2025-04-17T11:11:06.295Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,6 +69,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

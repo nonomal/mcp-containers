@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hijaz--postmancer--postmancer"
+        "ghcr.io/metorial/mcp-container--hijaz--postmancer--postmancer",
+        "npm run start"
       ],
       "env": {
         "LOG_LEVEL": "log-level"

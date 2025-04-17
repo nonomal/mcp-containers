@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--tiberriver256--mcp-server-azure-devops--mcp-server-azure-devops"
+        "ghcr.io/metorial/mcp-container--tiberriver256--mcp-server-azure-devops--mcp-server-azure-devops",
+        "npm run start"
       ],
       "env": {
         "AZURE_DEVOPS_ORG_URL": "azure-devops-org-url",

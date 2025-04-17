@@ -20,7 +20,7 @@
     "description": "Verify that any MCP server is running the intended and untampered code via hardware attestation."
   },
   "manifestHash": "80541db09995e53900a768d20368fb33",
-  "createdAt": "2025-04-15T07:16:22.483Z",
+  "createdAt": "2025-04-17T11:10:47.808Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m attestable-mcp-server"
+          "cmd": "attestable-mcp-server"
         }
       }
     }

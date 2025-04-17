@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--privetin--chroma--chroma
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--privetin--chroma--chroma"
+        "ghcr.io/metorial/mcp-container--privetin--chroma--chroma",
+        "chroma"
       ],
       "env": {}
     }

@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--meilisearch--meilisearch-mcp--meilisearch-mcp"
+        "ghcr.io/metorial/mcp-container--meilisearch--meilisearch-mcp--meilisearch-mcp",
+        "python -m src.meilisearch_mcp"
       ],
       "env": {
         "MEILI_HTTP_ADDR": "Meilisearch HTTP Address",

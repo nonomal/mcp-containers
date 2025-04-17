@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--varunneal--spotify-mcp--spotify-mcp"
+        "ghcr.io/metorial/mcp-container--varunneal--spotify-mcp--spotify-mcp",
+        "spotify-mcp"
       ],
       "env": {
         "SPOTIFY_CLIENT_ID": "spotify-client-id",

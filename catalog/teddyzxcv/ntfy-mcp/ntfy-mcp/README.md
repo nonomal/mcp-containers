@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--teddyzxcv--ntfy-mcp--ntfy-mcp"
+        "ghcr.io/metorial/mcp-container--teddyzxcv--ntfy-mcp--ntfy-mcp",
+        "npm run start"
       ],
       "env": {
         "NTFY_TOPIC": "ntfy-topic"

@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--pab1it0--prometheus-mcp-server--prometheus-mcp-server"
+        "ghcr.io/metorial/mcp-container--pab1it0--prometheus-mcp-server--prometheus-mcp-server",
+        "prometheus-mcp-server"
       ],
       "env": {
         "PROMETHEUS_URL": "prometheus-url",

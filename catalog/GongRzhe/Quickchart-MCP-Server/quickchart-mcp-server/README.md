@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--gongrzhe--quickchart-mcp-ser
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--gongrzhe--quickchart-mcp-server--quickchart-mcp-server"
+        "ghcr.io/metorial/mcp-container--gongrzhe--quickchart-mcp-server--quickchart-mcp-server",
+        "npm run start"
       ],
       "env": {}
     }

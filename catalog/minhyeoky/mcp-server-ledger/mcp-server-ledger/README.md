@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--minhyeoky--mcp-server-ledger
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--minhyeoky--mcp-server-ledger--mcp-server-ledger"
+        "ghcr.io/metorial/mcp-container--minhyeoky--mcp-server-ledger--mcp-server-ledger",
+        "python main.py"
       ],
       "env": {}
     }

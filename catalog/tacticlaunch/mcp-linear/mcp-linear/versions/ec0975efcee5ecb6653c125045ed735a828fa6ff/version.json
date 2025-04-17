@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server implementation for the Linear GraphQL API that enables AI assistants to interact with Linear project management systems."
   },
   "manifestHash": "ed06c6190b1e583dcded7f1cd90a3cd9",
-  "createdAt": "2025-04-15T07:16:46.718Z",
+  "createdAt": "2025-04-17T11:11:14.943Z",
   "builder": [
     {
       "type": "nixpacks",

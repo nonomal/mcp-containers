@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--verodat--verodat-mcp-server--verodat-mcp-server"
+        "ghcr.io/metorial/mcp-container--verodat--verodat-mcp-server--verodat-mcp-server",
+        "node ./build/src/consume.js"
       ],
       "env": {
         "VERODAT_AI_API_KEY": "verodat-ai-api-key",

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--shannonlal--mcp-postman--mcp
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--shannonlal--mcp-postman--mcp-postman"
+        "ghcr.io/metorial/mcp-container--shannonlal--mcp-postman--mcp-postman",
+        "node ./build/index.js"
       ],
       "env": {}
     }

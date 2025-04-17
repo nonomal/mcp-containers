@@ -33,7 +33,7 @@
     "description": "Integrate the Productboard API into agentic workflows via MCP"
   },
   "manifestHash": "30bcb2bbdb28fa22920626095944c9c1",
-  "createdAt": "2025-04-15T07:16:36.442Z",
+  "createdAt": "2025-04-17T11:11:02.501Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

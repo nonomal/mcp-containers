@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kukapay--token-minter-mcp--token-minter-mcp"
+        "ghcr.io/metorial/mcp-container--kukapay--token-minter-mcp--token-minter-mcp",
+        "node index.js"
       ],
       "env": {
         "INFURA_KEY": "infura-key",

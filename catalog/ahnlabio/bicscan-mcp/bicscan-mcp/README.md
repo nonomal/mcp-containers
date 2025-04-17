@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--ahnlabio--bicscan-mcp--bicscan-mcp"
+        "ghcr.io/metorial/mcp-container--ahnlabio--bicscan-mcp--bicscan-mcp",
+        "bicscan-mcp"
       ],
       "env": {
         "BICSCAN_API_KEY": "bicscan-api-key"

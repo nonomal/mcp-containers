@@ -33,7 +33,7 @@
     "description": "This repository provides a Model Context Protocol (MCP) Server for validating OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API."
   },
   "manifestHash": "f4aec15cd4cfaacb85e7b306f8af7414",
-  "createdAt": "2025-04-14T15:21:14.620Z",
+  "createdAt": "2025-04-17T11:10:44.414Z",
   "builder": [
     {
       "type": "nixpacks",

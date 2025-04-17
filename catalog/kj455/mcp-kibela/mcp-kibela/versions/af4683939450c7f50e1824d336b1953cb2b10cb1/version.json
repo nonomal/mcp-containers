@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol (MCP) server implementation that enables AI assistants to search and reference Kibela content. This setup allows AI models like Claude to securely access information stored in Kibela."
   },
   "manifestHash": "633b81d71d773a02b2a6d720560c93a8",
-  "createdAt": "2025-04-15T07:16:37.429Z",
+  "createdAt": "2025-04-17T11:11:03.484Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -94,6 +94,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./dist/index.js"
         }
       }
     }

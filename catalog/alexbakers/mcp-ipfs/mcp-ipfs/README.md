@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--alexbakers--mcp-ipfs--mcp-ip
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--alexbakers--mcp-ipfs--mcp-ipfs"
+        "ghcr.io/metorial/mcp-container--alexbakers--mcp-ipfs--mcp-ipfs",
+        "npm run start"
       ],
       "env": {}
     }

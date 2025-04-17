@@ -105,7 +105,7 @@
     "description": "An official Qdrant Model Context Protocol (MCP) server implementation."
   },
   "manifestHash": "7b78777c300007232f2463cb122a2dea",
-  "createdAt": "2025-04-15T07:16:43.459Z",
+  "createdAt": "2025-04-17T11:11:10.858Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -153,7 +153,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-server-qdrant"
+          "cmd": "mcp-server-qdrant"
         }
       }
     }

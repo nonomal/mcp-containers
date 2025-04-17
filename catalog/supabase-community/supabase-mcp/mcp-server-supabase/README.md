@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--supabase-community--supabase-mcp--mcp-server-supabase",
-        "--access-token access-token"
+        "node ./dist/stdio.js --access-token access-token"
       ],
       "env": {}
     }

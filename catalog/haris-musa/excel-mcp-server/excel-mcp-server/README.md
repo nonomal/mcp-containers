@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--haris-musa--excel-mcp-server--excel-mcp-server"
+        "ghcr.io/metorial/mcp-container--haris-musa--excel-mcp-server--excel-mcp-server",
+        "excel-mcp-server"
       ],
       "env": {
         "FASTMCP_PORT": "fastmcp-port",

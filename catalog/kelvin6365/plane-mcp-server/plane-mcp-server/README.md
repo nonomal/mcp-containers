@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kelvin6365--plane-mcp-server--plane-mcp-server"
+        "ghcr.io/metorial/mcp-container--kelvin6365--plane-mcp-server--plane-mcp-server",
+        "node dist/index.js"
       ],
       "env": {
         "PLANE_API_KEY": "plane-api-key",

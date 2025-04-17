@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server that enables LLMs to interact directly with MongoDB databases. Query collections, inspect schemas, and manage data seamlessly through natural language."
   },
   "manifestHash": "652037085a077138182d5503c0f5c45c",
-  "createdAt": "2025-04-15T07:16:16.429Z",
+  "createdAt": "2025-04-17T11:11:10.874Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

@@ -61,7 +61,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--axiomhq--mcp-server-axiom--mcp-server-axiom"
+        "ghcr.io/metorial/mcp-container--axiomhq--mcp-server-axiom--mcp-server-axiom",
+        "./out"
       ],
       "env": {
         "AXIOM_TOKEN": "axiom-token",

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--lamemind--mcp-server-multive
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--lamemind--mcp-server-multiverse--mcp-server-multiverse"
+        "ghcr.io/metorial/mcp-container--lamemind--mcp-server-multiverse--mcp-server-multiverse",
+        "npm run start"
       ],
       "env": {}
     }

@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--rad-security--mcp-server--mcp-server"
+        "ghcr.io/metorial/mcp-container--rad-security--mcp-server--mcp-server",
+        "npm run start"
       ],
       "env": {
         "RAD_SECURITY_ACCESS_KEY_ID": "rad-security-access-key-id",

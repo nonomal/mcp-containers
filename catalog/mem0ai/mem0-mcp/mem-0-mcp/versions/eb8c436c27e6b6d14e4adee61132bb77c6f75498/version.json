@@ -33,7 +33,7 @@
     "description": "This demonstrates a structured approach for using an [MCP](https://modelcontextprotocol.io/introduction) server with [mem0](https://mem0.ai) to manage coding preferences efficiently. The server can be used with Cursor and provides essential tools for storing, retrieving, and searching coding preferences."
   },
   "manifestHash": "d4ea3641fdc0913a62f2336449b8a63e",
-  "createdAt": "2025-04-15T07:16:40.387Z",
+  "createdAt": "2025-04-17T11:11:06.370Z",
   "builder": [
     {
       "type": "nixpacks",

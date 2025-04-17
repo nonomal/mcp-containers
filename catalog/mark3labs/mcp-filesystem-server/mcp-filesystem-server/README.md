@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--mark3labs--mcp-filesystem-se
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--mark3labs--mcp-filesystem-server--mcp-filesystem-server"
+        "ghcr.io/metorial/mcp-container--mark3labs--mcp-filesystem-server--mcp-filesystem-server",
+        "./out"
       ],
       "env": {}
     }

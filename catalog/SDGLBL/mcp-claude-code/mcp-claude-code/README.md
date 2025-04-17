@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--sdglbl--mcp-claude-code--mcp-claude-code"
+        "ghcr.io/metorial/mcp-container--sdglbl--mcp-claude-code--mcp-claude-code",
+        "claudecode"
       ],
       "env": {
         "USEFUL_PROMPTS": "useful-prompts"

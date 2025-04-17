@@ -44,7 +44,7 @@
     "description": "This is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that provides tools for interacting with the Paddle API."
   },
   "manifestHash": "6aed3bb17e612c0b92adb11d24912723",
-  "createdAt": "2025-04-15T07:16:15.833Z",
+  "createdAt": "2025-04-17T11:11:09.998Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -93,6 +93,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

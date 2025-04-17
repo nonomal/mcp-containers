@@ -20,7 +20,7 @@
     "description": "An MCP server implementation that connects to a locally running Anki, providing card review and creation."
   },
   "manifestHash": "10ca8d8df0899080dd1d404e1bf522c9",
-  "createdAt": "2025-04-15T07:16:45.139Z",
+  "createdAt": "2025-04-17T11:11:12.926Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -69,6 +69,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

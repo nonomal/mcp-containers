@@ -20,7 +20,7 @@
     "description": "Let Claude manage your tastytrade portfolio."
   },
   "manifestHash": "ae3cf8a6b6c22ed06eeb880563ee7015",
-  "createdAt": "2025-04-15T07:16:27.522Z",
+  "createdAt": "2025-04-17T11:10:51.851Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m tasty-agent"
+          "cmd": "tasty-agent"
         }
       }
     }

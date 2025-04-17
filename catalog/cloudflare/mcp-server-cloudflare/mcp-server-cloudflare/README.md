@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--cloudflare--mcp-server-cloudflare--mcp-server-cloudflare"
+        "ghcr.io/metorial/mcp-container--cloudflare--mcp-server-cloudflare--mcp-server-cloudflare",
+        "node dist/index.js"
       ],
       "env": {
         "API_KEY": "api-key"

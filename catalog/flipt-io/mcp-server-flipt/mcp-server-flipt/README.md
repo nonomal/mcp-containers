@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--flipt-io--mcp-server-flipt--mcp-server-flipt"
+        "ghcr.io/metorial/mcp-container--flipt-io--mcp-server-flipt--mcp-server-flipt",
+        "npm run start"
       ],
       "env": {
         "FLIPT_API_URL": "flipt-api-url",

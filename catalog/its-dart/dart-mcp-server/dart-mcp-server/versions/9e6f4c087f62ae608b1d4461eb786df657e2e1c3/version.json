@@ -33,7 +33,7 @@
     "description": "Dart AI Model Context Protocol (MCP) server"
   },
   "manifestHash": "db436e976e879052a49205a0d648838c",
-  "createdAt": "2025-04-16T01:07:09.668Z",
+  "createdAt": "2025-04-17T11:10:58.327Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node dist/index.js"
         }
       }
     }

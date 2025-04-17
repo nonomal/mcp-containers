@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--github"
+        "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--github",
+        "cd ./src/github && node ./dist/index.js"
       ],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "github-personal-access-token"

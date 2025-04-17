@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--integration-app--mcp-server--mcp-server"
+        "ghcr.io/metorial/mcp-container--integration-app--mcp-server--mcp-server",
+        "npm run start"
       ],
       "env": {
         "INTEGRATION_APP_TOKEN": "integration-app-token",

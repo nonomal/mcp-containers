@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--pab1it0--chess-mcp--chess-mc
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--pab1it0--chess-mcp--chess-mcp"
+        "ghcr.io/metorial/mcp-container--pab1it0--chess-mcp--chess-mcp",
+        "chess-mcp"
       ],
       "env": {}
     }

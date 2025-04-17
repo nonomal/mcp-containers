@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--yuna0x0--anilist-mcp--anilist-mcp"
+        "ghcr.io/metorial/mcp-container--yuna0x0--anilist-mcp--anilist-mcp",
+        "bun run start"
       ],
       "env": {
         "ANILIST_TOKEN": "anilist-token"

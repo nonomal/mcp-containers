@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server that provides web content fetching capabilities. This server enables LLMs to retrieve and process content from web pages, converting HTML to markdown for easier consumption."
   },
   "manifestHash": "20005710d0c140c4687f03ec6b1c9542",
-  "createdAt": "2025-04-16T17:13:13.336Z",
+  "createdAt": "2025-04-17T11:11:07.839Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-server-fetch"
+          "cmd": "mcp-server-fetch"
         }
       }
     }

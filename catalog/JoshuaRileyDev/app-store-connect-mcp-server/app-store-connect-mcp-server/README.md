@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--joshuarileydev--app-store-connect-mcp-server--app-store-connect-mcp-server"
+        "ghcr.io/metorial/mcp-container--joshuarileydev--app-store-connect-mcp-server--app-store-connect-mcp-server",
+        "npm run start"
       ],
       "env": {
         "APP_STORE_CONNECT_KEY_ID": "app-store-connect-key-id",

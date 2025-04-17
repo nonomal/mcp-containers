@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--jjsantos01--jupyter-notebook
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jjsantos01--jupyter-notebook-mcp--jupyter-notebook-mcp"
+        "ghcr.io/metorial/mcp-container--jjsantos01--jupyter-notebook-mcp--jupyter-notebook-mcp",
+        "python main.py"
       ],
       "env": {}
     }

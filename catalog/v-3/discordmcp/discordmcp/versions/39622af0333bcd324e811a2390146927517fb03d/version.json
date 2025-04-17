@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server that enables LLMs to interact with Discord channels, allowing them to send and read messages through Discord's API. Using this server, LLMs like Claude can directly interact with Discord channels while maintaining user control and security."
   },
   "manifestHash": "e105b1ed64b6a6aae08589022ab98447",
-  "createdAt": "2025-04-15T07:16:47.847Z",
+  "createdAt": "2025-04-17T11:11:16.224Z",
   "builder": [
     {
       "type": "nixpacks",

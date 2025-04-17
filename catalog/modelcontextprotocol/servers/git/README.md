@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--git",
-        "--repository repository"
+        "mcp-server-git --repository repository"
       ],
       "env": {}
     }

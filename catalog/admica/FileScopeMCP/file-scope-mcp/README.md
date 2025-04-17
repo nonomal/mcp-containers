@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--admica--filescopemcp--file-scope-mcp",
-        "--base-dir base-dir"
+        "npm run start --base-dir base-dir"
       ],
       "env": {}
     }

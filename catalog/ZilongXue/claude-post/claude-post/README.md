@@ -59,7 +59,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--zilongxue--claude-post--claude-post"
+        "ghcr.io/metorial/mcp-container--zilongxue--claude-post--claude-post",
+        "email-client"
       ],
       "env": {
         "EMAIL_ADDRESS": "email-address",

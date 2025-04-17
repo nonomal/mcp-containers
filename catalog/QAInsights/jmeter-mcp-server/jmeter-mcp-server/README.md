@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--qainsights--jmeter-mcp-serve
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--qainsights--jmeter-mcp-server--jmeter-mcp-server"
+        "ghcr.io/metorial/mcp-container--qainsights--jmeter-mcp-server--jmeter-mcp-server",
+        "python main.py"
       ],
       "env": {}
     }

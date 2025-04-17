@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hmk--box-mcp-server--box-mcp-server"
+        "ghcr.io/metorial/mcp-container--hmk--box-mcp-server--box-mcp-server",
+        "node dist/index.js"
       ],
       "env": {
         "BOX_JWT_BASE64": "box-jwt-base-64",

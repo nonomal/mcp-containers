@@ -60,6 +60,9 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/CircleCI-Public.png?size=120" width="12px" height="12px" /> **[CircleCI MCP Server
 ](catalog/CircleCI-Public/mcp-server-circleci/mcp-server-circleci/README.md)** - Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an MCP Server for [CircleCI](https://circleci.com).
 
+- <img src="https://github.com/cloudflare.png?size=120" width="12px" height="12px" /> **[Cloudflare MCP Server
+](catalog/cloudflare/mcp-server-cloudflare/mcp-server-cloudflare/README.md)** - Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an installer as well as an MCP Server for [Cloudflare's API](https://api.cloudflare.com).
+
 - <img src="https://github.com/comet-ml.png?size=120" width="12px" height="12px" /> **[Opik MCP Server
 ](catalog/comet-ml/opik-mcp/opik-mcp/README.md)** - Opik MCP Server is an open-source implementation of the Model Context Protocol for the Opik platform. It provides a unified interface for interacting with Opik's capabilities, supporting multiple transport mechanisms for flexible integration into various environments.
 
@@ -383,6 +386,9 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/CircleCI-Public.png?size=120" width="12px" height="12px" /> **[CircleCI MCP Server
 ](catalog/CircleCI-Public/mcp-server-circleci/mcp-server-circleci/README.md)** - Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an MCP Server for [CircleCI](https://circleci.com).
+
+- <img src="https://github.com/cloudflare.png?size=120" width="12px" height="12px" /> **[Cloudflare MCP Server
+](catalog/cloudflare/mcp-server-cloudflare/mcp-server-cloudflare/README.md)** - Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an installer as well as an MCP Server for [Cloudflare's API](https://api.cloudflare.com).
 
 - <img src="https://github.com/co-browser.png?size=120" width="12px" height="12px" /> **[➡️ attestable-mcp-server
 ](catalog/co-browser/attestable-mcp-server/attestable-mcp-server/README.md)** - Verify that any MCP server is running the intended and untampered code via hardware attestation.

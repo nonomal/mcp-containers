@@ -58,9 +58,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--ognis1205--mcp-server-unitycatalog--mcp-server-unitycatalog",
-        "--uc_server uc-server",
-        "--uc_catalog uc-catalog",
-        "--uc_schema uc-schema"
+        "mcp-server-unitycatalog --uc_server uc-server --uc_catalog uc-catalog --uc_schema uc-schema"
       ],
       "env": {}
     }

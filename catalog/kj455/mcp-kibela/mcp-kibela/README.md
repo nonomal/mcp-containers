@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kj455--mcp-kibela--mcp-kibela"
+        "ghcr.io/metorial/mcp-container--kj455--mcp-kibela--mcp-kibela",
+        "node ./dist/index.js"
       ],
       "env": {
         "KIBELA_TEAM": "kibela-team",

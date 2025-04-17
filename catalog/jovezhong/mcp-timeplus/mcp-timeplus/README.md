@@ -64,7 +64,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jovezhong--mcp-timeplus--mcp-timeplus"
+        "ghcr.io/metorial/mcp-container--jovezhong--mcp-timeplus--mcp-timeplus",
+        "mcp-timeplus"
       ],
       "env": {
         "TIMEPLUS_HOST": "timeplus-host",

@@ -20,7 +20,7 @@
     "description": "이 프로젝트는 [GeekNews](https://news.hada.io)에서 아티클을 가져오는 Model Context Protocol(MCP) 서버입니다. Python으로 구현되었으며, BeautifulSoup을 사용하여 웹 스크래핑을 수행합니다."
   },
   "manifestHash": "f961b56fb1a05e4ee2596d41738e9530",
-  "createdAt": "2025-04-15T07:16:47.431Z",
+  "createdAt": "2025-04-17T11:11:15.547Z",
   "builder": [
     {
       "type": "nixpacks",

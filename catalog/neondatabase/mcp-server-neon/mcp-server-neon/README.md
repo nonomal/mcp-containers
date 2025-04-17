@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--neondatabase--mcp-server-neon--mcp-server-neon",
-        "{{NEON_API_KEY}}"
+        "node ./dist/index.js {{NEON_API_KEY}}"
       ],
       "env": {}
     }

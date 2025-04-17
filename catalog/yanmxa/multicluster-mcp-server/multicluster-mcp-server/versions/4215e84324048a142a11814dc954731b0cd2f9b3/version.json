@@ -33,7 +33,7 @@
     "description": "The **Multi-Cluster MCP Server** provides a robust gateway for Generative AI (GenAI) systems to interact with multiple Kubernetes clusters through the Model Context Protocol (MCP). It facilitates comprehensive operations on Kubernetes resources, streamlined multi-cluster management, and delivered interactive cluster observability."
   },
   "manifestHash": "e44d24b4b3f3a8e0c2998be76ffbe635",
-  "createdAt": "2025-04-15T07:16:49.172Z",
+  "createdAt": "2025-04-17T11:11:17.579Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -82,6 +82,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/index.js"
         }
       }
     }

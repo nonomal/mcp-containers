@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--seym0n--tiktok-mcp--tiktok-mcp"
+        "ghcr.io/metorial/mcp-container--seym0n--tiktok-mcp--tiktok-mcp",
+        "node build/index.js"
       ],
       "env": {
         "TIKNEURON_MCP_API_KEY": "tikneuron-mcp-api-key"

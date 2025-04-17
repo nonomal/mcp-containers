@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--screenshotone--mcp--mcp"
+        "ghcr.io/metorial/mcp-container--screenshotone--mcp--mcp",
+        "node ./build/index.js"
       ],
       "env": {
         "SCREENSHOTONE_API_KEY": "screenshotone-api-key"

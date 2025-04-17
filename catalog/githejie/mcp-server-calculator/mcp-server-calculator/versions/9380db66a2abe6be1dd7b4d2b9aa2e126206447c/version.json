@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server for calculating. This server enables LLMs to use calculator for precise numerical calculations."
   },
   "manifestHash": "ebf0108aaf2154a53ba8c5f1d4b886a1",
-  "createdAt": "2025-04-15T07:16:28.788Z",
+  "createdAt": "2025-04-17T11:10:53.339Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -68,7 +68,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-server-calculator"
+          "cmd": "mcp-server-calculator"
         }
       }
     }

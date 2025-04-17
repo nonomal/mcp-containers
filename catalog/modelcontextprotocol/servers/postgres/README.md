@@ -56,7 +56,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--postgres",
-        "{{POSTGRES_URL}}"
+        "cd ./src/postgres && node ./dist/index.js {{POSTGRES_URL}}"
       ],
       "env": {}
     }

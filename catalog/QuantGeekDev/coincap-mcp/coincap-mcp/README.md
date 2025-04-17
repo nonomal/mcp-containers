@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--quantgeekdev--coincap-mcp--c
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--quantgeekdev--coincap-mcp--coincap-mcp"
+        "ghcr.io/metorial/mcp-container--quantgeekdev--coincap-mcp--coincap-mcp",
+        "node build/index.js"
       ],
       "env": {}
     }

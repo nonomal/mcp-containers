@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--pskill9--hn-server--hn-serve
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--pskill9--hn-server--hn-server"
+        "ghcr.io/metorial/mcp-container--pskill9--hn-server--hn-server",
+        "node ./build/index.js"
       ],
       "env": {}
     }

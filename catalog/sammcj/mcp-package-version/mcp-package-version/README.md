@@ -57,8 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--sammcj--mcp-package-version--mcp-package-version",
-        "--transport transport",
-        "--base-url base-url"
+        "./out --transport transport --base-url base-url"
       ],
       "env": {}
     }

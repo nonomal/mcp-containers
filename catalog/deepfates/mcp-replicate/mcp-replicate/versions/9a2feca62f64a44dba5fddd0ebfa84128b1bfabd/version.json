@@ -33,7 +33,7 @@
     "description": "A [Model Context Protocol](https://github.com/mcp-sdk/mcp) server implementation for Replicate. Run Replicate models through a simple tool-based interface."
   },
   "manifestHash": "a9d8523a0592b30d09748947acd77f0c",
-  "createdAt": "2025-04-15T07:16:23.386Z",
+  "createdAt": "2025-04-17T11:10:48.773Z",
   "builder": [
     {
       "type": "nixpacks",

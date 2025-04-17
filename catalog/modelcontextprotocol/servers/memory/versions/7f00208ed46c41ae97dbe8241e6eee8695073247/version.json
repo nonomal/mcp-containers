@@ -25,7 +25,7 @@
     }
   },
   "manifestHash": "b8cf85f3a44ce5fec2374af5730ab91d",
-  "createdAt": "2025-04-16T17:13:13.796Z",
+  "createdAt": "2025-04-17T11:11:08.480Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -44,7 +44,7 @@
               "install"
             ],
             "cmds": [
-              "npm run build"
+              "cd ./src/memory && npm run build"
             ],
             "cacheDirectories": [
               "node_modules/.cache"
@@ -74,6 +74,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "cd ./src/memory && node ./dist/index.js"
         }
       }
     }

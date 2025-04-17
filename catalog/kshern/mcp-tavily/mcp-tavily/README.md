@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--kshern--mcp-tavily--mcp-tavily"
+        "ghcr.io/metorial/mcp-container--kshern--mcp-tavily--mcp-tavily",
+        "node ./dist/index.js"
       ],
       "env": {
         "TAVILY_API_KEY": "tavily-api-key"

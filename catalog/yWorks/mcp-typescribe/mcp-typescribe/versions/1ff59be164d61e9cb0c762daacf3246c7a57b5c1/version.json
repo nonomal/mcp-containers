@@ -33,7 +33,7 @@
     "description": "An MCP server implementation enabling LLMs to work with new APIs and frameworks"
   },
   "manifestHash": "07a361c6ec043ae3f1c6a7dd7f98f204",
-  "createdAt": "2025-04-15T17:08:23.036Z",
+  "createdAt": "2025-04-17T11:11:18.002Z",
   "builder": [
     {
       "type": "nixpacks",

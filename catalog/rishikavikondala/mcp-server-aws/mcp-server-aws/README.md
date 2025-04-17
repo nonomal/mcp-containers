@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--rishikavikondala--mcp-server-aws--mcp-server-aws"
+        "ghcr.io/metorial/mcp-container--rishikavikondala--mcp-server-aws--mcp-server-aws",
+        "mcp-server-aws"
       ],
       "env": {
         "AWS_ACCESS_KEY_ID": "AWS_ACCESS_KEY_ID",

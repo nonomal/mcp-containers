@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--effytech--freshdesk_mcp--freshdesk-mcp"
+        "ghcr.io/metorial/mcp-container--effytech--freshdesk_mcp--freshdesk-mcp",
+        "freshdesk-mcp"
       ],
       "env": {
         "FRESHDESK_API_KEY": "freshdesk-api-key",

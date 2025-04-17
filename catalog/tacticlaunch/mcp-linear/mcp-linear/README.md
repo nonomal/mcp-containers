@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--tacticlaunch--mcp-linear--mcp-linear"
+        "ghcr.io/metorial/mcp-container--tacticlaunch--mcp-linear--mcp-linear",
+        "npm run start"
       ],
       "env": {
         "LINEAR_API_TOKEN": "linear-api-token"

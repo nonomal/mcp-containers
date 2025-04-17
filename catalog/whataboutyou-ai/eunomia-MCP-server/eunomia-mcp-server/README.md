@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--whataboutyou-ai--eunomia-mcp
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--whataboutyou-ai--eunomia-mcp-server--eunomia-mcp-server"
+        "ghcr.io/metorial/mcp-container--whataboutyou-ai--eunomia-mcp-server--eunomia-mcp-server",
+        "orchestra_server"
       ],
       "env": {}
     }

@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--j4c0bs--mcp-server-sql-analy
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--j4c0bs--mcp-server-sql-analyzer--mcp-server-sql-analyzer"
+        "ghcr.io/metorial/mcp-container--j4c0bs--mcp-server-sql-analyzer--mcp-server-sql-analyzer",
+        "mcp-server-sql-analyzer"
       ],
       "env": {}
     }

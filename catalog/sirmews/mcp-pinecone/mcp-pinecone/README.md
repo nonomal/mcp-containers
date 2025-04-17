@@ -57,8 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--sirmews--mcp-pinecone--mcp-pinecone",
-        "--index-name index-name",
-        "--api-key api-key"
+        "mcp-pinecone --index-name index-name --api-key api-key"
       ],
       "env": {}
     }

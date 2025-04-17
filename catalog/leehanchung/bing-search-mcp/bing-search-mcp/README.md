@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--leehanchung--bing-search-mcp--bing-search-mcp"
+        "ghcr.io/metorial/mcp-container--leehanchung--bing-search-mcp--bing-search-mcp",
+        "mcp-server-bing"
       ],
       "env": {
         "BING_API_KEY": "bing-api-key"

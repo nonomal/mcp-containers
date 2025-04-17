@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--termix-official--bsc-mcp--bs
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--termix-official--bsc-mcp--bsc-mcp"
+        "ghcr.io/metorial/mcp-container--termix-official--bsc-mcp--bsc-mcp",
+        "npm run start"
       ],
       "env": {}
     }

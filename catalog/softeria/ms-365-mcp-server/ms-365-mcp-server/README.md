@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--softeria--ms-365-mcp-server-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--softeria--ms-365-mcp-server--ms-365-mcp-server"
+        "ghcr.io/metorial/mcp-container--softeria--ms-365-mcp-server--ms-365-mcp-server",
+        "npm run start"
       ],
       "env": {}
     }

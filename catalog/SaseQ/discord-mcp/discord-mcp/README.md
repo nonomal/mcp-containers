@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--saseq--discord-mcp--discord-mcp"
+        "ghcr.io/metorial/mcp-container--saseq--discord-mcp--discord-mcp",
+        "java -Dserver.port=$PORT $JAVA_OPTS -jar target/*jar"
       ],
       "env": {
         "DISCORD_TOKEN": "discord-token"

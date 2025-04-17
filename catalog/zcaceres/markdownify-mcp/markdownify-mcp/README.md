@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--zcaceres--markdownify-mcp--m
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--zcaceres--markdownify-mcp--markdownify-mcp"
+        "ghcr.io/metorial/mcp-container--zcaceres--markdownify-mcp--markdownify-mcp",
+        "pnpm run start"
       ],
       "env": {}
     }

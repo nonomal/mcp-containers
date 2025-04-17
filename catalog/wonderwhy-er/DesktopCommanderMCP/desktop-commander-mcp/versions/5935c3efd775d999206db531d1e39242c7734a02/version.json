@@ -20,7 +20,7 @@
     "description": "### Search, update, manage files and run terminal commands with AI"
   },
   "manifestHash": "d9ec38ba6ba0cb96e09207f12112051d",
-  "createdAt": "2025-04-16T18:20:32.312Z",
+  "createdAt": "2025-04-17T11:11:17.435Z",
   "builder": [
     {
       "type": "nixpacks",

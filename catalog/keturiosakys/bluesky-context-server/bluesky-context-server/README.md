@@ -56,7 +56,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--keturiosakys--bluesky-context-server--bluesky-context-server"
+        "ghcr.io/metorial/mcp-container--keturiosakys--bluesky-context-server--bluesky-context-server",
+        "bun run start"
       ],
       "env": {
         "BLUESKY_APP_KEY": "bluesky-app-key",

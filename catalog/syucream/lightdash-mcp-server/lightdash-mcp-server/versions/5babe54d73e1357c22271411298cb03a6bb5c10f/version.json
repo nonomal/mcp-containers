@@ -45,7 +45,7 @@
     "description": "A [MCP(Model Context Protocol)](https://www.anthropic.com/news/model-context-protocol) server that accesses to [Lightdash](https://www.lightdash.com/)."
   },
   "manifestHash": "effd11b053aba22d4a64bdb68e2f2330",
-  "createdAt": "2025-04-15T07:16:46.600Z",
+  "createdAt": "2025-04-17T11:11:14.865Z",
   "builder": [
     {
       "type": "nixpacks",

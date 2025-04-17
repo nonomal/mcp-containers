@@ -57,8 +57,7 @@ The container supports the following configuration options:
         "-it",
         "--rm",
         "ghcr.io/metorial/mcp-container--stripe--agent-toolkit--modelcontextprotocol",
-        "--tools tools",
-        "--api-key api-key"
+        "node dist/index.js --tools tools --api-key api-key"
       ],
       "env": {}
     }

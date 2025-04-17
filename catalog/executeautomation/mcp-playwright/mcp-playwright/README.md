@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--executeautomation--mcp-playw
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--executeautomation--mcp-playwright--mcp-playwright"
+        "ghcr.io/metorial/mcp-container--executeautomation--mcp-playwright--mcp-playwright",
+        "node dist/index.js"
       ],
       "env": {}
     }

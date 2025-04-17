@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--jjsantos01--qgis_mcp--qgis-m
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--jjsantos01--qgis_mcp--qgis-mcp"
+        "ghcr.io/metorial/mcp-container--jjsantos01--qgis_mcp--qgis-mcp",
+        "python main.py"
       ],
       "env": {}
     }

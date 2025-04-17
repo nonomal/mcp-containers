@@ -57,7 +57,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--vectorize-io--vectorize-mcp-server--vectorize-mcp-server"
+        "ghcr.io/metorial/mcp-container--vectorize-io--vectorize-mcp-server--vectorize-mcp-server",
+        "node dist/index.js"
       ],
       "env": {
         "VECTORIZE_ORG_ID": "vectorize-org-id",

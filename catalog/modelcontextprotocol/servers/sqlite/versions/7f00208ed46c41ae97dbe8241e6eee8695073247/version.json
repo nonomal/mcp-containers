@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for SQLite databases."
   },
   "manifestHash": "bb13434b609495b2a68c46a1294edcc6",
-  "createdAt": "2025-04-16T17:13:14.159Z",
+  "createdAt": "2025-04-17T11:11:08.553Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -81,7 +81,7 @@
           }
         },
         "start": {
-          "cmd": "python -m mcp-server-sqlite"
+          "cmd": "mcp-server-sqlite"
         }
       }
     }

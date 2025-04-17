@@ -55,7 +55,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hmk--attio-mcp-server--attio-mcp-server"
+        "ghcr.io/metorial/mcp-container--hmk--attio-mcp-server--attio-mcp-server",
+        "node dist/index.js"
       ],
       "env": {
         "ATTIO_API_KEY": "attio-api-key"

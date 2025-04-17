@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--abdelstark--bitcoin-mcp--bit
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--abdelstark--bitcoin-mcp--bitcoin-mcp"
+        "ghcr.io/metorial/mcp-container--abdelstark--bitcoin-mcp--bitcoin-mcp",
+        "npm run start"
       ],
       "env": {}
     }

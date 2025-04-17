@@ -45,7 +45,7 @@
     "description": "Verodat MCP Server Implementation"
   },
   "manifestHash": "e13685a76cc746199e5ac7825111ab5a",
-  "createdAt": "2025-04-15T07:16:17.800Z",
+  "createdAt": "2025-04-17T11:11:16.633Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -94,6 +94,9 @@
             ],
             "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
           }
+        },
+        "start": {
+          "cmd": "node ./build/src/consume.js"
         }
       }
     }

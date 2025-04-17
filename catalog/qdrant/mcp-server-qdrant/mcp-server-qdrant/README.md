@@ -61,7 +61,8 @@ The container supports the following configuration options:
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--qdrant--mcp-server-qdrant--mcp-server-qdrant"
+        "ghcr.io/metorial/mcp-container--qdrant--mcp-server-qdrant--mcp-server-qdrant",
+        "mcp-server-qdrant"
       ],
       "env": {
         "QDRANT_URL": "qdrant-url",

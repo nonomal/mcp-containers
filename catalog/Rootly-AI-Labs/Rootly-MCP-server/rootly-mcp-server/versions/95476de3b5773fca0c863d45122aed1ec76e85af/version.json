@@ -32,7 +32,7 @@
     "description": "An MCP server for [Rootly API](https://docs.rootly.com/api-reference/overview) that you can plug into your favorite MCP-compatible editors like Cursor, Windsurf, and Claude. Resolve production incidents in under a minute without leaving your IDE."
   },
   "manifestHash": "f6c2a5f3ff79ce5f3121defe32d530ee",
-  "createdAt": "2025-04-15T07:16:17.165Z",
+  "createdAt": "2025-04-17T11:11:12.799Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -80,7 +80,7 @@
           }
         },
         "start": {
-          "cmd": "python -m rootly-mcp-server"
+          "cmd": "rootly-mcp-server"
         }
       }
     }

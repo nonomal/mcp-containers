@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--hannesj--mcp-openapi-schema-
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--hannesj--mcp-openapi-schema--mcp-openapi-schema"
+        "ghcr.io/metorial/mcp-container--hannesj--mcp-openapi-schema--mcp-openapi-schema",
+        "npm run start"
       ],
       "env": {}
     }

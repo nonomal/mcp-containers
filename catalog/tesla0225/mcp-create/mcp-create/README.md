@@ -42,7 +42,8 @@ docker run -it --rm ghcr.io/metorial/mcp-container--tesla0225--mcp-create--mcp-c
         "run",
         "-it",
         "--rm",
-        "ghcr.io/metorial/mcp-container--tesla0225--mcp-create--mcp-create"
+        "ghcr.io/metorial/mcp-container--tesla0225--mcp-create--mcp-create",
+        "npm run start"
       ],
       "env": {}
     }
