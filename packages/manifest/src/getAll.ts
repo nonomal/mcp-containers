@@ -38,5 +38,5 @@ export let getAllServers = async () => {
     }
   }
 
-  return serverManifests;
+  return serverManifests.sort((a, b) => a.fullId.localeCompare(b.fullId));
 };

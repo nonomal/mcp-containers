@@ -16,11 +16,12 @@ prog
   .command('single <serverId> [version]', undefined, { default: true })
   .option('--platform, -p', 'Platform to build for')
   .option('--publish, -P', 'Publish the image to the registry')
+  .option('--export, -e', 'Export the image to a zip file')
   .action(
     async (
       serverId: string,
       version: string,
-      opts: { platform?: string; publish?: boolean }
+      opts: { platform?: string; publish?: boolean; export?: string }
     ) => {
       if (!version) {
         let versionData = await getLatestServerVersion(serverId);
@@ -29,7 +30,8 @@ prog
 
       await nixpacksBuild(serverId, version, {
         platform: opts.platform,
-        publish: opts.publish
+        publish: opts.publish,
+        export: opts.export
       });
 
       process.exit(0);
@@ -67,15 +69,23 @@ prog.command('get-build-platforms <serverId>').action(async (serverId: string) =
 prog
   .command('ci <serverId> <version>')
   .option('--platform, -p', 'Platform to build for')
-  .action(async (serverId: string, version: string, opts: { platform?: string }) => {
-    await nixpacksBuild(serverId, version, {
-      ci: true,
-      publish: true,
-      platform: opts.platform
-    });
+  .option('--export, -e', 'Export the image to a zip file')
+  .action(
+    async (
+      serverId: string,
+      version: string,
+      opts: { platform?: string; export?: string }
+    ) => {
+      await nixpacksBuild(serverId, version, {
+        ci: true,
+        publish: true,
+        export: opts.export,
+        platform: opts.platform
+      });
 
-    process.exit(0);
-  });
+      process.exit(0);
+    }
+  );
 
 prog
   .command('ci-publish <serverId> <version>')
