@@ -108,11 +108,20 @@ jobs:
         working-directory: 'scripts/build'
         if: contains(needs.init.outputs.platforms, env.platform)
 
+      - name: Get artifact name
+        id: get-artifact-name
+        run: |
+          if [[ "${{ matrix.platform }}" == "ubuntu-24.04-arm" ]]; then
+            echo "artifact_name=${{ inputs.server }}-${{ needs.init.outputs.version }}-arm64.zip" >> $GITHUB_ENV
+          else
+            echo "artifact_name=${{ inputs.server }}-${{ needs.init.outputs.version }}.zip" >> $GITHUB_ENV
+          fi
+
       - name: Upload output artifact
         if: contains(needs.init.outputs.platforms, env.platform)
         uses: actions/upload-artifact@v4
         with:
-          name: '${{ inputs.server }}-${{ needs.init.outputs.version }}-${{ matrix.platform }}'
+          name: ${{ env.artifact_name }}
           path: ./scripts/build/out.zip
 
   publish:
