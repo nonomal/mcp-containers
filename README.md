@@ -33,35 +33,14 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/21st-dev.png?size=120" width="12px" height="12px" /> **[21st.dev Magic AI Agent
 ](catalog/21st-dev/magic-mcp/magic-mcp/README.md)** - Magic Component Platform (MCP) is a powerful AI-driven tool that helps developers create beautiful, modern UI components instantly through natural language descriptions. It integrates seamlessly with popular IDEs and provides a streamlined workflow for UI development.
 
-- <img src="https://github.com/AudienseCo.png?size=120" width="12px" height="12px" /> **[🏆 Audiense Insights MCP Server
-](catalog/AudienseCo/mcp-audiense-insights/mcp-audiense-insights/README.md)** - This server, based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol), allows **Claude** or any other MCP-compatible client to interact with your [Audiense Insights](https://www.audiense.com/) account. It extracts **marketing insights and audience analysis** from Audiense reports, covering **demographic, cultural, influencer, and content engagement analysis**.
-
-- <img src="https://github.com/CircleCI-Public.png?size=120" width="12px" height="12px" /> **[CircleCI MCP Server
-](catalog/CircleCI-Public/mcp-server-circleci/mcp-server-circleci/README.md)** - Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an MCP Server for [CircleCI](https://circleci.com).
-
-- <img src="https://github.com/IBM.png?size=120" width="12px" height="12px" /> **[Watsonx.ai Flows Engine
-](catalog/IBM/wxflows/javascript/README.md)** - Here's a step-by-step tutorial for setting up and deploying a project with wxflows, including installing necessary tools, deploying the app, and running it locally.
-
-- <img src="https://github.com/OctagonAI.png?size=120" width="12px" height="12px" /> **[Octagon: MCP For Market Data
-](catalog/OctagonAI/octagon-mcp-server/octagon-mcp-server/README.md)** - A free Model Context Protocol (MCP) server that integrates with Octagon Market Intelligence API
-
-- <img src="https://github.com/PaddleHQ.png?size=120" width="12px" height="12px" /> **[MCP Server for Paddle Billing
-](catalog/PaddleHQ/paddle-mcp-server/paddle-mcp-server/README.md)** - This is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that provides tools for interacting with the Paddle API.
-
-- <img src="https://github.com/Unstructured-IO.png?size=120" width="12px" height="12px" /> **[Unstructured API MCP Server
-](catalog/Unstructured-IO/UNS-MCP/uns-mcp/README.md)** - An MCP server implementation for interacting with the Unstructured API. This server provides tools to list sources and workflows.
-
-- <img src="https://github.com/Verodat.png?size=120" width="12px" height="12px" /> **[Verodat MCP Server
-](catalog/Verodat/verodat-mcp-server/verodat-mcp-server/README.md)** - Verodat MCP Server Implementation
-
-- <img src="https://github.com/XeroAPI.png?size=120" width="12px" height="12px" /> **[Xero MCP Server
-](catalog/XeroAPI/xero-mcp-server/xero-mcp-server/README.md)** - This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.
-
 - <img src="https://github.com/apify.png?size=120" width="12px" height="12px" /> **[Apify Model Context Protocol (MCP) Server
 ](catalog/apify/actors-mcp-server/actors-mcp-server/README.md)** - Implementation of an MCP server for all [Apify Actors](https://apify.com/store).
 
 - <img src="https://github.com/apimatic.png?size=120" width="12px" height="12px" /> **[APIMatic Validator MCP Server
 ](catalog/apimatic/apimatic-validator-mcp/apimatic-validator-mcp/README.md)** - This repository provides a Model Context Protocol (MCP) Server for validating OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API.
+
+- <img src="https://github.com/AudienseCo.png?size=120" width="12px" height="12px" /> **[🏆 Audiense Insights MCP Server
+](catalog/AudienseCo/mcp-audiense-insights/mcp-audiense-insights/README.md)** - This server, based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol), allows **Claude** or any other MCP-compatible client to interact with your [Audiense Insights](https://www.audiense.com/) account. It extracts **marketing insights and audience analysis** from Audiense reports, covering **demographic, cultural, influencer, and content engagement analysis**.
 
 - <img src="https://github.com/axiomhq.png?size=120" width="12px" height="12px" /> **[mcp-server-axiom
 ](catalog/axiomhq/mcp-server-axiom/mcp-server-axiom/README.md)** - A [Model Context Protocol](https://modelcontextprotocol.io/) server implementation for [Axiom](https://axiom.co) that enables AI agents to query your data using Axiom Processing Language (APL).
@@ -78,8 +57,8 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/chroma-core.png?size=120" width="12px" height="12px" /> **[Chroma MCP Server
 ](catalog/chroma-core/chroma-mcp/chroma-mcp/README.md)** - This server provides data retrieval capabilities powered by Chroma, enabling AI models to create collections over generated data and user inputs, and retrieve that data using vector search, full text search, metadata filtering, and more.
 
-- <img src="https://github.com/cloudflare.png?size=120" width="12px" height="12px" /> **[Cloudflare MCP Server
-](catalog/cloudflare/mcp-server-cloudflare/mcp-server-cloudflare/README.md)** - Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an installer as well as an MCP Server for [Cloudflare's API](https://api.cloudflare.com).
+- <img src="https://github.com/CircleCI-Public.png?size=120" width="12px" height="12px" /> **[CircleCI MCP Server
+](catalog/CircleCI-Public/mcp-server-circleci/mcp-server-circleci/README.md)** - Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an MCP Server for [CircleCI](https://circleci.com).
 
 - <img src="https://github.com/comet-ml.png?size=120" width="12px" height="12px" /> **[Opik MCP Server
 ](catalog/comet-ml/opik-mcp/opik-mcp/README.md)** - Opik MCP Server is an open-source implementation of the Model Context Protocol for the Opik platform. It provides a unified interface for interacting with Opik's capabilities, supporting multiple transport mechanisms for flexible integration into various environments.
@@ -93,6 +72,9 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/exa-labs.png?size=120" width="12px" height="12px" /> **[Exa MCP Server 🔍
 ](catalog/exa-labs/exa-mcp-server/exa-mcp-server/README.md)** - A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and controlled way.
 
+- <img src="https://github.com/github.png?size=120" width="12px" height="12px" /> **[GitHub MCP Server
+](catalog/github/github-mcp-server/github-mcp-server/README.md)** - The GitHub MCP Server is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)
+
 - <img src="https://github.com/gotohuman.png?size=120" width="12px" height="12px" /> **[gotoHuman MCP Server
 ](catalog/gotohuman/gotohuman-mcp-server/gotohuman-mcp-server/README.md)** - Let your **AI agents ask for human reviews** in gotoHuman via MCP.
 
@@ -104,6 +86,9 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/hyperbrowserai.png?size=120" width="12px" height="12px" /> **[Hyperbrowser MCP Server
 ](catalog/hyperbrowserai/mcp/mcp/README.md)** - This is Hyperbrowser's Model Context Protocol (MCP) Server. It provides various tools to scrape, extract structured data, and crawl webpages. It also provides easy access to general purpose browser agents like OpenAI's CUA, Anthropic's Claude Computer Use, and Browser Use.
+
+- <img src="https://github.com/IBM.png?size=120" width="12px" height="12px" /> **[Watsonx.ai Flows Engine
+](catalog/IBM/wxflows/javascript/README.md)** - Here's a step-by-step tutorial for setting up and deploying a project with wxflows, including installing necessary tools, deploying the app, and running it locally.
 
 - <img src="https://github.com/integromat.png?size=120" width="12px" height="12px" /> **[Make MCP Server
 ](catalog/integromat/make-mcp-server/make-mcp-server/README.md)** - A Model Context Protocol server that enables Make scenarios to be utilized as tools by AI assistants. This integration allows AI systems to trigger and interact with your Make automation workflows.
@@ -135,8 +120,14 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/oceanbase.png?size=120" width="12px" height="12px" /> **[mcp-oceanbase
 ](catalog/oceanbase/mcp-oceanbase/mcp-oceanbase/README.md)** - MCP Server for OceanBase database and its tools
 
+- <img src="https://github.com/OctagonAI.png?size=120" width="12px" height="12px" /> **[Octagon: MCP For Market Data
+](catalog/OctagonAI/octagon-mcp-server/octagon-mcp-server/README.md)** - A free Model Context Protocol (MCP) server that integrates with Octagon Market Intelligence API
+
 - <img src="https://github.com/oxylabs.png?size=120" width="12px" height="12px" /> **[Oxylabs MCP Server
 ](catalog/oxylabs/oxylabs-mcp/oxylabs-mcp/README.md)** - The Oxylabs MCP server provides a bridge between AI models and the web. It enables them to scrape any URL, render JavaScript-heavy pages, extract and format content for AI use, bypass anti-scraping measures, and access geo-restricted web data from 195+ countries.
+
+- <img src="https://github.com/PaddleHQ.png?size=120" width="12px" height="12px" /> **[MCP Server for Paddle Billing
+](catalog/PaddleHQ/paddle-mcp-server/paddle-mcp-server/README.md)** - This is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that provides tools for interacting with the Paddle API.
 
 - <img src="https://github.com/pydantic.png?size=120" width="12px" height="12px" /> **[Logfire MCP Server
 ](catalog/pydantic/logfire-mcp/logfire-mcp/README.md)** - This repository contains a Model Context Protocol (MCP) server with tools that can access the OpenTelemetry traces and
@@ -165,8 +156,17 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/translated.png?size=120" width="12px" height="12px" /> **[Lara Translate MCP Server
 ](catalog/translated/lara-mcp/lara-mcp/README.md)** - A Model Context Protocol (MCP) Server for [Lara Translate](https://laratranslate.com/translate) API, enabling powerful translation capabilities with support for language detection and context-aware translations.
 
+- <img src="https://github.com/Unstructured-IO.png?size=120" width="12px" height="12px" /> **[Unstructured API MCP Server
+](catalog/Unstructured-IO/UNS-MCP/uns-mcp/README.md)** - An MCP server implementation for interacting with the Unstructured API. This server provides tools to list sources and workflows.
+
 - <img src="https://github.com/vectorize-io.png?size=120" width="12px" height="12px" /> **[Vectorize MCP Server
 ](catalog/vectorize-io/vectorize-mcp-server/vectorize-mcp-server/README.md)** - A Model Context Protocol (MCP) server implementation that integrates with [Vectorize](https://vectorize.io/) for advanced Vector retrieval and text extraction.
+
+- <img src="https://github.com/Verodat.png?size=120" width="12px" height="12px" /> **[Verodat MCP Server
+](catalog/Verodat/verodat-mcp-server/verodat-mcp-server/README.md)** - Verodat MCP Server Implementation
+
+- <img src="https://github.com/XeroAPI.png?size=120" width="12px" height="12px" /> **[Xero MCP Server
+](catalog/XeroAPI/xero-mcp-server/xero-mcp-server/README.md)** - This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.
 
 
 ## Available Servers
@@ -186,242 +186,11 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/66julienmartin.png?size=120" width="12px" height="12px" /> **[Deepseek R1 MCP Server
 ](catalog/66julienmartin/MCP-server-Deepseek_R1/mcp-server-deepseek-r-1/README.md)** - A Model Context Protocol (MCP) server implementation for the Deepseek R1 language model. Deepseek R1 is a powerful language model optimized for reasoning tasks with a context window of 8192 tokens.
 
-- <img src="https://github.com/AI-Agent-Hub.png?size=120" width="12px" height="12px" /> **[AI Agent Marketplace Index Search MCP Server
-](catalog/AI-Agent-Hub/ai-agent-marketplace-index-mcp/ai-agent-marketplace-index-mcp/README.md)** - MCP Server for AI Agent Marketplace Index from DeepNLP, , allowing AI assistants to searches available AI agents Navigation Page function, tools or use cases by "keywords" or "category". such as find all the "AI coding agents", "GUI AI Agents", "Mobile Use Agent", "Desktop Use Agent", etc.
-
-- <img src="https://github.com/AI-QL.png?size=120" width="12px" height="12px" /> **[MCP Chat Desktop App
-](catalog/AI-QL/chat-mcp/chat-mcp/README.md)** - A Cross-Platform Interface for LLMs
-
 - <img src="https://github.com/AbdelStark.png?size=120" width="12px" height="12px" /> **[₿itcoin & Lightning Network MCP Server
 ](catalog/AbdelStark/bitcoin-mcp/bitcoin-mcp/README.md)** - Bitcoin & Lightning Network MCP Server.
 
 - <img src="https://github.com/AbdelStark.png?size=120" width="12px" height="12px" /> **[🌐 Nostr MCP Server
 ](catalog/AbdelStark/nostr-mcp/nostr-mcp/README.md)** - A Model Context Protocol (MCP) server that enables AI models to interact with Nostr, allowing them to post notes and interact with the freedom of speech protocol.
-
-- <img src="https://github.com/AshDevFr.png?size=120" width="12px" height="12px" /> **[Discourse MCP Server
-](catalog/AshDevFr/discourse-mcp-server/discourse-mcp-server/README.md)** - Node.js server implementing Model Context Protocol (MCP) for Discourse search operation.
-
-- <img src="https://github.com/AudienseCo.png?size=120" width="12px" height="12px" /> **[🏆 Audiense Insights MCP Server
-](catalog/AudienseCo/mcp-audiense-insights/mcp-audiense-insights/README.md)** - This server, based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol), allows **Claude** or any other MCP-compatible client to interact with your [Audiense Insights](https://www.audiense.com/) account. It extracts **marketing insights and audience analysis** from Audiense reports, covering **demographic, cultural, influencer, and content engagement analysis**.
-
-- <img src="https://github.com/Automata-Labs-team.png?size=120" width="12px" height="12px" /> **[MCP Server Playwright
-](catalog/Automata-Labs-team/MCP-Server-Playwright/mcp-server-playwright/README.md)** - MCP Server for interacting with Browsers using Playwright.
-
-- <img src="https://github.com/Badhansen.png?size=120" width="12px" height="12px" /> **[notion-mcp
-](catalog/Badhansen/notion-mcp/notion-mcp/README.md)** - A simple Model Context Protocol (MCP) server that integrates with Notion's API to manage my personal todo list.
-
-- <img src="https://github.com/Bankless.png?size=120" width="12px" height="12px" /> **[Bankless Onchain MCP Server
-](catalog/Bankless/onchain-mcp/onchain-mcp/README.md)** - MCP (Model Context Protocol) server for blockchain data interaction through the Bankless API.
-
-- <img src="https://github.com/Bigsy.png?size=120" width="12px" height="12px" /> **[Clojars MCP Server
-](catalog/Bigsy/Clojars-MCP-Server/clojars-mcp-server/README.md)** - A [Model Context Protocol (MCP)](https://github.com/ModelContext/protocol) server that provides tools for fetching dependency information from [Clojars](https://clojars.org/), the Clojure community's artifact repository for Cline, Roo Code, Cody, Claude Desktop etc.
-
-- <img src="https://github.com/Boston343.png?size=120" width="12px" height="12px" /> **[Starwind UI MCP Server
-](catalog/Boston343/starwind-ui-mcp/starwind-ui-mcp/README.md)** - A TypeScript implementation of a Model Context Protocol (MCP) server for Starwind UI, providing tools to help developers work with Starwind UI components.
-
-- <img src="https://github.com/BurtTheCoder.png?size=120" width="12px" height="12px" /> **[Maigret MCP Server
-](catalog/BurtTheCoder/mcp-maigret/mcp-maigret/README.md)** - A Model Context Protocol (MCP) server for [maigret](https://github.com/soxoj/maigret), a powerful OSINT tool that collects user account information from various public sources. This server provides tools for searching usernames across social networks and analyzing URLs. It is designed to integrate seamlessly with MCP-compatible applications like [Claude Desktop](https://claude.ai).
-
-- <img src="https://github.com/BurtTheCoder.png?size=120" width="12px" height="12px" /> **[Shodan MCP Server
-](catalog/BurtTheCoder/mcp-shodan/mcp-shodan/README.md)** - A Model Context Protocol (MCP) server for querying the [Shodan API](https://shodan.io) and [Shodan CVEDB](https://cvedb.shodan.io). This server provides comprehensive access to Shodan's network intelligence and security services, including IP reconnaissance, DNS operations, vulnerability tracking, and device discovery. All tools provide structured, formatted output for easy analysis and integration.
-
-- <img src="https://github.com/BurtTheCoder.png?size=120" width="12px" height="12px" /> **[VirusTotal MCP Server
-](catalog/BurtTheCoder/mcp-virustotal/mcp-virustotal/README.md)** - A Model Context Protocol (MCP) server for querying the [VirusTotal API](https://www.virustotal.com/). This server provides comprehensive security analysis tools with automatic relationship data fetching. It integrates seamlessly with MCP-compatible applications like [Claude Desktop](https://claude.ai).
-
-- <img src="https://github.com/ChanMeng666.png?size=120" width="12px" height="12px" /> **[Google News MCP Server
-](catalog/ChanMeng666/server-google-news/server-google-news/README.md)** - Model Context Protocol (MCP) server implementation providing Google News search capabilities via SerpAPI, with automatic news categorization and multi-language support.
-
-- <img src="https://github.com/ChristophEnglisch.png?size=120" width="12px" height="12px" /> **[Keycloak MCP Server
-](catalog/ChristophEnglisch/keycloak-model-context-protocol/keycloak-model-context-protocol/README.md)** - A Model Context Protocol server for Keycloak administration, providing tools to manage users and realms.
-
-- <img src="https://github.com/CircleCI-Public.png?size=120" width="12px" height="12px" /> **[CircleCI MCP Server
-](catalog/CircleCI-Public/mcp-server-circleci/mcp-server-circleci/README.md)** - Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an MCP Server for [CircleCI](https://circleci.com).
-
-- <img src="https://github.com/DMontgomery40.png?size=120" width="12px" height="12px" /> **[DeepSeek MCP Server
-](catalog/DMontgomery40/deepseek-mcp-server/deepseek-mcp-server/README.md)** - A Model Context Protocol (MCP) server for the DeepSeek API, allowing seamless integration of DeepSeek's powerful language models with MCP-compatible applications like Claude Desktop.
-
-- <img src="https://github.com/Dumpling-AI.png?size=120" width="12px" height="12px" /> **[Dumpling AI MCP Server
-](catalog/Dumpling-AI/mcp-server-dumplingai/mcp-server-dumplingai/README.md)** - A Model Context Protocol (MCP) server implementation that integrates with Dumpling AI for data scraping, content processing, knowledge management, AI agents, and code execution capabilities.
-
-- <img src="https://github.com/EduBase.png?size=120" width="12px" height="12px" /> **[EduBase MCP server
-](catalog/EduBase/MCP/mcp/README.md)** - Model Context Protocol server **for the EduBase platform**. It allows MCP clients (for example Claude Desktop) and LLMs to interact with your EduBase account and perform tasks on your behalf.
-
-- <img src="https://github.com/Flux159.png?size=120" width="12px" height="12px" /> **[MCP Server Kubernetes
-](catalog/Flux159/mcp-server-kubernetes/mcp-server-kubernetes/README.md)** - MCP Server that can connect to a Kubernetes cluster and manage it.
-
-- <img src="https://github.com/GLips.png?size=120" width="12px" height="12px" /> **[Framelink Figma MCP Server
-](catalog/GLips/Figma-Context-MCP/figma-context-mcp/README.md)** - Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.
-
-- <img src="https://github.com/GeLi2001.png?size=120" width="12px" height="12px" /> **[Datadog MCP Server
-](catalog/GeLi2001/datadog-mcp-server/datadog-mcp-server/README.md)** - A Model Context Protocol (MCP) server for interacting with the Datadog API.
-
-- <img src="https://github.com/GeLi2001.png?size=120" width="12px" height="12px" /> **[Shopify MCP Server
-](catalog/GeLi2001/shopify-mcp/shopify-mcp/README.md)** - MCP Server for Shopify API, enabling interaction with store data through GraphQL API. This server provides tools for managing products, customers, orders, and more.
-
-- <img src="https://github.com/GeLi2001.png?size=120" width="12px" height="12px" /> **[TFT MCP Server
-](catalog/GeLi2001/tft-mcp-server/tft-mcp-server/README.md)** - This is a Model Context Protocol (MCP) server for Team Fight Tactics (TFT) that provides access to TFT game data through various tools.
-
-- <img src="https://github.com/GongRzhe.png?size=120" width="12px" height="12px" /> **[JSON MCP Server (@gongrzhe/server-json-mcp@1.0.3)
-](catalog/GongRzhe/JSON-MCP-Server/json-mcp-server/README.md)** - A JSON Model Context Protocol (MCP) server implementation for querying and manipulating JSON data. This server enables LLMs to interact with JSON data through a set of standardized tools.
-
-- <img src="https://github.com/GongRzhe.png?size=120" width="12px" height="12px" /> **[Langflow-DOC-QA-SERVER
-](catalog/GongRzhe/Langflow-DOC-QA-SERVER/langflow-doc-qa-server/README.md)** - A Model Context Protocol server for document Q\&A powered by Langflow
-
-- <img src="https://github.com/GongRzhe.png?size=120" width="12px" height="12px" /> **[quickchart-server MCP Server
-](catalog/GongRzhe/Quickchart-MCP-Server/quickchart-mcp-server/README.md)** - A Model Context Protocol server for generating charts using QuickChart.io . It allows you to create various types of charts through MCP tools.
-
-- <img src="https://github.com/HenryHaoson.png?size=120" width="12px" height="12px" /> **[语雀 MCP 服务器
-](catalog/HenryHaoson/Yuque-MCP-Server/yuque-mcp-server/README.md)** - 一个用于与语雀 API 集成的 Model-Context-Protocol (MCP) 服务器。此实现受 [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) 的启发，并使用 [语雀开放 API](https://app.swaggerhub.com/apis-docs/Jeff-Tian/yuque-open_api/2.0.1)。
-
-- <img src="https://github.com/Hypersequent.png?size=120" width="12px" height="12px" /> **[QA Sphere MCP Server
-](catalog/Hypersequent/qasphere-mcp/qasphere-mcp/README.md)** - A [Model Context Protocol](https://github.com/modelcontextprotocol) server for the [QA Sphere](https://qasphere.com/) test management system.
-
-- <img src="https://github.com/IBM.png?size=120" width="12px" height="12px" /> **[Watsonx.ai Flows Engine
-](catalog/IBM/wxflows/javascript/README.md)** - Here's a step-by-step tutorial for setting up and deploying a project with wxflows, including installing necessary tools, deploying the app, and running it locally.
-
-- <img src="https://github.com/InhiblabCore.png?size=120" width="12px" height="12px" /> **[Image Compression
-](catalog/InhiblabCore/mcp-image-compression/mcp-image-compression/README.md)** - A high-performance image compression microservice based on MCP (Modal Context Protocol)
-
-- <img src="https://github.com/JetBrains.png?size=120" width="12px" height="12px" /> **[JetBrains MCP Proxy Server
-](catalog/JetBrains/mcp-jetbrains/mcp-jetbrains/README.md)** - The server proxies requests from client to JetBrains IDE.
-
-- <img src="https://github.com/JetBrains.png?size=120" width="12px" height="12px" /> **[JetBrains MCP Proxy Server
-](catalog/JetBrains/mcpProxy/mcp-proxy/README.md)** - The server proxies requests from client to JetBrains IDE.
-
-- <img src="https://github.com/JordiNeil.png?size=120" width="12px" height="12px" /> **[Databricks MCP Server
-](catalog/JordiNeil/mcp-databricks-server/mcp-databricks-server/README.md)** - A Model Context Protocol (MCP) server that connects to Databricks API, allowing LLMs to run SQL queries, list jobs, and get job status.
-
-- <img src="https://github.com/JoshuaRileyDev.png?size=120" width="12px" height="12px" /> **[App Store Connect MCP Server
-](catalog/JoshuaRileyDev/app-store-connect-mcp-server/app-store-connect-mcp-server/README.md)** - A Model Context Protocol (MCP) server for interacting with the App Store Connect API. This server provides tools for managing apps, beta testers, bundle IDs, devices, and capabilities in App Store Connect.
-
-- <img src="https://github.com/KS-GEN-AI.png?size=120" width="12px" height="12px" /> **[Confluence Communication Server MCP Server
-](catalog/KS-GEN-AI/confluence-mcp-server/confluence-mcp-server/README.md)** - Interact with Confluence
-
-- <img src="https://github.com/KS-GEN-AI.png?size=120" width="12px" height="12px" /> **[Jira communication server MCP Server
-](catalog/KS-GEN-AI/jira-mcp-server/jira-mcp-server/README.md)** - Talk to Jira
-
-- <img src="https://github.com/Kong.png?size=120" width="12px" height="12px" /> **[Kong Konnect MCP Server
-](catalog/Kong/mcp-konnect/mcp-konnect/README.md)** - A Model Context Protocol (MCP) server for interacting with Kong Konnect APIs, allowing AI assistants to query and analyze Kong Gateway configurations, traffic, and analytics.
-
-- <img src="https://github.com/KyrieTangSheng.png?size=120" width="12px" height="12px" /> **[National Parks MCP Server
-](catalog/KyrieTangSheng/mcp-server-nationalparks/mcp-server-nationalparks/README.md)** - MCP Server for the National Park Service (NPS) API, providing real-time information about U.S. National Parks, including park details, alerts, and activities.
-
-- <img src="https://github.com/Laksh-star.png?size=120" width="12px" height="12px" /> **[TMDB MCP Server
-](catalog/Laksh-star/mcp-server-tmdb/mcp-server-tmdb/README.md)** - This MCP server integrates with The Movie Database (TMDB) API to provide movie information, search capabilities, and recommendations.
-
-- <img src="https://github.com/OctagonAI.png?size=120" width="12px" height="12px" /> **[Octagon: MCP For Market Data
-](catalog/OctagonAI/octagon-mcp-server/octagon-mcp-server/README.md)** - A free Model Context Protocol (MCP) server that integrates with Octagon Market Intelligence API
-
-- <img src="https://github.com/OctoMind-dev.png?size=120" width="12px" height="12px" /> **[octomind mcp server: let agents create and manage e2e tests
-](catalog/OctoMind-dev/octomind-mcp/octomind-mcp/README.md)** - An MCP server for octomind tools, resources and prompts
-
-- <img src="https://github.com/OpenDataMCP.png?size=120" width="12px" height="12px" /> **[Open Data Model Context Protocol
-](catalog/OpenDataMCP/OpenDataMCP/open-data-mcp/README.md)** - Connect any Open Data to any LLM with Model Context Protocol.
-
-- <img src="https://github.com/PaddleHQ.png?size=120" width="12px" height="12px" /> **[MCP Server for Paddle Billing
-](catalog/PaddleHQ/paddle-mcp-server/paddle-mcp-server/README.md)** - This is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that provides tools for interacting with the Paddle API.
-
-- <img src="https://github.com/PostHog.png?size=120" width="12px" height="12px" /> **[PostHog MCP Server 📊
-](catalog/PostHog/posthog-mcp/posthog-mcp/README.md)** - A Model Context Protocol (MCP) server for interacting with PostHog. Create annotations and manage projects directly through Claude Desktop!
-
-- <img src="https://github.com/ProgramComputer.png?size=120" width="12px" height="12px" /> **[NASA MCP Server
-](catalog/ProgramComputer/NASA-MCP-server/nasa-mcp-server/README.md)** - A Model Context Protocol (MCP) server for NASA APIs, providing a standardized interface for AI models to interact with NASA's vast array of data sources. This server implements the official Model Context Protocol specification.
-
-- <img src="https://github.com/QAInsights.png?size=120" width="12px" height="12px" /> **[JMeter MCP Server
-](catalog/QAInsights/jmeter-mcp-server/jmeter-mcp-server/README.md)** - This is a Model Context Protocol (MCP) server that allows executing JMeter tests through MCP-compatible clients.
-
-- <img src="https://github.com/QAInsights.png?size=120" width="12px" height="12px" /> **[k6-mcp-server
-](catalog/QAInsights/k6-mcp-server/k-6-mcp-server/README.md)** - A Model Context Protocol (MCP) server implementation for running k6 load tests.
-
-- <img src="https://github.com/QAInsights.png?size=120" width="12px" height="12px" /> **[locust-mcp-server
-](catalog/QAInsights/locust-mcp-server/locust-mcp-server/README.md)** - A Model Context Protocol (MCP) server implementation for running Locust load tests. This server enables seamless integration of Locust load testing capabilities with AI-powered development environments.
-
-- <img src="https://github.com/QuantGeekDev.png?size=120" width="12px" height="12px" /> **[Coincap MCP
-](catalog/QuantGeekDev/coincap-mcp/coincap-mcp/README.md)** - A coincap mcp server to access crypto data from coincap API.
-
-- <img src="https://github.com/QuantGeekDev.png?size=120" width="12px" height="12px" /> **[Docker MCP
-](catalog/QuantGeekDev/docker-mcp/docker-mcp/README.md)** - A powerful Model Context Protocol (MCP) server for Docker operations, enabling seamless container and compose stack management through Claude AI.
-
-- <img src="https://github.com/QuantGeekDev.png?size=120" width="12px" height="12px" /> **[🗄️ MongoDB MCP Server for LLMS
-](catalog/QuantGeekDev/mongo-mcp/mongo-mcp/README.md)** - A Model Context Protocol (MCP) server that enables LLMs to interact directly with MongoDB databases. Query collections, inspect schemas, and manage data seamlessly through natural language.
-
-- <img src="https://github.com/ReAPI-com.png?size=120" width="12px" height="12px" /> **[@reapi/mcp-openapi
-](catalog/ReAPI-com/mcp-openapi/mcp-openapi/README.md)** - A Model Context Protocol (MCP) server that loads and serves multiple OpenAPI specifications to enable LLM-powered IDE integrations. This server acts as a bridge between your OpenAPI specifications and LLM-powered development tools like Cursor and other code editors.
-
-- <img src="https://github.com/Rootly-AI-Labs.png?size=120" width="12px" height="12px" /> **[Rootly MCP Server
-](catalog/Rootly-AI-Labs/Rootly-MCP-server/rootly-mcp-server/README.md)** - An MCP server for [Rootly API](https://docs.rootly.com/api-reference/overview) that you can plug into your favorite MCP-compatible editors like Cursor, Windsurf, and Claude. Resolve production incidents in under a minute without leaving your IDE.
-
-- <img src="https://github.com/SDGLBL.png?size=120" width="12px" height="12px" /> **[MCP Claude Code
-](catalog/SDGLBL/mcp-claude-code/mcp-claude-code/README.md)** - An implementation of Claude Code capabilities using the Model Context Protocol (MCP).
-
-- <img src="https://github.com/SaintDoresh.png?size=120" width="12px" height="12px" /> **[Crypto Trader MCP Tool
-](catalog/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop/crypto-trader-mcp-claude-desktop/README.md)** - An MCP (Model Context Protocol) tool that provides cryptocurrency market data using the CoinGecko API, specifically designed for Claude Desktop.
-
-- <img src="https://github.com/SaintDoresh.png?size=120" width="12px" height="12px" /> **[Weather MCP Tool
-](catalog/SaintDoresh/Weather-MCP-ClaudeDesktop/weather-mcp-claude-desktop/README.md)** - An MCP (Model Context Protocol) tool that provides real-time weather data, forecasts, and historical weather information using the OpenWeatherMap API, specifically designed for Claude Desktop.
-
-- <img src="https://github.com/SaintDoresh.png?size=120" width="12px" height="12px" /> **[YFinance Trader MCP Tool for Claude Desktop
-](catalog/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop/yfinance-trader-mcp-claude-desktop/README.md)** - An MCP (Model Context Protocol) tool that provides stock market data and trading capabilities using the yfinance library, specifically adapted for Claude Desktop.
-
-- <img src="https://github.com/SaseQ.png?size=120" width="12px" height="12px" /> **[Discord MCP
-](catalog/SaseQ/discord-mcp/discord-mcp/README.md)** - A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server for the Discord API [(JDA)](https://jda.wiki/),
-
-- <img src="https://github.com/SecretiveShell.png?size=120" width="12px" height="12px" /> **[MCP-searxng
-](catalog/SecretiveShell/MCP-searxng/mcp-searxng/README.md)** - An MCP server for connecting agentic systems to search systems via [searXNG](https://docs.searxng.org/).
-
-- <img src="https://github.com/SecretiveShell.png?size=120" width="12px" height="12px" /> **[MCP-timeserver
-](catalog/SecretiveShell/MCP-timeserver/mcp-timeserver/README.md)** - A simple MCP server that exposes datetime information to agentic systems and chat REPLs
-
-- <img src="https://github.com/SecretiveShell.png?size=120" width="12px" height="12px" /> **[MCP-wolfram-alpha
-](catalog/SecretiveShell/MCP-wolfram-alpha/mcp-wolfram-alpha/README.md)** - A MCP server to connect to wolfram alpha API.
-
-- <img src="https://github.com/Seym0n.png?size=120" width="12px" height="12px" /> **[&#x20;TikTok MCP
-](catalog/Seym0n/tiktok-mcp/tiktok-mcp/README.md)** - The TikTok MCP integrates TikTok access into Claude AI and other apps via TikNeuron. This TikTok MCP allows you to
-
-- <img src="https://github.com/Spathodea-Network.png?size=120" width="12px" height="12px" /> **[OpenCTI MCP Server
-](catalog/Spathodea-Network/opencti-mcp/opencti-mcp/README.md)** - OpenCTI MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with OpenCTI (Open Cyber Threat Intelligence) platform.
-
-- <img src="https://github.com/StarRocks.png?size=120" width="12px" height="12px" /> **[Starrocks Official MCP server
-](catalog/StarRocks/mcp-server-starrocks/mcp-server-starrocks/README.md)** - The StarRocks MCP Server acts as a bridge between AI assistants and StarRocks databases, allowing for direct SQL execution and database exploration without requiring complex setup or configuration.
-
-- <img src="https://github.com/TermiX-official.png?size=120" width="12px" height="12px" /> **[📦 BNBChain MCP – Binance Smart Chain Tool Server (MCP + CLI Ready)
-](catalog/TermiX-official/bsc-mcp/bsc-mcp/README.md)** - A plug-and-play MCP tool server to **send BNB**, **transfer BEP-20 tokens**, **deploy tokens**, and **interact with smart contracts** on the **Binance Smart Chain (BSC)** — built for **Claude Desktop**, **AI agents**, and **developers.**
-
-- <img src="https://github.com/Tiberriver256.png?size=120" width="12px" height="12px" /> **[Azure DevOps MCP Server
-](catalog/Tiberriver256/mcp-server-azure-devops/mcp-server-azure-devops/README.md)** - A Model Context Protocol (MCP) server implementation for Azure DevOps, allowing AI assistants to interact with Azure DevOps APIs through a standardized protocol.
-
-- <img src="https://github.com/Tomatio13.png?size=120" width="12px" height="12px" /> **[tavily-search MCP server
-](catalog/Tomatio13/mcp-server-tavily/mcp-server-tavily/README.md)** - This server uses the Tavily API to perform searches based on specified queries.
-
-- <img src="https://github.com/Unstructured-IO.png?size=120" width="12px" height="12px" /> **[Unstructured API MCP Server
-](catalog/Unstructured-IO/UNS-MCP/uns-mcp/README.md)** - An MCP server implementation for interacting with the Unstructured API. This server provides tools to list sources and workflows.
-
-- <img src="https://github.com/UserAd.png?size=120" width="12px" height="12px" /> **[Didlogic MCP Server
-](catalog/UserAd/didlogic_mcp/didlogic-mcp/README.md)** - A Model Context Protocol (MCP) server implementation for the Didlogic API. This server allows Large Language Models (LLMs) to interact with Didlogic services through a standardized interface.
-
-- <img src="https://github.com/Verodat.png?size=120" width="12px" height="12px" /> **[Verodat MCP Server
-](catalog/Verodat/verodat-mcp-server/verodat-mcp-server/README.md)** - Verodat MCP Server Implementation
-
-- <img src="https://github.com/VeyraX.png?size=120" width="12px" height="12px" /> **[VeyraX MCP
-](catalog/VeyraX/veyrax-mcp/veyrax-mcp/README.md)** - **Single tool to control them all** — VeyraX MCP is the only connection you need to access all your tools in any MCP-compatible environment.
-
-- <img src="https://github.com/Vortiago.png?size=120" width="12px" height="12px" /> **[MCP Azure DevOps Server
-](catalog/Vortiago/mcp-azure-devops/mcp-azure-devops/README.md)** - A Model Context Protocol (MCP) server enabling AI assistants to interact with Azure DevOps services.
-
-- <img src="https://github.com/XeroAPI.png?size=120" width="12px" height="12px" /> **[Xero MCP Server
-](catalog/XeroAPI/xero-mcp-server/xero-mcp-server/README.md)** - This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.
-
-- <img src="https://github.com/Xuanwo.png?size=120" width="12px" height="12px" /> **[Model Context Protocol Server for Apache OpenDAL™
-](catalog/Xuanwo/mcp-server-opendal/mcp-server-opendal/README.md)** - A Model Context Protocol (MCP) server implementation that provides access to various storage services via [Apache OpenDAL™](https://opendal.apache.org/).
-
-- <img src="https://github.com/YuChenSSR.png?size=120" width="12px" height="12px" /> **[Multi-Model Advisor
-](catalog/YuChenSSR/multi-ai-advisor-mcp/multi-ai-advisor-mcp/README.md)** - A Model Context Protocol (MCP) server that queries multiple Ollama models and combines their responses, providing diverse AI perspectives on a single question.
-
-- <img src="https://github.com/Zhwt.png?size=120" width="12px" height="12px" /> **[go-mcp-mysql
-](catalog/Zhwt/go-mcp-mysql/go-mcp-mysql/README.md)** - Zero burden, ready-to-use Model Context Protocol (MCP) server for interacting with MySQL and automation.
-
-- <img src="https://github.com/ZilongXue.png?size=120" width="12px" height="12px" /> **[ClaudePost
-](catalog/ZilongXue/claude-post/claude-post/README.md)** - A Model Context Protocol (MCP) server that provides a seamless email management interface through Claude. This integration allows you to handle emails directly through natural language conversations with Claude, supporting features like searching, reading, and sending emails securely.
 
 - <img src="https://github.com/abhiz123.png?size=120" width="12px" height="12px" /> **[Todoist MCP Server
 ](catalog/abhiz123/todoist-mcp-server/todoist-mcp-server/README.md)** - An MCP (Model Context Protocol) server implementation that integrates Claude with Todoist, enabling natural language task management. This server allows Claude to interact with your Todoist tasks using everyday language.
@@ -443,6 +212,12 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/ahnlabio.png?size=120" width="12px" height="12px" /> **[BICScan MCP Server
 ](catalog/ahnlabio/bicscan-mcp/bicscan-mcp/README.md)** - A powerful and efficient Blockchain address risk scoring API MCP Server, leveraging the BICScan API to provide comprehensive risk assessments and asset information for blockchain addresses, domains, and decentralized applications (dApps).
+
+- <img src="https://github.com/AI-Agent-Hub.png?size=120" width="12px" height="12px" /> **[AI Agent Marketplace Index Search MCP Server
+](catalog/AI-Agent-Hub/ai-agent-marketplace-index-mcp/ai-agent-marketplace-index-mcp/README.md)** - MCP Server for AI Agent Marketplace Index from DeepNLP, , allowing AI assistants to searches available AI agents Navigation Page function, tools or use cases by "keywords" or "category". such as find all the "AI coding agents", "GUI AI Agents", "Mobile Use Agent", "Desktop Use Agent", etc.
+
+- <img src="https://github.com/AI-QL.png?size=120" width="12px" height="12px" /> **[MCP Chat Desktop App
+](catalog/AI-QL/chat-mcp/chat-mcp/README.md)** - A Cross-Platform Interface for LLMs
 
 - <img src="https://github.com/akseyh.png?size=120" width="12px" height="12px" /> **[Bear MCP Server
 ](catalog/akseyh/bear-mcp-server/bear-mcp-server/README.md)** - This project is a Model Context Protocol (MCP) server that provides access to the [Bear Notes](https://bear.app).
@@ -495,8 +270,17 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/arpitbatra123.png?size=120" width="12px" height="12px" /> **[Google Tasks MCP Server
 ](catalog/arpitbatra123/mcp-googletasks/mcp-googletasks/README.md)** - This Model Context Protocol (MCP) server provides a bridge between Claude and Google Tasks, allowing you to manage your task lists and tasks directly through Claude.
 
+- <img src="https://github.com/AshDevFr.png?size=120" width="12px" height="12px" /> **[Discourse MCP Server
+](catalog/AshDevFr/discourse-mcp-server/discourse-mcp-server/README.md)** - Node.js server implementing Model Context Protocol (MCP) for Discourse search operation.
+
 - <img src="https://github.com/ashiknesin.png?size=120" width="12px" height="12px" /> **[Pushover MCP
 ](catalog/ashiknesin/pushover-mcp/pushover-mcp/README.md)** - A [Model Context Protocol](https://modelcontextprotocol.io/introduction) implementation for sending notifications via [Pushover.net](https://pushover.net).
+
+- <img src="https://github.com/AudienseCo.png?size=120" width="12px" height="12px" /> **[🏆 Audiense Insights MCP Server
+](catalog/AudienseCo/mcp-audiense-insights/mcp-audiense-insights/README.md)** - This server, based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol), allows **Claude** or any other MCP-compatible client to interact with your [Audiense Insights](https://www.audiense.com/) account. It extracts **marketing insights and audience analysis** from Audiense reports, covering **demographic, cultural, influencer, and content engagement analysis**.
+
+- <img src="https://github.com/Automata-Labs-team.png?size=120" width="12px" height="12px" /> **[MCP Server Playwright
+](catalog/Automata-Labs-team/MCP-Server-Playwright/mcp-server-playwright/README.md)** - MCP Server for interacting with Browsers using Playwright.
 
 - <img src="https://github.com/automation-ai-labs.png?size=120" width="12px" height="12px" /> **[MCP Link - Convert Any OpenAPI V3 API to MCP Server
 ](catalog/automation-ai-labs/mcp-link/mcp-link/README.md)** - Convert Any OpenAPI V3 API to MCP Server
@@ -513,11 +297,17 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/axiomhq.png?size=120" width="12px" height="12px" /> **[mcp-server-axiom
 ](catalog/axiomhq/mcp-server-axiom/mcp-server-axiom/README.md)** - A [Model Context Protocol](https://modelcontextprotocol.io/) server implementation for [Axiom](https://axiom.co) that enables AI agents to query your data using Axiom Processing Language (APL).
 
+- <img src="https://github.com/Badhansen.png?size=120" width="12px" height="12px" /> **[notion-mcp
+](catalog/Badhansen/notion-mcp/notion-mcp/README.md)** - A simple Model Context Protocol (MCP) server that integrates with Notion's API to manage my personal todo list.
+
 - <img src="https://github.com/baidubce.png?size=120" width="12px" height="12px" /> **[Baidu AI Search
 ](catalog/baidubce/app-builder/ai-search/README.md)** - Baidu AI Search component combines Baidu's search capabilities with large language model technology to provide intelligent responses with real-time web information references, supporting various industry application scenarios. It offers rich standardized capabilities such as:
 
 - <img src="https://github.com/bankless.png?size=120" width="12px" height="12px" /> **[Bankless Onchain MCP Server
 ](catalog/bankless/onchain-mcp/onchain-mcp/README.md)** - MCP (Model Context Protocol) server for blockchain data interaction through the Bankless API.
+
+- <img src="https://github.com/Bankless.png?size=120" width="12px" height="12px" /> **[Bankless Onchain MCP Server
+](catalog/Bankless/onchain-mcp/onchain-mcp/README.md)** - MCP (Model Context Protocol) server for blockchain data interaction through the Bankless API.
 
 - <img src="https://github.com/bart6114.png?size=120" width="12px" height="12px" /> **[Bear MCP Server
 ](catalog/bart6114/my-bear-mcp-server/my-bear-mcp-server/README.md)** - A Model Context Protocol (MCP) server that allows AI assistants like Claude to read notes from the [Bear](https://bear.app/) note-taking app. This implementation connects directly to the Bear SQLite database in a read-only mode, ensuring your notes remain safe and unmodified.
@@ -540,14 +330,29 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/bigcodegen.png?size=120" width="12px" height="12px" /> **[Neovim MCP Server
 ](catalog/bigcodegen/mcp-neovim-server/mcp-neovim-server/README.md)** - A proof of concept integration between Claude Desktop (or any client) and Neovim using Model Context Protocol (MCP) and the official neovim/node-client JavaScript library. This server leverages Vim's native text editing commands and workflows, which Claude already understands, to create a lightweight code or general purpose AI text assistance layer.
 
+- <img src="https://github.com/Bigsy.png?size=120" width="12px" height="12px" /> **[Clojars MCP Server
+](catalog/Bigsy/Clojars-MCP-Server/clojars-mcp-server/README.md)** - A [Model Context Protocol (MCP)](https://github.com/ModelContext/protocol) server that provides tools for fetching dependency information from [Clojars](https://clojars.org/), the Clojure community's artifact repository for Cline, Roo Code, Cody, Claude Desktop etc.
+
 - <img src="https://github.com/blurrah.png?size=120" width="12px" height="12px" /> **[mcp-graphql
 ](catalog/blurrah/mcp-graphql/mcp-graphql/README.md)** - A Model Context Protocol server that enables LLMs to interact with GraphQL APIs. This implementation provides schema introspection and query execution capabilities, allowing models to discover and use GraphQL APIs dynamically.
+
+- <img src="https://github.com/Boston343.png?size=120" width="12px" height="12px" /> **[Starwind UI MCP Server
+](catalog/Boston343/starwind-ui-mcp/starwind-ui-mcp/README.md)** - A TypeScript implementation of a Model Context Protocol (MCP) server for Starwind UI, providing tools to help developers work with Starwind UI components.
 
 - <img src="https://github.com/briandconnelly.png?size=120" width="12px" height="12px" /> **[IP Geolocation MCP Server
 ](catalog/briandconnelly/mcp-server-ipinfo/mcp-server-ipinfo/README.md)** - This is a simple [Model Context Protocol](https://modelcontextprotocol.io) server that uses the [ipinfo.io](https://ipinfo.io) API to get detailed information about an IP address.
 
 - <img src="https://github.com/browserbase.png?size=120" width="12px" height="12px" /> **[Browserbase MCP Server
 ](catalog/browserbase/mcp-server-browserbase/browserbase/README.md)** - This server provides cloud browser automation capabilities using [Browserbase](https://www.browserbase.com/), [Puppeteer](https://pptr.dev/), and [Stagehand](https://github.com/browserbase/stagehand). This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment.
+
+- <img src="https://github.com/BurtTheCoder.png?size=120" width="12px" height="12px" /> **[Maigret MCP Server
+](catalog/BurtTheCoder/mcp-maigret/mcp-maigret/README.md)** - A Model Context Protocol (MCP) server for [maigret](https://github.com/soxoj/maigret), a powerful OSINT tool that collects user account information from various public sources. This server provides tools for searching usernames across social networks and analyzing URLs. It is designed to integrate seamlessly with MCP-compatible applications like [Claude Desktop](https://claude.ai).
+
+- <img src="https://github.com/BurtTheCoder.png?size=120" width="12px" height="12px" /> **[Shodan MCP Server
+](catalog/BurtTheCoder/mcp-shodan/mcp-shodan/README.md)** - A Model Context Protocol (MCP) server for querying the [Shodan API](https://shodan.io) and [Shodan CVEDB](https://cvedb.shodan.io). This server provides comprehensive access to Shodan's network intelligence and security services, including IP reconnaissance, DNS operations, vulnerability tracking, and device discovery. All tools provide structured, formatted output for easy analysis and integration.
+
+- <img src="https://github.com/BurtTheCoder.png?size=120" width="12px" height="12px" /> **[VirusTotal MCP Server
+](catalog/BurtTheCoder/mcp-virustotal/mcp-virustotal/README.md)** - A Model Context Protocol (MCP) server for querying the [VirusTotal API](https://www.virustotal.com/). This server provides comprehensive security analysis tools with automatic relationship data fetching. It integrates seamlessly with MCP-compatible applications like [Claude Desktop](https://claude.ai).
 
 - <img src="https://github.com/buryhuang.png?size=120" width="12px" height="12px" /> **[HubSpot MCP Server
 ](catalog/buryhuang/mcp-hubspot/mcp-hubspot/README.md)** - A Model Context Protocol (MCP) server implementation that provides integration with HubSpot CRM. This server enables AI models to interact with HubSpot data and operations through a standardized interface.
@@ -561,17 +366,23 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/centralmind.png?size=120" width="12px" height="12px" /> **[CentralMind Gateway
 ](catalog/centralmind/gateway/gateway/README.md)** - Simple way to expose your database to AI-Agent via MCP or OpenAPI 3.1 protocols.
 
+- <img src="https://github.com/ChanMeng666.png?size=120" width="12px" height="12px" /> **[Google News MCP Server
+](catalog/ChanMeng666/server-google-news/server-google-news/README.md)** - Model Context Protocol (MCP) server implementation providing Google News search capabilities via SerpAPI, with automatic news categorization and multi-language support.
+
 - <img src="https://github.com/chargebee.png?size=120" width="12px" height="12px" /> **[Chargebee Model Context Protocol (MCP) Server
 ](catalog/chargebee/agentkit/modelcontextprotocol/README.md)** - Model Context Protocol (MCP) is a [standardized protocol](https://modelcontextprotocol.io/introduction) designed to manage context between large language models (LLMs) and external systems.
 
 - <img src="https://github.com/chigwell.png?size=120" width="12px" height="12px" /> **[Telegram MCP Server
 ](catalog/chigwell/telegram-mcp/telegram-mcp/README.md)** - A Telegram MCP (Model Context Protocol) server built using Python, Telethon, and MCP Python SDK. This MCP server provides simple tools for interacting with Telegram chats directly through MCP-compatible hosts, such as Claude for Desktop.
 
+- <img src="https://github.com/ChristophEnglisch.png?size=120" width="12px" height="12px" /> **[Keycloak MCP Server
+](catalog/ChristophEnglisch/keycloak-model-context-protocol/keycloak-model-context-protocol/README.md)** - A Model Context Protocol server for Keycloak administration, providing tools to manage users and realms.
+
 - <img src="https://github.com/chroma-core.png?size=120" width="12px" height="12px" /> **[Chroma MCP Server
 ](catalog/chroma-core/chroma-mcp/chroma-mcp/README.md)** - This server provides data retrieval capabilities powered by Chroma, enabling AI models to create collections over generated data and user inputs, and retrieve that data using vector search, full text search, metadata filtering, and more.
 
-- <img src="https://github.com/cloudflare.png?size=120" width="12px" height="12px" /> **[Cloudflare MCP Server
-](catalog/cloudflare/mcp-server-cloudflare/mcp-server-cloudflare/README.md)** - Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an installer as well as an MCP Server for [Cloudflare's API](https://api.cloudflare.com).
+- <img src="https://github.com/CircleCI-Public.png?size=120" width="12px" height="12px" /> **[CircleCI MCP Server
+](catalog/CircleCI-Public/mcp-server-circleci/mcp-server-circleci/README.md)** - Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an MCP Server for [CircleCI](https://circleci.com).
 
 - <img src="https://github.com/co-browser.png?size=120" width="12px" height="12px" /> **[➡️ attestable-mcp-server
 ](catalog/co-browser/attestable-mcp-server/attestable-mcp-server/README.md)** - Verify that any MCP server is running the intended and untampered code via hardware attestation.
@@ -618,14 +429,23 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/djalal.png?size=120" width="12px" height="12px" /> **[MCP Server for Quran.com API
 ](catalog/djalal/quran-mcp-server/quran-mcp-server/README.md)** - MCP server to interact with Quran.com corpus via the official [REST API v4](https://api-docs.quran.com/docs/content_apis_versioned/4.0.0/content-apis).
 
+- <img src="https://github.com/DMontgomery40.png?size=120" width="12px" height="12px" /> **[DeepSeek MCP Server
+](catalog/DMontgomery40/deepseek-mcp-server/deepseek-mcp-server/README.md)** - A Model Context Protocol (MCP) server for the DeepSeek API, allowing seamless integration of DeepSeek's powerful language models with MCP-compatible applications like Claude Desktop.
+
 - <img src="https://github.com/dogukanakkaya.png?size=120" width="12px" height="12px" /> **[Pulumi MCP Server
 ](catalog/dogukanakkaya/pulumi-mcp-server/pulumi-mcp-server/README.md)** - An MCP server that provides access to Pulumi.
 
 - <img src="https://github.com/domdomegg.png?size=120" width="12px" height="12px" /> **[airtable-mcp-server
 ](catalog/domdomegg/airtable-mcp-server/airtable-mcp-server/README.md)** - A Model Context Protocol server that provides read and write access to Airtable databases. This server enables LLMs to inspect database schemas, then read and write records.
 
+- <img src="https://github.com/Dumpling-AI.png?size=120" width="12px" height="12px" /> **[Dumpling AI MCP Server
+](catalog/Dumpling-AI/mcp-server-dumplingai/mcp-server-dumplingai/README.md)** - A Model Context Protocol (MCP) server implementation that integrates with Dumpling AI for data scraping, content processing, knowledge management, AI agents, and code execution capabilities.
+
 - <img src="https://github.com/dvcrn.png?size=120" width="12px" height="12px" /> **[Siri Shortcuts MCP Server
 ](catalog/dvcrn/mcp-server-siri-shortcuts/mcp-server-siri-shortcuts/README.md)** - This MCP server provides access to Siri shortcuts functionality via the Model Context Protocol (MCP). It allows listing, opening, and running shortcuts from the macOS Shortcuts app.
+
+- <img src="https://github.com/EduBase.png?size=120" width="12px" height="12px" /> **[EduBase MCP server
+](catalog/EduBase/MCP/mcp/README.md)** - Model Context Protocol server **for the EduBase platform**. It allows MCP clients (for example Claude Desktop) and LLMs to interact with your EduBase account and perform tasks on your behalf.
 
 - <img src="https://github.com/edwinbernadus.png?size=120" width="12px" height="12px" /> **[Nocodb MCP Server
 ](catalog/edwinbernadus/nocodb-mcp-server/nocodb-mcp-server/README.md)** - The Nocodb MCP Server enables seamless interaction with a Nocodb database using the Model Context Protocol (MCP). It facilitates CRUD (Create, Read, Update, Delete) operations on Nocodb tables.
@@ -684,11 +504,23 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/flowcore-io.png?size=120" width="12px" height="12px" /> **[Flowcore Platform MCP Server
 ](catalog/flowcore-io/mcp-flowcore-platform/mcp-flowcore-platform/README.md)** - A Model Context Protocol (MCP) server for managing and interacting with the Flowcore Platform.
 
+- <img src="https://github.com/Flux159.png?size=120" width="12px" height="12px" /> **[MCP Server Kubernetes
+](catalog/Flux159/mcp-server-kubernetes/mcp-server-kubernetes/README.md)** - MCP Server that can connect to a Kubernetes cluster and manage it.
+
 - <img src="https://github.com/furey.png?size=120" width="12px" height="12px" /> **[MongoDB Lens
 ](catalog/furey/mongodb-lens/mongodb-lens/README.md)** - **MongoDB Lens** is a local Model Context Protocol (MCP) server with full featured access to MongoDB databases using natural language via LLMs to perform queries, run aggregations, optimize performance, and more.
 
 - <img src="https://github.com/gannonh.png?size=120" width="12px" height="12px" /> **[Firebase MCP Server
 ](catalog/gannonh/firebase-mcp/firebase-mcp/README.md)** - 🔥 Model Context Protocol (MCP) server for Firebase.
+
+- <img src="https://github.com/GeLi2001.png?size=120" width="12px" height="12px" /> **[Datadog MCP Server
+](catalog/GeLi2001/datadog-mcp-server/datadog-mcp-server/README.md)** - A Model Context Protocol (MCP) server for interacting with the Datadog API.
+
+- <img src="https://github.com/GeLi2001.png?size=120" width="12px" height="12px" /> **[Shopify MCP Server
+](catalog/GeLi2001/shopify-mcp/shopify-mcp/README.md)** - MCP Server for Shopify API, enabling interaction with store data through GraphQL API. This server provides tools for managing products, customers, orders, and more.
+
+- <img src="https://github.com/GeLi2001.png?size=120" width="12px" height="12px" /> **[TFT MCP Server
+](catalog/GeLi2001/tft-mcp-server/tft-mcp-server/README.md)** - This is a Model Context Protocol (MCP) server for Team Fight Tactics (TFT) that provides access to TFT game data through various tools.
 
 - <img src="https://github.com/genomoncology.png?size=120" width="12px" height="12px" /> **[BioMCP: Biomedical Model Context Protocol
 ](catalog/genomoncology/biomcp/biomcp/README.md)** - BioMCP is an open source (MIT License) toolkit for biomedical research AI
@@ -702,11 +534,23 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/github.png?size=120" width="12px" height="12px" /> **[GitHub MCP Server
 ](catalog/github/github-mcp-server/github-mcp-server/README.md)** - The GitHub MCP Server is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)
 
+- <img src="https://github.com/GLips.png?size=120" width="12px" height="12px" /> **[Framelink Figma MCP Server
+](catalog/GLips/Figma-Context-MCP/figma-context-mcp/README.md)** - Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.
+
 - <img src="https://github.com/goat-sdk.png?size=120" width="12px" height="12px" /> **[Goat SDK Model Context Protocol
 ](catalog/goat-sdk/goat/model-context-protocol/README.md)** - The leading agentic finance toolkit for AI agents
 
 - <img src="https://github.com/gofireflyio.png?size=120" width="12px" height="12px" /> **[Firefly MCP Server
 ](catalog/gofireflyio/firefly-mcp/firefly-mcp/README.md)** - The Firefly MCP (Model Context Protocol) server is a TypeScript-based server that enables seamless integration with the Firefly platform. It allows you to discover, manage, and codify resources across your Cloud and SaaS accounts connected to Firefly.
+
+- <img src="https://github.com/GongRzhe.png?size=120" width="12px" height="12px" /> **[JSON MCP Server (@gongrzhe/server-json-mcp@1.0.3)
+](catalog/GongRzhe/JSON-MCP-Server/json-mcp-server/README.md)** - A JSON Model Context Protocol (MCP) server implementation for querying and manipulating JSON data. This server enables LLMs to interact with JSON data through a set of standardized tools.
+
+- <img src="https://github.com/GongRzhe.png?size=120" width="12px" height="12px" /> **[Langflow-DOC-QA-SERVER
+](catalog/GongRzhe/Langflow-DOC-QA-SERVER/langflow-doc-qa-server/README.md)** - A Model Context Protocol server for document Q\&A powered by Langflow
+
+- <img src="https://github.com/GongRzhe.png?size=120" width="12px" height="12px" /> **[quickchart-server MCP Server
+](catalog/GongRzhe/Quickchart-MCP-Server/quickchart-mcp-server/README.md)** - A Model Context Protocol server for generating charts using QuickChart.io . It allows you to create various types of charts through MCP tools.
 
 - <img src="https://github.com/gotohuman.png?size=120" width="12px" height="12px" /> **[gotoHuman MCP Server
 ](catalog/gotohuman/gotohuman-mcp-server/gotohuman-mcp-server/README.md)** - Let your **AI agents ask for human reviews** in gotoHuman via MCP.
@@ -734,6 +578,9 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/haris-musa.png?size=120" width="12px" height="12px" /> **[Excel MCP Server
 ](catalog/haris-musa/excel-mcp-server/excel-mcp-server/README.md)** - A Model Context Protocol (MCP) server that lets you manipulate Excel files without needing Microsoft Excel installed. Create, read, and modify Excel workbooks with your AI agent.
+
+- <img src="https://github.com/HenryHaoson.png?size=120" width="12px" height="12px" /> **[语雀 MCP 服务器
+](catalog/HenryHaoson/Yuque-MCP-Server/yuque-mcp-server/README.md)** - 一个用于与语雀 API 集成的 Model-Context-Protocol (MCP) 服务器。此实现受 [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) 的启发，并使用 [语雀开放 API](https://app.swaggerhub.com/apis-docs/Jeff-Tian/yuque-open_api/2.0.1)。
 
 - <img src="https://github.com/heroku.png?size=120" width="12px" height="12px" /> **[heroku-mcp-server
 ](catalog/heroku/heroku-mcp-server/heroku-mcp-server/README.md)** - The Heroku Platform MCP Server works on Common Runtime, Cedar Private and Shield Spaces, and Fir Private Spaces.
@@ -774,8 +621,14 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/hyperbrowserai.png?size=120" width="12px" height="12px" /> **[Hyperbrowser MCP Server
 ](catalog/hyperbrowserai/mcp/mcp/README.md)** - This is Hyperbrowser's Model Context Protocol (MCP) Server. It provides various tools to scrape, extract structured data, and crawl webpages. It also provides easy access to general purpose browser agents like OpenAI's CUA, Anthropic's Claude Computer Use, and Browser Use.
 
+- <img src="https://github.com/Hypersequent.png?size=120" width="12px" height="12px" /> **[QA Sphere MCP Server
+](catalog/Hypersequent/qasphere-mcp/qasphere-mcp/README.md)** - A [Model Context Protocol](https://github.com/modelcontextprotocol) server for the [QA Sphere](https://qasphere.com/) test management system.
+
 - <img src="https://github.com/iaptic.png?size=120" width="12px" height="12px" /> **[MCP Server for Iaptic
 ](catalog/iaptic/mcp-server-iaptic/mcp-server-iaptic/README.md)** - A Model Context Protocol server for interacting with the [Iaptic API](https://www.iaptic.com). This server allows Claude or other AIs to interact with your Iaptic data to answer questions about your customers, purchases, transactions, and statistics.
+
+- <img src="https://github.com/IBM.png?size=120" width="12px" height="12px" /> **[Watsonx.ai Flows Engine
+](catalog/IBM/wxflows/javascript/README.md)** - Here's a step-by-step tutorial for setting up and deploying a project with wxflows, including installing necessary tools, deploying the app, and running it locally.
 
 - <img src="https://github.com/idoru.png?size=120" width="12px" height="12px" /> **[InfluxDB MCP Server
 ](catalog/idoru/influxdb-mcp-server/influxdb-mcp-server/README.md)** - A Model Context Protocol (MCP) server that exposes access to an InfluxDB instance using the InfluxDB OSS API v2. Mostly built with Claude Code.
@@ -785,6 +638,9 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/ihor-sokoliuk.png?size=120" width="12px" height="12px" /> **[SearXNG MCP Server
 ](catalog/ihor-sokoliuk/mcp-searxng/mcp-searxng/README.md)** - An [MCP server](https://modelcontextprotocol.io/introduction) implementation that integrates the SearxNG API, providing web search capabilities.
+
+- <img src="https://github.com/InhiblabCore.png?size=120" width="12px" height="12px" /> **[Image Compression
+](catalog/InhiblabCore/mcp-image-compression/mcp-image-compression/README.md)** - A high-performance image compression microservice based on MCP (Modal Context Protocol)
 
 - <img src="https://github.com/integration-app.png?size=120" width="12px" height="12px" /> **[Integration App MCP Server
 ](catalog/integration-app/mcp-server/mcp-server/README.md)** - This is an implementation of the Model Context Protocol (MCP) server that exposes tools powered by Integration App.
@@ -828,6 +684,12 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/jerhadf.png?size=120" width="12px" height="12px" /> **[Linear MCP Server
 ](catalog/jerhadf/linear-mcp-server/linear-mcp-server/README.md)** - A [Model Context Protocol](https://github.com/modelcontextprotocol) server for the [Linear API](https://developers.linear.app/docs/graphql/working-with-the-graphql-api).
 
+- <img src="https://github.com/JetBrains.png?size=120" width="12px" height="12px" /> **[JetBrains MCP Proxy Server
+](catalog/JetBrains/mcp-jetbrains/mcp-jetbrains/README.md)** - The server proxies requests from client to JetBrains IDE.
+
+- <img src="https://github.com/JetBrains.png?size=120" width="12px" height="12px" /> **[JetBrains MCP Proxy Server
+](catalog/JetBrains/mcpProxy/mcp-proxy/README.md)** - The server proxies requests from client to JetBrains IDE.
+
 - <img src="https://github.com/jjsantos01.png?size=120" width="12px" height="12px" /> **[JupyterMCP - Jupyter Notebook Model Context Protocol Integration
 ](catalog/jjsantos01/jupyter-notebook-mcp/jupyter-notebook-mcp/README.md)** - JupyterMCP connects [Jupyter Notebook](https://jupyter.org/) to [Claude AI](https://claude.ai/chat) through the Model Context Protocol (MCP), allowing Claude to directly interact with and control Jupyter Notebooks. This integration enables AI-assisted code execution, data analysis, visualization, and more.
 
@@ -839,6 +701,12 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/johnneerdael.png?size=120" width="12px" height="12px" /> **[Netskope NPA MCP Server
 ](catalog/johnneerdael/netskope-mcp/netskope-mcp/README.md)** - A Model Context Protocol (MCP) server for managing Netskope Network Private Access (NPA) infrastructure through Large Language Models (LLMs).
+
+- <img src="https://github.com/JordiNeil.png?size=120" width="12px" height="12px" /> **[Databricks MCP Server
+](catalog/JordiNeil/mcp-databricks-server/mcp-databricks-server/README.md)** - A Model Context Protocol (MCP) server that connects to Databricks API, allowing LLMs to run SQL queries, list jobs, and get job status.
+
+- <img src="https://github.com/JoshuaRileyDev.png?size=120" width="12px" height="12px" /> **[App Store Connect MCP Server
+](catalog/JoshuaRileyDev/app-store-connect-mcp-server/app-store-connect-mcp-server/README.md)** - A Model Context Protocol (MCP) server for interacting with the App Store Connect API. This server provides tools for managing apps, beta testers, bundle IDs, devices, and capabilities in App Store Connect.
 
 - <img src="https://github.com/joshuarileydev.png?size=120" width="12px" height="12px" /> **[Supabase MCP Server
 ](catalog/joshuarileydev/supabase/supabase/README.md)** - A Model Context Protocol (MCP) server that provides programmatic access to the Supabase Management API. This server allows AI models and other clients to manage Supabase projects and organizations through a standardized interface.
@@ -891,11 +759,20 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/ko1ynnky.png?size=120" width="12px" height="12px" /> **[GitHub Actions MCP Server
 ](catalog/ko1ynnky/github-actions-mcp-server/github-actions-mcp-server/README.md)** - MCP Server for the GitHub Actions API, enabling AI assistants to manage and operate GitHub Actions workflows.
 
+- <img src="https://github.com/Kong.png?size=120" width="12px" height="12px" /> **[Kong Konnect MCP Server
+](catalog/Kong/mcp-konnect/mcp-konnect/README.md)** - A Model Context Protocol (MCP) server for interacting with Kong Konnect APIs, allowing AI assistants to query and analyze Kong Gateway configurations, traffic, and analytics.
+
 - <img src="https://github.com/kopfrechner.png?size=120" width="12px" height="12px" /> **[GitLab MR MCP
 ](catalog/kopfrechner/gitlab-mr-mcp/gitlab-mr-mcp/README.md)** - A Model Context Protocol (MCP) server for interacting with GitLab merge requests and issues.
 
 - <img src="https://github.com/kpsunil97.png?size=120" width="12px" height="12px" /> **[DevRev MCP server
 ](catalog/kpsunil97/devrev-mcp-server/devrev-mcp-server/README.md)** - A Model Context Protocol server for DevRev. It is used to search and retrieve information using the DevRev APIs.
+
+- <img src="https://github.com/KS-GEN-AI.png?size=120" width="12px" height="12px" /> **[Confluence Communication Server MCP Server
+](catalog/KS-GEN-AI/confluence-mcp-server/confluence-mcp-server/README.md)** - Interact with Confluence
+
+- <img src="https://github.com/KS-GEN-AI.png?size=120" width="12px" height="12px" /> **[Jira communication server MCP Server
+](catalog/KS-GEN-AI/jira-mcp-server/jira-mcp-server/README.md)** - Talk to Jira
 
 - <img src="https://github.com/kshern.png?size=120" width="12px" height="12px" /> **[MCP Tavily
 ](catalog/kshern/mcp-tavily/mcp-tavily/README.md)** - A Model Context Protocol (MCP) server implementation for Tavily API, providing advanced search and content extraction capabilities.
@@ -932,6 +809,12 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/kw510.png?size=120" width="12px" height="12px" /> **[Model Context Protocol (MCP) Server + Strava OAuth
 ](catalog/kw510/strava-mcp/strava-mcp/README.md)** - This is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that supports remote MCP connections, with Strava OAuth built-in. It allows users to connect to your MCP server by signing in with their Strava account.
+
+- <img src="https://github.com/KyrieTangSheng.png?size=120" width="12px" height="12px" /> **[National Parks MCP Server
+](catalog/KyrieTangSheng/mcp-server-nationalparks/mcp-server-nationalparks/README.md)** - MCP Server for the National Park Service (NPS) API, providing real-time information about U.S. National Parks, including park details, alerts, and activities.
+
+- <img src="https://github.com/Laksh-star.png?size=120" width="12px" height="12px" /> **[TMDB MCP Server
+](catalog/Laksh-star/mcp-server-tmdb/mcp-server-tmdb/README.md)** - This MCP server integrates with The Movie Database (TMDB) API to provide movie information, search capabilities, and recommendations.
 
 - <img src="https://github.com/lamemind.png?size=120" width="12px" height="12px" /> **[Multiverse MCP Server
 ](catalog/lamemind/mcp-server-multiverse/mcp-server-multiverse/README.md)** - A middleware server that enables multiple isolated instances of the same MCP servers to coexist independently with unique namespaces and configurations.
@@ -1086,11 +969,20 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/oceanbase.png?size=120" width="12px" height="12px" /> **[mcp-oceanbase
 ](catalog/oceanbase/mcp-oceanbase/mcp-oceanbase/README.md)** - MCP Server for OceanBase database and its tools
 
+- <img src="https://github.com/OctagonAI.png?size=120" width="12px" height="12px" /> **[Octagon: MCP For Market Data
+](catalog/OctagonAI/octagon-mcp-server/octagon-mcp-server/README.md)** - A free Model Context Protocol (MCP) server that integrates with Octagon Market Intelligence API
+
+- <img src="https://github.com/OctoMind-dev.png?size=120" width="12px" height="12px" /> **[octomind mcp server: let agents create and manage e2e tests
+](catalog/OctoMind-dev/octomind-mcp/octomind-mcp/README.md)** - An MCP server for octomind tools, resources and prompts
+
 - <img src="https://github.com/ognis1205.png?size=120" width="12px" height="12px" /> **[mcp-server-unitycatalog: An Unity Catalog MCP server
 ](catalog/ognis1205/mcp-server-unitycatalog/mcp-server-unitycatalog/README.md)** - Unity Catalog AI Model Context Protocol Server
 
 - <img src="https://github.com/openbnb-org.png?size=120" width="12px" height="12px" /> **[Airbnb MCP Server
 ](catalog/openbnb-org/mcp-server-airbnb/mcp-server-airbnb/README.md)** - MCP Server for searching Airbnb and get listing details.
+
+- <img src="https://github.com/OpenDataMCP.png?size=120" width="12px" height="12px" /> **[Open Data Model Context Protocol
+](catalog/OpenDataMCP/OpenDataMCP/open-data-mcp/README.md)** - Connect any Open Data to any LLM with Model Context Protocol.
 
 - <img src="https://github.com/oschina.png?size=120" width="12px" height="12px" /> **[Gitee MCP Server
 ](catalog/oschina/mcp-gitee/mcp-gitee/README.md)** - Gitee MCP Server is a Model Context Protocol (MCP) server implementation for Gitee. It provides a set of tools for interacting with Gitee's API, allowing AI assistants to manage repositories, issues, pull requests, and more.
@@ -1113,11 +1005,20 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/pab1it0.png?size=120" width="12px" height="12px" /> **[Tripadvisor MCP Server
 ](catalog/pab1it0/tripadvisor-mcp/tripadvisor-mcp/README.md)** - An MCP server for Tripadvisor Content API.
 
+- <img src="https://github.com/PaddleHQ.png?size=120" width="12px" height="12px" /> **[MCP Server for Paddle Billing
+](catalog/PaddleHQ/paddle-mcp-server/paddle-mcp-server/README.md)** - This is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that provides tools for interacting with the Paddle API.
+
+- <img src="https://github.com/PostHog.png?size=120" width="12px" height="12px" /> **[PostHog MCP Server 📊
+](catalog/PostHog/posthog-mcp/posthog-mcp/README.md)** - A Model Context Protocol (MCP) server for interacting with PostHog. Create annotations and manage projects directly through Claude Desktop!
+
 - <img src="https://github.com/privetin.png?size=120" width="12px" height="12px" /> **[Chroma MCP Server
 ](catalog/privetin/chroma/chroma/README.md)** - A Model Context Protocol (MCP) server implementation that provides vector database capabilities through Chroma. This server enables semantic document search, metadata filtering, and document management with persistent storage.
 
 - <img src="https://github.com/privetin.png?size=120" width="12px" height="12px" /> **[Dataset Viewer MCP Server
 ](catalog/privetin/dataset-viewer/dataset-viewer/README.md)** - An MCP server for interacting with the [Hugging Face Dataset Viewer API](https://huggingface.co/docs/dataset-viewer), providing capabilities to browse and analyze datasets hosted on the Hugging Face Hub.
+
+- <img src="https://github.com/ProgramComputer.png?size=120" width="12px" height="12px" /> **[NASA MCP Server
+](catalog/ProgramComputer/NASA-MCP-server/nasa-mcp-server/README.md)** - A Model Context Protocol (MCP) server for NASA APIs, providing a standardized interface for AI models to interact with NASA's vast array of data sources. This server implements the official Model Context Protocol specification.
 
 - <img src="https://github.com/pskill9.png?size=120" width="12px" height="12px" /> **[Hacker News MCP Server
 ](catalog/pskill9/hn-server/hn-server/README.md)** - A Model Context Protocol (MCP) server that provides tools for fetching stories from Hacker News. This server parses the HTML content from news.ycombinator.com and provides structured data for different types of stories (top, new, ask, show, jobs).
@@ -1134,11 +1035,29 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/pyroprompts.png?size=120" width="12px" height="12px" /> **[any-chat-completions-mcp MCP Server
 ](catalog/pyroprompts/any-chat-completions-mcp/any-chat-completions-mcp/README.md)** - Integrate Claude with Any OpenAI SDK Compatible Chat Completion API - OpenAI, Perplexity, Groq, xAI, PyroPrompts and more.
 
+- <img src="https://github.com/QAInsights.png?size=120" width="12px" height="12px" /> **[JMeter MCP Server
+](catalog/QAInsights/jmeter-mcp-server/jmeter-mcp-server/README.md)** - This is a Model Context Protocol (MCP) server that allows executing JMeter tests through MCP-compatible clients.
+
+- <img src="https://github.com/QAInsights.png?size=120" width="12px" height="12px" /> **[k6-mcp-server
+](catalog/QAInsights/k6-mcp-server/k-6-mcp-server/README.md)** - A Model Context Protocol (MCP) server implementation for running k6 load tests.
+
+- <img src="https://github.com/QAInsights.png?size=120" width="12px" height="12px" /> **[locust-mcp-server
+](catalog/QAInsights/locust-mcp-server/locust-mcp-server/README.md)** - A Model Context Protocol (MCP) server implementation for running Locust load tests. This server enables seamless integration of Locust load testing capabilities with AI-powered development environments.
+
 - <img src="https://github.com/qdrant.png?size=120" width="12px" height="12px" /> **[mcp-server-qdrant: A Qdrant MCP server
 ](catalog/qdrant/mcp-server-qdrant/mcp-server-qdrant/README.md)** - An official Qdrant Model Context Protocol (MCP) server implementation.
 
 - <img src="https://github.com/qianniuspace.png?size=120" width="12px" height="12px" /> **[Security Audit Tool
 ](catalog/qianniuspace/mcp-security-audit/mcp-security-audit/README.md)** - A powerful MCP (Model Context Protocol) Server that audits npm package dependencies for security vulnerabilities. Built with remote npm registry integration for real-time security checks.
+
+- <img src="https://github.com/QuantGeekDev.png?size=120" width="12px" height="12px" /> **[Coincap MCP
+](catalog/QuantGeekDev/coincap-mcp/coincap-mcp/README.md)** - A coincap mcp server to access crypto data from coincap API.
+
+- <img src="https://github.com/QuantGeekDev.png?size=120" width="12px" height="12px" /> **[Docker MCP
+](catalog/QuantGeekDev/docker-mcp/docker-mcp/README.md)** - A powerful Model Context Protocol (MCP) server for Docker operations, enabling seamless container and compose stack management through Claude AI.
+
+- <img src="https://github.com/QuantGeekDev.png?size=120" width="12px" height="12px" /> **[🗄️ MongoDB MCP Server for LLMS
+](catalog/QuantGeekDev/mongo-mcp/mongo-mcp/README.md)** - A Model Context Protocol (MCP) server that enables LLMs to interact directly with MongoDB databases. Query collections, inspect schemas, and manage data seamlessly through natural language.
 
 - <img src="https://github.com/r-huijts.png?size=120" width="12px" height="12px" /> **[FirstCycling MCP Server
 ](catalog/r-huijts/firstcycling-mcp/firstcycling-mcp/README.md)** - This is a Model Context Protocol (MCP) server that provides professional cycling data from FirstCycling. It allows you to retrieve comprehensive information about professional cyclists, race results, race details, and historical cycling data.
@@ -1176,11 +1095,17 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/reading-plus-ai.png?size=120" width="12px" height="12px" /> **[MCP Server for Deep Research
 ](catalog/reading-plus-ai/mcp-server-deep-research/mcp-server-deep-research/README.md)** - MCP Server for Deep Research is a tool designed for conducting comprehensive research on complex topics. It helps you explore questions in depth, find relevant sources, and generate structured research reports.
 
+- <img src="https://github.com/ReAPI-com.png?size=120" width="12px" height="12px" /> **[@reapi/mcp-openapi
+](catalog/ReAPI-com/mcp-openapi/mcp-openapi/README.md)** - A Model Context Protocol (MCP) server that loads and serves multiple OpenAPI specifications to enable LLM-powered IDE integrations. This server acts as a bridge between your OpenAPI specifications and LLM-powered development tools like Cursor and other code editors.
+
 - <img src="https://github.com/rishikavikondala.png?size=120" width="12px" height="12px" /> **[AWS MCP Server
 ](catalog/rishikavikondala/mcp-server-aws/mcp-server-aws/README.md)** - A [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) server implementation for AWS operations that currently supports S3 and DynamoDB services. All operations are automatically logged and can be accessed through the audit://aws-operations resource endpoint.
 
 - <img src="https://github.com/roadwy.png?size=120" width="12px" height="12px" /> **[CVE-Search MCP Server
 ](catalog/roadwy/cve-search_mcp/cve-search-mcp/README.md)** - A Model Context Protocol (MCP) server for querying the CVE-Search API
+
+- <img src="https://github.com/Rootly-AI-Labs.png?size=120" width="12px" height="12px" /> **[Rootly MCP Server
+](catalog/Rootly-AI-Labs/Rootly-MCP-server/rootly-mcp-server/README.md)** - An MCP server for [Rootly API](https://docs.rootly.com/api-reference/overview) that you can plug into your favorite MCP-compatible editors like Cursor, Windsurf, and Claude. Resolve production incidents in under a minute without leaving your IDE.
 
 - <img src="https://github.com/roychri.png?size=120" width="12px" height="12px" /> **[MCP Server for Asana
 ](catalog/roychri/mcp-server-asana/mcp-server-asana/README.md)** - This Model Context Protocol server implementation of Asana allows you
@@ -1194,6 +1119,15 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/runekaagaard.png?size=120" width="12px" height="12px" /> **[MCP Alchemy
 ](catalog/runekaagaard/mcp-alchemy/mcp-alchemy/README.md)** - An MCP server that gives the LLM access to and knowledge about relational databases like SQLite, Postgresql, MySQL & MariaDB, Oracle, and MS-SQL.
 
+- <img src="https://github.com/SaintDoresh.png?size=120" width="12px" height="12px" /> **[Crypto Trader MCP Tool
+](catalog/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop/crypto-trader-mcp-claude-desktop/README.md)** - An MCP (Model Context Protocol) tool that provides cryptocurrency market data using the CoinGecko API, specifically designed for Claude Desktop.
+
+- <img src="https://github.com/SaintDoresh.png?size=120" width="12px" height="12px" /> **[Weather MCP Tool
+](catalog/SaintDoresh/Weather-MCP-ClaudeDesktop/weather-mcp-claude-desktop/README.md)** - An MCP (Model Context Protocol) tool that provides real-time weather data, forecasts, and historical weather information using the OpenWeatherMap API, specifically designed for Claude Desktop.
+
+- <img src="https://github.com/SaintDoresh.png?size=120" width="12px" height="12px" /> **[YFinance Trader MCP Tool for Claude Desktop
+](catalog/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop/yfinance-trader-mcp-claude-desktop/README.md)** - An MCP (Model Context Protocol) tool that provides stock market data and trading capabilities using the yfinance library, specifically adapted for Claude Desktop.
+
 - <img src="https://github.com/sakce.png?size=120" width="12px" height="12px" /> **[Monday.com MCP server
 ](catalog/sakce/mcp-server-monday/mcp-server-monday/README.md)** - MCP Server for monday.com, enabling MCP clients to interact with Monday.com boards, items, updates, and documents.
 
@@ -1202,6 +1136,9 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/sapientpants.png?size=120" width="12px" height="12px" /> **[SonarQube MCP Server
 ](catalog/sapientpants/sonarqube-mcp-server/sonarqube-mcp-server/README.md)** - A Model Context Protocol (MCP) server that integrates with SonarQube to provide AI assistants with access to code quality metrics, issues, and analysis results.
+
+- <img src="https://github.com/SaseQ.png?size=120" width="12px" height="12px" /> **[Discord MCP
+](catalog/SaseQ/discord-mcp/discord-mcp/README.md)** - A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server for the Discord API [(JDA)](https://jda.wiki/),
 
 - <img src="https://github.com/sawa-zen.png?size=120" width="12px" height="12px" /> **[VRChat MCP Server
 ](catalog/sawa-zen/vrchat-mcp/vrchat-mcp/README.md)** - The VRChat MCP server provides a way to access VRChat's API endpoints in a structured manner. It supports a wide range of functionalities, including user authentication, retrieving user and friend information, accessing avatar and world data, and more.
@@ -1212,11 +1149,26 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/screenshotone.png?size=120" width="12px" height="12px" /> **[ScreenshotOne MCP Server
 ](catalog/screenshotone/mcp/mcp/README.md)** - A simple implementation of an MCP server for the ScreenshotOne API
 
+- <img src="https://github.com/SDGLBL.png?size=120" width="12px" height="12px" /> **[MCP Claude Code
+](catalog/SDGLBL/mcp-claude-code/mcp-claude-code/README.md)** - An implementation of Claude Code capabilities using the Model Context Protocol (MCP).
+
+- <img src="https://github.com/SecretiveShell.png?size=120" width="12px" height="12px" /> **[MCP-searxng
+](catalog/SecretiveShell/MCP-searxng/mcp-searxng/README.md)** - An MCP server for connecting agentic systems to search systems via [searXNG](https://docs.searxng.org/).
+
+- <img src="https://github.com/SecretiveShell.png?size=120" width="12px" height="12px" /> **[MCP-timeserver
+](catalog/SecretiveShell/MCP-timeserver/mcp-timeserver/README.md)** - A simple MCP server that exposes datetime information to agentic systems and chat REPLs
+
+- <img src="https://github.com/SecretiveShell.png?size=120" width="12px" height="12px" /> **[MCP-wolfram-alpha
+](catalog/SecretiveShell/MCP-wolfram-alpha/mcp-wolfram-alpha/README.md)** - A MCP server to connect to wolfram alpha API.
+
 - <img src="https://github.com/seekrays.png?size=120" width="12px" height="12px" /> **[MCP System Monitor
 ](catalog/seekrays/mcp-monitor/mcp-monitor/README.md)** - A system monitoring tool that exposes system metrics via the Model Context Protocol (MCP). This tool allows LLMs to retrieve real-time system information through an MCP-compatible interface.
 
 - <img src="https://github.com/semgrep.png?size=120" width="12px" height="12px" /> **[Semgrep MCP Server
 ](catalog/semgrep/mcp/mcp/README.md)** - A Model Context Protocol (MCP) server for using [Semgrep](https://semgrep.dev) to scan code for security vulnerabilities. Secure your [vibe coding](https://semgrep.dev/blog/2025/giving-appsec-a-seat-at-the-vibe-coding-table/)! 😅
+
+- <img src="https://github.com/Seym0n.png?size=120" width="12px" height="12px" /> **[&#x20;TikTok MCP
+](catalog/Seym0n/tiktok-mcp/tiktok-mcp/README.md)** - The TikTok MCP integrates TikTok access into Claude AI and other apps via TikNeuron. This TikTok MCP allows you to
 
 - <img src="https://github.com/shanejonas.png?size=120" width="12px" height="12px" /> **[OpenRPC MCP Server
 ](catalog/shanejonas/openrpc-mpc-server/openrpc-mpc-server/README.md)** - A Model Context Protocol (MCP) server that provides JSON-RPC functionality through [OpenRPC](https://open-rpc.org).
@@ -1238,6 +1190,12 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/sooperset.png?size=120" width="12px" height="12px" /> **[MCP Atlassian
 ](catalog/sooperset/mcp-atlassian/mcp-atlassian/README.md)** - Model Context Protocol (MCP) server for Atlassian products (Confluence and Jira). This integration supports both Confluence & Jira Cloud and Server/Data Center deployments.
+
+- <img src="https://github.com/Spathodea-Network.png?size=120" width="12px" height="12px" /> **[OpenCTI MCP Server
+](catalog/Spathodea-Network/opencti-mcp/opencti-mcp/README.md)** - OpenCTI MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with OpenCTI (Open Cyber Threat Intelligence) platform.
+
+- <img src="https://github.com/StarRocks.png?size=120" width="12px" height="12px" /> **[Starrocks Official MCP server
+](catalog/StarRocks/mcp-server-starrocks/mcp-server-starrocks/README.md)** - The StarRocks MCP Server acts as a bridge between AI assistants and StarRocks databases, allowing for direct SQL execution and database exploration without requiring complex setup or configuration.
 
 - <img src="https://github.com/stripe.png?size=120" width="12px" height="12px" /> **[Stripe Model Context Protocol
 ](catalog/stripe/agent-toolkit/modelcontextprotocol/README.md)** - The Stripe [Model Context Protocol](https://modelcontextprotocol.com/) server allows you to integrate with Stripe APIs through function calling. This protocol supports various tools to interact with different Stripe services.
@@ -1275,6 +1233,9 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/teddyzxcv.png?size=120" width="12px" height="12px" /> **[ntfy-mcp: Your Friendly Task Completion Notifier
 ](catalog/teddyzxcv/ntfy-mcp/ntfy-mcp/README.md)** - Welcome to ntfy-mcp, the MCP server that keeps you caffeinated and informed! 🚀☕️
 
+- <img src="https://github.com/TermiX-official.png?size=120" width="12px" height="12px" /> **[📦 BNBChain MCP – Binance Smart Chain Tool Server (MCP + CLI Ready)
+](catalog/TermiX-official/bsc-mcp/bsc-mcp/README.md)** - A plug-and-play MCP tool server to **send BNB**, **transfer BEP-20 tokens**, **deploy tokens**, and **interact with smart contracts** on the **Binance Smart Chain (BSC)** — built for **Claude Desktop**, **AI agents**, and **developers.**
+
 - <img src="https://github.com/tesla0225.png?size=120" width="12px" height="12px" /> **[MCP Create Server
 ](catalog/tesla0225/mcp-create/mcp-create/README.md)** - A dynamic MCP server management service that creates, runs, and manages Model Context Protocol (MCP) servers dynamically. This service itself functions as an MCP server and launches/manages other MCP servers as child processes, enabling a flexible MCP ecosystem.
 
@@ -1287,11 +1248,17 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/thunderboltsid.png?size=120" width="12px" height="12px" /> **[MCP Nutanix
 ](catalog/thunderboltsid/mcp-nutanix/mcp-nutanix/README.md)** - A Model Context Protocol (MCP) server for interacting with Nutanix Prism Central APIs through Large Language Models (LLMs).
 
+- <img src="https://github.com/Tiberriver256.png?size=120" width="12px" height="12px" /> **[Azure DevOps MCP Server
+](catalog/Tiberriver256/mcp-server-azure-devops/mcp-server-azure-devops/README.md)** - A Model Context Protocol (MCP) server implementation for Azure DevOps, allowing AI assistants to interact with Azure DevOps APIs through a standardized protocol.
+
 - <img src="https://github.com/tinybirdco.png?size=120" width="12px" height="12px" /> **[Tinybird MCP server
 ](catalog/tinybirdco/mcp-tinybird/mcp-tinybird/README.md)** - An MCP server to interact with a Tinybird Workspace from any MCP client.
 
 - <img src="https://github.com/tinyfish-io.png?size=120" width="12px" height="12px" /> **[AgentQL MCP Server
 ](catalog/tinyfish-io/agentql-mcp/agentql-mcp/README.md)** - This is a Model Context Protocol (MCP) server that integrates [AgentQL](https://agentql.com)'s data extraction capabilities.
+
+- <img src="https://github.com/Tomatio13.png?size=120" width="12px" height="12px" /> **[tavily-search MCP server
+](catalog/Tomatio13/mcp-server-tavily/mcp-server-tavily/README.md)** - This server uses the Tavily API to perform searches based on specified queries.
 
 - <img src="https://github.com/tomekkorbak.png?size=120" width="12px" height="12px" /> **[Oura MCP Server
 ](catalog/tomekkorbak/oura-mcp-server/oura-mcp-server/README.md)** - A [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) server that provides access to the Oura API. It allows language models to query sleep, readiness, and resilience data from Oura API.
@@ -1304,6 +1271,12 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/tumf.png?size=120" width="12px" height="12px" /> **[MCP Text Editor Server
 ](catalog/tumf/mcp-text-editor/mcp-text-editor/README.md)** - A Model Context Protocol (MCP) server that provides line-oriented text file editing capabilities through a standardized API. Optimized for LLM tools with efficient partial file access to minimize token usage.
+
+- <img src="https://github.com/Unstructured-IO.png?size=120" width="12px" height="12px" /> **[Unstructured API MCP Server
+](catalog/Unstructured-IO/UNS-MCP/uns-mcp/README.md)** - An MCP server implementation for interacting with the Unstructured API. This server provides tools to list sources and workflows.
+
+- <img src="https://github.com/UserAd.png?size=120" width="12px" height="12px" /> **[Didlogic MCP Server
+](catalog/UserAd/didlogic_mcp/didlogic-mcp/README.md)** - A Model Context Protocol (MCP) server implementation for the Didlogic API. This server allows Large Language Models (LLMs) to interact with Didlogic services through a standardized interface.
 
 - <img src="https://github.com/v-3.png?size=120" width="12px" height="12px" /> **[Discord MCP Server
 ](catalog/v-3/discordmcp/discordmcp/README.md)** - A Model Context Protocol (MCP) server that enables LLMs to interact with Discord channels, allowing them to send and read messages through Discord's API. Using this server, LLMs like Claude can directly interact with Discord channels while maintaining user control and security.
@@ -1320,8 +1293,17 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/vectorize-io.png?size=120" width="12px" height="12px" /> **[Vectorize MCP Server
 ](catalog/vectorize-io/vectorize-mcp-server/vectorize-mcp-server/README.md)** - A Model Context Protocol (MCP) server implementation that integrates with [Vectorize](https://vectorize.io/) for advanced Vector retrieval and text extraction.
 
+- <img src="https://github.com/Verodat.png?size=120" width="12px" height="12px" /> **[Verodat MCP Server
+](catalog/Verodat/verodat-mcp-server/verodat-mcp-server/README.md)** - Verodat MCP Server Implementation
+
+- <img src="https://github.com/VeyraX.png?size=120" width="12px" height="12px" /> **[VeyraX MCP
+](catalog/VeyraX/veyrax-mcp/veyrax-mcp/README.md)** - **Single tool to control them all** — VeyraX MCP is the only connection you need to access all your tools in any MCP-compatible environment.
+
 - <img src="https://github.com/vivekVells.png?size=120" width="12px" height="12px" /> **[mcp-pandoc: A Document Conversion MCP Server
 ](catalog/vivekVells/mcp-pandoc/mcp-pandoc/README.md)** - Officially included in the [Model Context Protocol servers](https://github.com/modelcontextprotocol/servers/blob/main/README.md) open-source project. 🎉
+
+- <img src="https://github.com/Vortiago.png?size=120" width="12px" height="12px" /> **[MCP Azure DevOps Server
+](catalog/Vortiago/mcp-azure-devops/mcp-azure-devops/README.md)** - A Model Context Protocol (MCP) server enabling AI assistants to interact with Azure DevOps services.
 
 - <img src="https://github.com/vrknetha.png?size=120" width="12px" height="12px" /> **[Firecrawl MCP Server
 ](catalog/vrknetha/mcp-server-firecrawl/mcp-server-firecrawl/README.md)** - A Model Context Protocol (MCP) server implementation that integrates with [Firecrawl](https://github.com/mendableai/firecrawl) for web scraping capabilities.
@@ -1338,14 +1320,17 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/wonderwhy-er.png?size=120" width="12px" height="12px" /> **[Desktop Commander MCP
 ](catalog/wonderwhy-er/DesktopCommanderMCP/desktop-commander-mcp/README.md)** - Search, update, manage files and run terminal commands with AI
 
+- <img src="https://github.com/XeroAPI.png?size=120" width="12px" height="12px" /> **[Xero MCP Server
+](catalog/XeroAPI/xero-mcp-server/xero-mcp-server/README.md)** - This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.
+
 - <img src="https://github.com/xing5.png?size=120" width="12px" height="12px" /> **[mcp-google-sheets: A Google Sheets MCP server
 ](catalog/xing5/mcp-google-sheets/mcp-google-sheets/README.md)** - This MCP server integrates with your Google Drive and Google Sheets, to enable creating and modifying spreadsheets.
 
+- <img src="https://github.com/Xuanwo.png?size=120" width="12px" height="12px" /> **[Model Context Protocol Server for Apache OpenDAL™
+](catalog/Xuanwo/mcp-server-opendal/mcp-server-opendal/README.md)** - A Model Context Protocol (MCP) server implementation that provides access to various storage services via [Apache OpenDAL™](https://opendal.apache.org/).
+
 - <img src="https://github.com/xxxbrian.png?size=120" width="12px" height="12px" /> **[mcp-rquest
 ](catalog/xxxbrian/mcp-rquest/mcp-rquest/README.md)** - A Model Context Protocol (MCP) server that provides advanced HTTP request capabilities for Claude and other LLMs. Built on [rquest](https://github.com/0x676e67/rquest), this server enables realistic browser emulation with accurate TLS/JA3/JA4 fingerprints, allowing models to interact with websites more naturally and bypass common anti-bot measures. It also supports converting PDF and HTML documents to Markdown for easier processing by LLMs.
-
-- <img src="https://github.com/yWorks.png?size=120" width="12px" height="12px" /> **[MCP-Typescribe - an MCP Server providing LLMs API information
-](catalog/yWorks/mcp-typescribe/mcp-typescribe/README.md)** - An MCP server implementation enabling LLMs to work with new APIs and frameworks
 
 - <img src="https://github.com/yangkyeongmo.png?size=120" width="12px" height="12px" /> **[mcp-server-apache-airflow
 ](catalog/yangkyeongmo/mcp-server-apache-airflow/mcp-server-apache-airflow/README.md)** - A Model Context Protocol (MCP) server implementation for Apache Airflow, enabling seamless integration with MCP clients. This project provides a standardized way to interact with Apache Airflow through the Model Context Protocol.
@@ -1359,11 +1344,17 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/yuanoOo.png?size=120" width="12px" height="12px" /> **[OceanBase MCP Server
 ](catalog/yuanoOo/oceanbase_mcp_server/oceanbase-mcp-server/README.md)** - A Model Context Protocol (MCP) server that enables secure interaction with OceanBase databases.
 
+- <img src="https://github.com/YuChenSSR.png?size=120" width="12px" height="12px" /> **[Multi-Model Advisor
+](catalog/YuChenSSR/multi-ai-advisor-mcp/multi-ai-advisor-mcp/README.md)** - A Model Context Protocol (MCP) server that queries multiple Ollama models and combines their responses, providing diverse AI perspectives on a single question.
+
 - <img src="https://github.com/yuna0x0.png?size=120" width="12px" height="12px" /> **[AniList MCP Server
 ](catalog/yuna0x0/anilist-mcp/anilist-mcp/README.md)** - A Model Context Protocol (MCP) server that interfaces with the AniList API, allowing LLM clients to access and interact with anime, manga, character, staff, and user data from AniList.
 
 - <img src="https://github.com/yuna0x0.png?size=120" width="12px" height="12px" /> **[HackMD MCP Server
 ](catalog/yuna0x0/hackmd-mcp/hackmd-mcp/README.md)** - This is a Model Context Protocol (MCP) server for interacting with the [HackMD API](https://hackmd.io/@hackmd-api/developer-portal). It allows AI assistants to perform operations such as:
+
+- <img src="https://github.com/yWorks.png?size=120" width="12px" height="12px" /> **[MCP-Typescribe - an MCP Server providing LLMs API information
+](catalog/yWorks/mcp-typescribe/mcp-typescribe/README.md)** - An MCP server implementation enabling LLMs to work with new APIs and frameworks
 
 - <img src="https://github.com/zcaceres.png?size=120" width="12px" height="12px" /> **[Google Tasks MCP Server
 ](catalog/zcaceres/gtasks-mcp/gtasks-mcp/README.md)** - This MCP server integrates with Google Tasks to allow listing, reading, searching, creating, updating, and deleting tasks.
@@ -1376,6 +1367,12 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/zhsama.png?size=120" width="12px" height="12px" /> **[duckduckgo-search MCP Server
 ](catalog/zhsama/duckduckgo-mpc-server/duckduckgo-mpc-server/README.md)** - A Model Context Protocol server for DuckDuckGo Search
+
+- <img src="https://github.com/Zhwt.png?size=120" width="12px" height="12px" /> **[go-mcp-mysql
+](catalog/Zhwt/go-mcp-mysql/go-mcp-mysql/README.md)** - Zero burden, ready-to-use Model Context Protocol (MCP) server for interacting with MySQL and automation.
+
+- <img src="https://github.com/ZilongXue.png?size=120" width="12px" height="12px" /> **[ClaudePost
+](catalog/ZilongXue/claude-post/claude-post/README.md)** - A Model Context Protocol (MCP) server that provides a seamless email management interface through Claude. This integration allows you to handle emails directly through natural language conversations with Claude, supporting features like searching, reading, and sending emails securely.
 
 - <img src="https://github.com/zxkane.png?size=120" width="12px" height="12px" /> **[Amazon Bedrock MCP Server
 ](catalog/zxkane/mcp-server-amazon-bedrock/mcp-server-amazon-bedrock/README.md)** - A Model Control Protocol (MCP) server that integrates with Amazon Bedrock's Nova Canvas model for AI image generation.
