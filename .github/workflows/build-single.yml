@@ -111,10 +111,14 @@ jobs:
       - name: Get artifact name
         id: get-artifact-name
         run: |
+          # replace / in server name with --
+          server_name=${{ inputs.server }}
+          server_name=${server_name//\//--}
+
           if [[ "${{ matrix.platform }}" == "ubuntu-24.04-arm" ]]; then
-            echo "artifact_name=${{ inputs.server }}-${{ needs.init.outputs.version }}-arm64.zip" >> $GITHUB_ENV
+            echo "artifact_name=${server_name}-${{ needs.init.outputs.version }}-arm64" >> $GITHUB_ENV
           else
-            echo "artifact_name=${{ inputs.server }}-${{ needs.init.outputs.version }}.zip" >> $GITHUB_ENV
+            echo "artifact_name=${server_name}-${{ needs.init.outputs.version }}-amd64" >> $GITHUB_ENV
           fi
 
       - name: Upload output artifact
