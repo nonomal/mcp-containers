@@ -1,3 +1,4 @@
+import type { NixpacksPlan } from '@metorial-mcp-containers/nixpacks';
 import fs from 'fs-extra';
 import path from 'path';
 import { getServerDefinitionDir } from './read';
@@ -9,7 +10,7 @@ export interface ServerVersion {
   manifest: ServerManifest;
   manifestHash: string;
   createdAt: string;
-  builder: { type: 'nixpacks'; plan: any }[];
+  builder: { type: 'nixpacks'; plan: NixpacksPlan }[];
 }
 
 export let getServerVersions = async (serverId: string) => {

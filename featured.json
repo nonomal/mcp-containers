@@ -44,5 +44,6 @@
   "XeroAPI/xero-mcp-server/xero-mcp-server",
   "base/base-mcp/base-mcp",
   "CircleCI-Public/mcp-server-circleci/mcp-server-circleci",
-  "AudienseCo/mcp-audiense-insights/mcp-audiense-insights"
+  "AudienseCo/mcp-audiense-insights/mcp-audiense-insights",
+  "github/github-mcp-server/github-mcp-server"
 ]

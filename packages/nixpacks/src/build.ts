@@ -1,9 +1,11 @@
 import { delay } from '@metorial-mcp-containers/delay';
 import { readManifest } from '@metorial-mcp-containers/manifest';
-import { TOML } from 'bun';
+import { getTempDir } from '@metorial-mcp-containers/temp-dir';
+import { $ } from 'bun';
 import fs from 'fs-extra';
 import path from 'path';
 import { ensureNixDir } from './nixDir';
+import { getNixpacksEnv, getNixpacksOptions } from './options';
 
 export let getContainerName = (id: string) => {
   return `ghcr.io/metorial/mcp-container--${id.replaceAll('/', '--')}`.toLowerCase();
@@ -17,6 +19,7 @@ export let nixpacksBuild = async (
     publish?: boolean;
     out?: string;
     ci?: boolean;
+    export?: string;
   }
 ) => {
   if (opts.out && opts.ci) {
@@ -24,7 +27,7 @@ export let nixpacksBuild = async (
   }
 
   if (opts.ci && !opts.platform) {
-    throw new Error('Cannot use out and ci together');
+    throw new Error('Cannot use ci without platform');
   }
 
   console.log(`Building ${id} (${version})...`);
@@ -55,61 +58,9 @@ export let nixpacksBuild = async (
   for (let [key, value] of Object.entries(labels)) {
     cmd.push('--label', `org.opencontainers.image.${key}=${value}`);
   }
-
-  if (manifest.build?.startCommand) {
-    cmd.push('--start-cmd', manifest.build.startCommand);
-  } else {
-    let packageJsonPath = path.join(buildDir, 'package.json');
-    if (await fs.exists(packageJsonPath)) {
-      let packageJson = await fs.readJSON(packageJsonPath);
-
-      if (!packageJson.scripts?.start) {
-        if (packageJson.bin || packageJson.bins) {
-          let bin = packageJson.bin || packageJson.bins;
-          if (typeof bin == 'object') bin = Object.values(bin)[0];
-
-          cmd.push('--start-cmd', `node ${bin}`);
-        } else if (packageJson.main) {
-          cmd.push('--start-cmd', `node ${packageJson.main}`);
-        }
-      }
-    }
-
-    let pyProjectPath = path.join(buildDir, 'pyproject.toml');
-    if (await fs.exists(pyProjectPath)) {
-      let pyProjectRaw = await fs.readFile(pyProjectPath, 'utf-8');
-      let pyProject = TOML.parse(pyProjectRaw) as {
-        project: { scripts: Record<string, string> };
-      };
-
-      if (pyProject?.project?.scripts) {
-        let anyScript = Object.keys(pyProject.project.scripts)[0];
-        if (anyScript) cmd.push('--start-cmd', anyScript);
-      }
-    }
-  }
-
-  if (manifest.build?.buildCommand) {
-    cmd.push('--build-cmd', manifest.build.buildCommand);
-  }
-
-  if (manifest.build?.installCommand) {
-    cmd.push('--install-cmd', manifest.build.installCommand);
-  }
-
-  if (manifest.build?.nixPackages) {
-    for (let pkg of manifest.build.nixPackages) {
-      cmd.push('--pkgs', pkg);
-    }
-  }
-
-  if (manifest.build?.aptPackages) {
-    for (let pkg of manifest.build.aptPackages) {
-      cmd.push('--apt', pkg);
-    }
-  }
-
   if (opts.ci) cmd.push('--out', buildDir);
+
+  cmd.push(...(await getNixpacksOptions(buildDir, manifest)));
 
   // Run Nixpacks build
   console.log(`Running: ${cmd.join(' ')}`);
@@ -119,12 +70,7 @@ export let nixpacksBuild = async (
     cwd: buildDir,
     stdout: 'inherit',
     stderr: 'inherit',
-    env: {
-      ...process.env,
-
-      NIXPACKS_NODE_VERSION: manifest.build?.nodeVersion ?? '20',
-      NIXPACKS_PYTHON_VERSION: manifest.build?.pythonVersion ?? '3.11'
-    }
+    env: getNixpacksEnv(manifest)
   });
 
   await proc.exited;
@@ -141,7 +87,8 @@ export let nixpacksBuild = async (
       cmd: ['docker', 'buildx', 'create', '--use'],
       cwd: buildDir,
       stdout: 'inherit',
-      stderr: 'inherit'
+      stderr: 'inherit',
+      env: getNixpacksEnv(manifest)
     });
     await buildxCreate.exited;
     if (buildxCreate.exitCode !== 0) {
@@ -160,11 +107,7 @@ export let nixpacksBuild = async (
       cwd: buildDir,
       stdout: 'inherit',
       stderr: 'inherit',
-      env: {
-        ...process.env,
-        NIXPACKS_NODE_VERSION: manifest.build?.nodeVersion ?? '20',
-        NIXPACKS_PYTHON_VERSION: manifest.build?.pythonVersion ?? '3.11'
-      }
+      env: getNixpacksEnv(manifest)
     });
 
     await ciProc.exited;
@@ -233,5 +176,39 @@ export let nixpacksBuild = async (
     }
 
     console.log(`Published ${id} (${version})`);
+  }
+
+  // Export the image into a zip file
+  if (opts.export) {
+    console.log(`Exporting ${id} (${version})...`);
+
+    let exportTempDir = await getTempDir('exp');
+
+    let exportFile = path.resolve(process.cwd(), opts.export);
+    await fs.ensureDir(path.dirname(exportFile));
+
+    let tempContainerName = `temp-container-${Math.random().toString(36).substring(2, 15)}`;
+
+    console.log('Creating temporary container');
+
+    await $`docker create --name ${tempContainerName} ${tags[0]}`;
+    await $`docker export ${tempContainerName} > ${path.join(
+      exportTempDir,
+      'image-filesystem.tar'
+    )}`;
+    await $`docker rm ${tempContainerName}`;
+
+    console.log('Extracting image filesystem');
+
+    let exportFsTempDir = path.join(exportTempDir, 'image-filesystem');
+    await fs.mkdirp(exportFsTempDir);
+
+    await $`tar -xf ${path.join(exportTempDir, 'image-filesystem.tar')} -C ${exportFsTempDir}`;
+
+    // Only zip the app directory
+    let appDir = path.join(exportFsTempDir, 'app');
+    await $`zip -r ${exportFile} .`.cwd(appDir);
+
+    console.log(`Exported ${id} (${version}) to ${exportFile}`);
   }
 };

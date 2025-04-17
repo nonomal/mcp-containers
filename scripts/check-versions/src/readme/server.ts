@@ -1,7 +1,7 @@
-import type { ServerManifest } from '@metorial-mcp-containers/manifest';
+import type { ServerManifest, ServerVersion } from '@metorial-mcp-containers/manifest';
 import { stripMarkdown } from './stripMarkdown';
 
-export let generateServerReadme = async (server: ServerManifest) => {
+export let generateServerReadme = async (server: ServerManifest, version: ServerVersion) => {
   let containerName = `ghcr.io/metorial/mcp-container--${server.fullId
     .replaceAll('/', '--')
     .toLowerCase()}`;
@@ -87,11 +87,16 @@ ${JSON.stringify(
           '-it',
           '--rm',
           containerName,
-          server.config.argumentsTemplate,
 
-          ...args
-            .filter(a => a.key.startsWith('--'))
-            .map(arg => `${arg.key} ${arg.config.title}`)
+          [
+            version.builder[0]?.plan?.start?.cmd,
+            server.config.argumentsTemplate,
+            ...args
+              .filter(a => a.key.startsWith('--'))
+              .map(arg => `${arg.key} ${arg.config.title}`)
+          ]
+            .filter(Boolean)
+            .join(' ')
         ].filter(Boolean),
         env: {
           ...Object.fromEntries(env.map(e => [e.key, e.config.title]))

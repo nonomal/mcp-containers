@@ -1,5 +1,9 @@
 import { canonicalize } from '@metorial-mcp-containers/canonicalize';
-import { getAllServers, readManifest } from '@metorial-mcp-containers/manifest';
+import {
+  getAllServers,
+  readManifest,
+  type ServerVersion
+} from '@metorial-mcp-containers/manifest';
 import { nixpacksPlan } from '@metorial-mcp-containers/nixpacks';
 import { $ } from 'bun';
 import fs from 'fs-extra';
@@ -54,19 +58,13 @@ sade('check-versions', true)
         let versionsDir = path.join(serverDir, 'versions');
         let versionDir = path.join(versionsDir, version);
 
-        await fs.writeFile(
-          path.join(serverDir, 'README.md'),
-          await generateServerReadme(server)
-        );
+        let versionManifest: ServerVersion | undefined;
 
         let versionExists = await fs.pathExists(versionDir);
         if (versionExists) {
-          let versionManifest = await fs.readJSON(
-            path.join(versionDir, 'version.json'),
-            'utf-8'
-          );
+          versionManifest = await fs.readJSON(path.join(versionDir, 'version.json'), 'utf-8');
 
-          if (versionManifest.manifestHash != manifestHash) {
+          if (versionManifest!.manifestHash != manifestHash) {
             versionExists = false;
 
             console.log(
@@ -83,12 +81,12 @@ sade('check-versions', true)
           try {
             let plan = await nixpacksPlan(fullServerId, version);
 
-            let versionConfig = {
+            versionManifest = {
               serverId: fullServerId,
               version,
               manifest,
               manifestHash,
-              createdAt: new Date(),
+              createdAt: new Date().toISOString(),
               builder: [
                 {
                   type: 'nixpacks',
@@ -100,7 +98,7 @@ sade('check-versions', true)
             await fs.mkdirp(versionDir);
             await fs.writeFile(
               path.join(versionDir, 'version.json'),
-              JSON.stringify(versionConfig, null, 2)
+              JSON.stringify(versionManifest, null, 2)
             );
           } catch (e: any) {
             console.error(`Error creating version ${version} for ${fullServerId}:`);
@@ -112,6 +110,13 @@ sade('check-versions', true)
           }
         } else {
           console.log(`Version ${version} for ${fullServerId} already exists`);
+        }
+
+        if (versionManifest) {
+          await fs.writeFile(
+            path.join(serverDir, 'README.md'),
+            await generateServerReadme(server, versionManifest)
+          );
         }
       });
     }

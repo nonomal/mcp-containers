@@ -104,9 +104,16 @@ jobs:
           fi
 
       - name: Build MCP Server
-        run: bun start ci ${{ inputs.server }} ${{ needs.init.outputs.version }} --platform ${{ env.platform }}
+        run: bun start ci ${{ inputs.server }} ${{ needs.init.outputs.version }} --platform ${{ env.platform }} --export ./out.zip
         working-directory: 'scripts/build'
         if: contains(needs.init.outputs.platforms, env.platform)
+
+      - name: Upload output artifact
+        if: contains(needs.init.outputs.platforms, env.platform)
+        uses: actions/upload-artifact@v4
+        with:
+          name: '${{ inputs.server }}-${{ needs.init.outputs.version }}-${{ matrix.platform }}'
+          path: ./scripts/build/out.zip
 
   publish:
     name: Publish Container "${{ inputs.server }}"

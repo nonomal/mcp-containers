@@ -21,9 +21,26 @@ prog.command('build', undefined, { default: true }).action(async () => {
     let serverDir = path.join(serversDir, server.fullId);
     await fs.ensureDir(serverDir);
 
-    await fs.writeFile(path.join(serverDir, 'info.json'), JSON.stringify(server, null, 2));
-
     let serverVersions = await getServerVersions(server.fullId);
+    let mostRecentVersion = serverVersions.sort((a, b) => {
+      return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+    })[0];
+
+    await fs.writeFile(
+      path.join(serverDir, 'info.json'),
+      JSON.stringify(
+        {
+          ...server,
+          latestVersion: mostRecentVersion?.version ?? null,
+          versions: serverVersions.map(v => ({
+            version: v.version,
+            createdAt: v.createdAt
+          }))
+        },
+        null,
+        2
+      )
+    );
 
     await fs.writeFile(
       path.join(serverDir, 'versions.json'),
