@@ -171,6 +171,9 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/XeroAPI.png?size=120" width="12px" height="12px" /> **[Xero MCP Server
 ](catalog/XeroAPI/xero-mcp-server/xero-mcp-server/README.md)** - This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.
 
+- <img src="https://github.com/yamadashy.png?size=120" width="12px" height="12px" /> **[Repomix
+](catalog/yamadashy/repomix/repomix/README.md)** - Pack your codebase into AI-friendly formats
+
 
 ## Available Servers
 
@@ -1337,6 +1340,9 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/xxxbrian.png?size=120" width="12px" height="12px" /> **[mcp-rquest
 ](catalog/xxxbrian/mcp-rquest/mcp-rquest/README.md)** - A Model Context Protocol (MCP) server that provides advanced HTTP request capabilities for Claude and other LLMs. Built on [rquest](https://github.com/0x676e67/rquest), this server enables realistic browser emulation with accurate TLS/JA3/JA4 fingerprints, allowing models to interact with websites more naturally and bypass common anti-bot measures. It also supports converting PDF and HTML documents to Markdown for easier processing by LLMs.
+
+- <img src="https://github.com/yamadashy.png?size=120" width="12px" height="12px" /> **[Repomix
+](catalog/yamadashy/repomix/repomix/README.md)** - Pack your codebase into AI-friendly formats
 
 - <img src="https://github.com/yangkyeongmo.png?size=120" width="12px" height="12px" /> **[mcp-server-apache-airflow
 ](catalog/yangkyeongmo/mcp-server-apache-airflow/mcp-server-apache-airflow/README.md)** - A Model Context Protocol (MCP) server implementation for Apache Airflow, enabling seamless integration with MCP clients. This project provides a standardized way to interact with Apache Airflow through the Model Context Protocol.

@@ -2328,6 +2328,12 @@
     "repoUrl": "https://github.com/xxxbrian/mcp-rquest"
   },
   {
+    "id": "repomix",
+    "owner": "yamadashy",
+    "repo": "repomix",
+    "repoUrl": "https://github.com/yamadashy/repomix"
+  },
+  {
     "id": "mcp-server-apache-airflow",
     "owner": "yangkyeongmo",
     "repo": "mcp-server-apache-airflow",
