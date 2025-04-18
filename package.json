@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "add-server": "bun ./scripts/add-server/src/index.ts",
+    "check-versions": "bun ./scripts/check-versions/src/index.ts",
     "build": "bun ./scripts/build/src/index.ts"
   },
   "devDependencies": {},
