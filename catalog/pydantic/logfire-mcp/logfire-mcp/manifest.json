@@ -9,7 +9,7 @@
     "url": "https://github.com/pydantic/logfire-mcp"
   },
   "config": {
-    "argumentsTemplate": "--read-token=YOUR-TOKEN",
+    "argumentsTemplate": null,
     "configValues": [
       {
         "title": "read-token",
