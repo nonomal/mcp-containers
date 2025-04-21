@@ -13,6 +13,14 @@ export let generateServerReadme = async (server: ServerManifest, version: Server
     c.fields.filter(f => f.type == 'environment').map(f => ({ ...f, config: c }))
   );
 
+  let additionalArgs = [
+    version.builder[0]?.plan?.start?.cmd,
+    server.config.argumentsTemplate,
+    ...args.filter(a => a.key.startsWith('--')).map(arg => `${arg.key} ${arg.config.title}`)
+  ]
+    .filter(Boolean)
+    .join(' ');
+
   return `
 # ${server.title}
 
@@ -37,11 +45,17 @@ docker pull ${containerName}
 2. Run the container:
 
 \`\`\`bash
-docker run -it --rm ${containerName} ${server.config.argumentsTemplate ?? ''}
+docker run -i --rm \\ ${
+    env.length ? `\n${env.map(e => `-e ${e.key}=${e.config.title}`).join(' ')} \\` : ''
+  }
+${containerName} ${server.config.argumentsTemplate ?? ''} ${
+    additionalArgs ? JSON.stringify(additionalArgs) : ''
+  }
 \`\`\`
 
 - \`--rm\` removes the container after it exits, so you don't have to clean up manually.
-- \`-it\` allows you to interact with the container in your terminal.
+- \`-i\` allows you to interact with the container in your terminal.
+
 
 ${
   args.length || env.length
@@ -82,22 +96,7 @@ ${JSON.stringify(
     mcpServers: {
       [server.id]: {
         command: 'docker',
-        args: [
-          'run',
-          '-it',
-          '--rm',
-          containerName,
-
-          [
-            version.builder[0]?.plan?.start?.cmd,
-            server.config.argumentsTemplate,
-            ...args
-              .filter(a => a.key.startsWith('--'))
-              .map(arg => `${arg.key} ${arg.config.title}`)
-          ]
-            .filter(Boolean)
-            .join(' ')
-        ].filter(Boolean),
+        args: ['run', '-i', '--rm', containerName, additionalArgs].filter(Boolean),
         env: {
           ...Object.fromEntries(env.map(e => [e.key, e.config.title]))
         }
