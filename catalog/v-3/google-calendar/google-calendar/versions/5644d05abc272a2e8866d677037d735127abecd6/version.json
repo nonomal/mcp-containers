@@ -69,7 +69,7 @@
     "description": "This MCP server allows Claude to interact with your Google Calendar, enabling capabilities like listing events, creating meetings, and finding free time slots."
   },
   "manifestHash": "7ce07abf14dd5e673a5b9a4939556952",
-  "createdAt": "2025-04-17T11:11:16.234Z",
+  "createdAt": "2025-04-21T06:20:02.106Z",
   "builder": [
     {
       "type": "nixpacks",

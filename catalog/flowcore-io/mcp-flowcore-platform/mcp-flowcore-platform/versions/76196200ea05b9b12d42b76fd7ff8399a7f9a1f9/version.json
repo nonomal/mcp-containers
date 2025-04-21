@@ -49,7 +49,7 @@
     "description": "A Model Context Protocol (MCP) server for managing and interacting with the Flowcore Platform."
   },
   "manifestHash": "3a7ee306628e3dc2528129f596bdc2ed",
-  "createdAt": "2025-04-17T11:10:51.928Z",
+  "createdAt": "2025-04-21T06:19:37.335Z",
   "builder": [
     {
       "type": "nixpacks",

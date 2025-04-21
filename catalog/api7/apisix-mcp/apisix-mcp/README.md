@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--api7--apisix-mcp--apisix-mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--api7--apisix-mcp--apisix-mcp 
+docker run -i --rm \ 
+-e APISIX_SERVER_HOST=apisix-server-host -e APISIX_SERVER_PORT=apisix-server-port -e APISIX_ADMIN_API_PORT=apisix-admin-api-port -e APISIX_ADMIN_API_PREFIX=apisix-admin-api-prefix -e APISIX_ADMIN_KEY=apisix-admin-key \
+ghcr.io/metorial/mcp-container--api7--apisix-mcp--apisix-mcp  "pnpm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -57,7 +60,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--api7--apisix-mcp--apisix-mcp",
         "pnpm run start"

@@ -33,7 +33,7 @@
     "description": "A powerful and efficient Blockchain address risk scoring API MCP Server, leveraging the BICScan API to provide comprehensive risk assessments and asset information for blockchain addresses, domains, and decentralized applications (dApps)."
   },
   "manifestHash": "b90a92bb798ecb0ea9ebbdac649fdec5",
-  "createdAt": "2025-04-17T11:10:43.311Z",
+  "createdAt": "2025-04-21T06:19:28.233Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--yangkyeongmo--mcp-server-apache-airf
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--yangkyeongmo--mcp-server-apache-airflow--mcp-server-apache-airflow 
+docker run -i --rm \ 
+-e AIRFLOW_HOST=airflow-host -e AIRFLOW_USERNAME=airflow-username -e AIRFLOW_PASSWORD=airflow-password \
+ghcr.io/metorial/mcp-container--yangkyeongmo--mcp-server-apache-airflow--mcp-server-apache-airflow  "mcp-server-apache-airflow"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--yangkyeongmo--mcp-server-apache-airflow--mcp-server-apache-airflow",
         "mcp-server-apache-airflow"

@@ -19,7 +19,7 @@
     "description": "A Model Context Protocol (MCP) server that provides SQL analysis, linting, and dialect conversion capabilities using [SQLGlot](https://sqlglot.com/sqlglot.html)."
   },
   "manifestHash": "7e98198728d21325751840ff24426998",
-  "createdAt": "2025-04-17T11:10:58.681Z",
+  "createdAt": "2025-04-21T06:19:43.970Z",
   "builder": [
     {
       "type": "nixpacks",

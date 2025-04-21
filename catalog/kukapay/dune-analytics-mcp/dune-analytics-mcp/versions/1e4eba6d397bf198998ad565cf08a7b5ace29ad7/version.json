@@ -33,7 +33,7 @@
     "description": "An MCP server that bridges Dune Analytics data to AI agents."
   },
   "manifestHash": "27e00d227380662f89b75f67f0f12249",
-  "createdAt": "2025-04-17T11:11:04.388Z",
+  "createdAt": "2025-04-21T06:19:49.887Z",
   "builder": [
     {
       "type": "nixpacks",

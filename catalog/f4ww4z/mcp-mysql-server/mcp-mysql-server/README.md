@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--f4ww4z--mcp-mysql-server--mcp-mysql-
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--f4ww4z--mcp-mysql-server--mcp-mysql-server 
+docker run -i --rm \ 
+-e MYSQL_HOST=mysql-host -e MYSQL_USER=mysql-user -e MYSQL_PASSWORD=mysql-password -e MYSQL_DATABASE=mysql-database \
+ghcr.io/metorial/mcp-container--f4ww4z--mcp-mysql-server--mcp-mysql-server  "node ./build/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -56,7 +59,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--f4ww4z--mcp-mysql-server--mcp-mysql-server",
         "node ./build/index.js"

@@ -20,7 +20,7 @@
     "description": "Connect any Open Data to any LLM with Model Context Protocol."
   },
   "manifestHash": "8ec0bae9b8c7abb39fd956ebf55bcd71",
-  "createdAt": "2025-04-17T11:11:09.462Z",
+  "createdAt": "2025-04-21T06:19:55.147Z",
   "builder": [
     {
       "type": "nixpacks",

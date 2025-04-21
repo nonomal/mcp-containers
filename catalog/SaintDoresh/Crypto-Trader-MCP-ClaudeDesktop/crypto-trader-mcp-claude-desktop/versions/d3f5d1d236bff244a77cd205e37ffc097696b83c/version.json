@@ -20,7 +20,7 @@
     "description": "An MCP (Model Context Protocol) tool that provides cryptocurrency market data using the CoinGecko API, specifically designed for Claude Desktop."
   },
   "manifestHash": "798f6e5b6fab510edf46a17f9c46cd92",
-  "createdAt": "2025-04-17T11:11:12.430Z",
+  "createdAt": "2025-04-21T06:19:58.172Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -80,7 +80,7 @@
     "description": "A [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) server implementation for RabbitMQ. Enabling MCP client to interact with queues and topics hosted in a RabbitMQ instance."
   },
   "manifestHash": "dec145c0b76dc5ebbd6fa0d97dd2aed5",
-  "createdAt": "2025-04-17T11:11:02.673Z",
+  "createdAt": "2025-04-21T06:19:48.484Z",
   "builder": [
     {
       "type": "nixpacks",

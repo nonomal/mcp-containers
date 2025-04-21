@@ -23,11 +23,13 @@ docker pull ghcr.io/metorial/mcp-container--idosal--git-mcp--git-mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--idosal--git-mcp--git-mcp 
+docker run -i --rm \ 
+ghcr.io/metorial/mcp-container--idosal--git-mcp--git-mcp  "exec caddy run --config /assets/Caddyfile --adapter caddyfile 2>&1"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 
@@ -40,7 +42,7 @@ docker run -it --rm ghcr.io/metorial/mcp-container--idosal--git-mcp--git-mcp
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--idosal--git-mcp--git-mcp",
         "exec caddy run --config /assets/Caddyfile --adapter caddyfile 2>&1"

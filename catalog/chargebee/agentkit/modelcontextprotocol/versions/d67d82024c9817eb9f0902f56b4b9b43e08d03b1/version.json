@@ -20,7 +20,7 @@
     "description": "Model Context Protocol (MCP) is a [standardized protocol](https://modelcontextprotocol.io/introduction) designed to manage context between large language models (LLMs) and external systems."
   },
   "manifestHash": "f4ea93ee13bc45cc681e781ce670ab7d",
-  "createdAt": "2025-04-17T11:10:47.906Z",
+  "createdAt": "2025-04-21T06:19:32.962Z",
   "builder": [
     {
       "type": "nixpacks",

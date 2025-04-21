@@ -33,7 +33,7 @@
     "description": "MCP (Model Context Protocol) server for blockchain data interaction through the Bankless API."
   },
   "manifestHash": "ce057a951db92db9467d1d1a0fd21d97",
-  "createdAt": "2025-04-17T11:10:45.108Z",
+  "createdAt": "2025-04-21T06:19:30.023Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol server that provides tools for interacting with Airtable's API. This server enables programmatic management of Airtable bases, tables, fields, and records through Claude Desktop or other MCP clients."
   },
   "manifestHash": "d72d238d0654fe9e0d8f7ffc31288e89",
-  "createdAt": "2025-04-17T11:10:51.082Z",
+  "createdAt": "2025-04-21T06:19:36.490Z",
   "builder": [
     {
       "type": "nixpacks",

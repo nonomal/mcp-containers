@@ -20,7 +20,7 @@
     "description": "A powerful MCP (Model Context Protocol) Server that audits npm package dependencies for security vulnerabilities. Built with remote npm registry integration for real-time security checks."
   },
   "manifestHash": "ce21bc68749b6a9bb1effce6d68e5864",
-  "createdAt": "2025-04-21T04:18:18.084Z",
+  "createdAt": "2025-04-21T06:19:56.789Z",
   "builder": [
     {
       "type": "nixpacks",

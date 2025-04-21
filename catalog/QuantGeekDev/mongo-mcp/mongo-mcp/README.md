@@ -23,11 +23,13 @@ docker pull ghcr.io/metorial/mcp-container--quantgeekdev--mongo-mcp--mongo-mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--quantgeekdev--mongo-mcp--mongo-mcp {{MONGODB_URI}}
+docker run -i --rm \ 
+ghcr.io/metorial/mcp-container--quantgeekdev--mongo-mcp--mongo-mcp {{MONGODB_URI}} "node dist/index.js {{MONGODB_URI}}"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -53,7 +55,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--quantgeekdev--mongo-mcp--mongo-mcp",
         "node dist/index.js {{MONGODB_URI}}"

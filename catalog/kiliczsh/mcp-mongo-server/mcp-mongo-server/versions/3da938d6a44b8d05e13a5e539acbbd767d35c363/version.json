@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol Server for MongoDB"
   },
   "manifestHash": "2e77c636d064b672ba756769a5791823",
-  "createdAt": "2025-04-17T11:11:03.068Z",
+  "createdAt": "2025-04-21T06:19:48.432Z",
   "builder": [
     {
       "type": "nixpacks",

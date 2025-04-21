@@ -20,7 +20,7 @@
     "description": "**Eunomia MCP Server** is an extension of the [Eunomia][eunomia-repo] framework that connects Eunomia instruments with [MCP][mcp-docs] servers. It provides a simple way to orchestrate data governance policies (like PII detection or user access control) and seamlessly integrate them with external server processes in the MCP ecosystem."
   },
   "manifestHash": "6fdb6a9eda0b25f1bd471042a3225979",
-  "createdAt": "2025-04-17T11:11:17.068Z",
+  "createdAt": "2025-04-21T06:20:02.823Z",
   "builder": [
     {
       "type": "nixpacks",

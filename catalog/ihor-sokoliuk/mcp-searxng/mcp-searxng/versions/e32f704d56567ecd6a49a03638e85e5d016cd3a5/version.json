@@ -33,7 +33,7 @@
     "description": "An [MCP server](https://modelcontextprotocol.io/introduction) implementation that integrates the SearxNG API, providing web search capabilities."
   },
   "manifestHash": "0d2604362c3876eaa57fdeedd884e0ff",
-  "createdAt": "2025-04-20T01:14:01.113Z",
+  "createdAt": "2025-04-21T06:19:43.238Z",
   "builder": [
     {
       "type": "nixpacks",

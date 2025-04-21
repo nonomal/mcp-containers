@@ -20,7 +20,7 @@
     "description": "The server proxies requests from client to JetBrains IDE."
   },
   "manifestHash": "04860e0ef7b8c33cdefc9961b49a4149",
-  "createdAt": "2025-04-17T11:11:00.211Z",
+  "createdAt": "2025-04-21T06:19:45.582Z",
   "builder": [
     {
       "type": "nixpacks",

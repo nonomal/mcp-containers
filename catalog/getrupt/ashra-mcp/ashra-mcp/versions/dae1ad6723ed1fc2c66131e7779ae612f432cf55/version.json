@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server for Ashra."
   },
   "manifestHash": "42fa468419f1fe544af5d4744beff2d8",
-  "createdAt": "2025-04-17T11:10:53.388Z",
+  "createdAt": "2025-04-21T06:19:38.694Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -45,7 +45,7 @@
     "description": "This MCP server enables Claude to interact with Okta's user management system, providing user and group management capabilities."
   },
   "manifestHash": "1dc9a19b5cf169a470def336cfb3cb92",
-  "createdAt": "2025-04-17T11:11:02.401Z",
+  "createdAt": "2025-04-21T06:19:47.749Z",
   "builder": [
     {
       "type": "nixpacks",

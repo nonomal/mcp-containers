@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--langfuse--mcp-server-langfuse--mcp-s
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--langfuse--mcp-server-langfuse--mcp-server-langfuse 
+docker run -i --rm \ 
+-e LANGFUSE_PUBLIC_KEY=langfuse-public-key -e LANGFUSE_SECRET_KEY=langfuse-secret-key -e LANGFUSE_BASEURL=langfuse-baseurl \
+ghcr.io/metorial/mcp-container--langfuse--mcp-server-langfuse--mcp-server-langfuse  "node ./build/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--langfuse--mcp-server-langfuse--mcp-server-langfuse",
         "node ./build/index.js"

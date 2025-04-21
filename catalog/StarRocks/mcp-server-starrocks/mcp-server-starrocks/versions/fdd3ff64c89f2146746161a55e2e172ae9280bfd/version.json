@@ -69,7 +69,7 @@
     "description": "The StarRocks MCP Server acts as a bridge between AI assistants and StarRocks databases, allowing for direct SQL execution and database exploration without requiring complex setup or configuration."
   },
   "manifestHash": "127c634ad2d00badf90c9db5431684f2",
-  "createdAt": "2025-04-17T11:11:14.288Z",
+  "createdAt": "2025-04-21T06:19:59.997Z",
   "builder": [
     {
       "type": "nixpacks",

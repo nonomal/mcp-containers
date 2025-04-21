@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--da-okazaki--mcp-neo4j-server--mcp-ne
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--da-okazaki--mcp-neo4j-server--mcp-neo-4-j-server 
+docker run -i --rm \ 
+-e NEO4J_URI=neo-4-j-uri -e NEO4J_USERNAME=neo-4-j-username -e NEO4J_PASSWORD=neo-4-j-password \
+ghcr.io/metorial/mcp-container--da-okazaki--mcp-neo4j-server--mcp-neo-4-j-server  "node ./build/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--da-okazaki--mcp-neo4j-server--mcp-neo-4-j-server",
         "node ./build/index.js"

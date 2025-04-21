@@ -129,7 +129,7 @@
     "description": "A Model Context Protocol server that provides access to MySQL databases. This server enables LLMs to inspect database schemas and execute SQL queries."
   },
   "manifestHash": "50150fec6e3fc7ba2d258488bbce0b4d",
-  "createdAt": "2025-04-17T11:10:47.167Z",
+  "createdAt": "2025-04-21T06:19:32.006Z",
   "builder": [
     {
       "type": "nixpacks",

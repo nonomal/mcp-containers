@@ -20,7 +20,7 @@
     "description": "A TypeScript implementation of a Model Context Protocol (MCP) server for Starwind UI, providing tools to help developers work with Starwind UI components."
   },
   "manifestHash": "911d0dae70fb5e7d4c3c6d689c6b2f05",
-  "createdAt": "2025-04-17T11:10:46.232Z",
+  "createdAt": "2025-04-21T06:19:31.099Z",
   "builder": [
     {
       "type": "nixpacks",

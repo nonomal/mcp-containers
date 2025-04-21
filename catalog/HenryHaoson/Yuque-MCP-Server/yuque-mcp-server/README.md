@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--henryhaoson--yuque-mcp-server--yuque
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--henryhaoson--yuque-mcp-server--yuque-mcp-server 
+docker run -i --rm \ 
+-e YUQUE_API_TOKEN=yuque-api-token -e YUQUE_API_BASE_URL=yuque-api-base-url \
+ghcr.io/metorial/mcp-container--henryhaoson--yuque-mcp-server--yuque-mcp-server  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--henryhaoson--yuque-mcp-server--yuque-mcp-server",
         "npm run start"

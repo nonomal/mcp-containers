@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--flowcore-io--mcp-flowcore-platform--
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--flowcore-io--mcp-flowcore-platform--mcp-flowcore-platform 
+docker run -i --rm \ 
+-e USERNAME=username \
+ghcr.io/metorial/mcp-container--flowcore-io--mcp-flowcore-platform--mcp-flowcore-platform  "node ./dist/index.js --username username --pat pat"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -58,7 +61,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--flowcore-io--mcp-flowcore-platform--mcp-flowcore-platform",
         "node ./dist/index.js --username username --pat pat"

@@ -45,7 +45,7 @@
     "description": "This repository contains th Metoro MCP (Model Context Protocol) Server. This MCP Server allows you to interact with your Kubernetes cluster via the Claude Desktop App!"
   },
   "manifestHash": "504633e7eaec6702e0f53a4bf3472309",
-  "createdAt": "2025-04-17T11:11:06.566Z",
+  "createdAt": "2025-04-21T06:19:52.093Z",
   "builder": [
     {
       "type": "nixpacks",

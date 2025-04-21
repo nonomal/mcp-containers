@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that provides line-oriented text file editing capabilities through a standardized API. Optimized for LLM tools with efficient partial file access to minimize token usage."
   },
   "manifestHash": "b930f1e5d92dfc93822b1fce6b655fb2",
-  "createdAt": "2025-04-19T08:16:41.740Z",
+  "createdAt": "2025-04-21T06:20:01.938Z",
   "builder": [
     {
       "type": "nixpacks",

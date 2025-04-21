@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--lishenxydlgzs--aws-athena-mcp--aws-a
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--lishenxydlgzs--aws-athena-mcp--aws-athena-mcp 
+docker run -i --rm \ 
+-e AWS_ACCESS_KEY_ID=AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY=AWS_SECRET_ACCESS_KEY -e AWS_REGION=AWS_REGION \
+ghcr.io/metorial/mcp-container--lishenxydlgzs--aws-athena-mcp--aws-athena-mcp  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--lishenxydlgzs--aws-athena-mcp--aws-athena-mcp",
         "npm run start"

@@ -33,7 +33,7 @@
     "description": "A [Model Context Protocol](https://github.com/modelcontextprotocol) server for the [Linear API](https://developers.linear.app/docs/graphql/working-with-the-graphql-api)."
   },
   "manifestHash": "068d10bf234cce567e2270b5b2772378",
-  "createdAt": "2025-04-17T11:11:00.055Z",
+  "createdAt": "2025-04-21T06:19:45.061Z",
   "builder": [
     {
       "type": "nixpacks",

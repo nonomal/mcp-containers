@@ -33,7 +33,7 @@
     "description": "MCP Server for the Giphy API, enabling AI models to search, retrieve, and utilize GIFs from Giphy."
   },
   "manifestHash": "20e3afd35d746e3d839cae1c7e2e3d1f",
-  "createdAt": "2025-04-17T11:11:05.727Z",
+  "createdAt": "2025-04-21T06:19:51.266Z",
   "builder": [
     {
       "type": "nixpacks",

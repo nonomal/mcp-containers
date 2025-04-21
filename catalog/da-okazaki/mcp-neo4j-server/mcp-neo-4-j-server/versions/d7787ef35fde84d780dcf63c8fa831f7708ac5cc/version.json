@@ -57,7 +57,7 @@
     "description": "An MCP server that provides integration between Neo4j graph database and Claude Desktop, enabling graph database operations through natural language interactions."
   },
   "manifestHash": "dd730e219640144ef71750a96db6c78e",
-  "createdAt": "2025-04-17T11:10:48.546Z",
+  "createdAt": "2025-04-21T06:19:33.579Z",
   "builder": [
     {
       "type": "nixpacks",

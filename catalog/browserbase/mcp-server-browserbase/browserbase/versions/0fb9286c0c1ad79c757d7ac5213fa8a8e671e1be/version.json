@@ -20,7 +20,7 @@
     "description": "This server provides cloud browser automation capabilities using [Browserbase](https://www.browserbase.com/), [Puppeteer](https://pptr.dev/), and [Stagehand](https://github.com/browserbase/stagehand). This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment."
   },
   "manifestHash": "17759e3acc610aaa7d9bbd398dd59e37",
-  "createdAt": "2025-04-17T11:10:46.588Z",
+  "createdAt": "2025-04-21T06:19:31.811Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -69,7 +69,7 @@
     "description": "A Model Context Protocol (MCP) server that allows AI assistants to interact with n8n workflows through natural language."
   },
   "manifestHash": "7d4cbf08e371ca0d32e6ace27a192322",
-  "createdAt": "2025-04-17T11:11:05.363Z",
+  "createdAt": "2025-04-21T06:19:50.886Z",
   "builder": [
     {
       "type": "nixpacks",

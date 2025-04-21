@@ -33,7 +33,7 @@
     "description": "An MCP server for Tavily search."
   },
   "manifestHash": "ad100df35e9d3a965a7ff47979ef8cc8",
-  "createdAt": "2025-04-17T11:11:15.671Z",
+  "createdAt": "2025-04-21T06:20:01.418Z",
   "builder": [
     {
       "type": "nixpacks",

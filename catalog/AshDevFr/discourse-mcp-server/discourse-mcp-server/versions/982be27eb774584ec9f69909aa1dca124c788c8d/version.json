@@ -57,7 +57,7 @@
     "description": "Node.js server implementing Model Context Protocol (MCP) for Discourse search operation."
   },
   "manifestHash": "1dd9728f4316f920b6cf083617e7ca49",
-  "createdAt": "2025-04-17T11:10:44.456Z",
+  "createdAt": "2025-04-21T06:19:29.306Z",
   "builder": [
     {
       "type": "nixpacks",

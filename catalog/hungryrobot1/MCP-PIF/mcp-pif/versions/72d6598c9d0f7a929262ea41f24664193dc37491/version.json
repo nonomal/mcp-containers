@@ -20,7 +20,7 @@
     "description": "A MCP implementation of the personal intelligence framework (PIF)"
   },
   "manifestHash": "3f8940404b0bf5810635f0f029873453",
-  "createdAt": "2025-04-19T22:12:44.415Z",
+  "createdAt": "2025-04-21T06:19:42.494Z",
   "builder": [
     {
       "type": "nixpacks",

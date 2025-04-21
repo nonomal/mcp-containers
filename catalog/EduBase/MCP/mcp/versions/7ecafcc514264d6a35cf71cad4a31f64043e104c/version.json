@@ -57,7 +57,7 @@
     "description": "Model Context Protocol server **for the EduBase platform**. It allows MCP clients (for example Claude Desktop) and LLMs to interact with your EduBase account and perform tasks on your behalf."
   },
   "manifestHash": "d856725ed761dd84da49c7d38e96ed8a",
-  "createdAt": "2025-04-17T11:10:49.623Z",
+  "createdAt": "2025-04-21T06:19:34.812Z",
   "builder": [
     {
       "type": "nixpacks",

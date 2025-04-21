@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--ravenwits--mcp-server-arangodb--mcp-
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--ravenwits--mcp-server-arangodb--mcp-server-arangodb 
+docker run -i --rm \ 
+-e ARANGO_URL=arango-url -e ARANGO_DB=arango-db -e ARANGO_USERNAME=arango-username -e ARANGO_PASSWORD=arango-password \
+ghcr.io/metorial/mcp-container--ravenwits--mcp-server-arangodb--mcp-server-arangodb  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -56,7 +59,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--ravenwits--mcp-server-arangodb--mcp-server-arangodb",
         "npm run start"

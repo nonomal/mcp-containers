@@ -20,7 +20,7 @@
     "description": "MCP server for fetch web page content using Playwright headless browser."
   },
   "manifestHash": "0b82b4ff87cbb94573567cf1e2b8dea5",
-  "createdAt": "2025-04-17T11:10:58.852Z",
+  "createdAt": "2025-04-21T06:19:44.305Z",
   "builder": [
     {
       "type": "nixpacks",

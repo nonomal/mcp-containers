@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server that loads and serves multiple OpenAPI specifications to enable LLM-powered IDE integrations. This server acts as a bridge between your OpenAPI specifications and LLM-powered development tools like Cursor and other code editors."
   },
   "manifestHash": "b008af854650184b6b8088d41923a545",
-  "createdAt": "2025-04-17T11:11:11.837Z",
+  "createdAt": "2025-04-21T06:19:57.761Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--chroma-core--chroma-mcp--chroma-mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--chroma-core--chroma-mcp--chroma-mcp 
+docker run -i --rm \ 
+-e CHROMA_CLIENT_TYPE=chroma-client-type -e CHROMA_=chroma-client-type -e CHROMA_DATA_DIR=chroma-data-dir -e CHROMA_TENANT=chroma-tenant -e CHROMA_DATABASE=chroma-database -e CHROMA_API_KEY=chroma-api-key -e CHROMA_HOST=chroma-host -e CHROMA_PORT=chroma-port -e CHROMA_CUSTOM_AUTH_CREDENTIALS=chroma-custom-auth-credentials -e CHROMA_SSL=chroma-ssl -e CHROMA_DOTENV_PATH=chroma-dotenv-path -e CHROMA_COHERE_API_KEY=chroma-cohere-api-key \
+ghcr.io/metorial/mcp-container--chroma-core--chroma-mcp--chroma-mcp  "chroma-mcp --client-type chroma-client-type --data-dir chroma-data-dir --tenant chroma-tenant --database chroma-database --api-key chroma-api-key --host chroma-host --port chroma-port --custom-auth-credentials chroma-custom-auth-credentials --ssl chroma-ssl --dotenv-path chroma-dotenv-path"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -77,7 +80,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--chroma-core--chroma-mcp--chroma-mcp",
         "chroma-mcp --client-type chroma-client-type --data-dir chroma-data-dir --tenant chroma-tenant --database chroma-database --api-key chroma-api-key --host chroma-host --port chroma-port --custom-auth-credentials chroma-custom-auth-credentials --ssl chroma-ssl --dotenv-path chroma-dotenv-path"

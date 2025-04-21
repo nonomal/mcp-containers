@@ -57,7 +57,7 @@
     "description": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) integration for managing content in the [DevHub CMS system](https://www.devhub.com/)."
   },
   "manifestHash": "75b4fb074f9755bc65fe6666a27685ff",
-  "createdAt": "2025-04-17T11:10:48.992Z",
+  "createdAt": "2025-04-21T06:19:34.197Z",
   "builder": [
     {
       "type": "nixpacks",

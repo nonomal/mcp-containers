@@ -33,7 +33,7 @@
     "description": "This MCP Server is used to summarize your chat messages."
   },
   "manifestHash": "1347669ed06a58c84786160a03e1e9c6",
-  "createdAt": "2025-04-17T11:11:06.193Z",
+  "createdAt": "2025-04-21T06:19:51.676Z",
   "builder": [
     {
       "type": "nixpacks",

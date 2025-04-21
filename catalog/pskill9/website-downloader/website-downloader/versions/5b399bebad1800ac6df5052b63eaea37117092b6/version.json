@@ -20,7 +20,7 @@
     "description": "This MCP server provides a tool to download entire websites using wget. It preserves the website structure and converts links to work locally."
   },
   "manifestHash": "2215a5365f13c003d5659f637b998042",
-  "createdAt": "2025-04-17T11:11:10.327Z",
+  "createdAt": "2025-04-21T06:19:56.084Z",
   "builder": [
     {
       "type": "nixpacks",

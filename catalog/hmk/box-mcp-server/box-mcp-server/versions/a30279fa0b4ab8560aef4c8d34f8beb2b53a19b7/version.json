@@ -45,7 +45,7 @@
     "description": "A Box model context protocol server to search, read and access files"
   },
   "manifestHash": "c192d9d362cb38e3e1808229e36a39a5",
-  "createdAt": "2025-04-17T11:10:56.852Z",
+  "createdAt": "2025-04-21T06:19:42.263Z",
   "builder": [
     {
       "type": "nixpacks",

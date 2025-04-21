@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--joshuarileydev--app-store-connect-mc
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--joshuarileydev--app-store-connect-mcp-server--app-store-connect-mcp-server 
+docker run -i --rm \ 
+-e APP_STORE_CONNECT_KEY_ID=app-store-connect-key-id -e APP_STORE_CONNECT_ISSUER_ID=app-store-connect-issuer-id -e APP_STORE_CONNECT_P8_PATH=app-store-connect-p-8-path \
+ghcr.io/metorial/mcp-container--joshuarileydev--app-store-connect-mcp-server--app-store-connect-mcp-server  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--joshuarileydev--app-store-connect-mcp-server--app-store-connect-mcp-server",
         "npm run start"

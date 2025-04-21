@@ -33,7 +33,7 @@
     "description": "> Connect your Supabase projects to Cursor, Claude, Windsurf, and other AI assistants."
   },
   "manifestHash": "d1205cf9599a1c901c265b4b4852bd59",
-  "createdAt": "2025-04-17T11:11:14.697Z",
+  "createdAt": "2025-04-21T06:20:00.544Z",
   "builder": [
     {
       "type": "nixpacks",

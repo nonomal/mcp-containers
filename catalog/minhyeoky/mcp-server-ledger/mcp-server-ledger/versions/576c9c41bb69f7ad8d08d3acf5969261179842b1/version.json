@@ -19,7 +19,7 @@
     "description": "A Model Context Protocol server for interacting with Ledger CLI, a powerful double-entry accounting system. This server enables Large Language Models to query and analyze financial data through a standardized interface, making it easy for AI assistants to help with financial reporting, budget analysis, and accounting tasks."
   },
   "manifestHash": "9efe857b8d6edf6897769daf40662424",
-  "createdAt": "2025-04-17T11:11:06.516Z",
+  "createdAt": "2025-04-21T06:19:52.074Z",
   "builder": [
     {
       "type": "nixpacks",

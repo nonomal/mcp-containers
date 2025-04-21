@@ -33,7 +33,7 @@
     "description": "An MCP server implementation that integrates with Contentful's Content Management API, providing comprehensive content management capabilities."
   },
   "manifestHash": "21f8cc47137e6adf641fb3781f6cdddd",
-  "createdAt": "2025-04-17T11:10:58.516Z",
+  "createdAt": "2025-04-21T06:19:44.227Z",
   "builder": [
     {
       "type": "nixpacks",

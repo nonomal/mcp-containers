@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--edubase--mcp--mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--edubase--mcp--mcp 
+docker run -i --rm \ 
+-e EDUBASE_API_URL=edubase-api-url -e EDUBASE_API_APP=edubase-api-app -e EDUBASE_API_KEY=edubase-api-key \
+ghcr.io/metorial/mcp-container--edubase--mcp--mcp  "node dist/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--edubase--mcp--mcp",
         "node dist/index.js"

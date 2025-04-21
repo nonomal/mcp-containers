@@ -45,7 +45,7 @@
     "description": "🔥 Model Context Protocol (MCP) server for Firebase."
   },
   "manifestHash": "0e17d72459a99b795313591f20688e72",
-  "createdAt": "2025-04-17T11:10:52.764Z",
+  "createdAt": "2025-04-21T06:19:37.989Z",
   "builder": [
     {
       "type": "nixpacks",

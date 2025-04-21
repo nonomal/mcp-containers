@@ -20,7 +20,7 @@
     "description": "This project is a Model Context Protocol (MCP) server that provides access to the [Bear Notes](https://bear.app)."
   },
   "manifestHash": "864073776d0872d3797ef53b74cdf8c0",
-  "createdAt": "2025-04-17T11:10:43.311Z",
+  "createdAt": "2025-04-21T06:19:28.168Z",
   "builder": [
     {
       "type": "nixpacks",

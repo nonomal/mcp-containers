@@ -56,7 +56,7 @@
     "description": "**MongoDB Lens** is a local Model Context Protocol (MCP) server with full featured access to MongoDB databases using natural language via LLMs to perform queries, run aggregations, optimize performance, and more."
   },
   "manifestHash": "1770b30f78b3eba1ae6448a609907d43",
-  "createdAt": "2025-04-17T11:10:52.911Z",
+  "createdAt": "2025-04-21T06:19:37.896Z",
   "builder": [
     {
       "type": "nixpacks",

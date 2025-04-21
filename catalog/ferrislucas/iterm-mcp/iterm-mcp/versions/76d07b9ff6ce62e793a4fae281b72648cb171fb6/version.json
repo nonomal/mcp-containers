@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server that provides access to your iTerm session."
   },
   "manifestHash": "d87cf01822875bf61ec99339419d0f2f",
-  "createdAt": "2025-04-17T11:10:51.946Z",
+  "createdAt": "2025-04-21T06:19:37.009Z",
   "builder": [
     {
       "type": "nixpacks",

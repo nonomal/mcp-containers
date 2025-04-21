@@ -73,7 +73,7 @@
     "description": "🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments."
   },
   "manifestHash": "3f88783b30a11a4cc58fdc87934aedc4",
-  "createdAt": "2025-04-17T11:11:09.127Z",
+  "createdAt": "2025-04-21T06:19:54.848Z",
   "builder": [
     {
       "type": "nixpacks",

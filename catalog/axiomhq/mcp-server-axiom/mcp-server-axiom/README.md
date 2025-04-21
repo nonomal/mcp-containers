@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--axiomhq--mcp-server-axiom--mcp-serve
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--axiomhq--mcp-server-axiom--mcp-server-axiom 
+docker run -i --rm \ 
+-e AXIOM_TOKEN=axiom-token -e AXIOM_URL=axiom-url -e AXIOM_ORG_ID=axiom-org-id -e AXIOM_QUERY_RATE=axiom-query-rate -e AXIOM_QUERY_BURST=axiom-query-burst -e AXIOM_DATASETS_RATE=axiom-datasets-rate -e AXIOM_DATASETS_BURST=axiom-datasets-burst \
+ghcr.io/metorial/mcp-container--axiomhq--mcp-server-axiom--mcp-server-axiom  "./out"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -59,7 +62,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--axiomhq--mcp-server-axiom--mcp-server-axiom",
         "./out"

@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--tinybirdco--mcp-tinybird--mcp-tinybi
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--tinybirdco--mcp-tinybird--mcp-tinybird stdio
+docker run -i --rm \ 
+-e TB_API_URL=tb-api-url -e TB_ADMIN_TOKEN=tb-admin-token \
+ghcr.io/metorial/mcp-container--tinybirdco--mcp-tinybird--mcp-tinybird stdio "mcp-tinybird stdio"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--tinybirdco--mcp-tinybird--mcp-tinybird",
         "mcp-tinybird stdio"

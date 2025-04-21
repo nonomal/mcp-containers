@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--googl
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--google-maps 
+docker run -i --rm \ 
+-e GOOGLE_MAPS_API_KEY=google-maps-api-key \
+ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--google-maps  "cd ./src/google-maps && node ./dist/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -53,7 +56,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--google-maps",
         "cd ./src/google-maps && node ./dist/index.js"

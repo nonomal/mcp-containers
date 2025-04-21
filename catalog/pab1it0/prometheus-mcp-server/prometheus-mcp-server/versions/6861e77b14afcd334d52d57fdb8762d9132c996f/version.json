@@ -56,7 +56,7 @@
     "description": "An MCP server for Prometheus."
   },
   "manifestHash": "3abb457e2290b60f66fd9977e36f3770",
-  "createdAt": "2025-04-17T11:11:09.736Z",
+  "createdAt": "2025-04-21T06:19:55.395Z",
   "builder": [
     {
       "type": "nixpacks",

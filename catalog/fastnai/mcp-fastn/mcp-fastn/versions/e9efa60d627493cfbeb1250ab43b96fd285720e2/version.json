@@ -44,7 +44,7 @@
     "description": "The Fastn server is a powerful, scalable platform that enables dynamic tool registration and execution based on API definitions. It seamlessly integrates with services like Claude.ai and Cursor.ai, providing a unified server solution for a wide range of tasks. With its robust architecture, Fastn delivers exceptional performance and flexibility for real-time, API-driven operations."
   },
   "manifestHash": "d8ff70e905d7a6fdf63f1493427966f0",
-  "createdAt": "2025-04-17T11:10:51.114Z",
+  "createdAt": "2025-04-21T06:19:36.161Z",
   "builder": [
     {
       "type": "nixpacks",

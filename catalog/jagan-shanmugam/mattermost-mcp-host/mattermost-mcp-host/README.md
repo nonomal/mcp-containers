@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--jagan-shanmugam--mattermost-mcp-host
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--jagan-shanmugam--mattermost-mcp-host--mattermost-mcp-host 
+docker run -i --rm \ 
+-e MATTERMOST_URL=mattermost-url -e MATTERMOST_TOKEN=mattermost-token -e MATTERMOST_TEAM_NAME=mattermost-team-name -e MATTERMOST_CHANNEL_NAME=mattermost-channel-name -e MATTERMOST_CHANNEL_ID=mattermost-channel-id -e DEFAULT_PROVIDER=default-provider -e AZURE_OPENAI_ENDPOINT=azure-openai-endpoint -e AZURE_OPENAI_API_KEY=azure-openai-api-key -e OPENAI_API_KEY=azure-openai-api-key -e AZURE_OPENAI_DEPLOYMENT=azure-openai-deployment -e AZURE_OPENAI_API_VERSION=azure-openai-api-version -e ANTHROPIC_API_KEY=anthropic-api-key -e GOOGLE_API_KEY=google-api-key -e COMMAND_PREFIX=command-prefix -e TAVILY_API_KEY=tavily-api-key \
+ghcr.io/metorial/mcp-container--jagan-shanmugam--mattermost-mcp-host--mattermost-mcp-host  "mattermost-mcp-host --dev dev --all-extras all-extras"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -72,7 +75,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--jagan-shanmugam--mattermost-mcp-host--mattermost-mcp-host",
         "mattermost-mcp-host --dev dev --all-extras all-extras"

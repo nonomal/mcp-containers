@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--abhiz123--todoist-mcp-server--todois
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--abhiz123--todoist-mcp-server--todoist-mcp-server 
+docker run -i --rm \ 
+-e TODOIST_API_TOKEN=todoist-api-token \
+ghcr.io/metorial/mcp-container--abhiz123--todoist-mcp-server--todoist-mcp-server  "node dist/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -53,7 +56,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--abhiz123--todoist-mcp-server--todoist-mcp-server",
         "node dist/index.js"

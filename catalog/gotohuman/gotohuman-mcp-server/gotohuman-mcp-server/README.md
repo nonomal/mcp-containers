@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--gotohuman--gotohuman-mcp-server--got
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--gotohuman--gotohuman-mcp-server--gotohuman-mcp-server 
+docker run -i --rm \ 
+-e GOTOHUMAN_API_KEY=gotohuman-api-key \
+ghcr.io/metorial/mcp-container--gotohuman--gotohuman-mcp-server--gotohuman-mcp-server  "node ./build/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -53,7 +56,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--gotohuman--gotohuman-mcp-server--gotohuman-mcp-server",
         "node ./build/index.js"

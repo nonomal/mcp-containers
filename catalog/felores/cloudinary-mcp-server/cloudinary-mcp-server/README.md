@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--felores--cloudinary-mcp-server--clou
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--felores--cloudinary-mcp-server--cloudinary-mcp-server 
+docker run -i --rm \ 
+-e CLOUDINARY_CLOUD_NAME=cloudinary-cloud-name -e CLOUDINARY_API_KEY=cloudinary-api-key -e CLOUDINARY_API_SECRET=cloudinary-api-secret \
+ghcr.io/metorial/mcp-container--felores--cloudinary-mcp-server--cloudinary-mcp-server  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--felores--cloudinary-mcp-server--cloudinary-mcp-server",
         "npm run start"

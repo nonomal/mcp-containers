@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that provides intelligent summarization capabilities for various types of content using Google's Gemini 1.5 Pro model. This server can help you generate concise summaries while maintaining key information from different content formats."
   },
   "manifestHash": "77a000b5b0b29ea3d0d1d8a3e7f99c31",
-  "createdAt": "2025-04-17T11:10:42.663Z",
+  "createdAt": "2025-04-21T06:19:27.716Z",
   "builder": [
     {
       "type": "nixpacks",

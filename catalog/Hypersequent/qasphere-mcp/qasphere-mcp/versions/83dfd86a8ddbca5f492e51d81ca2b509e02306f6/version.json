@@ -45,7 +45,7 @@
     "description": "A [Model Context Protocol](https://github.com/modelcontextprotocol) server for the [QA Sphere](https://qasphere.com/) test management system."
   },
   "manifestHash": "e9577e41f95c4a968e3708637734bbf3",
-  "createdAt": "2025-04-17T11:10:57.545Z",
+  "createdAt": "2025-04-21T06:19:42.990Z",
   "builder": [
     {
       "type": "nixpacks",

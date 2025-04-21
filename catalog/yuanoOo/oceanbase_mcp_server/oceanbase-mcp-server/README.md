@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--yuanooo--oceanbase_mcp_server--ocean
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--yuanooo--oceanbase_mcp_server--oceanbase-mcp-server 
+docker run -i --rm \ 
+-e OB_HOST=ob-host -e OB_PORT=ob-port -e OB_USER=ob-user -e OB_PASSWORD=ob-password -e OB_DATABASE=ob-database \
+ghcr.io/metorial/mcp-container--yuanooo--oceanbase_mcp_server--oceanbase-mcp-server  "oceanbase_mcp_server"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -57,7 +60,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--yuanooo--oceanbase_mcp_server--oceanbase-mcp-server",
         "oceanbase_mcp_server"

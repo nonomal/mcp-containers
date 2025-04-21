@@ -197,7 +197,7 @@
     "description": "This server provides data retrieval capabilities powered by Chroma, enabling AI models to create collections over generated data and user inputs, and retrieve that data using vector search, full text search, metadata filtering, and more."
   },
   "manifestHash": "ddc157646a690732072acd84a043f9b9",
-  "createdAt": "2025-04-17T11:10:47.740Z",
+  "createdAt": "2025-04-21T06:19:32.698Z",
   "builder": [
     {
       "type": "nixpacks",

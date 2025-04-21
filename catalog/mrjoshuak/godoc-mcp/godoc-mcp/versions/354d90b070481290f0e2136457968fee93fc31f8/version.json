@@ -20,7 +20,7 @@
     "description": "godoc-mcp is a Model Context Protocol (MCP) server that provides efficient access to Go documentation."
   },
   "manifestHash": "5fbd35cf97d16b982c12e2c63fdb7f09",
-  "createdAt": "2025-04-17T11:11:08.856Z",
+  "createdAt": "2025-04-21T06:19:54.380Z",
   "builder": [
     {
       "type": "nixpacks",

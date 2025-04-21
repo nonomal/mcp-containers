@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that provides browser automation capabilities using [Playwright](https://playwright.dev). This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models."
   },
   "manifestHash": "ddbbfdbe91bd3e1ebc9188fb92e3d560",
-  "createdAt": "2025-04-17T22:13:22.567Z",
+  "createdAt": "2025-04-21T06:19:52.270Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -57,7 +57,7 @@
     "description": "This MCP server provides tools for uploading images and videos to Cloudinary through Claude Desktop and compatible MCP clients."
   },
   "manifestHash": "d90fe894a57cd5a3893b7c88d3c26d4b",
-  "createdAt": "2025-04-17T11:10:51.227Z",
+  "createdAt": "2025-04-21T06:19:36.400Z",
   "builder": [
     {
       "type": "nixpacks",

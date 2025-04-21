@@ -45,7 +45,7 @@
     "description": "An MCP server implementation enabling free USDC transfers on **[Base](https://base.org)** with **[Coinbase CDP](https://docs.cdp.coinbase.com/)** MPC Wallet integration."
   },
   "manifestHash": "e097663c6030d6ba6816b0aefcd5018e",
-  "createdAt": "2025-04-17T11:11:05.825Z",
+  "createdAt": "2025-04-21T06:19:51.415Z",
   "builder": [
     {
       "type": "nixpacks",

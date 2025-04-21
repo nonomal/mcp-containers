@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server that provides access to the Rijksmuseum's collection through natural language interactions. This server enables AI models to explore, analyze, and interact with artworks and collections from the Rijksmuseum."
   },
   "manifestHash": "a4065062a1a59b2839e0e8fd91e8b205",
-  "createdAt": "2025-04-17T11:11:11.316Z",
+  "createdAt": "2025-04-21T06:19:57.050Z",
   "builder": [
     {
       "type": "nixpacks",

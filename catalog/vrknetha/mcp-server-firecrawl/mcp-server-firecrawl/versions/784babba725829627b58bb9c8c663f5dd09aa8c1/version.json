@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server implementation that integrates with [Firecrawl](https://github.com/mendableai/firecrawl) for web scraping capabilities."
   },
   "manifestHash": "755f688ecc7e96af908899943612b55f",
-  "createdAt": "2025-04-19T11:12:06.673Z",
+  "createdAt": "2025-04-21T06:20:02.801Z",
   "builder": [
     {
       "type": "nixpacks",

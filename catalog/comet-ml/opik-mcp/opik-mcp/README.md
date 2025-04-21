@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--comet-ml--opik-mcp--opik-mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--comet-ml--opik-mcp--opik-mcp 
+docker run -i --rm \ 
+-e OPIK_API_BASE_URL=opik-api-base-url -e OPIK_API_KEY=opik-api-key -e OPIK_WORKSPACE_NAME=opik-workspace-name \
+ghcr.io/metorial/mcp-container--comet-ml--opik-mcp--opik-mcp  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--comet-ml--opik-mcp--opik-mcp",
         "npm run start"

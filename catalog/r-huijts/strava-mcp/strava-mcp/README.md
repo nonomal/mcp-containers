@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--r-huijts--strava-mcp--strava-mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--r-huijts--strava-mcp--strava-mcp 
+docker run -i --rm \ 
+-e STRAVA_CLIENT_ID=STRAVA_CLIENT_ID -e STRAVA_CLIENT_SECRET=STRAVA_CLIENT_SECRET -e STRAVA_ACCESS_TOKEN=STRAVA_ACCESS_TOKEN -e STRAVA_REFRESH_TOKEN=STRAVA_REFRESH_TOKEN \
+ghcr.io/metorial/mcp-container--r-huijts--strava-mcp--strava-mcp  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -56,7 +59,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--r-huijts--strava-mcp--strava-mcp",
         "npm run start"

@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server implementation for the Didlogic API. This server allows Large Language Models (LLMs) to interact with Didlogic services through a standardized interface."
   },
   "manifestHash": "76e624b9fde2b2fdbcb813981d07c166",
-  "createdAt": "2025-04-17T11:11:16.195Z",
+  "createdAt": "2025-04-21T06:20:02.109Z",
   "builder": [
     {
       "type": "nixpacks",

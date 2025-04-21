@@ -19,7 +19,7 @@
     "description": "MCP Server for Deep Research is a tool designed for conducting comprehensive research on complex topics. It helps you explore questions in depth, find relevant sources, and generate structured research reports."
   },
   "manifestHash": "57e858b2b76f9bc50bd53e67e66e8d47",
-  "createdAt": "2025-04-17T11:11:11.725Z",
+  "createdAt": "2025-04-21T06:19:57.609Z",
   "builder": [
     {
       "type": "nixpacks",

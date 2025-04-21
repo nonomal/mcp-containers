@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--r-huijts--rijksmuseum-mcp--rijksmuse
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--r-huijts--rijksmuseum-mcp--rijksmuseum-mcp 
+docker run -i --rm \ 
+-e RIJKSMUSEUM_API_KEY=rijksmuseum-api-key \
+ghcr.io/metorial/mcp-container--r-huijts--rijksmuseum-mcp--rijksmuseum-mcp  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -53,7 +56,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--r-huijts--rijksmuseum-mcp--rijksmuseum-mcp",
         "npm run start"

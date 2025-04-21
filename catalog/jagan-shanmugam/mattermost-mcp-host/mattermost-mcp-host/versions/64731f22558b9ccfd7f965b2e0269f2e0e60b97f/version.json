@@ -217,7 +217,7 @@
     "description": "A Mattermost integration that connects to Model Context Protocol (MCP) servers, leveraging a LangGraph-based AI agent to provide an intelligent interface for interacting with users and executing tools directly within Mattermost."
   },
   "manifestHash": "cfce10a3709c7b212463772717fb758b",
-  "createdAt": "2025-04-17T11:11:06.132Z",
+  "createdAt": "2025-04-21T06:19:52.088Z",
   "builder": [
     {
       "type": "nixpacks",

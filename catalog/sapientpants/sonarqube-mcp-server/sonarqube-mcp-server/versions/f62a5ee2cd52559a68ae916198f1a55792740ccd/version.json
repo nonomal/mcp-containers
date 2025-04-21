@@ -57,7 +57,7 @@
     "description": "A Model Context Protocol (MCP) server that integrates with SonarQube to provide AI assistants with access to code quality metrics, issues, and analysis results."
   },
   "manifestHash": "41f605e7f5a72acbbb316a3f30316c92",
-  "createdAt": "2025-04-17T11:11:15.066Z",
+  "createdAt": "2025-04-21T06:20:00.656Z",
   "builder": [
     {
       "type": "nixpacks",

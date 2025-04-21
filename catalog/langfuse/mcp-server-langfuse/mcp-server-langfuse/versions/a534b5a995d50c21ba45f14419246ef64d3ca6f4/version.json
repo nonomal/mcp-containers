@@ -57,7 +57,7 @@
     "description": "Model Context Protocol (MCP) Server for Langfuse Prompt Management. This server allows you to access and manage your Langfuse prompts through the Model Context Protocol."
   },
   "manifestHash": "f750696b7d8a11475a6bde938dbd10cf",
-  "createdAt": "2025-04-17T11:11:05.072Z",
+  "createdAt": "2025-04-21T06:19:50.534Z",
   "builder": [
     {
       "type": "nixpacks",

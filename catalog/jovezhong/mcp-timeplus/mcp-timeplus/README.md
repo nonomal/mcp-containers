@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--jovezhong--mcp-timeplus--mcp-timeplu
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--jovezhong--mcp-timeplus--mcp-timeplus 
+docker run -i --rm \ 
+-e TIMEPLUS_HOST=timeplus-host -e TIMEPLUS_PORT=timeplus-port -e TIMEPLUS_USER=timeplus-user -e TIMEPLUS_PASSWORD=timeplus-password -e TIMEPLUS_SECURE=timeplus-secure -e TIMEPLUS_VERIFY=timeplus-verify -e TIMEPLUS_CONNECT_TIMEOUT=timeplus-connect-timeout -e TIMEPLUS_SEND_RECEIVE_TIMEOUT=timeplus-send-receive-timeout -e TIMEPLUS_READ_ONLY=timeplus-read-only -e TIMEPLUS_KAFKA_CONFIG=timeplus-kafka-config \
+ghcr.io/metorial/mcp-container--jovezhong--mcp-timeplus--mcp-timeplus  "mcp-timeplus"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -62,7 +65,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--jovezhong--mcp-timeplus--mcp-timeplus",
         "mcp-timeplus"

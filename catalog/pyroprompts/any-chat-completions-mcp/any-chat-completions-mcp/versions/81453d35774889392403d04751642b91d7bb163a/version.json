@@ -69,7 +69,7 @@
     "description": "Integrate Claude with Any OpenAI SDK Compatible Chat Completion API - OpenAI, Perplexity, Groq, xAI, PyroPrompts and more."
   },
   "manifestHash": "3040e66e565040ecf18e9cb23fe112fd",
-  "createdAt": "2025-04-21T04:18:19.013Z",
+  "createdAt": "2025-04-21T06:19:57.552Z",
   "builder": [
     {
       "type": "nixpacks",

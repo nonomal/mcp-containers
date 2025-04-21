@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol (MCP) server for interacting with Kong Konnect APIs, allowing AI assistants to query and analyze Kong Gateway configurations, traffic, and analytics."
   },
   "manifestHash": "2f54b9043e75ed5c160e4bedbcfcc5cf",
-  "createdAt": "2025-04-17T11:11:03.678Z",
+  "createdAt": "2025-04-21T06:19:49.161Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server for calculating. This server enables LLMs to use calculator for precise numerical calculations."
   },
   "manifestHash": "ebf0108aaf2154a53ba8c5f1d4b886a1",
-  "createdAt": "2025-04-19T09:13:22.359Z",
+  "createdAt": "2025-04-21T06:19:38.641Z",
   "builder": [
     {
       "type": "nixpacks",

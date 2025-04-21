@@ -20,7 +20,7 @@
     "description": "A dynamic MCP server management service that creates, runs, and manages Model Context Protocol (MCP) servers dynamically. This service itself functions as an MCP server and launches/manages other MCP servers as child processes, enabling a flexible MCP ecosystem."
   },
   "manifestHash": "2bed0c9552bfda9ea8cdf26ef83ba2ca",
-  "createdAt": "2025-04-17T11:11:15.314Z",
+  "createdAt": "2025-04-21T06:20:01.149Z",
   "builder": [
     {
       "type": "nixpacks",

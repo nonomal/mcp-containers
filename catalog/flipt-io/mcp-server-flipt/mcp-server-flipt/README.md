@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--flipt-io--mcp-server-flipt--mcp-serv
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--flipt-io--mcp-server-flipt--mcp-server-flipt 
+docker run -i --rm \ 
+-e FLIPT_API_URL=flipt-api-url -e FLIPT_API_KEY=flipt-api-key \
+ghcr.io/metorial/mcp-container--flipt-io--mcp-server-flipt--mcp-server-flipt  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--flipt-io--mcp-server-flipt--mcp-server-flipt",
         "npm run start"

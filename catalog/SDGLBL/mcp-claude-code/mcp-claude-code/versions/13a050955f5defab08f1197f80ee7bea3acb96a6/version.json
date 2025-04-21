@@ -33,7 +33,7 @@
     "description": "An implementation of Claude Code capabilities using the Model Context Protocol (MCP)."
   },
   "manifestHash": "16d51a44b85e7f0204cb1d563bd169c0",
-  "createdAt": "2025-04-17T11:11:13.505Z",
+  "createdAt": "2025-04-21T06:19:59.205Z",
   "builder": [
     {
       "type": "nixpacks",

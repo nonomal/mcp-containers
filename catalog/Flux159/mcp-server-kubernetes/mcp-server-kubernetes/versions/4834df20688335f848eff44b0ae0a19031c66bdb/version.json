@@ -20,7 +20,7 @@
     "description": "MCP Server that can connect to a Kubernetes cluster and manage it."
   },
   "manifestHash": "c974ec60e9005a88314d7a5d18ec1566",
-  "createdAt": "2025-04-19T16:16:41.854Z",
+  "createdAt": "2025-04-21T06:19:37.559Z",
   "builder": [
     {
       "type": "nixpacks",

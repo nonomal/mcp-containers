@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--hannesrudolph--mcp-ragdocs--mcp-ragd
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--hannesrudolph--mcp-ragdocs--mcp-ragdocs 
+docker run -i --rm \ 
+-e OPENAI_API_KEY=openai-api-key -e QDRANT_URL=qdrant-url -e QDRANT_API_KEY=qdrant-api-key \
+ghcr.io/metorial/mcp-container--hannesrudolph--mcp-ragdocs--mcp-ragdocs  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--hannesrudolph--mcp-ragdocs--mcp-ragdocs",
         "npm run start"

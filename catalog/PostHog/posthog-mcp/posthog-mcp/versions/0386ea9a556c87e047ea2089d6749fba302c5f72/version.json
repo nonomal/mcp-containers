@@ -32,7 +32,7 @@
     "description": "A Model Context Protocol (MCP) server for interacting with PostHog. Create annotations and manage projects directly through Claude Desktop!"
   },
   "manifestHash": "7838eb1487589c47ffa5c25456e8112c",
-  "createdAt": "2025-04-17T11:11:10.061Z",
+  "createdAt": "2025-04-21T06:19:55.683Z",
   "builder": [
     {
       "type": "nixpacks",

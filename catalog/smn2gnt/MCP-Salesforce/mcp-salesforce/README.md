@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--smn2gnt--mcp-salesforce--mcp-salesfo
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--smn2gnt--mcp-salesforce--mcp-salesforce 
+docker run -i --rm \ 
+-e SALESFORCE_USERNAME=salesforce-username -e SALESFORCE_PASSWORD=salesforce-password -e SALESFORCE_SECURITY_TOKEN=salesforce-security-token \
+ghcr.io/metorial/mcp-container--smn2gnt--mcp-salesforce--mcp-salesforce  "salesforce"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--smn2gnt--mcp-salesforce--mcp-salesforce",
         "salesforce"

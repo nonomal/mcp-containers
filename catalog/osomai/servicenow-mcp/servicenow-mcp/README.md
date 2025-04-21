@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--osomai--servicenow-mcp--servicenow-m
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--osomai--servicenow-mcp--servicenow-mcp 
+docker run -i --rm \ 
+-e SERVICENOW_INSTANCE_URL=servicenow-instance-url -e SERVICENOW_USERNAME=servicenow-username -e SERVICENOW_PASSWORD=servicenow-password -e SERVICENOW_AUTH_TYPE=servicenow-auth-type \
+ghcr.io/metorial/mcp-container--osomai--servicenow-mcp--servicenow-mcp  "servicenow-mcp"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -56,7 +59,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--osomai--servicenow-mcp--servicenow-mcp",
         "servicenow-mcp"

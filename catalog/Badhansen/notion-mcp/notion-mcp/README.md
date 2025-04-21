@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--badhansen--notion-mcp--notion-mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--badhansen--notion-mcp--notion-mcp 
+docker run -i --rm \ 
+-e NOTION_TOKEN=notion-token -e PAGE_ID=page-id -e NOTION_VERSION=notion-version -e NOTION_BASE_URL=notion-base-url \
+ghcr.io/metorial/mcp-container--badhansen--notion-mcp--notion-mcp  "uv run main_adfin_mcp.py"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -56,7 +59,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--badhansen--notion-mcp--notion-mcp",
         "uv run main_adfin_mcp.py"

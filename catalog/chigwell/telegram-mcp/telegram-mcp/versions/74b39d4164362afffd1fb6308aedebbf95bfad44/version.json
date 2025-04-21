@@ -56,7 +56,7 @@
     "description": "A Telegram MCP (Model Context Protocol) server built using Python, Telethon, and MCP Python SDK. This MCP server provides simple tools for interacting with Telegram chats directly through MCP-compatible hosts, such as Claude for Desktop."
   },
   "manifestHash": "84798a05e28da8c608eda3a753846ebd",
-  "createdAt": "2025-04-19T10:13:26.863Z",
+  "createdAt": "2025-04-21T06:19:32.608Z",
   "builder": [
     {
       "type": "nixpacks",

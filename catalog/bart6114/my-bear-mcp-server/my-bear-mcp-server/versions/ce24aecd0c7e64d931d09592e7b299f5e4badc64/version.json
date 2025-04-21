@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that allows AI assistants like Claude to read notes from the [Bear](https://bear.app/) note-taking app. This implementation connects directly to the Bear SQLite database in a read-only mode, ensuring your notes remain safe and unmodified."
   },
   "manifestHash": "32b142a9347711634b9f54559d12f4f4",
-  "createdAt": "2025-04-17T11:10:45.110Z",
+  "createdAt": "2025-04-21T06:19:30.184Z",
   "builder": [
     {
       "type": "nixpacks",

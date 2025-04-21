@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that enables free web searching using Google search results, with no API keys required."
   },
   "manifestHash": "8513d7026fa4329a44e737b392a3e40e",
-  "createdAt": "2025-04-17T11:11:10.313Z",
+  "createdAt": "2025-04-21T06:19:56.045Z",
   "builder": [
     {
       "type": "nixpacks",

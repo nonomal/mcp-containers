@@ -69,7 +69,7 @@
     "description": "A Model Completion Protocol (MCP) server implementation for ServiceNow, allowing Claude to interact with ServiceNow instances."
   },
   "manifestHash": "4babbc3477a09b1d8a3acd0fdea3a18f",
-  "createdAt": "2025-04-17T11:11:09.712Z",
+  "createdAt": "2025-04-21T06:19:55.245Z",
   "builder": [
     {
       "type": "nixpacks",

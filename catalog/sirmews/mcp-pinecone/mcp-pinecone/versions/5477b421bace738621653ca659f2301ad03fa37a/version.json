@@ -44,7 +44,7 @@
     "description": "Read and write to a Pinecone index."
   },
   "manifestHash": "2b7511d383b6489f11165eb08d7997ba",
-  "createdAt": "2025-04-17T11:11:13.916Z",
+  "createdAt": "2025-04-21T06:19:59.813Z",
   "builder": [
     {
       "type": "nixpacks",

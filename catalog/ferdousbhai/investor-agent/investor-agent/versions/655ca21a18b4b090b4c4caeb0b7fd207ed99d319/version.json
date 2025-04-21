@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server for building an investor agent"
   },
   "manifestHash": "0ffdb842be80904c3c2c0e200413d97d",
-  "createdAt": "2025-04-17T11:10:51.534Z",
+  "createdAt": "2025-04-21T06:19:36.740Z",
   "builder": [
     {
       "type": "nixpacks",

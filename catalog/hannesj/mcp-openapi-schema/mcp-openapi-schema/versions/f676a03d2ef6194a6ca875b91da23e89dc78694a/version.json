@@ -19,7 +19,7 @@
     "description": "A Model Context Protocol (MCP) server that exposes OpenAPI schema information to Large Language Models (LLMs) like Claude. This server allows an LLM to explore and understand OpenAPI specifications through a set of specialized tools."
   },
   "manifestHash": "1a93ee03a16eca4ae63dd5692171f714",
-  "createdAt": "2025-04-17T11:10:54.800Z",
+  "createdAt": "2025-04-21T06:19:40.258Z",
   "builder": [
     {
       "type": "nixpacks",

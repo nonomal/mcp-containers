@@ -20,7 +20,7 @@
     "description": "> A plug-and-play MCP tool server to **send BNB**, **transfer BEP-20 tokens**, **deploy tokens**, and **interact with smart contracts** on the **Binance Smart Chain (BSC)** — built for **Claude Desktop**, **AI agents**, and **developers.**"
   },
   "manifestHash": "a7dce61e9250d73f45bf711f2af556a2",
-  "createdAt": "2025-04-20T01:14:06.262Z",
+  "createdAt": "2025-04-21T06:20:01.590Z",
   "builder": [
     {
       "type": "nixpacks",

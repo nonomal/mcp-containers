@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--slack
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--slack 
+docker run -i --rm \ 
+-e SLACK_BOT_TOKEN=slack-bot-token -e SLACK_TEAM_ID=slack-team-id \
+ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--slack  "cd ./src/slack && node ./dist/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--modelcontextprotocol--servers--slack",
         "cd ./src/slack && node ./dist/index.js"

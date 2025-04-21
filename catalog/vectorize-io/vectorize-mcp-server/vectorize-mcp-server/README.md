@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--vectorize-io--vectorize-mcp-server--
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--vectorize-io--vectorize-mcp-server--vectorize-mcp-server 
+docker run -i --rm \ 
+-e VECTORIZE_ORG_ID=vectorize-org-id -e VECTORIZE_TOKEN=vectorize-token -e VECTORIZE_PIPELINE_ID=vectorize-pipeline-id \
+ghcr.io/metorial/mcp-container--vectorize-io--vectorize-mcp-server--vectorize-mcp-server  "node dist/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--vectorize-io--vectorize-mcp-server--vectorize-mcp-server",
         "node dist/index.js"

@@ -33,7 +33,7 @@
     "description": "Transform your AI assistant into a Dutch railways expert! This MCP server connects Claude to real-time NS (Nederlandse Spoorwegen) travel information, making it your perfect companion for navigating the Netherlands by train."
   },
   "manifestHash": "1aa05e0e7358cad4a7cc1d50eee96473",
-  "createdAt": "2025-04-17T11:11:11.163Z",
+  "createdAt": "2025-04-21T06:19:56.970Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -92,7 +92,7 @@
     "description": "Model Context Protocol (MCP) server for Atlassian products (Confluence and Jira). This integration supports both Confluence & Jira Cloud and Server/Data Center deployments."
   },
   "manifestHash": "bf37603161c30b727667a514e1cf833f",
-  "createdAt": "2025-04-21T05:15:25.270Z",
+  "createdAt": "2025-04-21T06:20:00.240Z",
   "builder": [
     {
       "type": "nixpacks",

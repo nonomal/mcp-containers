@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Azure DevOps services."
   },
   "manifestHash": "8f4bd29b851580caf8cbe6231f41b058",
-  "createdAt": "2025-04-17T11:11:16.824Z",
+  "createdAt": "2025-04-21T06:20:02.652Z",
   "builder": [
     {
       "type": "nixpacks",

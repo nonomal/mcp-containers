@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for SQLite databases."
   },
   "manifestHash": "bb13434b609495b2a68c46a1294edcc6",
-  "createdAt": "2025-04-19T21:12:23.826Z",
+  "createdAt": "2025-04-21T06:19:54.139Z",
   "builder": [
     {
       "type": "nixpacks",

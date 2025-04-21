@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--benborla--mcp-server-mysql--mcp-serv
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--benborla--mcp-server-mysql--mcp-server-mysql 
+docker run -i --rm \ 
+-e MYSQL_HOST=mysql-host -e MYSQL_PORT=mysql-port -e MYSQL_USER=mysql-user -e MYSQL_PASS=mysql-pass -e MYSQL_DB=mysql-db -e ALLOW_INSERT_OPERATION=allow-insert-operation -e ALLOW_UPDATE_OPERATION=allow-update-operation -e ALLOW_DELETE_OPERATION=allow-delete-operation -e PATH=path \
+ghcr.io/metorial/mcp-container--benborla--mcp-server-mysql--mcp-server-mysql  "pnpm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -61,7 +64,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--benborla--mcp-server-mysql--mcp-server-mysql",
         "pnpm run start"

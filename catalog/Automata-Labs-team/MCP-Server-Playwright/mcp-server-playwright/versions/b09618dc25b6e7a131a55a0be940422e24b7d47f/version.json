@@ -20,7 +20,7 @@
     "description": "MCP Server for interacting with Browsers using Playwright."
   },
   "manifestHash": "f32c8206853516433c7baf133d305111",
-  "createdAt": "2025-04-17T11:10:44.654Z",
+  "createdAt": "2025-04-21T06:19:29.550Z",
   "builder": [
     {
       "type": "nixpacks",

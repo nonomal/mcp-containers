@@ -23,11 +23,13 @@ docker pull ghcr.io/metorial/mcp-container--co-browser--attestable-mcp-server--a
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--co-browser--attestable-mcp-server--attestable-mcp-server 
+docker run -i --rm \ 
+ghcr.io/metorial/mcp-container--co-browser--attestable-mcp-server--attestable-mcp-server  "attestable-mcp-server"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 
@@ -40,7 +42,7 @@ docker run -it --rm ghcr.io/metorial/mcp-container--co-browser--attestable-mcp-s
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--co-browser--attestable-mcp-server--attestable-mcp-server",
         "attestable-mcp-server"

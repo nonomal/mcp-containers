@@ -45,7 +45,7 @@
     "description": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server for [Flipt](https://flipt.io), allowing AI assistants to interact with feature flags."
   },
   "manifestHash": "2f3137fa7f4eba56d16403ef36c7a392",
-  "createdAt": "2025-04-17T11:10:52.069Z",
+  "createdAt": "2025-04-21T06:19:37.448Z",
   "builder": [
     {
       "type": "nixpacks",

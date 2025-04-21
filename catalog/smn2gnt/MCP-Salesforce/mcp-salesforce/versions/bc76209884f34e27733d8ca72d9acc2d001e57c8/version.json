@@ -57,7 +57,7 @@
     "description": "A Model Context Protocol (MCP) server implementation for Salesforce integration, allowing LLMs to interact with Salesforce data through SOQL queries and SOSL searches."
   },
   "manifestHash": "182c0aaa43176b8169e33f8091689ee3",
-  "createdAt": "2025-04-17T11:11:13.980Z",
+  "createdAt": "2025-04-21T06:19:59.808Z",
   "builder": [
     {
       "type": "nixpacks",

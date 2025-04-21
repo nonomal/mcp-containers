@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol server for DevRev. It is used to search and retrieve information using the DevRev APIs."
   },
   "manifestHash": "2ba153a694564eb4de6f5bc89bceb1b8",
-  "createdAt": "2025-04-17T11:11:03.880Z",
+  "createdAt": "2025-04-21T06:19:49.378Z",
   "builder": [
     {
       "type": "nixpacks",

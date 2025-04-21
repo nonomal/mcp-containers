@@ -20,7 +20,7 @@
     "description": "The Wanaku MCP Router is a router for AI-enabled applications powered by the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)."
   },
   "manifestHash": "90de2cb05849969b5786598b7c0c55f5",
-  "createdAt": "2025-04-17T11:11:17.374Z",
+  "createdAt": "2025-04-21T06:20:03.297Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -33,7 +33,7 @@
     "description": "An integration that allows LLMs to interact with Raindrop.io bookmarks using the Model Context Protocol (MCP)."
   },
   "manifestHash": "952d50e57979c21ecd0b0a6c89192f48",
-  "createdAt": "2025-04-20T15:13:04.624Z",
+  "createdAt": "2025-04-21T06:19:41.744Z",
   "builder": [
     {
       "type": "nixpacks",

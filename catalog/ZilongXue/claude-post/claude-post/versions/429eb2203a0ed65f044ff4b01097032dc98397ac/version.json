@@ -80,7 +80,7 @@
     "description": "A Model Context Protocol (MCP) server that provides a seamless email management interface through Claude. This integration allows you to handle emails directly through natural language conversations with Claude, supporting features like searching, reading, and sending emails securely."
   },
   "manifestHash": "a8e9f3dcbcd7597611ef0afa2777ce02",
-  "createdAt": "2025-04-17T11:11:21.317Z",
+  "createdAt": "2025-04-21T06:20:08.150Z",
   "builder": [
     {
       "type": "nixpacks",

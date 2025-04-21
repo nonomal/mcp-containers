@@ -69,7 +69,7 @@
     "description": "A Model Context Protocol server for ArangoDB"
   },
   "manifestHash": "224b6ffaff32f7aeddc82f9fb6ee4b0c",
-  "createdAt": "2025-04-17T11:11:11.925Z",
+  "createdAt": "2025-04-21T06:19:57.678Z",
   "builder": [
     {
       "type": "nixpacks",

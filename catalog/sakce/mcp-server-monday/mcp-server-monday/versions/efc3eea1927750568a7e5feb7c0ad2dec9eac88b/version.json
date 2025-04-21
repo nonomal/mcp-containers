@@ -45,7 +45,7 @@
     "description": "MCP Server for monday.com, enabling MCP clients to interact with Monday.com boards, items, updates, and documents."
   },
   "manifestHash": "a532aa6d02ddfdb2c042cffb5d7b59b0",
-  "createdAt": "2025-04-17T11:11:12.642Z",
+  "createdAt": "2025-04-21T06:19:58.364Z",
   "builder": [
     {
       "type": "nixpacks",

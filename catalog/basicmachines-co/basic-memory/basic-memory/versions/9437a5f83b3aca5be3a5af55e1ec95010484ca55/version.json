@@ -19,7 +19,7 @@
     "description": "Basic Memory lets you build persistent knowledge through natural conversations with Large Language Models (LLMs) like"
   },
   "manifestHash": "f21fac3f634719a08c1f82ec4ff56e21",
-  "createdAt": "2025-04-17T16:18:19.317Z",
+  "createdAt": "2025-04-21T06:19:32.911Z",
   "builder": [
     {
       "type": "nixpacks",

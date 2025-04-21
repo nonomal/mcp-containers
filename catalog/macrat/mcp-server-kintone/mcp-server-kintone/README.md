@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--macrat--mcp-server-kintone--mcp-serv
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--macrat--mcp-server-kintone--mcp-server-kintone 
+docker run -i --rm \ 
+-e KINTONE_BASE_URL=kintone-base-url -e KINTONE_USERNAME=kintone-username -e KINTONE_PASSWORD=kintone-password -e KINTONE_API_TOKEN=kintone-api-token -e KINTONE_ALLOW_APPS=kintone-allow-apps -e KINTONE_DENY_APPS=kintone-deny-apps \
+ghcr.io/metorial/mcp-container--macrat--mcp-server-kintone--mcp-server-kintone  "./out"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -58,7 +61,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--macrat--mcp-server-kintone--mcp-server-kintone",
         "./out"

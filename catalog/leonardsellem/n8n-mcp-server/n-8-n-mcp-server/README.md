@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--leonardsellem--n8n-mcp-server--n-8-n
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--leonardsellem--n8n-mcp-server--n-8-n-mcp-server 
+docker run -i --rm \ 
+-e N8N_API_URL=n-8-n-api-url -e N8N_API_KEY=n-8-n-api-key -e N8N_WEBHOOK_USERNAME=n-8-n-webhook-username -e N8N_WEBHOOK_PASSWORD=n-8-n-webhook-password \
+ghcr.io/metorial/mcp-container--leonardsellem--n8n-mcp-server--n-8-n-mcp-server  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -56,7 +59,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--leonardsellem--n8n-mcp-server--n-8-n-mcp-server",
         "npm run start"

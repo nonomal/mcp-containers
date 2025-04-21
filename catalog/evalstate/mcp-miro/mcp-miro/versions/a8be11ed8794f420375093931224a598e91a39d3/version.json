@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol server to connect to the MIRO Whiteboard Application."
   },
   "manifestHash": "82b732f55db6ed68a8bc789d060f0fc8",
-  "createdAt": "2025-04-17T11:10:50.483Z",
+  "createdAt": "2025-04-21T06:19:35.820Z",
   "builder": [
     {
       "type": "nixpacks",

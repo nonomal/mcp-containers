@@ -49,7 +49,7 @@
     "description": "A simple **Model Context Protocol (MCP)** server that integrates with [AgentMail](https://agentmail.to) to dynamically manage email inboxes, list messages, and send or reply to emails—all through an AI assistant such as Claude. This reference implementation demonstrates how to use AgentMail’s API within an MCP server to orchestrate email inboxes on the fly."
   },
   "manifestHash": "70e6ac5fa67719e843d967106389912b",
-  "createdAt": "2025-04-17T11:10:43.217Z",
+  "createdAt": "2025-04-21T06:19:28.126Z",
   "builder": [
     {
       "type": "nixpacks",

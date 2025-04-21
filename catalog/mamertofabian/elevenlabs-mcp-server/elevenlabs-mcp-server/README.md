@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--mamertofabian--elevenlabs-mcp-server
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--mamertofabian--elevenlabs-mcp-server--elevenlabs-mcp-server 
+docker run -i --rm \ 
+-e ELEVENLABS_API_KEY=elevenlabs-api-key -e ELEVENLABS_VOICE_ID=elevenlabs-voice-id -e ELEVENLABS_MODEL_ID=elevenlabs-model-id -e ELEVENLABS_STABILITY=elevenlabs-stability -e ELEVENLABS_SIMILARITY_BOOST=elevenlabs-similarity-boost -e ELEVENLABS_STYLE=elevenlabs-style -e ELEVENLABS_OUTPUT_DIR=elevenlabs-output-dir \
+ghcr.io/metorial/mcp-container--mamertofabian--elevenlabs-mcp-server--elevenlabs-mcp-server  "elevenlabs-mcp-server"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -59,7 +62,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--mamertofabian--elevenlabs-mcp-server--elevenlabs-mcp-server",
         "elevenlabs-mcp-server"

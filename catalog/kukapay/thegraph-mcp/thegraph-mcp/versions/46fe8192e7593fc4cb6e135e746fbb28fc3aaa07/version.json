@@ -32,7 +32,7 @@
     "description": "An MCP server that powers AI agents with indexed blockchain data from [The Graph](https://thegraph.com/)."
   },
   "manifestHash": "5982c810168b97ba526e70dae9bb98a8",
-  "createdAt": "2025-04-17T11:11:04.554Z",
+  "createdAt": "2025-04-21T06:19:50.079Z",
   "builder": [
     {
       "type": "nixpacks",

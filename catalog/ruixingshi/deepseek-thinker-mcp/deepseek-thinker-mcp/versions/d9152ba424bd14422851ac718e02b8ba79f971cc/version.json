@@ -45,7 +45,7 @@
     "description": "A MCP (Model Context Protocol) provider Deepseek reasoning content to MCP-enabled AI Clients, like Claude Desktop. Supports access to Deepseek's thought processes from the Deepseek API service or from a local Ollama server."
   },
   "manifestHash": "3beb6cc10a7d4c98af2b364171619d54",
-  "createdAt": "2025-04-17T11:11:12.287Z",
+  "createdAt": "2025-04-21T06:19:58.077Z",
   "builder": [
     {
       "type": "nixpacks",

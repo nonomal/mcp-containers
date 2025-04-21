@@ -32,7 +32,7 @@
     "description": "A MCP server to connect to wolfram alpha API."
   },
   "manifestHash": "bb4a9eb81e1ff4a958306570cf479773",
-  "createdAt": "2025-04-17T11:11:13.487Z",
+  "createdAt": "2025-04-21T06:19:59.234Z",
   "builder": [
     {
       "type": "nixpacks",

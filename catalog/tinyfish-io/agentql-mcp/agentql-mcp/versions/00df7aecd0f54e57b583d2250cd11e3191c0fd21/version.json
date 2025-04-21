@@ -33,7 +33,7 @@
     "description": "This is a Model Context Protocol (MCP) server that integrates [AgentQL](https://agentql.com)'s data extraction capabilities."
   },
   "manifestHash": "dec5b6cd4f0a778af6f291b4611318ac",
-  "createdAt": "2025-04-17T11:11:15.779Z",
+  "createdAt": "2025-04-21T06:20:01.616Z",
   "builder": [
     {
       "type": "nixpacks",

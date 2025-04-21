@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server that connects to [Heurist Mesh](https://github.com/heurist-network/heurist-agent-framework/tree/main/mesh) APIs, providing Claude with access to various blockchain and web3 tools."
   },
   "manifestHash": "8842bbc6ad7f9f0450838fad4c2e07e4",
-  "createdAt": "2025-04-17T11:10:56.067Z",
+  "createdAt": "2025-04-21T06:19:41.423Z",
   "builder": [
     {
       "type": "nixpacks",

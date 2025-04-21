@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--goat-sdk--goat--model-context-protoc
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--goat-sdk--goat--model-context-protocol 
+docker run -i --rm \ 
+-e WALLET_PRIVATE_KEY=wallet-private-key -e RPC_PROVIDER_URL=rpc-provider-url \
+ghcr.io/metorial/mcp-container--goat-sdk--goat--model-context-protocol  "node ./build/evm.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--goat-sdk--goat--model-context-protocol",
         "node ./build/evm.js"

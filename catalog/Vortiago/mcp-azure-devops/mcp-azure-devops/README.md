@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--vortiago--mcp-azure-devops--mcp-azur
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--vortiago--mcp-azure-devops--mcp-azure-devops 
+docker run -i --rm \ 
+-e AZURE_DEVOPS_PAT=azure-devops-pat -e AZURE_DEVOPS_ORGANIZATION_URL=azure-devops-organization-url \
+ghcr.io/metorial/mcp-container--vortiago--mcp-azure-devops--mcp-azure-devops  "mcp-azure-devops"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--vortiago--mcp-azure-devops--mcp-azure-devops",
         "mcp-azure-devops"

@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol server for Keycloak administration, providing tools to manage users and realms."
   },
   "manifestHash": "12dcb4e3eb31fa25fb88a204101a9ecc",
-  "createdAt": "2025-04-17T11:10:47.587Z",
+  "createdAt": "2025-04-21T06:19:32.454Z",
   "builder": [
     {
       "type": "nixpacks",

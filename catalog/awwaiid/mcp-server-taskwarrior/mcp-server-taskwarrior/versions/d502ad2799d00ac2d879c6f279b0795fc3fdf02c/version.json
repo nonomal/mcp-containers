@@ -20,7 +20,7 @@
     "description": "Node.js server implementing Model Context Protocol (MCP) for [TaskWarrior](https://taskwarrior.org/) operations."
   },
   "manifestHash": "3289fb633b9ceeb4c80d95ad9afc2446",
-  "createdAt": "2025-04-17T11:10:44.984Z",
+  "createdAt": "2025-04-21T06:19:29.908Z",
   "builder": [
     {
       "type": "nixpacks",

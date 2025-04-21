@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--andybrandt--mcp-simple-pubmed--mcp-s
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--andybrandt--mcp-simple-pubmed--mcp-simple-pubmed 
+docker run -i --rm \ 
+-e PUBMED_EMAIL=pubmed-email -e PUBMED_API_KEY=pubmed-api-key \
+ghcr.io/metorial/mcp-container--andybrandt--mcp-simple-pubmed--mcp-simple-pubmed  "mcp-simple-pubmed"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--andybrandt--mcp-simple-pubmed--mcp-simple-pubmed",
         "mcp-simple-pubmed"

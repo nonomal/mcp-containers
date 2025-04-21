@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--sakce--mcp-server-monday--mcp-server
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--sakce--mcp-server-monday--mcp-server-monday 
+docker run -i --rm \ 
+-e MONDAY_API_KEY=monday-api-key -e MONDAY_WORKSPACE_NAME=monday-workspace-name \
+ghcr.io/metorial/mcp-container--sakce--mcp-server-monday--mcp-server-monday  "mcp-server-monday"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--sakce--mcp-server-monday--mcp-server-monday",
         "mcp-server-monday"

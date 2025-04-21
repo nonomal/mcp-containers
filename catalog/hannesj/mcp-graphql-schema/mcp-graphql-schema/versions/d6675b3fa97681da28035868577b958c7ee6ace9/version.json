@@ -19,7 +19,7 @@
     "description": "A Model Context Protocol (MCP) server that exposes GraphQL schema information to Large Language Models (LLMs) like Claude. This server allows an LLM to explore and understand GraphQL schemas through a set of specialized tools."
   },
   "manifestHash": "664e32cc25c50e42c02d31e46b75bf20",
-  "createdAt": "2025-04-17T11:10:54.756Z",
+  "createdAt": "2025-04-21T06:19:40.082Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -45,7 +45,7 @@
     "description": "An MCP server providing tools for AI agents to mint ERC-20 tokens, supporting 21 blockchains."
   },
   "manifestHash": "2e8269eadfa290c9676ac1af9570acc9",
-  "createdAt": "2025-04-17T11:11:04.620Z",
+  "createdAt": "2025-04-21T06:19:50.185Z",
   "builder": [
     {
       "type": "nixpacks",

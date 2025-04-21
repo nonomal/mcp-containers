@@ -20,7 +20,7 @@
     "description": "MCP server for Bilibili search."
   },
   "manifestHash": "5f75ec84a1ffd7bd270a02e7d58116f6",
-  "createdAt": "2025-04-17T11:10:42.630Z",
+  "createdAt": "2025-04-21T06:19:27.545Z",
   "builder": [
     {
       "type": "nixpacks",

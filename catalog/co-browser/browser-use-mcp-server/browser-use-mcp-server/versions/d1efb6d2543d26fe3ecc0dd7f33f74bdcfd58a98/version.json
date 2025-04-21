@@ -109,7 +109,7 @@
     "description": "An MCP server that enables AI agents to control web browsers using browser-use."
   },
   "manifestHash": "b2e34930cf577d149286e63e2bd0474e",
-  "createdAt": "2025-04-20T18:17:52.665Z",
+  "createdAt": "2025-04-21T06:19:33.191Z",
   "builder": [
     {
       "type": "nixpacks",

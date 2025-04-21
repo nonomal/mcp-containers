@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server for generating charts using QuickChart.io . It allows you to create various types of charts through MCP tools."
   },
   "manifestHash": "5b7341e6763e10bdc678e210501d1164",
-  "createdAt": "2025-04-17T11:10:54.019Z",
+  "createdAt": "2025-04-21T06:19:39.480Z",
   "builder": [
     {
       "type": "nixpacks",

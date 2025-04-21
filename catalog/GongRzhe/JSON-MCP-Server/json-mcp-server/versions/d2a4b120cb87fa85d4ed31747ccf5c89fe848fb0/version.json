@@ -20,7 +20,7 @@
     "description": "A JSON Model Context Protocol (MCP) server implementation for querying and manipulating JSON data. This server enables LLMs to interact with JSON data through a set of standardized tools."
   },
   "manifestHash": "42b1d97ad289a737fb3dadea2701b820",
-  "createdAt": "2025-04-17T11:10:56.903Z",
+  "createdAt": "2025-04-21T06:19:41.585Z",
   "builder": [
     {
       "type": "nixpacks",

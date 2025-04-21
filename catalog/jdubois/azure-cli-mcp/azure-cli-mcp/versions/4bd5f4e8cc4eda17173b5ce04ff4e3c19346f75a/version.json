@@ -105,7 +105,7 @@
     "description": "This is an [MCP Server](https://modelcontextprotocol.io) that wraps the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/), adds a nice prompt to improve how it works, and exposes it."
   },
   "manifestHash": "f1df9fc49c65789b6e7fbc834bb1ddcf",
-  "createdAt": "2025-04-18T14:49:31.377Z",
+  "createdAt": "2025-04-21T06:19:48.278Z",
   "builder": [
     {
       "type": "nixpacks",

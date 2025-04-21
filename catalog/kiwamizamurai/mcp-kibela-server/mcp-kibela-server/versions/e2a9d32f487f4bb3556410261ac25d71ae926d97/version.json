@@ -45,7 +45,7 @@
     "description": "MCP server implementation for Kibela API integration, enabling LLMs to interact with Kibela content."
   },
   "manifestHash": "5a3d4677c5eaa0299cee0553e7e05010",
-  "createdAt": "2025-04-17T11:11:03.372Z",
+  "createdAt": "2025-04-21T06:19:48.976Z",
   "builder": [
     {
       "type": "nixpacks",

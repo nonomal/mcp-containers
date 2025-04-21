@@ -44,7 +44,7 @@
     "description": "A Model Context Protocol (MCP) server that enables AI assistants to query and analyze Azure Data Explorer databases through standardized interfaces."
   },
   "manifestHash": "0dd97be89d368e51477e42cf88e1c110",
-  "createdAt": "2025-04-17T11:11:09.633Z",
+  "createdAt": "2025-04-21T06:19:55.386Z",
   "builder": [
     {
       "type": "nixpacks",

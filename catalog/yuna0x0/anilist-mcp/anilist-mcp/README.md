@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--yuna0x0--anilist-mcp--anilist-mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--yuna0x0--anilist-mcp--anilist-mcp 
+docker run -i --rm \ 
+-e ANILIST_TOKEN=anilist-token \
+ghcr.io/metorial/mcp-container--yuna0x0--anilist-mcp--anilist-mcp  "bun run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -53,7 +56,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--yuna0x0--anilist-mcp--anilist-mcp",
         "bun run start"

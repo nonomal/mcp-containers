@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--jdubois--azure-cli-mcp--azure-cli-mc
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--jdubois--azure-cli-mcp--azure-cli-mcp 
+docker run -i --rm \ 
+-e AZURE_CREDENTIALS=azure-credentials \
+ghcr.io/metorial/mcp-container--jdubois--azure-cli-mcp--azure-cli-mcp  "java -Dserver.port=$PORT $JAVA_OPTS -jar target/*jar --name name --role role --scopes scopes --json-auth json-auth --repo repo --pattern pattern"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -62,7 +65,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--jdubois--azure-cli-mcp--azure-cli-mcp",
         "java -Dserver.port=$PORT $JAVA_OPTS -jar target/*jar --name name --role role --scopes scopes --json-auth json-auth --repo repo --pattern pattern"

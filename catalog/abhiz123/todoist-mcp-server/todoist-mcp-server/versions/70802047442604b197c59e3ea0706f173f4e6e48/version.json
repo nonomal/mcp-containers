@@ -33,7 +33,7 @@
     "description": "An MCP (Model Context Protocol) server implementation that integrates Claude with Todoist, enabling natural language task management. This server allows Claude to interact with your Todoist tasks using everyday language."
   },
   "manifestHash": "a93b034c087892d79ac2af7503219e1b",
-  "createdAt": "2025-04-20T04:16:09.837Z",
+  "createdAt": "2025-04-21T06:19:27.560Z",
   "builder": [
     {
       "type": "nixpacks",

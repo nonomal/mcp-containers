@@ -20,7 +20,7 @@
     "description": "An MCP (Model Context Protocol) server that enables running Bruno collections. This server allows LLMs to execute API tests using Bruno and get detailed results through a standardized interface."
   },
   "manifestHash": "34020c207d09b2a16b69f2842157c07d",
-  "createdAt": "2025-04-17T11:10:57.102Z",
+  "createdAt": "2025-04-21T06:19:42.435Z",
   "builder": [
     {
       "type": "nixpacks",

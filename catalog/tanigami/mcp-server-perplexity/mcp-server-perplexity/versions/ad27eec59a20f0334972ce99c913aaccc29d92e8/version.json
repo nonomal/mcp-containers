@@ -33,7 +33,7 @@
     "description": "MCP Server for the Perplexity API."
   },
   "manifestHash": "b21a7ea184e9bca7290e6a1da742ad3c",
-  "createdAt": "2025-04-17T11:11:15.140Z",
+  "createdAt": "2025-04-21T06:20:00.752Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -56,7 +56,7 @@
     "description": "Unity Catalog AI Model Context Protocol Server"
   },
   "manifestHash": "d4b2927178fcbd717cb49d67add1492f",
-  "createdAt": "2025-04-17T11:11:10.179Z",
+  "createdAt": "2025-04-21T06:19:55.805Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -105,7 +105,7 @@
     "description": "A Model Context Protocol (MCP) server that integrates with ElevenLabs text-to-speech API, featuring both a server component and a sample web-based MCP Client (SvelteKit) for managing voice generation tasks."
   },
   "manifestHash": "f535562fb7f90736e0d7731647a04c8e",
-  "createdAt": "2025-04-17T11:11:05.938Z",
+  "createdAt": "2025-04-21T06:19:51.501Z",
   "builder": [
     {
       "type": "nixpacks",

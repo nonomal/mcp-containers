@@ -33,7 +33,7 @@
     "description": "A free Model Context Protocol (MCP) server that integrates with Octagon Market Intelligence API"
   },
   "manifestHash": "ce118860a2decbeaf8e35efbe6de845d",
-  "createdAt": "2025-04-18T21:13:15.644Z",
+  "createdAt": "2025-04-21T06:19:54.791Z",
   "builder": [
     {
       "type": "nixpacks",

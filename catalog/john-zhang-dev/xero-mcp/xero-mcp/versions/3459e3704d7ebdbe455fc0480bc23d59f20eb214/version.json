@@ -57,7 +57,7 @@
     "description": "This MCP server allows Clients to interact with [Xero Accounting Software](https://www.xero.com)."
   },
   "manifestHash": "ecaf531c30ffc6aecedb90ef2ff5674d",
-  "createdAt": "2025-04-17T11:11:00.748Z",
+  "createdAt": "2025-04-21T06:19:46.078Z",
   "builder": [
     {
       "type": "nixpacks",

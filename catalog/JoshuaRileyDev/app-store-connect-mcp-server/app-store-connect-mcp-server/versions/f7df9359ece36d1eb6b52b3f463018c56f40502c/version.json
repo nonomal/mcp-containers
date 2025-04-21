@@ -57,7 +57,7 @@
     "description": "A Model Context Protocol (MCP) server for interacting with the App Store Connect API. This server provides tools for managing apps, beta testers, bundle IDs, devices, and capabilities in App Store Connect."
   },
   "manifestHash": "ce26d2a2f3c68eb2fef6b48e3f722ce8",
-  "createdAt": "2025-04-17T11:11:04.434Z",
+  "createdAt": "2025-04-21T06:19:49.587Z",
   "builder": [
     {
       "type": "nixpacks",

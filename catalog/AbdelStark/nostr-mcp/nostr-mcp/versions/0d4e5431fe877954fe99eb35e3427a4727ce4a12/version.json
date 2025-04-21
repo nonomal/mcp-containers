@@ -69,7 +69,7 @@
     "description": "A Model Context Protocol (MCP) server that enables AI models to interact with Nostr, allowing them to post notes and interact with the freedom of speech protocol."
   },
   "manifestHash": "f6e7dbd717edd83cb6f7c1aa52b05493",
-  "createdAt": "2025-04-17T11:10:42.856Z",
+  "createdAt": "2025-04-21T06:19:27.531Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -33,7 +33,7 @@
     "description": "This repository contains a Model Context Protocol (MCP) server with tools that can access the OpenTelemetry traces and"
   },
   "manifestHash": "182d5b30bbae56e972019043732a5388",
-  "createdAt": "2025-04-17T11:11:10.481Z",
+  "createdAt": "2025-04-21T06:19:56.205Z",
   "builder": [
     {
       "type": "nixpacks",

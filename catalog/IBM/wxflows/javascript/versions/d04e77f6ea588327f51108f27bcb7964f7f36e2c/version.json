@@ -45,7 +45,7 @@
     "description": "Here's a step-by-step tutorial for setting up and deploying a project with `wxflows`, including installing necessary tools, deploying the app, and running it locally."
   },
   "manifestHash": "24f66f70cb2e580a481957d52011519d",
-  "createdAt": "2025-04-17T11:10:58.225Z",
+  "createdAt": "2025-04-21T06:19:43.686Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -33,7 +33,7 @@
     "description": "This MCP server integrates with Google Tasks to allow listing, reading, searching, creating, updating, and deleting tasks."
   },
   "manifestHash": "fb560777e5032b036f7ca5baa88218ba",
-  "createdAt": "2025-04-17T11:11:17.958Z",
+  "createdAt": "2025-04-21T06:20:04.054Z",
   "builder": [
     {
       "type": "nixpacks",

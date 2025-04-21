@@ -23,11 +23,13 @@ docker pull ghcr.io/metorial/mcp-container--kw510--strava-mcp--strava-mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--kw510--strava-mcp--strava-mcp https://mcp-strava-oauth.<your-subdomain>.workers.dev/sse
+docker run -i --rm \ 
+ghcr.io/metorial/mcp-container--kw510--strava-mcp--strava-mcp https://mcp-strava-oauth.<your-subdomain>.workers.dev/sse "yarn run start https://mcp-strava-oauth.<your-subdomain>.workers.dev/sse"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 
@@ -40,7 +42,7 @@ docker run -it --rm ghcr.io/metorial/mcp-container--kw510--strava-mcp--strava-mc
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--kw510--strava-mcp--strava-mcp",
         "yarn run start https://mcp-strava-oauth.<your-subdomain>.workers.dev/sse"

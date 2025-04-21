@@ -45,7 +45,7 @@
     "description": "A Model Context Protocol (MCP) server that provides comprehensive access to LinkedIn data and functionalities using the HorizonDataWave API, enabling not only data retrieval but also robust management of user accounts."
   },
   "manifestHash": "0cef0d4ec6fbc497569e68e571dd54cd",
-  "createdAt": "2025-04-17T11:10:56.839Z",
+  "createdAt": "2025-04-21T06:19:42.264Z",
   "builder": [
     {
       "type": "nixpacks",

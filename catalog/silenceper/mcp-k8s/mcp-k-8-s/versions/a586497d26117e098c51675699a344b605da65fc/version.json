@@ -69,7 +69,7 @@
     "description": "A Kubernetes MCP (Model Control Protocol) server that enables interaction with Kubernetes clusters through MCP tools."
   },
   "manifestHash": "04624c2a352bddff5781d1b5c33fa82e",
-  "createdAt": "2025-04-20T03:05:02.992Z",
+  "createdAt": "2025-04-21T06:19:59.864Z",
   "builder": [
     {
       "type": "nixpacks",

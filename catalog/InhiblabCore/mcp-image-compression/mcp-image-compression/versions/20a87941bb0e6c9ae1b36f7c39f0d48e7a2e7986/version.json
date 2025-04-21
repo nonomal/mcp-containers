@@ -33,7 +33,7 @@
     "description": "A high-performance image compression microservice based on MCP (Modal Context Protocol)"
   },
   "manifestHash": "4c02c2b77c822a58a2f33582fc051127",
-  "createdAt": "2025-04-17T11:10:59.919Z",
+  "createdAt": "2025-04-21T06:19:44.988Z",
   "builder": [
     {
       "type": "nixpacks",

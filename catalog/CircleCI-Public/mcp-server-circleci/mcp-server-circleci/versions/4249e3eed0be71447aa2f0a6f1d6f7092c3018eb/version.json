@@ -45,7 +45,7 @@
     "description": "Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems. In this repository, we provide an MCP Server for [CircleCI](https://circleci.com)."
   },
   "manifestHash": "a8c12855464aa3adeb8b613acb1fa6a7",
-  "createdAt": "2025-04-17T11:10:47.683Z",
+  "createdAt": "2025-04-21T06:19:32.902Z",
   "builder": [
     {
       "type": "nixpacks",

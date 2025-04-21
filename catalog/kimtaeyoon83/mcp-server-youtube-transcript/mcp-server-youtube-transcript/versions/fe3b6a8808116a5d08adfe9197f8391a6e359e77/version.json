@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server that enables retrieval of transcripts from YouTube videos. This server provides direct access to video captions and subtitles through a simple interface."
   },
   "manifestHash": "3a1188ff64fb815af53be38f35679ff9",
-  "createdAt": "2025-04-17T11:11:03.088Z",
+  "createdAt": "2025-04-21T06:19:48.822Z",
   "builder": [
     {
       "type": "nixpacks",

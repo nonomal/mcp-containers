@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--leehanchung--bing-search-mcp--bing-s
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--leehanchung--bing-search-mcp--bing-search-mcp 
+docker run -i --rm \ 
+-e BING_API_KEY=bing-api-key \
+ghcr.io/metorial/mcp-container--leehanchung--bing-search-mcp--bing-search-mcp  "mcp-server-bing"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -53,7 +56,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--leehanchung--bing-search-mcp--bing-search-mcp",
         "mcp-server-bing"

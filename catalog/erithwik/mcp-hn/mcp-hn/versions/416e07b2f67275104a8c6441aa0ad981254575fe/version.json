@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server that provides tools for fetching information from Hacker News."
   },
   "manifestHash": "87c31a60af7f1aa4c9af8456a9632d78",
-  "createdAt": "2025-04-17T11:10:50.166Z",
+  "createdAt": "2025-04-21T06:19:35.447Z",
   "builder": [
     {
       "type": "nixpacks",

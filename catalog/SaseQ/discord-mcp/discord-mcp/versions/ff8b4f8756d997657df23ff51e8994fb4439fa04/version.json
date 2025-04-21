@@ -33,7 +33,7 @@
     "description": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server for the Discord API [(JDA)](https://jda.wiki/),"
   },
   "manifestHash": "78ccf567ddd4f030f5bea04d457a5c18",
-  "createdAt": "2025-04-17T11:11:12.981Z",
+  "createdAt": "2025-04-21T06:19:58.695Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--base--base-mcp--base-mcp
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--base--base-mcp--base-mcp 
+docker run -i --rm \ 
+-e COINBASE_API_KEY_NAME=coinbase-api-key-name -e COINBASE_API_PRIVATE_KEY=coinbase-api-private-key -e SEED_PHRASE=seed-phrase -e COINBASE_PROJECT_ID=coinbase-project-id -e ALCHEMY_API_KEY=alchemy-api-key -e PINATA_JWT=pinata-jwt -e OPENROUTER_API_KEY=openrouter-api-key -e CHAIN_ID=chain-id \
+ghcr.io/metorial/mcp-container--base--base-mcp--base-mcp  "yarn run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -60,7 +63,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--base--base-mcp--base-mcp",
         "yarn run start"

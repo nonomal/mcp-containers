@@ -33,7 +33,7 @@
     "description": "An MCP server to manage your inbox efficiently. Use it within Cursor, Windsurf, or Claude desktop to interact with your Inbox Zero personal assistant."
   },
   "manifestHash": "782957f1f6404128920106311e019497",
-  "createdAt": "2025-04-20T22:12:59.095Z",
+  "createdAt": "2025-04-21T06:19:39.177Z",
   "builder": [
     {
       "type": "nixpacks",

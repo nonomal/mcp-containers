@@ -20,7 +20,7 @@
     "description": "Go server implementing Model Context Protocol (MCP) for filesystem operations."
   },
   "manifestHash": "e951e465332b39096614f3825aceb78e",
-  "createdAt": "2025-04-17T11:11:05.927Z",
+  "createdAt": "2025-04-21T06:19:51.454Z",
   "builder": [
     {
       "type": "nixpacks",

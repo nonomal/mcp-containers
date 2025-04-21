@@ -33,7 +33,7 @@
     "description": "This MCP server enables Claude to interact with Webflow's APIs."
   },
   "manifestHash": "57dea0e9104697e2b36b35cb7a7113db",
-  "createdAt": "2025-04-17T11:11:02.022Z",
+  "createdAt": "2025-04-21T06:19:47.769Z",
   "builder": [
     {
       "type": "nixpacks",

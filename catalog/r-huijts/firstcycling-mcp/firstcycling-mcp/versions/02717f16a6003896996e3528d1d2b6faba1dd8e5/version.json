@@ -19,7 +19,7 @@
     "description": "This is a Model Context Protocol (MCP) server that provides professional cycling data from FirstCycling. It allows you to retrieve comprehensive information about professional cyclists, race results, race details, and historical cycling data."
   },
   "manifestHash": "7f884a02636ac91d87c95fbca1145221",
-  "createdAt": "2025-04-17T11:11:11.046Z",
+  "createdAt": "2025-04-21T06:19:56.852Z",
   "builder": [
     {
       "type": "nixpacks",

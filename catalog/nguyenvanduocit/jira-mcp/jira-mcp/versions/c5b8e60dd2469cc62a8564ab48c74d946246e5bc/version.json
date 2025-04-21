@@ -57,7 +57,7 @@
     "description": "A Go-based MCP (Model Control Protocol) connector for Jira that enables AI assistants like Claude to interact with Atlassian Jira. This tool provides a seamless interface for AI models to perform common Jira operations."
   },
   "manifestHash": "8a3f0ec3656e40806a670b3b61464c80",
-  "createdAt": "2025-04-18T07:14:02.504Z",
+  "createdAt": "2025-04-21T06:19:54.701Z",
   "builder": [
     {
       "type": "nixpacks",

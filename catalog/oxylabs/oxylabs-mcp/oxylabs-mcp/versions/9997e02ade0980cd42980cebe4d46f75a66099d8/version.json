@@ -45,7 +45,7 @@
     "description": "The Oxylabs MCP server provides a bridge between AI models and the web. It enables them to scrape any URL, render JavaScript-heavy pages, extract and format content for AI use, bypass anti-scraping measures, and access geo-restricted web data from 195+ countries."
   },
   "manifestHash": "5f851da99af64dccf8380587a2f54ca7",
-  "createdAt": "2025-04-17T11:11:09.757Z",
+  "createdAt": "2025-04-21T06:19:55.331Z",
   "builder": [
     {
       "type": "nixpacks",

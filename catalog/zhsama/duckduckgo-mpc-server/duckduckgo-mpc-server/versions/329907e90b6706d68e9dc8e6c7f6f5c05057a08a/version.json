@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol server for DuckDuckGo Search"
   },
   "manifestHash": "20707eb3475f691a4e6c11387aa8ff06",
-  "createdAt": "2025-04-17T11:11:18.019Z",
+  "createdAt": "2025-04-21T06:20:04.268Z",
   "builder": [
     {
       "type": "nixpacks",

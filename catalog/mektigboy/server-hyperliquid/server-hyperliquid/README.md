@@ -23,11 +23,13 @@ docker pull ghcr.io/metorial/mcp-container--mektigboy--server-hyperliquid--serve
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--mektigboy--server-hyperliquid--server-hyperliquid 
+docker run -i --rm \ 
+ghcr.io/metorial/mcp-container--mektigboy--server-hyperliquid--server-hyperliquid  "node dist/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 
@@ -40,7 +42,7 @@ docker run -it --rm ghcr.io/metorial/mcp-container--mektigboy--server-hyperliqui
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--mektigboy--server-hyperliquid--server-hyperliquid",
         "node dist/index.js"

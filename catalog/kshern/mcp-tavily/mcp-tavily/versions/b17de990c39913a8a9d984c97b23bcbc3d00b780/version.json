@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server implementation for Tavily API, providing advanced search and content extraction capabilities."
   },
   "manifestHash": "97adc5a8e518df38f64478a72a0f43f9",
-  "createdAt": "2025-04-17T11:11:04.027Z",
+  "createdAt": "2025-04-21T06:19:49.763Z",
   "builder": [
     {
       "type": "nixpacks",

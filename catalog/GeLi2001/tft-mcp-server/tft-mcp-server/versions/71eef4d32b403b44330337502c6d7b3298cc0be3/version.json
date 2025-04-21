@@ -56,7 +56,7 @@
     "description": "This is a Model Context Protocol (MCP) server for Team Fight Tactics (TFT) that provides access to TFT game data through various tools."
   },
   "manifestHash": "df73dc52e109589df066a44b5303897f",
-  "createdAt": "2025-04-17T11:10:52.805Z",
+  "createdAt": "2025-04-21T06:19:38.235Z",
   "builder": [
     {
       "type": "nixpacks",

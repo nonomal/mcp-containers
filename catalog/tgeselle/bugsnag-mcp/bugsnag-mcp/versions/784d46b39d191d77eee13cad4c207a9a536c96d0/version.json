@@ -33,7 +33,7 @@
     "description": "A Model Context Protocol (MCP) server for interacting with Bugsnag. This server allows LLM tools like Cursor and Claude to investigate and resolve issues in Bugsnag."
   },
   "manifestHash": "d29a829372e561e171a4b4aaffc3087c",
-  "createdAt": "2025-04-17T11:11:15.444Z",
+  "createdAt": "2025-04-21T06:20:01.296Z",
   "builder": [
     {
       "type": "nixpacks",

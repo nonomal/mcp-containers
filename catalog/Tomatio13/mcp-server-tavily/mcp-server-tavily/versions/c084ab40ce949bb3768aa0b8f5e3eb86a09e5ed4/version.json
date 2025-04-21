@@ -32,7 +32,7 @@
     "description": "This server uses the Tavily API to perform searches based on specified queries."
   },
   "manifestHash": "3bea32a7e94c774fef796bd11257f453",
-  "createdAt": "2025-04-17T11:11:15.761Z",
+  "createdAt": "2025-04-21T06:20:01.554Z",
   "builder": [
     {
       "type": "nixpacks",

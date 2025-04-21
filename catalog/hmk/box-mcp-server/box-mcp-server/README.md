@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--hmk--box-mcp-server--box-mcp-server
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--hmk--box-mcp-server--box-mcp-server 
+docker run -i --rm \ 
+-e BOX_JWT_BASE64=box-jwt-base-64 -e BOX_USER_ID=box-user-id \
+ghcr.io/metorial/mcp-container--hmk--box-mcp-server--box-mcp-server  "node dist/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--hmk--box-mcp-server--box-mcp-server",
         "node dist/index.js"

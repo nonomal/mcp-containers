@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--arpitbatra123--mcp-googletasks--mcp-
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--arpitbatra123--mcp-googletasks--mcp-googletasks 
+docker run -i --rm \ 
+-e GOOGLE_CLIENT_ID=google-client-id -e GOOGLE_CLIENT_SECRET=google-client-secret -e GOOGLE_REDIRECT_URI=google-redirect-uri \
+ghcr.io/metorial/mcp-container--arpitbatra123--mcp-googletasks--mcp-googletasks  "node build/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--arpitbatra123--mcp-googletasks--mcp-googletasks",
         "node build/index.js"

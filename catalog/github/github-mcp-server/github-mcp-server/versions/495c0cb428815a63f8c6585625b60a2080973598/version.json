@@ -33,7 +33,7 @@
     "description": "The GitHub MCP Server is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)"
   },
   "manifestHash": "57c6714d4d0b3aef1fd51c5bf1c3141b",
-  "createdAt": "2025-04-17T20:15:58.187Z",
+  "createdAt": "2025-04-21T06:19:38.987Z",
   "builder": [
     {
       "type": "nixpacks",

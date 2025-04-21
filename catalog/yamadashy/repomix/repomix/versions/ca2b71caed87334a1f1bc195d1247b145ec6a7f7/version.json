@@ -20,7 +20,7 @@
     "description": "Pack your codebase into AI-friendly formats"
   },
   "manifestHash": "aedbb4cecb8710077c6a5e696503f6a3",
-  "createdAt": "2025-04-20T10:13:55.144Z",
+  "createdAt": "2025-04-21T06:20:04.092Z",
   "builder": [
     {
       "type": "nixpacks",

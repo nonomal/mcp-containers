@@ -19,7 +19,7 @@
     "description": "QGISMCP connects [QGIS](https://qgis.org/) to [Claude AI](https://claude.ai/chat) through the Model Context Protocol (MCP), allowing Claude to directly interact with and control QGIS. This integration enables prompt assisted project creation, layer loading, code execution and more."
   },
   "manifestHash": "f39e263527c2921236416524801ac35c",
-  "createdAt": "2025-04-17T11:11:00.528Z",
+  "createdAt": "2025-04-21T06:19:45.706Z",
   "builder": [
     {
       "type": "nixpacks",

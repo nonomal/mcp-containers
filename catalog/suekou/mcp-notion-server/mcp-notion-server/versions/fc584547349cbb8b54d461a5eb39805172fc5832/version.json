@@ -33,7 +33,7 @@
     "description": "MCP Server for the Notion API, enabling LLM to interact with Notion workspaces. Additionally, it employs Markdown conversion to reduce context size when communicating with LLMs, optimizing token usage and making interactions more efficient."
   },
   "manifestHash": "85b562da0b8bcf28e39fb26def3b720b",
-  "createdAt": "2025-04-17T11:11:14.467Z",
+  "createdAt": "2025-04-21T06:20:00.189Z",
   "builder": [
     {
       "type": "nixpacks",

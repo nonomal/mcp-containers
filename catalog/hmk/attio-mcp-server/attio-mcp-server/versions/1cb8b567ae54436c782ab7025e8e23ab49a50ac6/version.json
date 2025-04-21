@@ -33,7 +33,7 @@
     "description": "This is an MCP server for [Attio](https://attio.com/), the AI-native CRM. It allows mcp clients (like Claude) to connect to the Attio API."
   },
   "manifestHash": "ca8da283292c7957370f188342cb8eb5",
-  "createdAt": "2025-04-17T11:10:56.701Z",
+  "createdAt": "2025-04-21T06:19:42.253Z",
   "builder": [
     {
       "type": "nixpacks",

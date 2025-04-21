@@ -44,7 +44,7 @@
     "description": "A Model Context Protocol (MCP) server that provides secure, read-only access to BigQuery datasets. Enables Large Language Models (LLMs) to safely query and analyze data through a standardized interface."
   },
   "manifestHash": "f785e89d2559cd992b2e6046aec07166",
-  "createdAt": "2025-04-17T11:10:50.157Z",
+  "createdAt": "2025-04-21T06:19:35.199Z",
   "builder": [
     {
       "type": "nixpacks",

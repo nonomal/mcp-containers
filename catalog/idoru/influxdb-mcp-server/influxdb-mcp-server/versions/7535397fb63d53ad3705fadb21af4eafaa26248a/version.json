@@ -57,7 +57,7 @@
     "description": "A Model Context Protocol (MCP) server that exposes access to an InfluxDB instance using the InfluxDB OSS API v2. Mostly built with Claude Code."
   },
   "manifestHash": "f8a2a783a64dfc4d3d9c6ad09c684358",
-  "createdAt": "2025-04-17T11:10:57.711Z",
+  "createdAt": "2025-04-21T06:19:43.217Z",
   "builder": [
     {
       "type": "nixpacks",

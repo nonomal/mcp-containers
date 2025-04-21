@@ -44,7 +44,7 @@
     "description": "MCP Server for Shopify API, enabling interaction with store data through GraphQL API. This server provides tools for managing products, customers, orders, and more."
   },
   "manifestHash": "92d042ebaa81cb6f69a78c5d370e1c30",
-  "createdAt": "2025-04-17T11:10:52.893Z",
+  "createdAt": "2025-04-21T06:19:38.191Z",
   "builder": [
     {
       "type": "nixpacks",

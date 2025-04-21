@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--sunsetcoder--flightradar24-mcp-serve
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--sunsetcoder--flightradar24-mcp-server--flightradar-24-mcp-server 
+docker run -i --rm \ 
+-e FR24_API_KEY=fr-24-api-key -e FR24_API_URL=fr-24-api-url \
+ghcr.io/metorial/mcp-container--sunsetcoder--flightradar24-mcp-server--flightradar-24-mcp-server  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--sunsetcoder--flightradar24-mcp-server--flightradar-24-mcp-server",
         "npm run start"

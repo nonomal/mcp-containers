@@ -45,7 +45,7 @@
     "description": "The leading agentic finance toolkit for AI agents"
   },
   "manifestHash": "8f2788561e4b15893f1823c57f68d1b8",
-  "createdAt": "2025-04-17T11:10:56.602Z",
+  "createdAt": "2025-04-21T06:19:42.252Z",
   "builder": [
     {
       "type": "nixpacks",

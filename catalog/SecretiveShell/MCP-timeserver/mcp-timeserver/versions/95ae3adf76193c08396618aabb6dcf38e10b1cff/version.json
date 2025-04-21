@@ -20,7 +20,7 @@
     "description": "A simple MCP server that exposes datetime information to agentic systems and chat REPLs"
   },
   "manifestHash": "e01e9b51d244d57d3a569fb978fa4b2e",
-  "createdAt": "2025-04-17T11:11:13.359Z",
+  "createdAt": "2025-04-21T06:19:59.299Z",
   "builder": [
     {
       "type": "nixpacks",

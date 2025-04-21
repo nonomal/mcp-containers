@@ -32,7 +32,7 @@
     "description": "MCP (Model Context Protocol) server to manage documents and perform searches using [Needle](https://needle-ai.com) through Claude’s Desktop Application."
   },
   "manifestHash": "ce8ce1323d7096592c0ffd1fee559dd7",
-  "createdAt": "2025-04-17T11:11:08.847Z",
+  "createdAt": "2025-04-21T06:19:54.582Z",
   "builder": [
     {
       "type": "nixpacks",

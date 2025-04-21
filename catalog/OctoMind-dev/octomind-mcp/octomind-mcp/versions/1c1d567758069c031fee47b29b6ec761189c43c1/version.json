@@ -33,7 +33,7 @@
     "description": "An MCP server for octomind tools, resources and prompts"
   },
   "manifestHash": "702c996dcb31f48fc6e603dbf7955a73",
-  "createdAt": "2025-04-19T12:25:05.105Z",
+  "createdAt": "2025-04-21T06:19:54.989Z",
   "builder": [
     {
       "type": "nixpacks",

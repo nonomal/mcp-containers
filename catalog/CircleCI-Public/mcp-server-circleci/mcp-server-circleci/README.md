@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--circleci-public--mcp-server-circleci
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--circleci-public--mcp-server-circleci--mcp-server-circleci 
+docker run -i --rm \ 
+-e CIRCLECI_TOKEN=circleci-token -e CIRCLECI_BASE_URL=circleci-base-url \
+ghcr.io/metorial/mcp-container--circleci-public--mcp-server-circleci--mcp-server-circleci  "node ./dist/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -54,7 +57,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--circleci-public--mcp-server-circleci--mcp-server-circleci",
         "node ./dist/index.js"

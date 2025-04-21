@@ -20,7 +20,7 @@
     "description": "MCP Discovery & Recommendation Service - Find the right MCP server for your needs"
   },
   "manifestHash": "20bdc7e8a54595680821d3bd23c20952",
-  "createdAt": "2025-04-17T11:11:05.492Z",
+  "createdAt": "2025-04-21T06:19:51.041Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -23,11 +23,13 @@ docker pull ghcr.io/metorial/mcp-container--hyperb1iss--droidmind--droidmind
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--hyperb1iss--droidmind--droidmind --transport stdio
+docker run -i --rm \ 
+ghcr.io/metorial/mcp-container--hyperb1iss--droidmind--droidmind --transport stdio "droidmind --transport stdio"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 
@@ -40,7 +42,7 @@ docker run -it --rm ghcr.io/metorial/mcp-container--hyperb1iss--droidmind--droid
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--hyperb1iss--droidmind--droidmind",
         "droidmind --transport stdio"

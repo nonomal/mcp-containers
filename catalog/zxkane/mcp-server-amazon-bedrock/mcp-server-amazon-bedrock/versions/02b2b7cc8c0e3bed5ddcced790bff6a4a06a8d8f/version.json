@@ -33,7 +33,7 @@
     "description": "A Model Control Protocol (MCP) server that integrates with Amazon Bedrock's Nova Canvas model for AI image generation."
   },
   "manifestHash": "658b31e4644f34306a521a1a70017fc0",
-  "createdAt": "2025-04-17T11:11:18.296Z",
+  "createdAt": "2025-04-21T06:20:04.483Z",
   "builder": [
     {
       "type": "nixpacks",

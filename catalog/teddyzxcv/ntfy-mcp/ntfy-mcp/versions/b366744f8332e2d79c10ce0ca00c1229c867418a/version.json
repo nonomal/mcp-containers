@@ -33,7 +33,7 @@
     "description": "Welcome to ntfy-mcp, the MCP server that keeps you caffeinated and informed! 🚀☕️"
   },
   "manifestHash": "e17054a5914dabe709332028000d73a1",
-  "createdAt": "2025-04-17T11:11:15.216Z",
+  "createdAt": "2025-04-21T06:20:00.921Z",
   "builder": [
     {
       "type": "nixpacks",

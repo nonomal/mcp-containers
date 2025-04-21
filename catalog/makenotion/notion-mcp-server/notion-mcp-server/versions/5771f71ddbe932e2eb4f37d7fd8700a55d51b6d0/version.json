@@ -33,7 +33,7 @@
     "description": "This project implements an [MCP server](https://spec.modelcontextprotocol.io/) for the [Notion API](https://developers.notion.com/reference/intro)."
   },
   "manifestHash": "65e4834fe48c34a390e5629b987dee7f",
-  "createdAt": "2025-04-17T11:11:05.945Z",
+  "createdAt": "2025-04-21T06:19:51.538Z",
   "builder": [
     {
       "type": "nixpacks",

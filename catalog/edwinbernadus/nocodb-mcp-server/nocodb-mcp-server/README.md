@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--edwinbernadus--nocodb-mcp-server--no
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--edwinbernadus--nocodb-mcp-server--nocodb-mcp-server 
+docker run -i --rm \ 
+-e NOCODB_URL=nocodb-url -e NOCODB_BASE_ID=nocodb-base-id -e NOCODB_API_TOKEN=nocodb-api-token \
+ghcr.io/metorial/mcp-container--edwinbernadus--nocodb-mcp-server--nocodb-mcp-server  "node dist/start.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--edwinbernadus--nocodb-mcp-server--nocodb-mcp-server",
         "node dist/start.js"

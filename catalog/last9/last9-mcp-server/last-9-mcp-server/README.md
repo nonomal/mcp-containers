@@ -23,11 +23,14 @@ docker pull ghcr.io/metorial/mcp-container--last9--last9-mcp-server--last-9-mcp-
 2. Run the container:
 
 ```bash
-docker run -it --rm ghcr.io/metorial/mcp-container--last9--last9-mcp-server--last-9-mcp-server 
+docker run -i --rm \ 
+-e LAST9_AUTH_TOKEN=last-9-auth-token -e LAST9_BASE_URL=last-9-base-url -e LAST9_REFRESH_TOKEN=last-9-refresh-token \
+ghcr.io/metorial/mcp-container--last9--last9-mcp-server--last-9-mcp-server  "node ./bin/cli.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
-- `-it` allows you to interact with the container in your terminal.
+- `-i` allows you to interact with the container in your terminal.
+
 
 
 ### Configuration
@@ -55,7 +58,7 @@ The container supports the following configuration options:
       "command": "docker",
       "args": [
         "run",
-        "-it",
+        "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--last9--last9-mcp-server--last-9-mcp-server",
         "node ./bin/cli.js"

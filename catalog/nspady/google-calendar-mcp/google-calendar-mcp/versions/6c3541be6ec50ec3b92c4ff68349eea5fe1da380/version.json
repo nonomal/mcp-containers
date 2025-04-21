@@ -20,7 +20,7 @@
     "description": "This is a Model Context Protocol (MCP) server that provides integration with Google Calendar. It allows LLMs to read, create, update and search for calendar events through a standardized interface."
   },
   "manifestHash": "3890173299ea52cada1416cee0563dd5",
-  "createdAt": "2025-04-17T11:11:08.952Z",
+  "createdAt": "2025-04-21T06:19:54.662Z",
   "builder": [
     {
       "type": "nixpacks",

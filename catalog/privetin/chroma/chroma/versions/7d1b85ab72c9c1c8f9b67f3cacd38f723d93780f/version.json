@@ -19,7 +19,7 @@
     "description": "A Model Context Protocol (MCP) server implementation that provides vector database capabilities through Chroma. This server enables semantic document search, metadata filtering, and document management with persistent storage."
   },
   "manifestHash": "de912a4aac3e276faef763cb824b7e8e",
-  "createdAt": "2025-04-17T11:11:10.250Z",
+  "createdAt": "2025-04-21T06:19:55.850Z",
   "builder": [
     {
       "type": "nixpacks",

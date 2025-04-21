@@ -20,7 +20,7 @@
     "description": "A Model Context Protocol (MCP) server for interacting with iOS simulators. This server allows you to interact with iOS simulators by getting information about them, controlling UI interactions, and inspecting UI elements."
   },
   "manifestHash": "f569989a51d5454f6b88f471a36ccd95",
-  "createdAt": "2025-04-21T04:18:15.627Z",
+  "createdAt": "2025-04-21T06:19:46.700Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -33,7 +33,7 @@
     "description": "Model Context Protocol (MCP) server implementation providing Google News search capabilities via SerpAPI, with automatic news categorization and multi-language support."
   },
   "manifestHash": "336c5f31101df919fba677506980fa9e",
-  "createdAt": "2025-04-17T11:10:47.170Z",
+  "createdAt": "2025-04-21T06:19:32.324Z",
   "builder": [
     {
       "type": "nixpacks",

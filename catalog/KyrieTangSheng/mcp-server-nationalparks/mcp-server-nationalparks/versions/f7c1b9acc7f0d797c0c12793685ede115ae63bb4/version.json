@@ -33,7 +33,7 @@
     "description": "MCP Server for the National Park Service (NPS) API, providing real-time information about U.S. National Parks, including park details, alerts, and activities."
   },
   "manifestHash": "e04933f923be71edf82f457301524f21",
-  "createdAt": "2025-04-17T11:11:04.854Z",
+  "createdAt": "2025-04-21T06:19:50.413Z",
   "builder": [
     {
       "type": "nixpacks",
