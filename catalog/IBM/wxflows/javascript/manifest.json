@@ -38,6 +38,6 @@
     ]
   },
   "subdirectory": "examples/mcp/javascript",
-  "title": "Watsonx.ai Flows Engine",
+  "title": "Watsonx.ai Flows Engine MCP Server",
   "description": "Here's a step-by-step tutorial for setting up and deploying a project with `wxflows`, including installing necessary tools, deploying the app, and running it locally."
 }

@@ -50,6 +50,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "DevHub CMS MCP",
+  "title": "DevHub CMS MCP Server",
   "description": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) integration for managing content in the [DevHub CMS system](https://www.devhub.com/)."
 }

@@ -26,6 +26,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "Octagon: MCP For Market Data",
+  "title": "Octagon MCP Server",
   "description": "A free Model Context Protocol (MCP) server that integrates with Octagon Market Intelligence API"
 }

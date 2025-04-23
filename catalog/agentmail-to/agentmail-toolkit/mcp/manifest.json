@@ -12,23 +12,7 @@
     "argumentsTemplate": null,
     "configValues": [
       {
-        "title": "your-agentmail-api-key",
-        "description": null,
-        "default": null,
-        "required": false,
-        "fields": [
-          {
-            "type": "environment",
-            "key": "YOUR_AGENTMAIL_API_KEY"
-          },
-          {
-            "type": "cli",
-            "key": "--api-key"
-          }
-        ]
-      },
-      {
-        "title": "agent-mail-api-key",
+        "title": "agentmail-api-key",
         "description": null,
         "default": null,
         "required": false,
@@ -36,6 +20,10 @@
           {
             "type": "environment",
             "key": "AGENT_MAIL_API_KEY"
+          },
+          {
+            "type": "cli",
+            "key": "--api-key"
           }
         ]
       }

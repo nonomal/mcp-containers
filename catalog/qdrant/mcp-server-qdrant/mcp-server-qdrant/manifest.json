@@ -98,6 +98,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "mcp-server-qdrant: A Qdrant MCP server",
+  "title": "Qdrant MCP server",
   "description": "An official Qdrant Model Context Protocol (MCP) server implementation."
 }
