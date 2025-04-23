@@ -309,9 +309,6 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/baidubce.png?size=120" width="12px" height="12px" /> **[Baidu AI Search
 ](catalog/baidubce/app-builder/ai-search/README.md)** - Baidu AI Search component combines Baidu's search capabilities with large language model technology to provide intelligent responses with real-time web information references, supporting various industry application scenarios. It offers rich standardized capabilities such as:
 
-- <img src="https://github.com/bankless.png?size=120" width="12px" height="12px" /> **[Bankless Onchain MCP Server
-](catalog/bankless/onchain-mcp/onchain-mcp/README.md)** - MCP (Model Context Protocol) server for blockchain data interaction through the Bankless API.
-
 - <img src="https://github.com/Bankless.png?size=120" width="12px" height="12px" /> **[Bankless Onchain MCP Server
 ](catalog/Bankless/onchain-mcp/onchain-mcp/README.md)** - MCP (Model Context Protocol) server for blockchain data interaction through the Bankless API.
 
@@ -542,6 +539,9 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/github.png?size=120" width="12px" height="12px" /> **[GitHub MCP Server
 ](catalog/github/github-mcp-server/github-mcp-server/README.md)** - The GitHub MCP Server is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)
+
+- <img src="https://github.com/gitmotion.png?size=120" width="12px" height="12px" /> **[📤 ntfy-me-mcp
+](catalog/gitmotion/ntfy-me-mcp/ntfy-me-mcp/README.md)** - An ntfy MCP server for sending/fetching ntfy notifications to your self-hosted ntfy server from AI Agents 📤 (supports secure token auth & more - use with npx or docker!)
 
 - <img src="https://github.com/GLips.png?size=120" width="12px" height="12px" /> **[Framelink Figma MCP Server
 ](catalog/GLips/Figma-Context-MCP/figma-context-mcp/README.md)** - Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.

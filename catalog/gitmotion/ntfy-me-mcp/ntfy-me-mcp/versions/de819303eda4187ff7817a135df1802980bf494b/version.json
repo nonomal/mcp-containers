@@ -1,39 +1,75 @@
 {
-  "serverId": "Bankless/onchain-mcp/onchain-mcp",
-  "version": "5a0f10947e717c7988c7e75c7edd92544985fdf4",
+  "serverId": "gitmotion/ntfy-me-mcp/ntfy-me-mcp",
+  "version": "de819303eda4187ff7817a135df1802980bf494b",
   "manifest": {
-    "id": "onchain-mcp",
-    "fullId": "Bankless/onchain-mcp/onchain-mcp",
+    "id": "ntfy-me-mcp",
+    "fullId": "gitmotion/ntfy-me-mcp/ntfy-me-mcp",
     "repo": {
       "provider": "github.com",
-      "owner": "Bankless",
-      "repo": "onchain-mcp",
+      "owner": "gitmotion",
+      "repo": "ntfy-me-mcp",
       "branch": "main",
-      "url": "https://github.com/Bankless/onchain-mcp/"
+      "url": "https://github.com/gitmotion/ntfy-me-mcp"
     },
     "config": {
       "argumentsTemplate": null,
       "configValues": [
         {
-          "title": "bankless-api-token",
+          "title": "ntfy-topic",
           "description": null,
           "default": null,
           "required": false,
           "fields": [
             {
               "type": "environment",
-              "key": "BANKLESS_API_TOKEN"
+              "key": "NTFY_TOPIC"
+            },
+            {
+              "type": "cli",
+              "key": "-e NTFY_TOPIC"
+            }
+          ]
+        },
+        {
+          "title": "ntfy-url",
+          "description": null,
+          "default": null,
+          "required": false,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "NTFY_URL"
+            },
+            {
+              "type": "cli",
+              "key": "-e NTFY_URL"
+            }
+          ]
+        },
+        {
+          "title": "ntfy-token",
+          "description": null,
+          "default": null,
+          "required": false,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "NTFY_TOKEN"
+            },
+            {
+              "type": "cli",
+              "key": "-e NTFY_TOKEN"
             }
           ]
         }
       ]
     },
     "subdirectory": "/",
-    "title": "Bankless Onchain MCP Server",
-    "description": "MCP (Model Context Protocol) server for blockchain data interaction through the Bankless API."
+    "title": "📤 ntfy-me-mcp",
+    "description": "An ntfy MCP server for sending/fetching ntfy notifications to your self-hosted ntfy server from AI Agents 📤 (supports secure token auth & more - use with npx or docker!)"
   },
-  "manifestHash": "f33ab072a622118984536795d1d6fcd3",
-  "createdAt": "2025-04-21T06:19:30.127Z",
+  "manifestHash": "ffffeb3b12c85df386ff1e705f8737e5",
+  "createdAt": "2025-04-23T18:30:20.579Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -43,7 +79,6 @@
         "variables": {
           "CI": "true",
           "NIXPACKS_METADATA": "node",
-          "NIXPACKS_SPA_OUTPUT_DIR": "dist",
           "NODE_ENV": "production",
           "NPM_CONFIG_PRODUCTION": "false"
         },
@@ -85,7 +120,7 @@
           }
         },
         "start": {
-          "cmd": "node dist/index.js"
+          "cmd": "npm run start"
         }
       }
     }

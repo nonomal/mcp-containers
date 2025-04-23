@@ -265,12 +265,6 @@
   },
   {
     "id": "onchain-mcp",
-    "owner": "bankless",
-    "repo": "onchain-mcp",
-    "repoUrl": "https://github.com/bankless/onchain-mcp"
-  },
-  {
-    "id": "onchain-mcp",
     "owner": "Bankless",
     "repo": "onchain-mcp",
     "repoUrl": "https://github.com/Bankless/onchain-mcp/"
@@ -730,6 +724,12 @@
     "owner": "github",
     "repo": "github-mcp-server",
     "repoUrl": "https://github.com/github/github-mcp-server"
+  },
+  {
+    "id": "ntfy-me-mcp",
+    "owner": "gitmotion",
+    "repo": "ntfy-me-mcp",
+    "repoUrl": "https://github.com/gitmotion/ntfy-me-mcp"
   },
   {
     "id": "figma-context-mcp",
