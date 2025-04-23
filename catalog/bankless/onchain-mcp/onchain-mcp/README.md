@@ -3,7 +3,7 @@
 
 A containerized version of "Bankless Onchain MCP Server"
 
-> Repository: [bankless/onchain-mcp](https://github.com/bankless/onchain-mcp)
+> Repository: [Bankless/onchain-mcp](https://github.com/Bankless/onchain-mcp/)
 
 ## Description
 
@@ -71,7 +71,7 @@ The container supports the following configuration options:
 
 # License
 
-Please refer to the license provided in [the project repository](https://github.com/bankless/onchain-mcp) for more information.
+Please refer to the license provided in [the project repository](https://github.com/Bankless/onchain-mcp/) for more information.
 
 ## Contributing
 

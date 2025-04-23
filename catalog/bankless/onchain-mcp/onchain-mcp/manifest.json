@@ -1,12 +1,12 @@
 {
   "id": "onchain-mcp",
-  "fullId": "bankless/onchain-mcp/onchain-mcp",
+  "fullId": "Bankless/onchain-mcp/onchain-mcp",
   "repo": {
     "provider": "github.com",
-    "owner": "bankless",
+    "owner": "Bankless",
     "repo": "onchain-mcp",
     "branch": "main",
-    "url": "https://github.com/bankless/onchain-mcp"
+    "url": "https://github.com/Bankless/onchain-mcp/"
   },
   "config": {
     "argumentsTemplate": null,
