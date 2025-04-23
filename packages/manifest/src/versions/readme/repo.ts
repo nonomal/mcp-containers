@@ -1,6 +1,7 @@
 import type { ServerManifest } from '@metorial-mcp-containers/manifest';
 import fs from 'fs-extra';
 import path from 'path';
+import { rootDir } from '../../root';
 import { stripMarkdown } from './stripMarkdown';
 
 let getServerMarkdown = async (server: ServerManifest) => {
@@ -17,7 +18,7 @@ let getServerMarkdown = async (server: ServerManifest) => {
 
 export let generateRepoReadme = async (servers: ServerManifest[]) => {
   let featured = new Set<string>(
-    await fs.readJSON(path.join(__dirname, '../../../../featured.json'), 'utf-8')
+    await fs.readJSON(path.join(rootDir, 'featured.json'), 'utf-8')
   );
 
   return `

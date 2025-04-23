@@ -42,20 +42,12 @@ Follow these steps to get your environment ready and contribute:
    ```
 
 5. **Follow the interactive prompts** to configure and create your new MCP server.
+   1. Make sure to check the server manifest when prompted.
+   2. The `add-server` script will run a test build to ensure everything is set up correctly.
+   3. If you encounter any issues during the build, please ensure to fix them before proceeding.
 
 6. **Verify your addition**  
    Check the `catalog/` directory — your new server config should be listed there.
-
-
-## Testing Your Changes
-
-To make sure everything builds correctly:
-
-```bash
-bun build single <github-org>/<github-repo>/<server-id>
-```
-
-This will run the build process, which includes containerization steps using Docker and Nixpacks, and ensure your new server builds without issues.
 
 ## Before You Submit
 
