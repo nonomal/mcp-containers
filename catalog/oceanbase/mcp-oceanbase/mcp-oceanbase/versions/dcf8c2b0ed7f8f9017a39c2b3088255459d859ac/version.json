@@ -53,11 +53,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "mcp-oceanbase",
+    "title": "Oceanbase MCP Server",
     "description": "MCP Server for OceanBase database and its tools"
   },
-  "manifestHash": "fe55687fa3521bc86022ab6efcc74ae8",
-  "createdAt": "2025-04-23T03:01:00.873Z",
+  "manifestHash": "965d55f33fc271d5f4a0967bf574df18",
+  "createdAt": "2025-04-23T07:42:25.423Z",
   "builder": [
     {
       "type": "nixpacks",

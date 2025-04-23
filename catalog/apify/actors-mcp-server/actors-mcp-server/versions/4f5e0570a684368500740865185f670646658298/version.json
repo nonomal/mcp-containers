@@ -29,11 +29,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "Apify Model Context Protocol (MCP) Server",
+    "title": "Apify MCP Server",
     "description": "Implementation of an MCP server for all [Apify Actors](https://apify.com/store)."
   },
-  "manifestHash": "467b9a258ad56b5c6d9744d7ab308413",
-  "createdAt": "2025-04-22T21:13:32.793Z",
+  "manifestHash": "174e58fd9519d91046116c2bb6f63cdc",
+  "createdAt": "2025-04-23T07:42:15.547Z",
   "builder": [
     {
       "type": "nixpacks",

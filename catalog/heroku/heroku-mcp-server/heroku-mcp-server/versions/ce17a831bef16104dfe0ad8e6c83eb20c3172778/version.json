@@ -29,11 +29,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "heroku-mcp-server",
+    "title": "Heroku MCP Server",
     "description": "> The Heroku Platform MCP Server works on Common Runtime, Cedar Private and Shield Spaces, and Fir Private Spaces."
   },
-  "manifestHash": "88965a480452a04d071d071ffdee3475",
-  "createdAt": "2025-04-22T22:13:50.127Z",
+  "manifestHash": "9be158f48d113b593da6743d09cd5976",
+  "createdAt": "2025-04-23T07:42:20.394Z",
   "builder": [
     {
       "type": "nixpacks",

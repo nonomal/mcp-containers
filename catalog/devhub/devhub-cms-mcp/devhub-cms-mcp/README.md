@@ -1,7 +1,7 @@
 
-# DevHub CMS MCP
+# DevHub CMS MCP Server
 
-A containerized version of "DevHub CMS MCP"
+A containerized version of "DevHub CMS MCP Server"
 
 > Repository: [devhub/devhub-cms-mcp](https://github.com/devhub/devhub-cms-mcp)
 

@@ -1,7 +1,7 @@
 
-# # Playwright MCP
+# Playwright MCP Server
 
-A containerized version of "# Playwright MCP"
+A containerized version of "Playwright MCP Server"
 
 > Repository: [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 

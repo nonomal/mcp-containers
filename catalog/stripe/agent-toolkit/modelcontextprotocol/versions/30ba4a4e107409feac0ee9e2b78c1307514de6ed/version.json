@@ -41,14 +41,14 @@
       ]
     },
     "subdirectory": "/modelcontextprotocol",
-    "title": "Stripe Model Context Protocol",
+    "title": "Stripe MCP Server",
     "description": "The Stripe [Model Context Protocol](https://modelcontextprotocol.com/) server allows you to integrate with Stripe APIs through function calling. This protocol supports various tools to interact with different Stripe services.",
     "build": {
       "installCommand": "pnpm i --frozen-lockfile && pnpm i typescript"
     }
   },
-  "manifestHash": "c2ee352b5064ba90bb3e1d52f60c3444",
-  "createdAt": "2025-04-21T06:20:00.247Z",
+  "manifestHash": "0c19aa9514c743fea5993861a5cab19c",
+  "createdAt": "2025-04-23T07:42:28.688Z",
   "builder": [
     {
       "type": "nixpacks",

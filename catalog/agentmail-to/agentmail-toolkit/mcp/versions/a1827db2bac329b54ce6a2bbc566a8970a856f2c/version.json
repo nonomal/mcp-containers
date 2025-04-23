@@ -15,23 +15,7 @@
       "argumentsTemplate": null,
       "configValues": [
         {
-          "title": "your-agentmail-api-key",
-          "description": null,
-          "default": null,
-          "required": false,
-          "fields": [
-            {
-              "type": "environment",
-              "key": "YOUR_AGENTMAIL_API_KEY"
-            },
-            {
-              "type": "cli",
-              "key": "--api-key"
-            }
-          ]
-        },
-        {
-          "title": "agent-mail-api-key",
+          "title": "agentmail-api-key",
           "description": null,
           "default": null,
           "required": false,
@@ -39,6 +23,10 @@
             {
               "type": "environment",
               "key": "AGENT_MAIL_API_KEY"
+            },
+            {
+              "type": "cli",
+              "key": "--api-key"
             }
           ]
         }
@@ -48,8 +36,8 @@
     "title": "## AgentMail MCP Integration",
     "description": "A simple **Model Context Protocol (MCP)** server that integrates with [AgentMail](https://agentmail.to) to dynamically manage email inboxes, list messages, and send or reply to emails—all through an AI assistant such as Claude. This reference implementation demonstrates how to use AgentMail’s API within an MCP server to orchestrate email inboxes on the fly."
   },
-  "manifestHash": "70e6ac5fa67719e843d967106389912b",
-  "createdAt": "2025-04-21T06:19:28.126Z",
+  "manifestHash": "88774a0dfa6b5824ba8fa59ed5ebf460",
+  "createdAt": "2025-04-23T07:42:14.778Z",
   "builder": [
     {
       "type": "nixpacks",

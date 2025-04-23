@@ -1,7 +1,7 @@
 
-# Exa MCP Server 🔍
+# Exa MCP Server
 
-A containerized version of "Exa MCP Server 🔍"
+A containerized version of "Exa MCP Server"
 
 > Repository: [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
 

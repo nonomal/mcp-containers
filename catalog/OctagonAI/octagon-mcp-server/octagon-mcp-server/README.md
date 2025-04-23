@@ -1,7 +1,7 @@
 
-# Octagon: MCP For Market Data
+# Octagon MCP Server
 
-A containerized version of "Octagon: MCP For Market Data"
+A containerized version of "Octagon MCP Server"
 
 > Repository: [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server)
 

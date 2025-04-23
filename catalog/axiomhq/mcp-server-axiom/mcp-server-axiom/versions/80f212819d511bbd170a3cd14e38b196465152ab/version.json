@@ -101,11 +101,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "mcp-server-axiom",
+    "title": "Axiom MCP Server",
     "description": "A [Model Context Protocol](https://modelcontextprotocol.io/) server implementation for [Axiom](https://axiom.co) that enables AI agents to query your data using Axiom Processing Language (APL)."
   },
-  "manifestHash": "89bf2cdb85e68ee782ca5ce707731b6e",
-  "createdAt": "2025-04-21T06:19:29.829Z",
+  "manifestHash": "22fd59af8d0a790633416df353460d29",
+  "createdAt": "2025-04-23T07:42:15.921Z",
   "builder": [
     {
       "type": "nixpacks",

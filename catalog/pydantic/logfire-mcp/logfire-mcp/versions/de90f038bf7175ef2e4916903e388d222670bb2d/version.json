@@ -12,7 +12,7 @@
       "url": "https://github.com/pydantic/logfire-mcp"
     },
     "config": {
-      "argumentsTemplate": "--read-token=YOUR-TOKEN",
+      "argumentsTemplate": null,
       "configValues": [
         {
           "title": "read-token",
@@ -32,8 +32,8 @@
     "title": "Logfire MCP Server",
     "description": "This repository contains a Model Context Protocol (MCP) server with tools that can access the OpenTelemetry traces and"
   },
-  "manifestHash": "182d5b30bbae56e972019043732a5388",
-  "createdAt": "2025-04-21T06:19:56.205Z",
+  "manifestHash": "382ca464960fc93d50401123c1cd3be7",
+  "createdAt": "2025-04-23T07:42:26.282Z",
   "builder": [
     {
       "type": "nixpacks",

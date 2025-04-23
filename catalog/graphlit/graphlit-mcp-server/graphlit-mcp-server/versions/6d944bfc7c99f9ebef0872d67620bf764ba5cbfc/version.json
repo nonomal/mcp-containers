@@ -53,11 +53,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "Model Context Protocol (MCP) Server for Graphlit Platform",
+    "title": "Graphlit MCP Server",
     "description": "Model Context Protocol (MCP) Server for Graphlit Platform"
   },
-  "manifestHash": "2a4286ccee3c24add5b1440e0839a2e7",
-  "createdAt": "2025-04-21T06:19:40.225Z",
+  "manifestHash": "3cab8eb35243cfdee5ac16152457eb46",
+  "createdAt": "2025-04-23T07:42:19.983Z",
   "builder": [
     {
       "type": "nixpacks",

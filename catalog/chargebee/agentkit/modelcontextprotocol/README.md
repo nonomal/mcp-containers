@@ -1,7 +1,7 @@
 
-# Chargebee Model Context Protocol (MCP) Server
+# Chargebee MCP Server
 
-A containerized version of "Chargebee Model Context Protocol (MCP) Server"
+A containerized version of "Chargebee MCP Server"
 
 > Repository: [chargebee/agentkit](https://github.com/chargebee/agentkit)
 

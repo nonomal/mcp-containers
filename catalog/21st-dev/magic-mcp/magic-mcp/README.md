@@ -1,7 +1,7 @@
 
-# 21st.dev Magic AI Agent
+# 21st.dev Magic AI Agent MCP Server
 
-A containerized version of "21st.dev Magic AI Agent"
+A containerized version of "21st.dev Magic AI Agent MCP Server"
 
 > Repository: [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp)
 

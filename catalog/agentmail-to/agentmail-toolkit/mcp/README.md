@@ -24,8 +24,8 @@ docker pull ghcr.io/metorial/mcp-container--agentmail-to--agentmail-toolkit--mcp
 
 ```bash
 docker run -i --rm \ 
--e YOUR_AGENTMAIL_API_KEY=your-agentmail-api-key -e AGENT_MAIL_API_KEY=agent-mail-api-key \
-ghcr.io/metorial/mcp-container--agentmail-to--agentmail-toolkit--mcp  "agentmail-mcp --api-key your-agentmail-api-key"
+-e AGENT_MAIL_API_KEY=agentmail-api-key \
+ghcr.io/metorial/mcp-container--agentmail-to--agentmail-toolkit--mcp  "agentmail-mcp --api-key agentmail-api-key"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -46,7 +46,6 @@ The container supports the following configuration options:
 
 #### Environment Variables
 
-- `YOUR_AGENTMAIL_API_KEY`
 - `AGENT_MAIL_API_KEY`
 
 
@@ -64,11 +63,10 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--agentmail-to--agentmail-toolkit--mcp",
-        "agentmail-mcp --api-key your-agentmail-api-key"
+        "agentmail-mcp --api-key agentmail-api-key"
       ],
       "env": {
-        "YOUR_AGENTMAIL_API_KEY": "your-agentmail-api-key",
-        "AGENT_MAIL_API_KEY": "agent-mail-api-key"
+        "AGENT_MAIL_API_KEY": "agentmail-api-key"
       }
     }
   }

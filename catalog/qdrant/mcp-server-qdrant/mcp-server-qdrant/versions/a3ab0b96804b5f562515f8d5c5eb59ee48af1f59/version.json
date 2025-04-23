@@ -101,11 +101,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "mcp-server-qdrant: A Qdrant MCP server",
+    "title": "Qdrant MCP server",
     "description": "An official Qdrant Model Context Protocol (MCP) server implementation."
   },
-  "manifestHash": "7b78777c300007232f2463cb122a2dea",
-  "createdAt": "2025-04-21T06:19:56.653Z",
+  "manifestHash": "34f91be3470c588bd150d012885d10db",
+  "createdAt": "2025-04-23T07:42:26.485Z",
   "builder": [
     {
       "type": "nixpacks",

@@ -53,11 +53,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "DevHub CMS MCP",
+    "title": "DevHub CMS MCP Server",
     "description": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) integration for managing content in the [DevHub CMS system](https://www.devhub.com/)."
   },
-  "manifestHash": "75b4fb074f9755bc65fe6666a27685ff",
-  "createdAt": "2025-04-21T06:19:34.197Z",
+  "manifestHash": "2dd8ef6a834cb8ed05114b357278e759",
+  "createdAt": "2025-04-23T07:42:17.917Z",
   "builder": [
     {
       "type": "nixpacks",

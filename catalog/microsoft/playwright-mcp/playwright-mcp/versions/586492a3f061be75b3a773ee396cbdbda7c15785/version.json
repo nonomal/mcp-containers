@@ -16,11 +16,11 @@
       "configValues": []
     },
     "subdirectory": "/",
-    "title": "# Playwright MCP",
+    "title": "Playwright MCP Server",
     "description": "A Model Context Protocol (MCP) server that provides browser automation capabilities using [Playwright](https://playwright.dev). This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models."
   },
-  "manifestHash": "ddbbfdbe91bd3e1ebc9188fb92e3d560",
-  "createdAt": "2025-04-23T01:09:58.657Z",
+  "manifestHash": "67486d52de380e0c8ecf0da82cb7d332",
+  "createdAt": "2025-04-23T07:42:24.378Z",
   "builder": [
     {
       "type": "nixpacks",

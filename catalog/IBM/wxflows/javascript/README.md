@@ -1,7 +1,7 @@
 
-# Watsonx.ai Flows Engine
+# Watsonx.ai Flows Engine MCP Server
 
-A containerized version of "Watsonx.ai Flows Engine"
+A containerized version of "Watsonx.ai Flows Engine MCP Server"
 
 > Repository: [IBM/wxflows](https://github.com/IBM/wxflows)
 

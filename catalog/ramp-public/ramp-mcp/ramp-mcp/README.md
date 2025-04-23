@@ -1,7 +1,7 @@
 
-# ramp-mcp: A Ramp MCP server
+# Ramp MCP server
 
-A containerized version of "ramp-mcp: A Ramp MCP server"
+A containerized version of "Ramp MCP server"
 
 > Repository: [ramp-public/ramp-mcp](https://github.com/ramp-public/ramp-mcp)
 

@@ -16,11 +16,11 @@
       "configValues": []
     },
     "subdirectory": "/",
-    "title": "Repomix",
+    "title": "Repomix MCP Server",
     "description": "Pack your codebase into AI-friendly formats"
   },
-  "manifestHash": "aedbb4cecb8710077c6a5e696503f6a3",
-  "createdAt": "2025-04-21T16:17:27.760Z",
+  "manifestHash": "16c70195e06696262911d506156c94bb",
+  "createdAt": "2025-04-23T07:42:30.506Z",
   "builder": [
     {
       "type": "nixpacks",

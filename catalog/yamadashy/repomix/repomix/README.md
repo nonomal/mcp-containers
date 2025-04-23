@@ -1,7 +1,7 @@
 
-# Repomix
+# Repomix MCP Server
 
-A containerized version of "Repomix"
+A containerized version of "Repomix MCP Server"
 
 > Repository: [yamadashy/repomix](https://github.com/yamadashy/repomix)
 

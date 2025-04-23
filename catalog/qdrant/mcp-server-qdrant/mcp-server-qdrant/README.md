@@ -1,7 +1,7 @@
 
-# mcp-server-qdrant: A Qdrant MCP server
+# Qdrant MCP server
 
-A containerized version of "mcp-server-qdrant: A Qdrant MCP server"
+A containerized version of "Qdrant MCP server"
 
 > Repository: [qdrant/mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant)
 

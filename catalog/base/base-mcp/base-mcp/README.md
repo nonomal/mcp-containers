@@ -1,7 +1,7 @@
 
-# Base MCP Server 🔵
+# Base MCP Server
 
-A containerized version of "Base MCP Server 🔵"
+A containerized version of "Base MCP Server"
 
 > Repository: [base/base-mcp](https://github.com/base/base-mcp)
 

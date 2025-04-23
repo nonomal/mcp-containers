@@ -29,11 +29,11 @@
       ]
     },
     "subdirectory": "/",
-    "title": "Octagon: MCP For Market Data",
+    "title": "Octagon MCP Server",
     "description": "A free Model Context Protocol (MCP) server that integrates with Octagon Market Intelligence API"
   },
-  "manifestHash": "ce118860a2decbeaf8e35efbe6de845d",
-  "createdAt": "2025-04-23T05:15:19.525Z",
+  "manifestHash": "19808b12efa03801062ac3405b2d9dbf",
+  "createdAt": "2025-04-23T07:42:25.450Z",
   "builder": [
     {
       "type": "nixpacks",

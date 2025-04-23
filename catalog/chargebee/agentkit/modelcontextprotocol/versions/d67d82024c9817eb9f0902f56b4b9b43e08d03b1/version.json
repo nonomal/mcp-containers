@@ -16,11 +16,11 @@
       "configValues": []
     },
     "subdirectory": "modelcontextprotocol",
-    "title": "Chargebee Model Context Protocol (MCP) Server",
+    "title": "Chargebee MCP Server",
     "description": "Model Context Protocol (MCP) is a [standardized protocol](https://modelcontextprotocol.io/introduction) designed to manage context between large language models (LLMs) and external systems."
   },
-  "manifestHash": "f4ea93ee13bc45cc681e781ce670ab7d",
-  "createdAt": "2025-04-21T06:19:32.962Z",
+  "manifestHash": "f431cdb0554ca3acccb717de75c11e53",
+  "createdAt": "2025-04-23T07:42:17.346Z",
   "builder": [
     {
       "type": "nixpacks",

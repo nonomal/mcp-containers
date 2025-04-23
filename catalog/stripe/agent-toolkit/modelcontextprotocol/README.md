@@ -1,7 +1,7 @@
 
-# Stripe Model Context Protocol
+# Stripe MCP Server
 
-A containerized version of "Stripe Model Context Protocol"
+A containerized version of "Stripe MCP Server"
 
 > Repository: [stripe/agent-toolkit](https://github.com/stripe/agent-toolkit)
 

@@ -1,7 +1,7 @@
 
-# mcp-oceanbase
+# Oceanbase MCP Server
 
-A containerized version of "mcp-oceanbase"
+A containerized version of "Oceanbase MCP Server"
 
 > Repository: [oceanbase/mcp-oceanbase](https://github.com/oceanbase/mcp-oceanbase)
 

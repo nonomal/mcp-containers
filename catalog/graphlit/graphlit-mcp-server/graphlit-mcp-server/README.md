@@ -1,7 +1,7 @@
 
-# Model Context Protocol (MCP) Server for Graphlit Platform
+# Graphlit MCP Server
 
-A containerized version of "Model Context Protocol (MCP) Server for Graphlit Platform"
+A containerized version of "Graphlit MCP Server"
 
 > Repository: [graphlit/graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server)
 

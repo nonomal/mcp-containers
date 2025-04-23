@@ -1,7 +1,7 @@
 
-# metoro-mcp-server
+# Metoro MCP Server
 
-A containerized version of "metoro-mcp-server"
+A containerized version of "Metoro MCP Server"
 
 > Repository: [metoro-io/metoro-mcp-server](https://github.com/metoro-io/metoro-mcp-server)
 

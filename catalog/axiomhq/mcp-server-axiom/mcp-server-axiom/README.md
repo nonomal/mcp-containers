@@ -1,7 +1,7 @@
 
-# mcp-server-axiom
+# Axiom MCP Server
 
-A containerized version of "mcp-server-axiom"
+A containerized version of "Axiom MCP Server"
 
 > Repository: [axiomhq/mcp-server-axiom](https://github.com/axiomhq/mcp-server-axiom)
 

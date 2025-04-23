@@ -1,7 +1,7 @@
 
-# MCP Server for Paddle Billing
+# Paddle MCP Server
 
-A containerized version of "MCP Server for Paddle Billing"
+A containerized version of "Paddle MCP Server"
 
 > Repository: [PaddleHQ/paddle-mcp-server](https://github.com/PaddleHQ/paddle-mcp-server)
 
@@ -24,7 +24,7 @@ docker pull ghcr.io/metorial/mcp-container--paddlehq--paddle-mcp-server--paddle-
 
 ```bash
 docker run -i --rm \ 
-ghcr.io/metorial/mcp-container--paddlehq--paddle-mcp-server--paddle-mcp-server  "node ./build/index.js --api-key Paddle API Key --environment Paddle Environment"
+ghcr.io/metorial/mcp-container--paddlehq--paddle-mcp-server--paddle-mcp-server  "node ./build/index.js --api-key paddle-api-key --environment paddle-environment"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -59,7 +59,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--paddlehq--paddle-mcp-server--paddle-mcp-server",
-        "node ./build/index.js --api-key Paddle API Key --environment Paddle Environment"
+        "node ./build/index.js --api-key paddle-api-key --environment paddle-environment"
       ],
       "env": {}
     }

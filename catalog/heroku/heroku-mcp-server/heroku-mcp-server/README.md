@@ -1,7 +1,7 @@
 
-# heroku-mcp-server
+# Heroku MCP Server
 
-A containerized version of "heroku-mcp-server"
+A containerized version of "Heroku MCP Server"
 
 > Repository: [heroku/heroku-mcp-server](https://github.com/heroku/heroku-mcp-server)
 

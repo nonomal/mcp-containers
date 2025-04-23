@@ -1,7 +1,7 @@
 
-# Apify Model Context Protocol (MCP) Server
+# Apify MCP Server
 
-A containerized version of "Apify Model Context Protocol (MCP) Server"
+A containerized version of "Apify MCP Server"
 
 > Repository: [apify/actors-mcp-server](https://github.com/apify/actors-mcp-server)
 
