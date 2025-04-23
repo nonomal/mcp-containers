@@ -55,12 +55,14 @@ export let checkVersions = async (opts: { force?: boolean; only?: string[] }) =>
       let serverDir = path.join(catalogDir, server.repo.owner, server.repo.repo, server.id);
       let versionsDir = path.join(serverDir, 'versions');
       let versionDir = path.join(versionsDir, version);
+      let versionFilePath = path.join(versionDir, 'version.json');
 
       let versionManifest: ServerVersion | undefined;
 
-      let versionExists = await fs.pathExists(versionDir);
+      let versionExists =
+        (await fs.pathExists(versionDir)) && (await fs.pathExists(versionFilePath));
       if (versionExists) {
-        versionManifest = await fs.readJSON(path.join(versionDir, 'version.json'), 'utf-8');
+        versionManifest = await fs.readJSON(versionFilePath, 'utf-8');
 
         if (versionManifest!.manifestHash != manifestHash) {
           versionExists = false;
@@ -94,10 +96,7 @@ export let checkVersions = async (opts: { force?: boolean; only?: string[] }) =>
           };
 
           await fs.mkdirp(versionDir);
-          await fs.writeFile(
-            path.join(versionDir, 'version.json'),
-            JSON.stringify(versionManifest, null, 2)
-          );
+          await fs.writeFile(versionFilePath, JSON.stringify(versionManifest, null, 2));
         } catch (e: any) {
           console.error(`Error creating version ${version} for ${fullServerId}:`);
 
