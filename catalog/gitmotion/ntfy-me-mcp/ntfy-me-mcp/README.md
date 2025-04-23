@@ -66,12 +66,6 @@ The container supports the following configuration options:
         "run",
         "-i",
         "--rm",
-        "-e",
-        "NTFY_TOPIC",
-        "-e",
-        "NTFY_URL",
-        "-e",
-        "NTFY_TOKEN",
         "ghcr.io/metorial/mcp-container--gitmotion--ntfy-me-mcp--ntfy-me-mcp",
         "npm run start"
       ],
