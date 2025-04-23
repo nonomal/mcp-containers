@@ -1,5 +1,13 @@
 import { confirm, input, search } from '@inquirer/prompts';
-import { buildConfig, buildManifest, writeManifest } from '@metorial-mcp-containers/manifest';
+import { delay } from '@metorial-mcp-containers/delay';
+import {
+  buildConfig,
+  buildManifest,
+  checkVersions,
+  getLatestServerVersion,
+  writeManifest
+} from '@metorial-mcp-containers/manifest';
+import { nixpacksBuild } from '@metorial-mcp-containers/nixpacks';
 import { getDirsInRepo } from '@metorial-mcp-containers/repo';
 import { getServerConfigRaw } from '@metorial-mcp-containers/server-config';
 import sade from 'sade';
@@ -60,7 +68,7 @@ export let initializeCli = async () => {
         if (!changeCliArgs) {
           console.log('✔ Detected CLI arguments:');
           for (let arg of cliArgsInner) {
-            console.log(`    > ${arg}`);
+            console.log(`    > ${arg.key}`);
           }
 
           changeCliArgs = await confirm({
@@ -90,7 +98,7 @@ export let initializeCli = async () => {
         if (!changeEnvVars) {
           console.log('✔ Detected environment variables:');
           for (let envVar of environmentVariables) {
-            console.log(`    > ${envVar}`);
+            console.log(`    > ${envVar.key}`);
           }
 
           changeEnvVars = await confirm({
@@ -143,8 +151,41 @@ export let initializeCli = async () => {
 
       console.log('✔ MCP server manifest created at', `./${relativeManifestDir}`);
       console.log('You can place custom pre build scripts in the `scripts` folder.');
+      // console.log(
+      //   `Once you're done editing the MCP server manifest, create a pull request to https://github.com/metorial/mcp-containers`
+      // );
+
       console.log(
-        `Once you're done editing the MCP server manifest, create a pull request to https://github.com/metorial/mcp-containers`
+        `Once you're done editing the MCP server manifest, please confirm to continue.`
+      );
+
+      if (!(await confirm({ message: 'Did you check the manifest?', default: true }))) {
+        console.log('Aborting...');
+        process.exit(0);
+      }
+
+      console.log('Continuing...');
+      console.log('Discovering latest version...');
+
+      await delay(1000);
+
+      let serverId = manifest.fullId;
+
+      await checkVersions({
+        force: true,
+        only: [serverId]
+      });
+
+      await delay(1000);
+
+      console.log('Starting server test build...');
+
+      let latestVersion = await getLatestServerVersion(serverId);
+      await nixpacksBuild(serverId, latestVersion.version, {});
+
+      console.log('✔ Server test build completed successfully!');
+      console.log(
+        'You can now create a pull request to https://github.com/metorial/mcp-containers to add the server.'
       );
     })
     .parse(process.argv);

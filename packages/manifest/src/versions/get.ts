@@ -1,8 +1,8 @@
 import type { NixpacksPlan } from '@metorial-mcp-containers/nixpacks';
 import fs from 'fs-extra';
 import path from 'path';
-import { getServerDefinitionDir } from './read';
-import type { ServerManifest } from './schema';
+import { getServerDefinitionDir } from '../manifest/read';
+import type { ServerManifest } from '../types/schema';
 
 export interface ServerVersion {
   serverId: string;

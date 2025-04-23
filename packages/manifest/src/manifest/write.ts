@@ -1,9 +1,10 @@
 import { Cases } from '@metorial-mcp-containers/case';
 import fs from 'fs-extra';
 import path from 'path';
-import type { ConfigValue } from './config';
-import { parseRepoUrl, parseRepoUrlLight } from './repoUrl';
-import type { ServerManifest } from './schema';
+import type { ConfigValue } from '../config';
+import { parseRepoUrl, parseRepoUrlLight } from '../repoUrl';
+import { rootDir } from '../root';
+import type { ServerManifest } from '../types/schema';
 
 export let getServerIdShort = (d: { repoUrl: string; subdirectory?: string }) => {
   let repo = parseRepoUrlLight(d.repoUrl);
@@ -43,7 +44,7 @@ export let buildManifest = async (d: {
 export let writeManifest = async (manifest: ServerManifest) => {
   let relativeManifestDir = `catalog/${manifest.repo.owner}/${manifest.repo.repo}/${manifest.id}`;
 
-  let manifestDir = path.join(__dirname, '../../..', relativeManifestDir);
+  let manifestDir = path.join(rootDir, relativeManifestDir);
   await fs.ensureDir(manifestDir);
   await fs.ensureDir(path.join(manifestDir, 'scripts'));
 

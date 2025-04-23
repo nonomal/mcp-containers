@@ -23,6 +23,8 @@ prog
       version: string,
       opts: { platform?: string; publish?: boolean; export?: string }
     ) => {
+      console.log(`Building ${serverId} (${version})...`);
+
       if (!version) {
         let versionData = await getLatestServerVersion(serverId);
         version = versionData.version;

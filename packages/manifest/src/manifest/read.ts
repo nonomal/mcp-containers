@@ -1,11 +1,12 @@
 import fs from 'fs-extra';
 import path from 'path';
-import { manifestSchema } from './schema';
+import { rootDir } from '../root';
+import { manifestSchema } from '../types/schema';
 
 export let getServerDefinitionDir = (id: string) => {
   let [owner, repo, server] = id.split('/');
 
-  return path.join(__dirname, `../../../catalog/${owner}/${repo}/${server}`);
+  return path.join(rootDir, `catalog/${owner}/${repo}/${server}`);
 };
 
 export let readManifest = async (id: string) => {

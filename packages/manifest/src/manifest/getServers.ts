@@ -1,6 +1,7 @@
 import fs from 'fs-extra';
 import path from 'path';
-import type { ServerManifest } from './schema';
+import { rootDir } from '../root';
+import type { ServerManifest } from '../types/schema';
 
 let isDir = (path: string) =>
   fs
@@ -9,7 +10,7 @@ let isDir = (path: string) =>
     .catch(() => false);
 
 export let getAllServers = async () => {
-  let catalogDir = path.join(__dirname, '../../..', 'catalog');
+  let catalogDir = path.join(rootDir, 'catalog');
   let serverManifests: ServerManifest[] = [];
 
   let orgs = await fs.readdir(catalogDir);
