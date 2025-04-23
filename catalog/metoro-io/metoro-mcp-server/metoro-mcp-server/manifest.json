@@ -38,6 +38,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "metoro-mcp-server",
+  "title": "Metoro MCP Server",
   "description": "This repository contains th Metoro MCP (Model Context Protocol) Server. This MCP Server allows you to interact with your Kubernetes cluster via the Claude Desktop App!"
 }

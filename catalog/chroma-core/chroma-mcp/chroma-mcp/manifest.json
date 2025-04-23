@@ -22,10 +22,6 @@
             "key": "CHROMA_CLIENT_TYPE"
           },
           {
-            "type": "environment",
-            "key": "CHROMA_"
-          },
-          {
             "type": "cli",
             "key": "--client-type"
           }

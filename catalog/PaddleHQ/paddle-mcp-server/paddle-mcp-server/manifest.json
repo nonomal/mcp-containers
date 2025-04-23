@@ -11,7 +11,7 @@
   "config": {
     "configValues": [
       {
-        "title": "Paddle API Key",
+        "title": "paddle-api-key",
         "description": null,
         "default": null,
         "required": false,
@@ -23,7 +23,7 @@
         ]
       },
       {
-        "title": "Paddle Environment",
+        "title": "paddle-environment",
         "description": null,
         "default": null,
         "required": false,
@@ -37,6 +37,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "MCP Server for Paddle Billing",
+  "title": "Paddle MCP Server",
   "description": "This is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that provides tools for interacting with the Paddle API."
 }

@@ -26,6 +26,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "Apify Model Context Protocol (MCP) Server",
+  "title": "Apify MCP Server",
   "description": "Implementation of an MCP server for all [Apify Actors](https://apify.com/store)."
 }

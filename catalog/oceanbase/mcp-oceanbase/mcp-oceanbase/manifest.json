@@ -50,6 +50,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "mcp-oceanbase",
+  "title": "Oceanbase MCP Server",
   "description": "MCP Server for OceanBase database and its tools"
 }

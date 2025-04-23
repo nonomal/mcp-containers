@@ -98,6 +98,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "mcp-server-axiom",
+  "title": "Axiom MCP Server",
   "description": "A [Model Context Protocol](https://modelcontextprotocol.io/) server implementation for [Axiom](https://axiom.co) that enables AI agents to query your data using Axiom Processing Language (APL)."
 }

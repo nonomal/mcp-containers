@@ -49,6 +49,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "ramp-mcp: A Ramp MCP server",
+  "title": "Ramp MCP server",
   "description": "A Model Context Protocol server for retrieving and analyzing data or running tasks for Ramp using Developer API. In order to get around token and input size limitations, this server implements a simple ETL pipeline + ephemeral sqlite database in memory for analysis by an LLM."
 }

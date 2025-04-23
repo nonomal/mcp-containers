@@ -26,6 +26,6 @@
     ]
   },
   "subdirectory": "/",
-  "title": "Exa MCP Server 🔍",
+  "title": "Exa MCP Server",
   "description": "A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and controlled way."
 }
