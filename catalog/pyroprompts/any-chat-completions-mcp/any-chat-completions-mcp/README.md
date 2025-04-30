@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--pyroprompts--any-chat-completions-mc
 ```bash
 docker run -i --rm \ 
 -e AI_CHAT_KEY=ai-chat-key -e AI_CHAT_NAME=ai-chat-name -e AI_CHAT_MODEL=ai-chat-model -e AI_CHAT_BASE_URL=ai-chat-base-url \
-ghcr.io/metorial/mcp-container--pyroprompts--any-chat-completions-mcp--any-chat-completions-mcp  "node ./build/index.js"
+ghcr.io/metorial/mcp-container--pyroprompts--any-chat-completions-mcp--any-chat-completions-mcp  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -62,7 +62,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--pyroprompts--any-chat-completions-mcp--any-chat-completions-mcp",
-        "node ./build/index.js"
+        "npm run start"
       ],
       "env": {
         "AI_CHAT_KEY": "ai-chat-key",
