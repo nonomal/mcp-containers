@@ -17,16 +17,19 @@
     },
     "subdirectory": "/",
     "title": "Paper Search MCP",
-    "description": "A Model Context Protocol (MCP) server for searching and downloading academic papers from multiple sources, including arXiv, PubMed, bioRxiv, and Sci-Hub (optional). Designed for seamless integration with large language models like Claude Desktop."
+    "description": "A Model Context Protocol (MCP) server for searching and downloading academic papers from multiple sources, including arXiv, PubMed, bioRxiv, and Sci-Hub (optional). Designed for seamless integration with large language models like Claude Desktop.",
+    "build": {
+      "startCommand": "python -m paper_search_mcp.server"
+    }
   },
-  "manifestHash": "784e5b40b25dd028b1254c5acf00fde1",
-  "createdAt": "2025-04-30T06:59:40.946Z",
+  "manifestHash": "522f7d746ee72198d99844ff7a4e8c04",
+  "createdAt": "2025-04-30T07:14:20.549Z",
   "builder": [
     {
       "type": "nixpacks",
       "plan": {
         "providers": [],
-        "buildImage": "ghcr.io/railwayapp/nixpacks:ubuntu-1742861060",
+        "buildImage": "ghcr.io/railwayapp/nixpacks:ubuntu-1745544451",
         "variables": {
           "NIXPACKS_METADATA": "python",
           "NIXPACKS_UV_VERSION": "0.4.30",
@@ -68,7 +71,7 @@
           }
         },
         "start": {
-          "cmd": "python -m paper-search-mcp"
+          "cmd": "python -m paper_search_mcp.server"
         }
       }
     }

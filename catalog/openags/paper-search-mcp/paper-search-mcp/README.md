@@ -24,7 +24,7 @@ docker pull ghcr.io/metorial/mcp-container--openags--paper-search-mcp--paper-sea
 
 ```bash
 docker run -i --rm \ 
-ghcr.io/metorial/mcp-container--openags--paper-search-mcp--paper-search-mcp  "python -m paper-search-mcp"
+ghcr.io/metorial/mcp-container--openags--paper-search-mcp--paper-search-mcp  "python -m paper_search_mcp.server"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -45,7 +45,7 @@ ghcr.io/metorial/mcp-container--openags--paper-search-mcp--paper-search-mcp  "py
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--openags--paper-search-mcp--paper-search-mcp",
-        "python -m paper-search-mcp"
+        "python -m paper_search_mcp.server"
       ],
       "env": {}
     }
