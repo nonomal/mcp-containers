@@ -840,6 +840,9 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/leehanchung.png?size=120" width="12px" height="12px" /> **[Bing Search MCP Server
 ](catalog/leehanchung/bing-search-mcp/bing-search-mcp/README.md)** - A Model Context Protocol (MCP) server for Microsoft Bing Search API integration, allowing AI assistants to perform web, news, and image searches.
 
+- <img src="https://github.com/leescot.png?size=120" width="12px" height="12px" /> **[PubMed Enhanced Search MCP Server
+](catalog/leescot/pubmed-mcp-smithery/pubmed-mcp-smithery/README.md)** - A Model Content Protocol server that provides enhanced tools to search and retrieve academic papers from PubMed database, with additional features such as MeSH term lookup, publication count statistics, and PICO-based evidence search.
+
 - <img src="https://github.com/lenwood.png?size=120" width="12px" height="12px" /> **[College Football Data MCP Server
 ](catalog/lenwood/cfbd-mcp-server/cfbd-mcp-server/README.md)** - An MCP server implementation providing access to college football statistics sourced from the [College Football Data API](https://collegefootballdata.com/) within [Claude Desktop](https://claude.ai/download).
 
