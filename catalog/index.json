@@ -1326,6 +1326,12 @@
     "repoUrl": "https://github.com/leehanchung/bing-search-mcp"
   },
   {
+    "id": "pubmed-mcp-smithery",
+    "owner": "leescot",
+    "repo": "pubmed-mcp-smithery",
+    "repoUrl": "https://github.com/leescot/pubmed-mcp-smithery"
+  },
+  {
     "id": "cfbd-mcp-server",
     "owner": "lenwood",
     "repo": "cfbd-mcp-server",
