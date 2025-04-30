@@ -1626,6 +1626,12 @@
     "repoUrl": "https://github.com/ognis1205/mcp-server-unitycatalog"
   },
   {
+    "id": "paper-search-mcp",
+    "owner": "openags",
+    "repo": "paper-search-mcp",
+    "repoUrl": "https://github.com/openags/paper-search-mcp"
+  },
+  {
     "id": "mcp-server-airbnb",
     "owner": "openbnb-org",
     "repo": "mcp-server-airbnb",

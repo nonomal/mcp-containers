@@ -990,6 +990,9 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/ognis1205.png?size=120" width="12px" height="12px" /> **[mcp-server-unitycatalog: An Unity Catalog MCP server
 ](catalog/ognis1205/mcp-server-unitycatalog/mcp-server-unitycatalog/README.md)** - Unity Catalog AI Model Context Protocol Server
 
+- <img src="https://github.com/openags.png?size=120" width="12px" height="12px" /> **[Paper Search MCP
+](catalog/openags/paper-search-mcp/paper-search-mcp/README.md)** - A Model Context Protocol (MCP) server for searching and downloading academic papers from multiple sources, including arXiv, PubMed, bioRxiv, and Sci-Hub (optional). Designed for seamless integration with large language models like Claude Desktop.
+
 - <img src="https://github.com/openbnb-org.png?size=120" width="12px" height="12px" /> **[Airbnb MCP Server
 ](catalog/openbnb-org/mcp-server-airbnb/mcp-server-airbnb/README.md)** - MCP Server for searching Airbnb and get listing details.
 
