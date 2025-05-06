@@ -744,18 +744,6 @@
     "repoUrl": "https://github.com/GLips/Figma-Context-MCP"
   },
   {
-    "id": "model-context-protocol",
-    "owner": "goat-sdk",
-    "repo": "goat",
-    "repoUrl": "https://github.com/goat-sdk/goat"
-  },
-  {
-    "id": "firefly-mcp",
-    "owner": "gofireflyio",
-    "repo": "firefly-mcp",
-    "repoUrl": "https://github.com/gofireflyio/firefly-mcp"
-  },
-  {
     "id": "json-mcp-server",
     "owner": "GongRzhe",
     "repo": "JSON-MCP-Server",
