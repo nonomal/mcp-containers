@@ -24,7 +24,7 @@ docker pull ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase-
 
 ```bash
 docker run -i --rm \ 
-ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase--browserbase  "node dist/index.js"
+ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase--browserbase  "node cli.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -45,7 +45,7 @@ ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase--browserbase
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase--browserbase",
-        "node dist/index.js"
+        "node cli.js"
       ],
       "env": {}
     }
