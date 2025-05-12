@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--yanmxa--multicluster-mcp-server--mul
 ```bash
 docker run -i --rm \ 
 -e KUBECONFIG=kubeconfig \
-ghcr.io/metorial/mcp-container--yanmxa--multicluster-mcp-server--multicluster-mcp-server  "node ./build/index.js"
+ghcr.io/metorial/mcp-container--yanmxa--multicluster-mcp-server--multicluster-mcp-server  "multicluster-mcp-server"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -59,7 +59,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--yanmxa--multicluster-mcp-server--multicluster-mcp-server",
-        "node ./build/index.js"
+        "multicluster-mcp-server"
       ],
       "env": {
         "KUBECONFIG": "kubeconfig"
