@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--starrocks--mcp-server-starrocks--mcp
 ```bash
 docker run -i --rm \ 
 -e STARROCKS_HOST=starrocks-host -e STARROCKS_PORT=starrocks-port -e STARROCKS_USER=starrocks-user -e STARROCKS_PASSWORD=starrocks-password \
-ghcr.io/metorial/mcp-container--starrocks--mcp-server-starrocks--mcp-server-starrocks --with mcp-server-starrocks mcp-server-starrocks "mcp-server-starrocks --with mcp-server-starrocks mcp-server-starrocks"
+ghcr.io/metorial/mcp-container--starrocks--mcp-server-starrocks--mcp-server-starrocks mcp-server-starrocks "mcp-server-starrocks mcp-server-starrocks"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -62,7 +62,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--starrocks--mcp-server-starrocks--mcp-server-starrocks",
-        "mcp-server-starrocks --with mcp-server-starrocks mcp-server-starrocks"
+        "mcp-server-starrocks mcp-server-starrocks"
       ],
       "env": {
         "STARROCKS_HOST": "starrocks-host",

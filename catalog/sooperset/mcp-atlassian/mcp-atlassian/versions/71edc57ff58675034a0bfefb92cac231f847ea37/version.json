@@ -1,75 +1,98 @@
 {
-  "serverId": "StarRocks/mcp-server-starrocks/mcp-server-starrocks",
-  "version": "1db8433a94665a7d24c48ac39f473083bd37303d",
+  "serverId": "sooperset/mcp-atlassian/mcp-atlassian",
+  "version": "71edc57ff58675034a0bfefb92cac231f847ea37",
   "manifest": {
-    "id": "mcp-server-starrocks",
-    "fullId": "StarRocks/mcp-server-starrocks/mcp-server-starrocks",
+    "id": "mcp-atlassian",
+    "fullId": "sooperset/mcp-atlassian/mcp-atlassian",
     "repo": {
       "provider": "github.com",
-      "owner": "StarRocks",
-      "repo": "mcp-server-starrocks",
+      "owner": "sooperset",
+      "repo": "mcp-atlassian",
       "branch": "main",
-      "url": "https://github.com/StarRocks/mcp-server-starrocks"
+      "url": "https://github.com/sooperset/mcp-atlassian"
     },
     "config": {
-      "argumentsTemplate": "mcp-server-starrocks",
       "configValues": [
         {
-          "title": "starrocks-host",
+          "title": "confluence-url",
           "description": null,
           "default": null,
-          "required": false,
+          "required": true,
           "fields": [
             {
-              "type": "environment",
-              "key": "STARROCKS_HOST"
+              "type": "cli",
+              "key": "--confluence-url"
             }
           ]
         },
         {
-          "title": "starrocks-port",
+          "title": "confluence-username",
           "description": null,
           "default": null,
-          "required": false,
+          "required": true,
           "fields": [
             {
-              "type": "environment",
-              "key": "STARROCKS_PORT"
+              "type": "cli",
+              "key": "--confluence-username"
             }
           ]
         },
         {
-          "title": "starrocks-user",
+          "title": "confluence-token",
           "description": null,
           "default": null,
-          "required": false,
+          "required": true,
           "fields": [
             {
-              "type": "environment",
-              "key": "STARROCKS_USER"
+              "type": "cli",
+              "key": "--confluence-token"
             }
           ]
         },
         {
-          "title": "starrocks-password",
+          "title": "jira-url",
           "description": null,
           "default": null,
-          "required": false,
+          "required": true,
           "fields": [
             {
-              "type": "environment",
-              "key": "STARROCKS_PASSWORD"
+              "type": "cli",
+              "key": "--jira-url"
+            }
+          ]
+        },
+        {
+          "title": "jira-username",
+          "description": null,
+          "default": null,
+          "required": true,
+          "fields": [
+            {
+              "type": "cli",
+              "key": "--jira-username"
+            }
+          ]
+        },
+        {
+          "title": "jira-token",
+          "description": null,
+          "default": null,
+          "required": true,
+          "fields": [
+            {
+              "type": "cli",
+              "key": "--jira-token"
             }
           ]
         }
       ]
     },
     "subdirectory": "/",
-    "title": "Starrocks Official MCP server",
-    "description": "The StarRocks MCP Server acts as a bridge between AI assistants and StarRocks databases, allowing for direct SQL execution and database exploration without requiring complex setup or configuration."
+    "title": "MCP Atlassian",
+    "description": "Model Context Protocol (MCP) server for Atlassian products (Confluence and Jira). This integration supports both Confluence & Jira Cloud and Server/Data Center deployments."
   },
-  "manifestHash": "b9d44f2ce21d1e9f55ee4483aed6ff04",
-  "createdAt": "2025-05-16T06:28:55.231Z",
+  "manifestHash": "bf37603161c30b727667a514e1cf833f",
+  "createdAt": "2025-05-16T06:28:55.630Z",
   "builder": [
     {
       "type": "nixpacks",
@@ -105,7 +128,7 @@
           },
           "setup": {
             "nixPkgs": [
-              "python312",
+              "python3",
               "gcc"
             ],
             "nixLibs": [
@@ -117,7 +140,7 @@
           }
         },
         "start": {
-          "cmd": "mcp-server-starrocks"
+          "cmd": "mcp-atlassian"
         }
       }
     }
