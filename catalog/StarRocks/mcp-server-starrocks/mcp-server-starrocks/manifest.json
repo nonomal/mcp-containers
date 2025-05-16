@@ -9,7 +9,7 @@
     "url": "https://github.com/StarRocks/mcp-server-starrocks"
   },
   "config": {
-    "argumentsTemplate": "--with mcp-server-starrocks mcp-server-starrocks",
+    "argumentsTemplate": "mcp-server-starrocks",
     "configValues": [
       {
         "title": "starrocks-host",
