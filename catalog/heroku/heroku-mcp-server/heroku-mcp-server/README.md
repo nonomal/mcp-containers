@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--heroku--heroku-mcp-server--heroku-mc
 ```bash
 docker run -i --rm \ 
 -e HEROKU_API_KEY=heroku-api-key \
-ghcr.io/metorial/mcp-container--heroku--heroku-mcp-server--heroku-mcp-server  "npm run start"
+ghcr.io/metorial/mcp-container--heroku--heroku-mcp-server--heroku-mcp-server  "node dist/index.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -59,7 +59,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--heroku--heroku-mcp-server--heroku-mcp-server",
-        "npm run start"
+        "node dist/index.js"
       ],
       "env": {
         "HEROKU_API_KEY": "heroku-api-key"

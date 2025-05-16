@@ -24,7 +24,7 @@ docker pull ghcr.io/metorial/mcp-container--leescot--pubmed-mcp-smithery--pubmed
 
 ```bash
 docker run -i --rm \ 
-ghcr.io/metorial/mcp-container--leescot--pubmed-mcp-smithery--pubmed-mcp-smithery  
+ghcr.io/metorial/mcp-container--leescot--pubmed-mcp-smithery--pubmed-mcp-smithery  "python pubmed_enhanced_mcp_server.py"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -44,7 +44,8 @@ ghcr.io/metorial/mcp-container--leescot--pubmed-mcp-smithery--pubmed-mcp-smither
         "run",
         "-i",
         "--rm",
-        "ghcr.io/metorial/mcp-container--leescot--pubmed-mcp-smithery--pubmed-mcp-smithery"
+        "ghcr.io/metorial/mcp-container--leescot--pubmed-mcp-smithery--pubmed-mcp-smithery",
+        "python pubmed_enhanced_mcp_server.py"
       ],
       "env": {}
     }

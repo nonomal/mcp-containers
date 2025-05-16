@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--yuna0x0--hackmd-mcp--hackmd-mcp
 ```bash
 docker run -i --rm \ 
 -e HACKMD_API_TOKEN=hackmd-api-token \
-ghcr.io/metorial/mcp-container--yuna0x0--hackmd-mcp--hackmd-mcp  "bun run start"
+ghcr.io/metorial/mcp-container--yuna0x0--hackmd-mcp--hackmd-mcp  "pnpm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -59,7 +59,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--yuna0x0--hackmd-mcp--hackmd-mcp",
-        "bun run start"
+        "pnpm run start"
       ],
       "env": {
         "HACKMD_API_TOKEN": "hackmd-api-token"

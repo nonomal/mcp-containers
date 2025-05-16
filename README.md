@@ -549,12 +549,6 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/GLips.png?size=120" width="12px" height="12px" /> **[Framelink Figma MCP Server
 ](catalog/GLips/Figma-Context-MCP/figma-context-mcp/README.md)** - Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.
 
-- <img src="https://github.com/goat-sdk.png?size=120" width="12px" height="12px" /> **[Goat SDK Model Context Protocol
-](catalog/goat-sdk/goat/model-context-protocol/README.md)** - The leading agentic finance toolkit for AI agents
-
-- <img src="https://github.com/gofireflyio.png?size=120" width="12px" height="12px" /> **[Firefly MCP Server
-](catalog/gofireflyio/firefly-mcp/firefly-mcp/README.md)** - The Firefly MCP (Model Context Protocol) server is a TypeScript-based server that enables seamless integration with the Firefly platform. It allows you to discover, manage, and codify resources across your Cloud and SaaS accounts connected to Firefly.
-
 - <img src="https://github.com/GongRzhe.png?size=120" width="12px" height="12px" /> **[JSON MCP Server (@gongrzhe/server-json-mcp@1.0.3)
 ](catalog/GongRzhe/JSON-MCP-Server/json-mcp-server/README.md)** - A JSON Model Context Protocol (MCP) server implementation for querying and manipulating JSON data. This server enables LLMs to interact with JSON data through a set of standardized tools.
 
