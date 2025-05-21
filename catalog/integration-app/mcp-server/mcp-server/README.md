@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--integration-app--mcp-server--mcp-ser
 ```bash
 docker run -i --rm \ 
 -e INTEGRATION_APP_TOKEN=integration-app-token -e INTEGRATION_KEY=integration-key \
-ghcr.io/metorial/mcp-container--integration-app--mcp-server--mcp-server  "npm run start"
+ghcr.io/metorial/mcp-container--integration-app--mcp-server--mcp-server  "npm start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -60,7 +60,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--integration-app--mcp-server--mcp-server",
-        "npm run start"
+        "npm start"
       ],
       "env": {
         "INTEGRATION_APP_TOKEN": "integration-app-token",
