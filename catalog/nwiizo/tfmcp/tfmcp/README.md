@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--nwiizo--tfmcp--tfmcp
 ```bash
 docker run -i --rm \ 
 -e TERRAFORM_DIR=terraform-dir -e TFMCP_LOG_LEVEL=tfmcp-log-level -e TFMCP_DEMO_MODE=tfmcp-demo-mode \
-ghcr.io/metorial/mcp-container--nwiizo--tfmcp--tfmcp  "./bin/tfmcp --dir terraform-dir --path path"
+ghcr.io/metorial/mcp-container--nwiizo--tfmcp--tfmcp  "--dir terraform-dir --path path"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -66,7 +66,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--nwiizo--tfmcp--tfmcp",
-        "./bin/tfmcp --dir terraform-dir --path path"
+        "--dir terraform-dir --path path"
       ],
       "env": {
         "TERRAFORM_DIR": "terraform-dir",
