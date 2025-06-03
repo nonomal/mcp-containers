@@ -12,7 +12,7 @@
       "url": "https://github.com/github/github-mcp-server"
     },
     "config": {
-      "argumentsTemplate": null,
+      "argumentsTemplate": "stdio",
       "configValues": [
         {
           "title": "github-personal-access-token",
@@ -32,8 +32,8 @@
     "title": "GitHub MCP Server",
     "description": "The GitHub MCP Server is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)"
   },
-  "manifestHash": "57c6714d4d0b3aef1fd51c5bf1c3141b",
-  "createdAt": "2025-06-03T06:22:27.865Z",
+  "manifestHash": "00bff7d44f2133743cc0dde5c5dce374",
+  "createdAt": "2025-06-03T12:05:14.887Z",
   "builder": [
     {
       "type": "nixpacks",

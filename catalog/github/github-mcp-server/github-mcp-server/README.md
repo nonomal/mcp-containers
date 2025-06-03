@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--github--github-mcp-server--github-mc
 ```bash
 docker run -i --rm \ 
 -e GITHUB_PERSONAL_ACCESS_TOKEN=github-personal-access-token \
-ghcr.io/metorial/mcp-container--github--github-mcp-server--github-mcp-server  "./out"
+ghcr.io/metorial/mcp-container--github--github-mcp-server--github-mcp-server stdio "./out stdio"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -59,7 +59,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--github--github-mcp-server--github-mcp-server",
-        "./out"
+        "./out stdio"
       ],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "github-personal-access-token"
