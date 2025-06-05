@@ -1962,6 +1962,12 @@
     "repoUrl": "https://github.com/scorzeth/anki-mcp-server"
   },
   {
+    "id": "scrapeless-mcp-server",
+    "owner": "scrapeless-ai",
+    "repo": "scrapeless-mcp-server",
+    "repoUrl": "https://github.com/scrapeless-ai/scrapeless-mcp-server"
+  },
+  {
     "id": "mcp",
     "owner": "screenshotone",
     "repo": "mcp",
