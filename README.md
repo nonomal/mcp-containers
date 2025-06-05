@@ -1158,6 +1158,9 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/scorzeth.png?size=120" width="12px" height="12px" /> **[Anki MCP Server
 ](catalog/scorzeth/anki-mcp-server/anki-mcp-server/README.md)** - An MCP server implementation that connects to a locally running Anki, providing card review and creation.
 
+- <img src="https://github.com/scrapeless-ai.png?size=120" width="12px" height="12px" /> **[Scrapeless Mcp Server
+](catalog/scrapeless-ai/scrapeless-mcp-server/scrapeless-mcp-server/README.md)** - Seamlessly integrate real-time Google SERP(Google Search, Google Flight, Google Map, Google Jobs....) results into your LLM applications using the Scrapeless MCP server.
+
 - <img src="https://github.com/screenshotone.png?size=120" width="12px" height="12px" /> **[ScreenshotOne MCP Server
 ](catalog/screenshotone/mcp/mcp/README.md)** - A simple implementation of an MCP server for the ScreenshotOne API
 
