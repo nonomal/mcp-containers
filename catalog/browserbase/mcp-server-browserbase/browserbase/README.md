@@ -24,11 +24,26 @@ docker pull ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase-
 
 ```bash
 docker run -i --rm \ 
+-e BROWSERBASE_API_KEY=browserbase-api-key -e BROWSERBASE_PROJECT_ID=browserbase-project-id \
 ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase--browserbase  "node cli.js"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
 - `-i` allows you to interact with the container in your terminal.
+
+
+
+### Configuration
+
+The container supports the following configuration options:
+
+
+
+
+#### Environment Variables
+
+- `BROWSERBASE_API_KEY`
+- `BROWSERBASE_PROJECT_ID`
 
 
 
@@ -47,7 +62,10 @@ ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase--browserbase
         "ghcr.io/metorial/mcp-container--browserbase--mcp-server-browserbase--browserbase",
         "node cli.js"
       ],
-      "env": {}
+      "env": {
+        "BROWSERBASE_API_KEY": "browserbase-api-key",
+        "BROWSERBASE_PROJECT_ID": "browserbase-project-id"
+      }
     }
   }
 }

@@ -13,14 +13,39 @@
     },
     "config": {
       "argumentsTemplate": null,
-      "configValues": []
+      "configValues": [
+        {
+          "title": "browserbase-api-key",
+          "description": null,
+          "default": null,
+          "required": true,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "BROWSERBASE_API_KEY"
+            }
+          ]
+        },
+        {
+          "title": "browserbase-project-id",
+          "description": null,
+          "default": null,
+          "required": true,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "BROWSERBASE_PROJECT_ID"
+            }
+          ]
+        }
+      ]
     },
     "subdirectory": "browserbase",
     "title": "Browserbase MCP Server",
     "description": "This server provides cloud browser automation capabilities using [Browserbase](https://www.browserbase.com/), [Puppeteer](https://pptr.dev/), and [Stagehand](https://github.com/browserbase/stagehand). This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment."
   },
-  "manifestHash": "17759e3acc610aaa7d9bbd398dd59e37",
-  "createdAt": "2025-05-30T22:13:53.825Z",
+  "manifestHash": "f7b765edd16ebe1f3239631448539e98",
+  "createdAt": "2025-06-05T08:20:23.595Z",
   "builder": [
     {
       "type": "nixpacks",
