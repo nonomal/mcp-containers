@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--graphlit--graphlit-mcp-server--graph
 ```bash
 docker run -i --rm \ 
 -e GRAPHLIT_ORGANIZATION_ID=graphlit-organization-id -e GRAPHLIT_ENVIRONMENT_ID=graphlit-environment-id -e GRAPHLIT_JWT_SECRET=graphlit-jwt-secret \
-ghcr.io/metorial/mcp-container--graphlit--graphlit-mcp-server--graphlit-mcp-server  "node build/index.js"
+ghcr.io/metorial/mcp-container--graphlit--graphlit-mcp-server--graphlit-mcp-server  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -61,7 +61,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--graphlit--graphlit-mcp-server--graphlit-mcp-server",
-        "node build/index.js"
+        "npm run start"
       ],
       "env": {
         "GRAPHLIT_ORGANIZATION_ID": "graphlit-organization-id",
