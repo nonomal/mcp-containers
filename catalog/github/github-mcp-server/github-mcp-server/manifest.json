@@ -9,7 +9,7 @@
     "url": "https://github.com/github/github-mcp-server"
   },
   "config": {
-    "argumentsTemplate": null,
+    "argumentsTemplate": "stdio",
     "configValues": [
       {
         "title": "github-personal-access-token",

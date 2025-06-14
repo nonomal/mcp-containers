@@ -24,7 +24,7 @@ docker pull ghcr.io/metorial/mcp-container--supabase-community--supabase-mcp--mc
 
 ```bash
 docker run -i --rm \ 
-ghcr.io/metorial/mcp-container--supabase-community--supabase-mcp--mcp-server-supabase  "node ./dist/stdio.js --access-token access-token"
+ghcr.io/metorial/mcp-container--supabase-community--supabase-mcp--mcp-server-supabase  "node ./dist/transports/stdio.js --access-token access-token"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -58,7 +58,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--supabase-community--supabase-mcp--mcp-server-supabase",
-        "node ./dist/stdio.js --access-token access-token"
+        "node ./dist/transports/stdio.js --access-token access-token"
       ],
       "env": {}
     }
