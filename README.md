@@ -5,6 +5,11 @@
 
 <p align="center">Containerized versions of hundreds of <a href="https://modelcontextprotocol.io">MCP servers</a> 📡 🧠</p>
 
+> [!TIP]
+> *Hosted MCP Containers:* Skip local setup and go hosted. [Metorial's](https://metorial.com) serverless hosted MCP service allows you to integrate the MCP servers listed in this repo in a single line of code. Built for devs; with logging, monitoring and SDKs included.
+> 
+> ➡️ **[Get Early Access (with free tier)](https://metorial.com/early-access)**
+
 ## Features
 
 - **🚀 Simple Setup** - Just pull the Docker image to use any MCP server
