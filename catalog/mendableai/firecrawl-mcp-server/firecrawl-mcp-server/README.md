@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--mendableai--firecrawl-mcp-server--fi
 ```bash
 docker run -i --rm \ 
 -e FIRECRAWL_API_KEY=firecrawl-api-key \
-ghcr.io/metorial/mcp-container--mendableai--firecrawl-mcp-server--firecrawl-mcp-server  "pnpm run start"
+ghcr.io/metorial/mcp-container--mendableai--firecrawl-mcp-server--firecrawl-mcp-server  "npm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -59,7 +59,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--mendableai--firecrawl-mcp-server--firecrawl-mcp-server",
-        "pnpm run start"
+        "npm run start"
       ],
       "env": {
         "FIRECRAWL_API_KEY": "firecrawl-api-key"
