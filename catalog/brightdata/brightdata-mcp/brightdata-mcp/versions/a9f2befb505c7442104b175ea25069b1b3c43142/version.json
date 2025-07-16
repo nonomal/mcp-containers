@@ -1,0 +1,125 @@
+{
+  "serverId": "brightdata/brightdata-mcp/brightdata-mcp",
+  "version": "a9f2befb505c7442104b175ea25069b1b3c43142",
+  "manifest": {
+    "id": "brightdata-mcp",
+    "fullId": "brightdata/brightdata-mcp/brightdata-mcp",
+    "repo": {
+      "provider": "github.com",
+      "owner": "brightdata",
+      "repo": "brightdata-mcp",
+      "branch": "main",
+      "url": "https://github.com/brightdata/brightdata-mcp"
+    },
+    "config": {
+      "argumentsTemplate": null,
+      "configValues": [
+        {
+          "title": "api-token",
+          "description": null,
+          "default": null,
+          "required": true,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "API_TOKEN"
+            }
+          ]
+        },
+        {
+          "title": "rate-limit",
+          "description": null,
+          "default": null,
+          "required": false,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "RATE_LIMIT"
+            }
+          ]
+        },
+        {
+          "title": "web-unlocker-zone",
+          "description": null,
+          "default": null,
+          "required": false,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "WEB_UNLOCKER_ZONE"
+            }
+          ]
+        },
+        {
+          "title": "browser-zone",
+          "description": null,
+          "default": null,
+          "required": false,
+          "fields": [
+            {
+              "type": "environment",
+              "key": "BROWSER_ZONE"
+            }
+          ]
+        }
+      ]
+    },
+    "subdirectory": "/",
+    "title": "Bright Data MCP",
+    "description": "<h3 align=\"center\">Enhance AI Agents with Real-Time Web Data</h3>"
+  },
+  "manifestHash": "7bb21806d376bb1629369e4f37dab75c",
+  "createdAt": "2025-07-16T08:58:18.480Z",
+  "builder": [
+    {
+      "type": "nixpacks",
+      "plan": {
+        "providers": [],
+        "buildImage": "ghcr.io/railwayapp/nixpacks:ubuntu-1745885067",
+        "variables": {
+          "CI": "true",
+          "NIXPACKS_METADATA": "node",
+          "NODE_ENV": "production",
+          "NPM_CONFIG_PRODUCTION": "false"
+        },
+        "phases": {
+          "build": {
+            "dependsOn": [
+              "install"
+            ],
+            "cacheDirectories": [
+              "node_modules/.cache"
+            ]
+          },
+          "install": {
+            "dependsOn": [
+              "setup"
+            ],
+            "cmds": [
+              "npm ci"
+            ],
+            "cacheDirectories": [
+              "/root/.npm"
+            ],
+            "paths": [
+              "/app/node_modules/.bin"
+            ]
+          },
+          "setup": {
+            "nixPkgs": [
+              "nodejs_18",
+              "npm-9_x"
+            ],
+            "nixOverlays": [
+              "https://github.com/railwayapp/nix-npm-overlay/archive/main.tar.gz"
+            ],
+            "nixpkgsArchive": "ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7"
+          }
+        },
+        "start": {
+          "cmd": "node ./server.js"
+        }
+      }
+    }
+  ]
+}

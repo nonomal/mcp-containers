@@ -342,6 +342,12 @@
     "repoUrl": "https://github.com/briandconnelly/mcp-server-ipinfo"
   },
   {
+    "id": "brightdata-mcp",
+    "owner": "brightdata",
+    "repo": "brightdata-mcp",
+    "repoUrl": "https://github.com/brightdata/brightdata-mcp"
+  },
+  {
     "id": "browserbase",
     "owner": "browserbase",
     "repo": "mcp-server-browserbase",

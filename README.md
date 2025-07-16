@@ -353,6 +353,8 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/briandconnelly.png?size=120" width="12px" height="12px" /> **[IP Geolocation MCP Server
 ](catalog/briandconnelly/mcp-server-ipinfo/mcp-server-ipinfo/README.md)** - This is a simple [Model Context Protocol](https://modelcontextprotocol.io) server that uses the [ipinfo.io](https://ipinfo.io) API to get detailed information about an IP address.
 
+- <img src="https://github.com/brightdata.png?size=120" width="12px" height="12px" /> **[Bright Data MCP
+](catalog/brightdata/brightdata-mcp/brightdata-mcp/README.md)** - 
 - <img src="https://github.com/browserbase.png?size=120" width="12px" height="12px" /> **[Browserbase MCP Server
 ](catalog/browserbase/mcp-server-browserbase/browserbase/README.md)** - This server provides cloud browser automation capabilities using [Browserbase](https://www.browserbase.com/), [Puppeteer](https://pptr.dev/), and [Stagehand](https://github.com/browserbase/stagehand). This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment.
 
