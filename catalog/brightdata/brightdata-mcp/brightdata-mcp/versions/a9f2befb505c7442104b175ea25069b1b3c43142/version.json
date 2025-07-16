@@ -66,10 +66,10 @@
     },
     "subdirectory": "/",
     "title": "Bright Data MCP",
-    "description": "<h3 align=\"center\">Enhance AI Agents with Real-Time Web Data</h3>"
+    "description": "One MCP for the Web. Easily search, crawl, navigate, and extract websites without getting blocked. Ideal for discovering and retrieving structured insights from any public source - effortlessly and ethically."
   },
-  "manifestHash": "7bb21806d376bb1629369e4f37dab75c",
-  "createdAt": "2025-07-16T08:58:18.480Z",
+  "manifestHash": "709d033fd893975911453b8851019c48",
+  "createdAt": "2025-07-16T11:13:59.769Z",
   "builder": [
     {
       "type": "nixpacks",

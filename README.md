@@ -355,6 +355,7 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/brightdata.png?size=120" width="12px" height="12px" /> **[Bright Data MCP
 ](catalog/brightdata/brightdata-mcp/brightdata-mcp/README.md)** - One MCP for the Web. Easily search, crawl, navigate, and extract websites without getting blocked. Ideal for discovering and retrieving structured insights from any public source - effortlessly and ethically.
+
 - <img src="https://github.com/browserbase.png?size=120" width="12px" height="12px" /> **[Browserbase MCP Server
 ](catalog/browserbase/mcp-server-browserbase/browserbase/README.md)** - This server provides cloud browser automation capabilities using [Browserbase](https://www.browserbase.com/), [Puppeteer](https://pptr.dev/), and [Stagehand](https://github.com/browserbase/stagehand). This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment.
 

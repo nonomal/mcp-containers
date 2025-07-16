@@ -7,6 +7,7 @@ A containerized version of "Bright Data MCP"
 
 ## Description
 
+One MCP for the Web. Easily search, crawl, navigate, and extract websites without getting blocked. Ideal for discovering and retrieving structured insights from any public source - effortlessly and ethically.
 
 
 ## Usage
