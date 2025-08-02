@@ -1,12 +1,12 @@
 
 <img src="./assets/repo-header.png" alt="MCP Containers" width="100%" />
 
-<h1 align="center">MCP Containers</h1>
+<h1 align="center">Metorial MCP Containers</h1>
 
-<p align="center">Containerized versions of hundreds of <a href="https://modelcontextprotocol.io">MCP servers</a> 📡 🧠</p>
+<p align="center">Containerized versions of hundreds of <a href="https://modelcontextprotocol.io">MCP servers</a> from <a href="https://metorial.com">Metorial</a> 📡 🧠</p>
 
 > [!TIP]
-> *Hosted MCP Containers:* Skip local setup and go hosted. [Metorial's](https://metorial.com) serverless hosted MCP service allows you to integrate the MCP servers listed in this repo in a single line of code. Built for devs; with logging, monitoring and SDKs included.
+> *Hosted MCP Containers:* Skip the local setup and go hosted. [Metorial's](https://metorial.com) serverless MCP enables you to integrate the MCP servers listed in this repo in a single line of code. Built for devs; with logging, monitoring and SDKs included.
 > 
 > ➡️ **[Get Early Access (with free tier)](https://metorial.com/early-access)**
 
