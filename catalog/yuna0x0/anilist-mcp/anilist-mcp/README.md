@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--yuna0x0--anilist-mcp--anilist-mcp
 ```bash
 docker run -i --rm \ 
 -e ANILIST_TOKEN=anilist-token \
-ghcr.io/metorial/mcp-container--yuna0x0--anilist-mcp--anilist-mcp  "bun run start"
+ghcr.io/metorial/mcp-container--yuna0x0--anilist-mcp--anilist-mcp  "pnpm run start"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -59,7 +59,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--yuna0x0--anilist-mcp--anilist-mcp",
-        "bun run start"
+        "pnpm run start"
       ],
       "env": {
         "ANILIST_TOKEN": "anilist-token"
