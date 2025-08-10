@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--keturiosakys--bluesky-context-server
 ```bash
 docker run -i --rm \ 
 -e BLUESKY_APP_KEY=bluesky-app-key -e BLUESKY_IDENTIFIER=bluesky-identifier \
-ghcr.io/metorial/mcp-container--keturiosakys--bluesky-context-server--bluesky-context-server  "bun run start"
+ghcr.io/metorial/mcp-container--keturiosakys--bluesky-context-server--bluesky-context-server  
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -59,8 +59,7 @@ The container supports the following configuration options:
         "run",
         "-i",
         "--rm",
-        "ghcr.io/metorial/mcp-container--keturiosakys--bluesky-context-server--bluesky-context-server",
-        "bun run start"
+        "ghcr.io/metorial/mcp-container--keturiosakys--bluesky-context-server--bluesky-context-server"
       ],
       "env": {
         "BLUESKY_APP_KEY": "bluesky-app-key",
