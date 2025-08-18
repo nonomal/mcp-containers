@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--oceanbase--mcp-oceanbase--mcp-oceanb
 ```bash
 docker run -i --rm \ 
 -e AK=AK -e SK=SK -e ADDRESS=ADDRESS \
-ghcr.io/metorial/mcp-container--oceanbase--mcp-oceanbase--mcp-oceanbase  "oceanbase_mcp_server"
+ghcr.io/metorial/mcp-container--oceanbase--mcp-oceanbase--mcp-oceanbase  "ocp_mcp_server"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -61,7 +61,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--oceanbase--mcp-oceanbase--mcp-oceanbase",
-        "oceanbase_mcp_server"
+        "ocp_mcp_server"
       ],
       "env": {
         "AK": "AK",
