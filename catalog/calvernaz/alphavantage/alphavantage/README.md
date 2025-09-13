@@ -25,7 +25,7 @@ docker pull ghcr.io/metorial/mcp-container--calvernaz--alphavantage--alphavantag
 ```bash
 docker run -i --rm \ 
 -e ALPHAVANTAGE_API_KEY=alphavantage-api-key \
-ghcr.io/metorial/mcp-container--calvernaz--alphavantage--alphavantage  "alphavantage"
+ghcr.io/metorial/mcp-container--calvernaz--alphavantage--alphavantage  "alphavantage-mcp"
 ```
 
 - `--rm` removes the container after it exits, so you don't have to clean up manually.
@@ -59,7 +59,7 @@ The container supports the following configuration options:
         "-i",
         "--rm",
         "ghcr.io/metorial/mcp-container--calvernaz--alphavantage--alphavantage",
-        "alphavantage"
+        "alphavantage-mcp"
       ],
       "env": {
         "ALPHAVANTAGE_API_KEY": "alphavantage-api-key"
