@@ -36,6 +36,20 @@ jobs:
         run: bun start ${{ github.event.inputs.force == 'true' && '--force' || '' }}
         working-directory: 'scripts/check-versions'
 
+      - name: Debug - Check for changes
+        run: |
+          echo "=== Git Status ==="
+          git status
+          echo ""
+          echo "=== Changed files ==="
+          git diff --name-only
+          echo ""
+          echo "=== Untracked files ==="
+          git ls-files --others --exclude-standard
+          echo ""
+          echo "=== All changes ==="
+          git status --porcelain
+
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6
