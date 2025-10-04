@@ -8,7 +8,7 @@
 > [!TIP]
 > *Hosted MCP Containers:* Skip the local setup and go hosted. [Metorial's](https://metorial.com) serverless MCP enables you to integrate the MCP servers listed in this repo in a single line of code. Built for devs; with logging, monitoring and SDKs included.
 > 
-> ➡️ **[Get Early Access (with free tier)](https://metorial.com/early-access)**
+> ➡️ **[Get Started (with free tier)](https://metorial.com)**
 
 ## Features
 
