@@ -317,9 +317,6 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/Bankless.png?size=120" width="12px" height="12px" /> **[Bankless Onchain MCP Server
 ](catalog/Bankless/onchain-mcp/onchain-mcp/README.md)** - MCP (Model Context Protocol) server for blockchain data interaction through the Bankless API.
 
-- <img src="https://github.com/Bankless.png?size=120" width="12px" height="12px" /> **[Bankless Onchain MCP Server
-](catalog/Bankless/onchain-mcp/onchain-mcp/README.md)** - MCP (Model Context Protocol) server for blockchain data interaction through the Bankless API.
-
 - <img src="https://github.com/bart6114.png?size=120" width="12px" height="12px" /> **[Bear MCP Server
 ](catalog/bart6114/my-bear-mcp-server/my-bear-mcp-server/README.md)** - A Model Context Protocol (MCP) server that allows AI assistants like Claude to read notes from the [Bear](https://bear.app/) note-taking app. This implementation connects directly to the Bear SQLite database in a read-only mode, ensuring your notes remain safe and unmodified.
 
@@ -1198,6 +1195,9 @@ We have provided a list of available servers below, along with their respective 
 
 - <img src="https://github.com/shannonlal.png?size=120" width="12px" height="12px" /> **[Postman MCP Server
 ](catalog/shannonlal/mcp-postman/mcp-postman/README.md)** - An MCP (Model Context Protocol) server that enables running Postman collections using Newman. This server allows LLMs to execute API tests and get detailed results through a standardized interface.
+
+- <img src="https://github.com/signoz.png?size=120" width="12px" height="12px" /> **[SigNoz MCP Server
+](catalog/signoz/signoz-mcp-server/signoz-mcp-server/README.md)** - Connect to SigNoz trough MCP. This server enables natural language queries for metrics, alerts, dashboards, and service performance data.
 
 - <img src="https://github.com/silenceper.png?size=120" width="12px" height="12px" /> **[mcp-k8s
 ](catalog/silenceper/mcp-k8s/mcp-k-8-s/README.md)** - A Kubernetes MCP (Model Control Protocol) server that enables interaction with Kubernetes clusters through MCP tools.
