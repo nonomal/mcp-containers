@@ -1199,6 +1199,9 @@ We have provided a list of available servers below, along with their respective 
 - <img src="https://github.com/shannonlal.png?size=120" width="12px" height="12px" /> **[Postman MCP Server
 ](catalog/shannonlal/mcp-postman/mcp-postman/README.md)** - An MCP (Model Context Protocol) server that enables running Postman collections using Newman. This server allows LLMs to execute API tests and get detailed results through a standardized interface.
 
+- <img src="https://github.com/signoz.png?size=120" width="12px" height="12px" /> **[SigNoz MCP Server
+](catalog/signoz/signoz-mcp-server/signoz-mcp-server/README.md)** - Connect to SigNoz trough MCP. This server enables natural language queries for metrics, alerts, dashboards, and service performance data.
+
 - <img src="https://github.com/silenceper.png?size=120" width="12px" height="12px" /> **[mcp-k8s
 ](catalog/silenceper/mcp-k8s/mcp-k-8-s/README.md)** - A Kubernetes MCP (Model Control Protocol) server that enables interaction with Kubernetes clusters through MCP tools.
 

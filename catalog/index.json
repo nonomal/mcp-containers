@@ -2034,6 +2034,12 @@
     "repoUrl": "https://github.com/shannonlal/mcp-postman"
   },
   {
+    "id": "signoz-mcp-server",
+    "owner": "signoz",
+    "repo": "signoz-mcp-server",
+    "repoUrl": "https://github.com/signoz/signoz-mcp-server"
+  },
+  {
     "id": "mcp-k-8-s",
     "owner": "silenceper",
     "repo": "mcp-k8s",
